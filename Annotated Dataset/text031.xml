@@ -1,0 +1,146 @@
+<biology_intro>
+  <fulltextID>text031</fulltextID>
+  <title>The roles of DDR2 and substrate stiffness on cancer cell transcriptome and proliferation</title>
+  <authors>Theadora Vessella, Steven Xiang, Cong Xiao, Madelyn Stilwell, Jason Shohet, Esteban Rozen, Susan Zhou, Qi Wen</authors>
+  <doi>https://doi.org/10.1101/2023.10.29.564363</doi>
+  <source>biorxiv</source>  
+  <category>Biochemistry</category>
+  <fulltext>
+    <paragraph>    
+      <sentence>
+        <sentenceID>t031s0001</sentenceID>
+        <text>A hallmark of cancer cells that distinguishes them from normal differentiated cells is their unrestricted proliferative ability.</text>
+        <step>1a</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0002</sentenceID>
+        <text>Numerous genetic, signaling, and metabolic pathways have been implicated in cancer proliferation.</text>
+        <step>1b</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0003</sentenceID>
+        <text>Broadly, these factors are divided into pro-proliferative and anti-proliferative ones [1].</text>
+        <step>1b</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0004</sentenceID>
+        <text>The former includes those that promote DNA and protein synthesis including PI3 kinase and Ras-MAPK signaling, chromosome segregation, and telomere extension just to name a few, whereas the latter acts as a brake for proliferation including the tumor suppressors PTEN and p53 [2, 3].</text>
+        <step>1c</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0005</sentenceID>
+        <text>Genetic mutation of both positive and negative regulators has been causally linked to various cancer types.</text>
+        <step>1b</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0006</sentenceID>
+        <text>Not surprisingly, hampering cancer proliferation is a primary target of cancer drugs, for example, paclitaxel (Taxol), the most prescribed drugs for treating cancers, acts by inhibiting microtubule assembly to prevent cell division [4].</text>
+        <step>1c</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0007</sentenceID>
+        <text>Despite extensive studies, however, how cancer cells could escape from cell division regulation is not fully understood.</text>
+        <step>2c</step>
+      </sentence>
+    </paragraph>
+    <paragraph>
+      <sentence>
+        <sentenceID>t031s0008</sentenceID>
+        <text>Cancer cells grow in a microenvironment wherein they closely interact with the extracellular matrix (ECM).</text>
+        <step>1b</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0009</sentenceID>
+        <text>As a major ECM component, collagen composition regulates various steps of cancer progression including growth, invasion, and metastasis, partly through activation of its canonical receptor integrin to regulate cytoskeleton organization and cell motility [5–7].</text>
+        <step>1c</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0010</sentenceID>
+        <text>Recently, discoidin domain receptor tyrosine kinase 2 (DDR2), a non-typical collagen receptor that is dysregulated in various cancer types, has emerged as a key signaling molecule in carcinogenesis [8, 9].</text>
+        <step>1c</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0011</sentenceID>
+        <text>Collagen binding to DDR2 activates its tyrosine kinase activity to initiate canonical pathways such as ERK/MAPK and PI3K/AKT signaling cascades [10–12].</text>
+        <step>1c</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0012</sentenceID>
+        <text>Despite these studies, how DDR2 regulates cancer cell behavior is incompletely understood.</text>
+        <step>2b</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0013</sentenceID>
+        <text>Besides providing biochemical cues that elicit signaling in cancer cells, ECM components also establish the biomechanical environment that critically controls cancer progression [13, 14].</text>
+        <step>1c</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0014</sentenceID>
+        <text>Upregulated collagen production and altered collagen fiber organization result in stiffening of the tumor ECM environment.</text>
+        <step>1b</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0015</sentenceID>
+        <text>Such increased tissue stiffness has been exploited as a marker for detection of solid tumors [15].</text>
+        <step>1c</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0016</sentenceID>
+        <text>Integrin-mediated mechanotransduction has been proposed to regulate ECM stiffness-dependent signaling pathways that play pivotal roles in cell growth, proliferation, and survival [16, 17].</text>
+        <step>1c</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0017</sentenceID>
+        <text>High ECM stiffness has been reported to facilitate cancer metastasis by triggering epithelial-mesenchymal transition [17, 18], promote cancer cell proliferation, and boost resistance to chemotherapy [19].</text>
+        <step>1c</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0018</sentenceID>
+        <text>A recent study further suggested that DDR2 regulates the integrin mediated mechanotransduction functions of cancer-associated fibroblasts [20].</text>
+        <step>1c</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0019</sentenceID>
+        <text>However, whether DDR2 and ECM biomechanics could interact to regulate cancer cell behavior is yet to be determined.</text>
+        <step>2b</step>
+      </sentence>
+    </paragraph>
+    <paragraph>
+      <sentence>
+        <sentenceID>t031s0020</sentenceID>
+        <text>To systematically examine the effects of DDR2 signaling and substrate stiffness on cancer cells, in the present study, we performed RNA-seq analysis of a human neuroblastoma cell line SH-SY5Y.</text>
+        <step>3b</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0021</sentenceID>
+        <text>This cell line has been extensively used as a model to study cancer progression [21].</text>
+        <step>1a</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0022</sentenceID>
+        <text>Moreover, because SH-SY5Y cells could be differentiated into a dopaminergic neuronal lineage, SH-SY5Y cells have also been used to investigate cell biology of dopaminergic neurons and Parkinson’s disease [22].</text>
+        <step>2c</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0023</sentenceID>
+        <text>We found that shRNA knockdown of DDR2 alters global gene expression of SH-SY5Y cells and inhibits cell proliferation.</text>
+        <step>3c</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0024</sentenceID>
+        <text>Moreover, we found that increasing substrate stiffness also slows down proliferation, similar to DDR2 knockdown.</text>
+        <step>3c</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0025</sentenceID>
+        <text>However, RNA-seq revealed no gene expression changes associated with increasing substrate stiffness.</text>
+        <step>3c</step>
+      </sentence>
+      <sentence>
+        <sentenceID>t031s0026</sentenceID>
+        <text>These data suggest that DDR2 signaling and biomechanics, two downstream effectors of ECM, could regulate cancer cell proliferation through different mechanisms, with or without involvement of gene expression.</text>
+        <step>1a</step>
+      </sentence>
+    </paragraph>
+  </fulltext>
+</biology_intro>

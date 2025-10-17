@@ -1,0 +1,175 @@
+<biology_intro>
+  <fulltextID>text021</fulltextID>
+  <title>Multiscale Bayesian Simulations Reveal Functional Chromatin Condensation of Gene Loci</title>
+  <authors>Giovanni B Brandani, Chenyang Gu, Soundhararajan Gopi, Shoji Takada</authors>
+  <doi>https://doi.org/10.1101/2023.12.01.569511</doi>
+  <source>bioarxiv</source>
+  <category>Biophysics</category>
+  <fulltext>
+    <paragraph>
+      <sentence>
+        <sentenceID>t021s001</sentenceID>
+        <step>1a</step>
+        <text>Chromatin, the complex of DNA and proteins organizing the Eukaryotic genome, plays a pivotal role in orchestrating a multitude of genomic functions, including DNA replication (1) and the precise regulation of gene activity (2).</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s002</sentenceID>
+        <step>1b</step>
+        <text>Its structure exhibits a hierarchical organization, with biological function affected by structural changes across all levels of the hierarchy (3).</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s003</sentenceID>
+        <step>1b</step>
+        <text>The fundamental unit of chromatin is the nucleosome, an assembly comprising of about 150 base pairs (bp) of DNA wrapped around a histone octamer (4).</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s004</sentenceID>
+        <step>1c</step>
+        <text>Nucleosomes are not simply barriers preventing access to genomic DNA; rather, they can be better understood as flexible platforms on top of which key biological processes can be organized (5).</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s005</sentenceID>
+        <step>1c</step>
+        <text>For example, nucleosomal DNA sliding and unwrapping from histones modulate transcription factor (TF) binding (6–8), with downstream effects on gene expression.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s006</sentenceID>
+        <step>1c</step>
+        <text>At a higher hierarchical level, these nucleosomes interact together to form chromatin fibers exhibiting remarkable structural polymorphism (9–11).</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s007</sentenceID>
+        <step>1c</step>
+        <text>In vivo, these fibers are predominantly disordered (12), but specific chromatin motifs are associated with distinct genomic regions, such as gene promoters or gene bodies (13).</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s008</sentenceID>
+        <step>1c</step>
+        <text>Chromatin fibers further fold into topologically associated domains (TADs), contiguous regions with enriched physical contacts separated by insulator elements (14).</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s009</sentenceID>
+        <step>1c</step>
+        <text>The pattern of TADs along the genome influences the communication between cis-regulatory elements (CREs) such as enhancers and promoters (15, 16).</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s010</sentenceID>
+        <step>1c</step>
+        <text>Pointing to the intimate link between genome structure and function, genetic engineering has shown a correlation between the probability of enhancer-promoter contacts and gene expression levels (17), while transcription bursting dynamics was found to be linked with enhancer-promoter looping over time (18).</text>
+      </sentence>
+    </paragraph>
+    <paragraph>
+      <sentence>
+        <sentenceID>t021s011</sentenceID>
+        <step>2b</step>
+        <text>Despite substantial progress in recent years, our understanding of the physical principles governing chromatin organization across different scales of genes remains limited, which hinders further exploration of the interplay between genomic structure and function.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s012</sentenceID>
+        <step>3a</step>
+        <text>In this work, we integrate in vivo experimental data into polymer models to explore the 3D structure of mammalian genes from the local chromatin fiber level to long-distance interactions between CREs.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s013</sentenceID>
+        <step>3b</step>
+        <text>Our findings shed light on how this organization can contribute to gene regulatory functions.</text>
+      </sentence>
+    </paragraph>
+    <paragraph>
+      <sentence>
+        <sentenceID>t021s014</sentenceID>
+        <step>1c</step>
+        <text>Theoretical approaches rooted in polymer physics have become increasingly important for complementing experiments and uncovering genomic structure-function relationships (19).</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s015</sentenceID>
+        <step>1c</step>
+        <text>Some of these approaches are data-driven (20–23), with interactions between genomic sites optimized to match the experimental Hi-C contact frequencies (24).</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s016</sentenceID>
+        <step>1c</step>
+        <text>Others are centered around a key mechanism responsible for 3D genome organization, such as SMC-driven loop extrusion (25), protein-DNA bridging (26), or phase separation due to epigenetic modifications (27, 28).</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s017</sentenceID>
+        <step>1c</step>
+        <text>Furthermore, advances in the development of bottom-up molecular models of chromatin (29, 30), parametrized based on the physics of its biomolecular components, now offer a viable route to provide a mechanistic understanding of genes based on first principles (31).</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s018</sentenceID>
+        <step>1c</step>
+        <text>Such models have revealed some of the molecular determinants of chromatin organization, including the role of nucleosome plasticity in mediating liquid-liquid phase separation (32).</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s019</sentenceID>
+        <step>1c</step>
+        <text>Notably, Tamar Schlick and co-workers utilized a nucleosome-resolution model to explore the structure of the HOXC gene locus in mouse embryonic stem cells (mESCs) (33), identifying the spontaneous formation of loops linking gene promoters with other regions of the locus.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s020</sentenceID>
+        <step>1c</step>
+        <text>However, such physics-based chromatin models typically do not capture the effects of all the factors constituting the complex cellular environment, such as potential effects originating from TF binding (26, 34).</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s021</sentenceID>
+        <step>1c</step>
+        <text>Due to the practical consideration in modeling the behavior of several contributing molecular factors, physics-based models may not always accurately reproduce the experimental organization of chromatin in vivo, as determined from Hi-C or Micro-C contact probabilities (24, 35).</text>
+      </sentence>
+    </paragraph>
+    <paragraph>
+      <sentence>
+        <sentenceID>t021s022</sentenceID>
+        <step>2b</step>
+        <text>To address this limitation, Bayesian methods offer a framework to incorporate experimental observations into an existing physical model (36, 37).</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s023</sentenceID>
+        <step>3a</step>
+        <text>Metainference is one such Bayesian approach originally developed to integrate NMR data into all-atom force fields for protein molecular dynamics (MD) simulations (37).</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s024</sentenceID>
+        <step>3b</step>
+        <text>We introduce and validate Hi-C metainference, an extension of the original approach to augment an existing prior model of chromatin to account for the observed in vivo contact probabilities of a target locus (from Hi-C (24), Micro-C (35), or other related approaches (13)), allowing one to characterize its 3D organization by MD simulations.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s025</sentenceID>
+        <step>3b</step>
+        <text>As priors, we employ two distinct bottom-up coarse-grained models of chromatin: the 1CPN model (30) at nucleosome resolution, previously parametrized from near-atomistic nucleosome simulations (38), and a chromatin polymer model at 1kb resolution newly parametrized from extensive 1CPN simulations.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s026</sentenceID>
+        <step>3b</step>
+        <text>Therefore, our exploration of the 3D genome organization can be regarded as a 2-way process where the bottom-up prior is adjusted in a top-down fashion by integrating the experimental contact frequencies, retaining the advantages of both physics-based and data-driven approaches.</text>
+      </sentence>
+    </paragraph>
+    <paragraph>
+      <sentence>
+        <sentenceID>t021s027</sentenceID>
+        <step>3b</step>
+        <text>In this study, we integrate Micro-C data (39) into our chromatin models and investigate the organization of the Sox2, Pou5f1, and Nanog genomic loci in mESCs.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s028</sentenceID>
+        <step>3b</step>
+        <text>First, our simulations show that in vivo genes adopt relatively compact conformations, with the same size scaling of a crumpled globule (40), while at the same time displaying significant structural heterogeneity and fast dynamics.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s029</sentenceID>
+        <step>3b</step>
+        <text>Using a nucleosome-resolution prior chromatin model for a section of the Nanog locus, we find that the local organization of the chromatin fiber is highly dependent on the underlying epigenetic marks, being open at CREs and more compact elsewhere.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s030</sentenceID>
+        <step>3b</step>
+        <text>Finally, we demonstrate that transient, direct contacts between the Nanog promoter and its nearest enhancer are driven by the condensation of the chromatin fiber into a compact domain through extensive nucleosome-nucleosome interactions.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t021s031</sentenceID>
+        <step>3b</step>
+        <text>Our simulations suggest that chromatin plasticity over multiple length-scales provides a physical basis for essential gene regulatory functions.</text>
+      </sentence>
+    </paragraph>
+  </fulltext>
+</biology_intro>

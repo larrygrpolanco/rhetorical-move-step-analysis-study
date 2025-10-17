@@ -1,0 +1,212 @@
+<biology_intro>
+  <fulltextID>text027</fulltextID>
+  <title>Mapping Structural Drivers of Insulin Analogs Using Molecular Dynamics and Free Energy Calculations at Insulin Receptor</title>
+  <authors>Mohan Maruthi Sena, C Ramakrishnan, M. Michael Gromiha, Monalisa Chatterji, Anand Khedkar, Anirudh Ranganathan</authors>
+  <doi>https://doi.org/10.1101/2022.05.27.493461</doi>
+  <source>bioarxiv</source>
+  <category>Biophysics</category>
+  <fulltext>
+    <paragraph>
+      <sentence>
+        <sentenceID>t027s001</sentenceID>
+        <step>1a</step>
+        <text>Insulin is an anabolic peptide hormone produced by β-cells of the islets of Langerhans within the pancreas that plays a crucial role in glucose homeostasis [1–5].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s002</sentenceID>
+        <step>1b</step>
+        <text>Mature insulin is stored in the hexameric form within the pancreas [6–8] and is produced via enzymatic cleavage of proinsulin, which contains a C-chain peptide connecting A and B-chains [9–11].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s003</sentenceID>
+        <step>1b</step>
+        <text>The C-peptide is cleaved by the specific endopeptidases resulting in the mature form of the insulin [12,13].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s004</sentenceID>
+        <step>1b</step>
+        <text>Activity in vivo involves dissociation of the storage hexameric form initially into dimers and then to a monomer which engages with insulin receptor (IR) [9,14].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s005</sentenceID>
+        <step>1c</step>
+        <text>Monomeric bioactive human insulin has been structurally well-characterized and is a 51 amino acid peptide consisting of two chains A and B with 21, 30 amino acids respectively [9,15,16].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s006</sentenceID>
+        <step>1c</step>
+        <text>The chains are held together by two inter-chain disulfide bridges(A7-B7; A20-B19) and further stabilised by an intra-A-chain cysteine linkage (A6-A11) [15,17,18].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s007</sentenceID>
+        <step>1c</step>
+        <text>Abnormalities in insulin secretion or resistance to insulin leads to type-1 or 2 diabetes [15,18–21].</text>
+      </sentence>
+    </paragraph>
+    <paragraph>
+      <sentence>
+        <sentenceID>t027s008</sentenceID>
+        <step>1c</step>
+        <text>Monomeric insulin mediates a host of important functions primarily through its engagement with the IR.1,18,22,23 The IR belongs to the receptor tyrosine kinase (RTK) family of proteins that include type 1 and 2 insulin like growth factor receptors (IGF1- and IGF-2R) and the orphan insulin receptor-related receptor [15,18,22].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s009</sentenceID>
+        <step>1c</step>
+        <text>The RTKs share a common architecture consisting of an extracellular domain (ECD), a transmembrane segment and an intracellular kinase domain [15,18,20].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s010</sentenceID>
+        <step>1c</step>
+        <text>The RTKs form homodimers as quaternary structures and undergo conformational rearrangements upon ligand binding that results in auto-phosphorylation of specific tyrosine residues intracellularly and downstream signaling [18,23].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s011</sentenceID>
+        <step>1c</step>
+        <text>Key physiological functions mediated by IR activation include glucose uptake, glycogen synthesis in skeletal muscles, diminished glucose synthesis in hepatocytes and lipid degradation in adipocytes [1,15,18,19,21].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s012</sentenceID>
+        <step>1c</step>
+        <text>These roles of insulin-mediated IR activation in metabolism and homeostasis make them primary targets for metabolic disorders such as diabetes that affect millions of lives globally [19,21,22].</text>
+      </sentence>
+    </paragraph>
+    <paragraph>
+      <sentence>
+        <sentenceID>t027s013</sentenceID>
+        <step>1c</step>
+        <text>Insulin has been well-studied for nearly a century but a molecular level understanding of its receptor binding and subsequent signaling remains unclear.18,21,24 For a long time this was due to lack of high resolution structures of insulin bound to the IR.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s014</sentenceID>
+        <step>1c</step>
+        <text>A key structural breakthrough was achieved when McKern et al., provided us with the first glimpse of the IR ectodomain and revealed an inverted ‘V’ like conformation in the absence of insulin [23].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s015</sentenceID>
+        <step>1c</step>
+        <text>In 2013, the first high resolution structure of an insulin-IR complex revealed a single insulin molecule bound to the extracellular domain of the IR [18].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s016</sentenceID>
+        <step>1c</step>
+        <text>This structure showed that the high-affinity (HA) binding site of insulin lies between the leucine-rich L1 domain and the C-terminus of the α-domain (α-CT) [18].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s017</sentenceID>
+        <step>1c</step>
+        <text>In 2018, single electron microscopy (EM) experiments have shown that activation of the insulin-IR complex involved transitioning from an inverted ‘V’ conformation to a T-like state that is thought to allow the transmembrane domains to come in proximity to each other and result in auto-phosphorylation and downstream signaling [25]. </text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s018</sentenceID>
+        <step>1c</step>
+        <text>During the course of this work, other structures have demonstrated the presence of the hypothesised low-affinity insulin binding sites at the IR which have revealed the complexities of ligand-receptor engagement (Table S1) [2,2,18,26,26–29].</text>
+      </sentence>
+    </paragraph>
+    <paragraph>
+      <sentence>
+        <sentenceID>t027s019</sentenceID>
+        <step>1b</step>
+        <text>In contrast to IR-insulin complexes, the structure of free insulin has been known for decades [6,7,30–32].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s020</sentenceID>
+        <step>1c</step>
+        <text>Multiple computational studies have focused on understanding the conformational dynamics of the molecule in the monomeric, dimeric and Zn2+ mediated hexameric states [33–39].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s021</sentenceID>
+        <step>1c</step>
+        <text>These include the use of computational alanine scanning, free energy calculations with MMGBSA, study of solvent mediated effects, and enhanced sampling methods to understand the conformational spread within the insulin molecule [39–42].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s022</sentenceID>
+        <step>1c</step>
+        <text>In parallel, Kiselyov et. al formulated a harmonic oscillator model to explain empirical results from insulin binding experiments with IR and IGF-1R [43].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s023</sentenceID>
+        <step>1c</step>
+        <text>Previous in silico studies of insulin behavior in complex with IR relied on docking generated models of the bound state [33].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s024</sentenceID>
+        <step>2a</step>
+        <text>However, experimental structures with insulin bound revealed differences between the docking solutions used in those studies, with the actual bound conformation of insulin [18,25–29,44].</text>
+      </sentence>
+    </paragraph>
+    <paragraph>
+      <sentence>
+        <sentenceID>t027s025</sentenceID>
+        <step>2a</step>
+        <text>Whereas, the previous computational studies provided important glimpses into the function of insulin at a molecular level, a complete picture of insulin activity at the IR remains elusive.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s026</sentenceID>
+        <step>3a</step>
+        <text>We leveraged new structural information that has emerged in the last few years with regards to insulin-IR complexes to build a deeper understanding of the hormone function (Table S1) [2,2,18,28,29,45].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s027</sentenceID>
+        <step>3b</step>
+        <text>In this study, we used MD simulations along with an adaptation of the powerful free energy perturbation (FEP) method to perform in silico mutagenesis, in order to map and understand the contribution of different residues and domains on receptor binding and activation [46].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s028</sentenceID>
+        <step>1c</step>
+        <text>FEP has been widely used to compute relative protein-ligand binding affinities for small-molecules and mapping the effect of mutating receptor residues [46], however, to the best of our knowledge this is the first use of the method for assessing mutations in bound polypeptide ligands, such as insulin [47–49].</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s029</sentenceID>
+        <step>1c</step>
+        <text>Unlike, with other faster free energy estimation methods, the use of FEP allows for deconvolution of the energy contributions of individual residues and can shed light on the role of waters due to the use of explicit solvation.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s030</sentenceID>
+        <step>3b</step>
+        <text>Hence, in this work, MD and FEP are used as the foundations to understand the structural drivers of insulin activity and function via the IR.</text>
+      </sentence>
+    </paragraph>
+    <paragraph>
+      <sentence>
+        <sentenceID>t027s031</sentenceID>
+        <step>3b</step>
+        <text>In order to probe the utility of MD and FEP in enhancing our understanding of insulin engagement with its receptor we divided our study into three defined segments.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s032</sentenceID>
+        <step>3c</step>
+        <text>Initially, we provide a baseline for ligand stability in the binding site and map out key interactions between WT-Ins and IR using short MD simulations.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s033</sentenceID>
+        <step>3c</step>
+        <text>Next, we looked at naturally occurring disease-linked variants of human insulin to see if we can understand the molecular drivers behind the loss-of-function seen with these mutants using FEP.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s034</sentenceID>
+        <step>3c</step>
+        <text>Finally, we extended the FEP calculations to study a variety of well-characterized man-made insulin variants in order to link amino acid residue changes to the different potency profiles that they display.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s035</sentenceID>
+        <step>3c</step>
+        <text>These calculations help us to provide the relationship between observed metabolic potency and correlate it with the corresponding atomic changes.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s036</sentenceID>
+        <step>3c</step>
+        <text>This atomic level information could be used to designing new insulin variants.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s037</sentenceID>
+        <step>3c</step>
+        <text>In addition, a recapitulation of functional profiles across different analog types would act as a demonstration of the generalizability of the FEP method as a tool for performing in silico mutagenesis towards the design of novel peptides and proteins.</text>
+      </sentence>
+      <sentence>
+        <sentenceID>t027s038</sentenceID>
+        <step>3b</step>
+        <text>In this article, we use the term “ligand” as nomenclature in place of “insulin” or “insulin analog.”</text>
+      </sentence>
+    </paragraph>
+  </fulltext>
+</biology_intro>
