@@ -5,7 +5,11 @@ Each function returns (response_text, folder_name)
 """
 
 import os
+from dotenv import load_dotenv
 from openai import OpenAI
+
+# Load environment variables from .env file
+load_dotenv()
 
 
 def call_gpt_35(prompt, text):

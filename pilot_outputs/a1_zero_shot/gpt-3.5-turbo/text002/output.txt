@@ -1,0 +1,25 @@
+[M1_S2] The capacity for short-term vocal plasticity is advantageous in contexts where ambient noise is abundant, as it can enable acoustic jamming avoidance.
+
+[M1_S1b] Ambient noise presents a special challenge to echolocating bats, who rely on the returning echoes of their sonar pulses for navigation and maintain social dynamics in part through the exchange of communication calls.
+
+[M1_S3] It is well established that bats possess impressive vocal plasticity, freely modifying various parameters of their vocalizations such as the amplitude (known as the “Lombard effect”), duration, repetition or emission pattern, complexity, and spectral content in response to playback of interfering noise.
+
+[M2_S1b] Yet, how bats overcome interference from moment-to-moment fluctuations in the amplitude of continuous background noise, a situation analogous to their natural environment, has received less attention.
+
+[M1_S1a] Carollia perspicillata bats live in colonies of up to hundreds of individuals where the acoustic landscape is densely populated by vocalizations which all share overlapping spectral and temporal properties.
+
+[M1_S3] These bats emit highly stereotyped echolocation pulses comprised of brief (∽1-2 ms), multi-harmonic, frequency-modulated downward sweeps (peak frequency 60-90 kHz).
+
+[M1_S1a] This species also possesses a repertoire of social calls, some of which have been associated with specific behaviors, such as distress, territorial aggression (males), courtship (males), and the eliciting of maternal attention (infants).
+
+[M3_S1] In this study, we investigated the ability of bats to adapt the timing of their vocalizations (both echolocation and communication calls) to overcome acoustic jamming, using temporally predictable and unpredictable noise, across two experiments.
+
+[M3_S2b] We hypothesized that bats would preferentially vocalize in periods of low amplitude in amplitude modulated noise, in line with a metabolically efficient signal optimization strategy.
+
+[M3_S7] Humans regularly employ a similar strategy, such as when a pair of speakers pause their conversation so as not to be drowned out by the blaring siren of a passing ambulance.
+
+[M3_S5] We observed that freely vocalizing bats flexibly adapt the timing and rate of their calling to be inversely proportional to dynamically-changing background amplitude levels.
+
+[M3_S6] This temporal jamming avoidance behavior emerged in the presence of both predictably and unpredictably patterned noise, implying an underlying auditory-vocal circuit that does not require entrainment for optimizing call timing.
+
+[M3_S3] In addition, calling behavior is modulated not only by instantaneous amplitude levels but also by more global sound statistics (i.e., second-order temporal patterns), suggesting that bats learn and exploit properties of the acoustic environment which unfold over time.

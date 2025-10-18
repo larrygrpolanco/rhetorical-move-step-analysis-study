@@ -20,7 +20,7 @@ from llm_handler import call_gpt_35, call_gpt_4, call_claude_sonnet
 
 CONDITION = "a1_zero_shot"          # Which condition (matches prompt filename)
 LLM_FUNCTION = call_gpt_35          # Which LLM function to use
-ARTICLES = range(1, 11)             # Which articles to process (1-10 for pilot)
+ARTICLES = range(1,11)             # Which articles to process
 
 # ============================================================================
 
