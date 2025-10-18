@@ -1,0 +1,11 @@
+[M1_S1b] Gut microbiomes are emerging as important drivers and modulators of host phenotype [1], with evidence supporting the role of microbiomes in host digestion and nutrition, immune health, development, and, more recently, behavior [2–7].  
+[M2_S1a] Over the past decade, the “microbiota-gut-brain axis” [7], which describes bidirectional interactions between the gut microbiome and host brain and behavior, has developed as an increasingly important field of study with implications for understanding the ecology and evolution of host-microbe interactions and animal behaviors.  
+[M2_S1b] However, current studies of the microbiota-gut-brain axis across animal taxa are largely correlational, and causal studies exploring the relationship between gut microbes and host behavior are rare [7].  
+[M2_S1e] The functional relationship between hosts and microbiomes varies across host traits.  
+[M2_S1d] In many cases, this relationship is obligatory, where the microbiome is necessary for the normal functioning of the host [7–10].  
+[M2_S1b] Recently, it has been proposed that gut microbiomes play a facultative role in host phenotype, such that gut microbiomes contribute to phenotypic variation between individuals [11, 12].  
+[M2_S1a] Results in support of a facultative relationship come from studies across taxonomic groups.  
+[M2_S1a] These include variations in non-behavioral and behavioral phenotypes [11, 12], such as behaviors associated with aging and senescence [13–18] and severity of neurodevelopmental disorders [19–21], as well as adaptive variations in behavioral traits both within [22, 23] and between species [24].  
+[M1_S1a] Eusocial insects represent a powerful model for understanding how gut microbes contribute to adaptive behavioral trait variation due to their relatively simple and stable gut microbiomes and their complex division of labor [25–27].  
+[M1_S3] Furthermore, the individual members of the honey bee gut microbiome are consistently present, but differ in abundance across different individuals and populations of honey bees [27].  
+[M3_S9] Due to these attributes of the honey bee gut microbiome, it is a great model for understanding the causal effects of gut microbes on complex host behaviors.
