@@ -1,55 +1,8 @@
-Sentence 1: Among the many definitions of recursion (Martins, 2012), the view that it represents the repetition of an element or pattern within a self-similar element or pattern has crossed centuries and disciplines, from von Humboldt (1836) and Hockett (1960), to Mandelbrot (1980) and Chomsky (2010); from fractals in mathematics (Mandelbrot, 1980) to generative grammars in linguistics (Chomsky, 2010), from graphic (e.g., “Print Gallery” by M. C. Escher) to popular art (e.g., 1940’s Batman #8 comic book cover).
-
-Annotations:
-- [M1_S1a] Claiming centrality or value of the research area
-- [M1_S3] Reviewing a specific previous research study
-
-Sentence 2: Across varying terminologies, the common denominator across fields is that to re-curse (from the Latin to ‘re-run’ or ‘re-invoke’) is an operation that produces multiple, potentially infinite sets of items from one initial item or a finite set.
-
-Annotations:
-- [M1_S2] Making generalizations about the research area without mentioning specific studies
-
-Sentence 3: This is achieved by nesting an item within itself or within another item of the same kind.
-
-Annotations:
-- [M3_S4c] Describing the analyzed scenario/context of the present research
-
-Sentence 4: Recursive patterns in everyday life are ubiquitous and include, for example, computer folders stored inside other computer folders, Russian dolls nested in each other, Romanesco broccoli’s spirals arranged in a spiral, and the same number of minutes passed within the same number of hours (e.g., 12:12).
-
-Annotations:
-- [M3_S4c] Describing the analyzed scenario/context of the present research
-
-Sentence 5: Accordingly, recursion is not the simple repetition of a pattern or item on single level (e.g., computer folders or Russian dolls side by side), but the placement of a pattern or item within itself (e.g., computer folders or Russian dolls inside each other), hence, generating different hierarchical levels or strata.
-
-Annotations:
-- [M2_S1a] Counter-claiming, theoretical (argument in previous research is problematic)
-
-Sentence 6: This means that the same pattern or item is encountered at least at two different scales (e.g., 12 at the scale of hours, and 12 at the scale of minutes).
-
-Annotations:
-- [M2_S1a] Counter-claiming, theoretical (argument in previous research is problematic)
-
-Sentence 7: In language, although classically associated with syntax (Chomsky, 2010; Idsardi et al., 2018), recursion and its diagnostic self-embedded patterns have been recognized in phonology (Bennett, 2018; Elfner, 2015; Kabak and Revithiadou, 2009; Nasukawa, 2015, 2020; Vogel, 2012), verbal and non-verbal music (Jackendoff, 2009; Koelsch et al., 2013; Martins et al., 2017; Sharma and Chimalakonda, 2018), making these systems open-ended and theoretically inexhaustible.
-
-Annotations:
-- [M1_S3] Reviewing a specific previous research study
-
-Sentence 8: Recursive vocal sequences or structures in nonhuman primates could potentially inform insipient or transitional states of recursion along human evolution before the rise of modern language.
-
-Annotations:
-- [M2_S1b] Indicating a gap in previous research
-
-Sentence 9: Their apparent absence, notably in great apes – our closest living relatives – has been interpreted as indicating that a neuro-cognitive or neuro-computational transformation occurred in our lineage but none other (Hauser et al., 2002).
-
-Annotations:
-- [M2_S1e] Pointing out limitations of previous research (something hasn’t been done)
-
-Sentence 10: Decades-long debates on the evolution of language have carved around the successes and limitations of empirical comparative animal research (Bolhuis et al., 2018; Bowling and Fitch, 2015; Corballis and Corballis, 2014; Lameira, 2017; Lameira and Call, 2020; Martins and Boeckx, 2019; Rawski et al., 2021; Townsend et al., 2018).
-
-Annotations:
-- [M1_S3] Reviewing a specific previous research study
-
-Sentence 11: Syntax-like vocal combinatorics have been identified in some bird (Engesser et al., 2019, 2016; Suzuki et al., 2016, 2017) and primate species (Jiang et al., 2018; Wang et al., 2015; Watson et al., 2020), but vocal combinatorics were not claimed to be recursive nor was recursion directly tested.
-
-Annotations:
-- [M2_S1e] Pointing out limitations of previous research (something hasn’t been done)
+[1c] Among the many definitions of recursion (Martins, 2012), the view that it represents the repetition of an element or pattern within a self-similar element or pattern has crossed centuries and disciplines, from von Humboldt (1836) and Hockett (1960), to Mandelbrot (1980) and Chomsky (2010); from fractals in mathematics (Mandelbrot, 1980) to generative grammars in linguistics (Chomsky, 2010), from graphic (e.g., “Print Gallery” by M. C. Escher) to popular art (e.g., 1940’s Batman #8 comic book cover).
+[2b] Indicating a gap in previous research [2c] Across varying terminologies, the common denominator across fields is that to re-curse (from the Latin to ‘re-run’ or ‘re-invoke’) is an operation that produces multiple, potentially infinite sets of items from one initial item or a finite set.
+[3a] Outlining purposes of the present research [3b] This is achieved by nesting an item within itself or within another item of the same kind.
+[2b] Indicating a gap in previous research [2d] Recursive patterns in everyday life are ubiquitous and include, for example, computer folders stored inside other computer folders, Russian dolls nested in each other, Romanesco broccoli’s spirals arranged in a spiral, and the same number of minutes passed within the same number of hours (e.g., 12:12).
+[2b] Indicating a gap in previous research [2d] Accordingly, recursion is not the simple repetition of a pattern or item on a single level (e.g., computer folders or Russian dolls side by side), but the placement of a pattern or item within itself (e.g., computer folders or Russian dolls inside each other), hence, generating different hierarchical levels or strata.
+[2b] Indicating a gap in previous research [2c] This means that the same pattern or item is encountered at least at two different scales (e.g., 12 at the scale of hours, and 12 at the scale of minutes).
+[1c] Among the many definitions of recursion (Martins, 2012), the view that it represents the repetition of an element or pattern within a self-similar element or pattern has crossed centuries and disciplines, from von Humboldt (1836) and Hockett (1960), to Mandelbrot (1980) and Chomsky (2010); from fractals in mathematics (Mandelbrot, 1980) to generative grammars in linguistics (Chomsky, 2010), from graphic (e.g., “Print Gallery” by M. C. Escher) to popular art (e.g., 1940’s Batman #8 comic book cover).
+[1a] Claiming centrality or value of the research area [2d] In language, although classically associated with syntax (Chomsky, 2010; Idsardi et al., 2018), recursion and its diagnostic self-embedded patterns have been recognized in phonology (Bennett, 2018; Elfner, 2015; Kabak and Revithiadou, 2009; Nasukawa, 2015, 2020; Vogel, 2012), verbal and non-verbal music (Jackendoff, 2009; Koelsch et al., 2013; Martins et al., 2017; Sharma and Chimalakonda, 2018), making these systems open-ended and theoretically inexhaustible.

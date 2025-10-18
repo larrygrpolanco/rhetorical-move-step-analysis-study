@@ -1,0 +1,302 @@
+[
+  {
+    "position": 1,
+    "sentence_id": "t047s001",
+    "text": "Energy expenditure (EE) in mammals is sensitively regulated to maintain body temperature homeostasis (1).",
+    "tags": [
+      "1a"
+    ],
+    "primary_tag": "1a",
+    "move": "1"
+  },
+  {
+    "position": 2,
+    "sentence_id": "t047s002",
+    "text": "EE increases to generate heat when ambient temperature falls below thermoneutrality.",
+    "tags": [
+      "1b"
+    ],
+    "primary_tag": "1b",
+    "move": "1"
+  },
+  {
+    "position": 3,
+    "sentence_id": "t047s003",
+    "text": "This increase in metabolic rate is reversible when ambient room temperature is restored to thermoneutral.",
+    "tags": [
+      "1b"
+    ],
+    "primary_tag": "1b",
+    "move": "1"
+  },
+  {
+    "position": 4,
+    "sentence_id": "t047s004",
+    "text": "To meet these changes in EE, substrate oxidation must be dynamic.",
+    "tags": [
+      "1b"
+    ],
+    "primary_tag": "1b",
+    "move": "1"
+  },
+  {
+    "position": 5,
+    "sentence_id": "t047s005",
+    "text": "Insulin is the dominant stimulus of glucose uptake and metabolism in skeletal muscle and adipose tissue.",
+    "tags": [
+      "1b"
+    ],
+    "primary_tag": "1b",
+    "move": "1"
+  },
+  {
+    "position": 6,
+    "sentence_id": "t047s006",
+    "text": "Yet, whether it is involved in the accelerated metabolic rate required to regulate body temperature has not been well defined.",
+    "tags": [
+      "1b"
+    ],
+    "primary_tag": "1b",
+    "move": "1"
+  },
+  {
+    "position": 7,
+    "sentence_id": "t047s007",
+    "text": "It has long since been established that insulin is both critical to maintaining glucose homeostasis and causes a thermogenic response to feeding (2, 3).",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 8,
+    "sentence_id": "t047s008",
+    "text": "Low metabolic rate directly relates to insulin resistance – a risk factor for metabolic syndrome and type 2 diabetes (4–6).",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 9,
+    "sentence_id": "t047s009",
+    "text": "Conversely, increased EE due to physical activity improves insulin sensitivity and decreases risk factors for metabolic diseases (7).",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 10,
+    "sentence_id": "t047s010",
+    "text": "As with physical exercise, intense cold exposure that requires shivering thermogenesis dramatically increases EE for heat generation and associates with increased insulin sensitivity (8–13).",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 11,
+    "sentence_id": "t047s011",
+    "text": "The increase in insulin sensitivity with shivering thermogenesis may be comparable to the increase seen with physical exercise.",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 12,
+    "sentence_id": "t047s012",
+    "text": "Body temperature defense during intense cold exposure, like physical exercise, is characterized by sympathetic and adrenomedullary secretion of catecholamines (14, 15).",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 13,
+    "sentence_id": "t047s013",
+    "text": "Whether insulin action increases with a mild decrease in environmental temperature that does not require shivering thermogenesis (i.e., a stress response) is unclear.",
+    "tags": [
+      "2b"
+    ],
+    "primary_tag": "2b",
+    "move": "2"
+  },
+  {
+    "position": 14,
+    "sentence_id": "t047s014",
+    "text": "This is particularly relevant in humans, because with modernization, the “burden” of physiological thermoregulation is shared between indoor thermostat-controlled heating and cooling systems that conceptually replicate the body’s temperature control system.",
+    "tags": [
+      "3a"
+    ],
+    "primary_tag": "3a",
+    "move": "3"
+  },
+  {
+    "position": 15,
+    "sentence_id": "t047s015",
+    "text": "Consequently, the physiological challenge created by environmental temperature swings are less extreme and less frequent.",
+    "tags": [
+      "3a"
+    ],
+    "primary_tag": "3a",
+    "move": "3"
+  },
+  {
+    "position": 16,
+    "sentence_id": "t047s016",
+    "text": "Modern societies generally require people spend less time outside for work and recreation (16).",
+    "tags": [
+      "3a"
+    ],
+    "primary_tag": "3a",
+    "move": "3"
+  },
+  {
+    "position": 17,
+    "sentence_id": "t047s017",
+    "text": "The decreased need to accommodate extremes in environmental temperature is associated with a reduction in daily EE (17).",
+    "tags": [
+      "3a"
+    ],
+    "primary_tag": "3a",
+    "move": "3"
+  },
+  {
+    "position": 18,
+    "sentence_id": "t047s018",
+    "text": "This takes on added significance because in addition to temperature regulation, EE is also a major component of body weight regulation, as it is the counterbalance to energy intake.",
+    "tags": [
+      "3a"
+    ],
+    "primary_tag": "3a",
+    "move": "3"
+  },
+  {
+    "position": 19,
+    "sentence_id": "t047s019",
+    "text": "Sustained conditions where EE is less than energy intake leads to weight gain and excess adiposity.",
+    "tags": [
+      "3a"
+    ],
+    "primary_tag": "3a",
+    "move": "3"
+  },
+  {
+    "position": 20,
+    "sentence_id": "t047s020",
+    "text": "The actions of insulin are a potential intersection for homeostasis of two tightly regulated control systems – arterial glucose and body temperature.",
+    "tags": [
+      "1b"
+    ],
+    "primary_tag": "1b",
+    "move": "1"
+  },
+  {
+    "position": 21,
+    "sentence_id": "t047s021",
+    "text": "The dual role of insulin is significant as challenges to one system may have implications for the second system.",
+    "tags": [
+      "1b"
+    ],
+    "primary_tag": "1b",
+    "move": "1"
+  },
+  {
+    "position": 22,
+    "sentence_id": "t047s022",
+    "text": "For example, ambient temperature may alter how insulin and its counterregulatory hormones maintain glucose homeostasis, create a risk for metabolic disease, or affect insulin dosing for individuals treated with insulin.",
+    "tags": [
+      "1b"
+    ],
+    "primary_tag": "1b",
+    "move": "1"
+  },
+  {
+    "position": 23,
+    "sentence_id": "t047s023",
+    "text": "The aim of the experiments described herein was to determine the relationship of ambient temperature on the insulin sensitivity of glucose fluxes independent of shivering thermogenesis and the stress of severe decreases in environmental temperature.",
+    "tags": [
+      "3b"
+    ],
+    "primary_tag": "3b",
+    "move": "3"
+  },
+  {
+    "position": 24,
+    "sentence_id": "t047s024",
+    "text": "Short-term and adaptive responses to thermoneutral temperature (TN, ∼28°C) and room (laboratory) temperature (∼22°C) were studied.",
+    "tags": [
+      "3b"
+    ],
+    "primary_tag": "3b",
+    "move": "3"
+  },
+  {
+    "position": 25,
+    "sentence_id": "t047s025",
+    "text": "These temperatures allow for uncomplicated analysis of insulin action because body weights and arterial stress hormone concentrations of chow-fed mice at TN and RT are similar over a ∼4 week adaptive period (18–21).",
+    "tags": [
+      "3b"
+    ],
+    "primary_tag": "3b",
+    "move": "3"
+  },
+  {
+    "position": 26,
+    "sentence_id": "t047s026",
+    "text": "These temperatures also have a practical application to the study of insulin action, glucose metabolism, and EE in mice housed and studied at standard vivaria and laboratory temperatures (∼22°C).",
+    "tags": [
+      "3b"
+    ],
+    "primary_tag": "3b",
+    "move": "3"
+  },
+  {
+    "position": 27,
+    "sentence_id": "t047s027",
+    "text": "Moreover, investigating metabolic phenotypes between RT and TN are more relevant to humans than contrasting RT with more common experimental cold exposures of <15°C (22, 23).",
+    "tags": [
+      "3b"
+    ],
+    "primary_tag": "3b",
+    "move": "3"
+  },
+  {
+    "position": 28,
+    "sentence_id": "t047s028",
+    "text": "Results show that at TN, mice have decreased insulin action and EE regardless of whether mice are TN-adapted or short-term transitioned from RT-adapted to TN.",
+    "tags": [
+      "3c"
+    ],
+    "primary_tag": "3c",
+    "move": "3"
+  },
+  {
+    "position": 29,
+    "sentence_id": "t047s029",
+    "text": "The reciprocal transition from TN-adapted to RT increases EE but unexpectedly without a parallel increase in insulin-stimulated whole body glucose uptake.",
+    "tags": [
+      "3c"
+    ],
+    "primary_tag": "3c",
+    "move": "3"
+  },
+  {
+    "position": 30,
+    "sentence_id": "t047s030",
+    "text": "This higher EE occurs without increasing glucose uptake from the blood, but rather by diverting glucose from glucose storage to glycolysis.",
+    "tags": [
+      "3c"
+    ],
+    "primary_tag": "3c",
+    "move": "3"
+  }
+]

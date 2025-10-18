@@ -1,0 +1,242 @@
+[
+  {
+    "position": 1,
+    "sentence_id": "t050s001",
+    "text": "Endometriosis is a chronic and incurable inflammatory disorder and affects approximately 10% of reproductive-aged women (1, 2).",
+    "tags": [
+      "1a"
+    ],
+    "primary_tag": "1a",
+    "move": "1"
+  },
+  {
+    "position": 2,
+    "sentence_id": "t050s002",
+    "text": "It is associated with debilitating chronic pelvic pain and infertility, which substantially reduce the quality of life of women and their families (3, 4).",
+    "tags": [
+      "1a"
+    ],
+    "primary_tag": "1a",
+    "move": "1"
+  },
+  {
+    "position": 3,
+    "sentence_id": "t050s003",
+    "text": "Because endometriosis is estrogen-dependent, current treatments focus on inhibiting estrogen production and function.",
+    "tags": [
+      "1b"
+    ],
+    "primary_tag": "1b",
+    "move": "1"
+  },
+  {
+    "position": 4,
+    "sentence_id": "t050s004",
+    "text": "However, hormonal treatments and surgical excision of lesions are often of limited efficacy with high recurrence rates, frequent side effects, additional costs, and potential morbidity (5).",
+    "tags": [
+      "1b"
+    ],
+    "primary_tag": "1b",
+    "move": "1"
+  },
+  {
+    "position": 5,
+    "sentence_id": "t050s005",
+    "text": "As nearly 70% of patients suffer unsolved chronic pain and other related conditions (6), the direct costs of endometriosis were estimated at $12,118 per patient per year in the US, and indirect costs were $15,737 (7).",
+    "tags": [
+      "1b"
+    ],
+    "primary_tag": "1b",
+    "move": "1"
+  },
+  {
+    "position": 6,
+    "sentence_id": "t050s006",
+    "text": "The pathogenesis of endometriosis is a complex process and remains to be fully understood.",
+    "tags": [
+      "2b"
+    ],
+    "primary_tag": "2b",
+    "move": "2"
+  },
+  {
+    "position": 7,
+    "sentence_id": "t050s007",
+    "text": "Retrograde menstruation has been widely accepted as the origin of endometriotic tissues (8).",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 8,
+    "sentence_id": "t050s008",
+    "text": "However, as retrograde menstruation occurs in more than 90% of menstruating women (9), the pathogenesis of the disease is not well understood, and other factors must contribute to establishing endometriotic lesions and disease progression (1, 4, 10).",
+    "tags": [
+      "2b"
+    ],
+    "primary_tag": "2b",
+    "move": "2"
+  },
+  {
+    "position": 9,
+    "sentence_id": "t050s009",
+    "text": "Obesity is an epidemic health burden affecting nearly 40% of adults and 18% of children in the United States (11).",
+    "tags": [
+      "1a"
+    ],
+    "primary_tag": "1a",
+    "move": "1"
+  },
+  {
+    "position": 10,
+    "sentence_id": "t050s010",
+    "text": "Being overweight and obese are considered critical risk factors for chronic diseases, as fat accumulation causes low-grade chronic inflammation (12) characterized by immune cell infiltration into adipose tissues and elevated proinflammatory factors (13).",
+    "tags": [
+      "1b"
+    ],
+    "primary_tag": "1b",
+    "move": "1"
+  },
+  {
+    "position": 11,
+    "sentence_id": "t050s011",
+    "text": "Moreover, excessive fat consumption and accumulation in the body alter gut microbiota, resulting in dysbiosis to induce low-grade systemic inflammation (14).",
+    "tags": [
+      "1b"
+    ],
+    "primary_tag": "1b",
+    "move": "1"
+  },
+  {
+    "position": 12,
+    "sentence_id": "t050s012",
+    "text": "Obesity-induced inflammation is associated with metabolic and autoimmune disorders in women, causing reproductive dysfunctions such as polycystic ovary syndrome (PCOS), implantation and pregnancy failure, and pregnancy complications, including miscarriages (15–18).",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 13,
+    "sentence_id": "t050s013",
+    "text": "While endometriosis is a chronic inflammatory disease, several epidemiological studies have reported an inverse correlation between endometriosis and body mass index (BMI) (19).",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 14,
+    "sentence_id": "t050s014",
+    "text": "However, obesity does not protect against endometriosis (19), and BMI is correlated with the severity but not the frequency of disease diagnoses (20).",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 15,
+    "sentence_id": "t050s015",
+    "text": "Thus, BMI does not provide a simple risk factor for a heterogeneous endometriotic disease as it does not consider different components of excess weight, such as adipose deposit location and interaction with neighboring tissues (20, 21).",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 16,
+    "sentence_id": "t050s016",
+    "text": "Additionally, the correlation between diet-induced obesity and endometriosis-associated pain or hypersensitivity, one of the significant endometriosis symptoms, has not been addressed.",
+    "tags": [
+      "2b"
+    ],
+    "primary_tag": "2b",
+    "move": "2"
+  },
+  {
+    "position": 17,
+    "sentence_id": "t050s017",
+    "text": "Rigorous prior research suggests that aberrant inflammation contributes to the onset and progression of endometriosis (22–27).",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 18,
+    "sentence_id": "t050s018",
+    "text": "Macrophages (MΦ) are considered to be key players in promoting disease progression (25, 28, 29), as abundant MΦ are present in ectopic lesions (30) and elevated in the pelvic cavity (31).",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 19,
+    "sentence_id": "t050s019",
+    "text": "These MΦ populations establish an inflammatory environment in the pelvic cavity by secreting cytokines and chemokines, which encourage lesion growth and progression (24, 28, 29, 32, 33) and contribute to endometriosis-associated pelvic pain (32, 34, 35).",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 20,
+    "sentence_id": "t050s020",
+    "text": "Diet-induced obesity dysregulates immune cells to induce cytokine secretion (13, 36, 37), increasing the risks of chronic pain.",
+    "tags": [
+      "3a"
+    ],
+    "primary_tag": "3a",
+    "move": "3"
+  },
+  {
+    "position": 21,
+    "sentence_id": "t050s021",
+    "text": "Therefore, the present study seeks to understand whether high-fat diets (HFD) affect the progression of endometriosis disease and immune dysfunctions and how HFD influences endometriosis-associated hyperalgesia.",
+    "tags": [
+      "3a"
+    ],
+    "primary_tag": "3a",
+    "move": "3"
+  },
+  {
+    "position": 22,
+    "sentence_id": "t050s022",
+    "text": "The present results highlight that endometriosis-associated abdominal hyperalgesia was escalated in lesion-induced HFD mice according to the results of the behavior study and elevated pain-related mediators in the dorsal root ganglion (DRG).",
+    "tags": [
+      "3c"
+    ],
+    "primary_tag": "3c",
+    "move": "3"
+  },
+  {
+    "position": 23,
+    "sentence_id": "t050s023",
+    "text": "Increased proinflammatory MΦ (Ly6C+ MΦ) and cytokines by lesion induction were further enhanced by exposure to HFD.",
+    "tags": [
+      "3c"
+    ],
+    "primary_tag": "3c",
+    "move": "3"
+  },
+  {
+    "position": 24,
+    "sentence_id": "t050s024",
+    "text": "The results also indicate that gut microbiota dysbiosis under the HFD condition contributed to an aberrant inflammatory environment and sensitized endometriosis-associated hypersensitivity.",
+    "tags": [
+      "3c"
+    ],
+    "primary_tag": "3c",
+    "move": "3"
+  }
+]

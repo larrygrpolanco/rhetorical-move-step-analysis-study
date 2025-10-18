@@ -1,0 +1,162 @@
+[
+  {
+    "position": 1,
+    "sentence_id": "t004s001",
+    "text": "The challenge of understanding how the detrimental effects of age can be mitigated is of central concern in medicine and biology and is facilitated by the comparative study of aging across species (Arking, 2006; Austad, 2009).",
+    "tags": [
+      "1a"
+    ],
+    "primary_tag": "1a",
+    "move": "1"
+  },
+  {
+    "position": 2,
+    "sentence_id": "t004s002",
+    "text": "Zebrafish, like humans, display gradual senescence (Kishi et al., 2009).",
+    "tags": [
+      "1b"
+    ],
+    "primary_tag": "1b",
+    "move": "1"
+  },
+  {
+    "position": 3,
+    "sentence_id": "t004s003",
+    "text": "With advancing age, zebrafish have reduced regenerative capacity, accumulation of DNA damage, and cardiovascular impairment (Gilbert et al., 2014; Sun et al., 2014).",
+    "tags": [
+      "1b"
+    ],
+    "primary_tag": "1b",
+    "move": "1"
+  },
+  {
+    "position": 4,
+    "sentence_id": "t004s004",
+    "text": "The shared consequences of aging in humans and zebrafish, combined with the low cost of housing zebrafish for extended periods, suggests that zebrafish could serve as a valuable model organism in the study of aging.",
+    "tags": [
+      "1b"
+    ],
+    "primary_tag": "1b",
+    "move": "1"
+  },
+  {
+    "position": 5,
+    "sentence_id": "t004s005",
+    "text": "In humans, many behaviors vary across the lifespan, such as emotional regulation and anxiety (John and Gross, 2004; Lenze and Wetherell, 2011; Nivard et al., 2015).",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 6,
+    "sentence_id": "t004s006",
+    "text": "The trajectory of these behaviors is shaped by the complex interplay of environmental factors with genetics and sex (Nivard et al., 2015; Singh et al., 2019).",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 7,
+    "sentence_id": "t004s007",
+    "text": "Untangling the web of interactions between age, genetics, and sex, is facilitated by use of model organisms for which many molecular genetic tools are available, like zebrafish.",
+    "tags": [
+      "1a"
+    ],
+    "primary_tag": "1a",
+    "move": "1"
+  },
+  {
+    "position": 8,
+    "sentence_id": "t004s008",
+    "text": "Although there has been a large increase in the study of zebrafish behavior in the past twenty years (Gerlai, 2023; Kenney, 2020), only a handful of reports have explored age-associated behavioral alterations.",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 9,
+    "sentence_id": "t004s009",
+    "text": "These studies have found that older fish have changes in circadian rhythms, decreased associative learning, and reduced locomotion (Gilbert et al., 2014; Philpott et al., 2012; Ruhl et al., 2015; Yu et al., 2006; Zhdanova et al., 2008).",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 10,
+    "sentence_id": "t004s010",
+    "text": "However, it is unknown if aging also affects commonly studied behaviors related to emotional regulation and exploration in zebrafish.",
+    "tags": [
+      "2b"
+    ],
+    "primary_tag": "2b",
+    "move": "2"
+  },
+  {
+    "position": 11,
+    "sentence_id": "t004s011",
+    "text": "One of the most widely used behavioral tasks to study exploratory and emotional behavior in zebrafish is the novel tank test (NTT).",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 12,
+    "sentence_id": "t004s012",
+    "text": "In this test, animals are placed into a tank with which they have no prior experience.",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 13,
+    "sentence_id": "t004s013",
+    "text": "Spending time near the bottom or periphery of the tank are typically interpreted as fearful predator avoidance behaviors related to anxiety (Champagne et al., 2010; Gerlai et al., 2000; Kalueff et al., 2013; Levin et al., 2007; Maximino et al., 2010).",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 14,
+    "sentence_id": "t004s014",
+    "text": "Nonassociative memory can also be assessed by measuring how behavior habituates within session (short-term memory) or between daily sessions (long-term memory).",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 15,
+    "sentence_id": "t004s015",
+    "text": "To determine whether age affects behavior in the NTT, and if the effects of age are modulated by sex and genetics, we examined behavior in young (6 months old) and middle aged (12 months old) fish from two strains (TL and TU) and both sexes.",
+    "tags": [
+      "3a"
+    ],
+    "primary_tag": "3a",
+    "move": "3"
+  },
+  {
+    "position": 16,
+    "sentence_id": "t004s016",
+    "text": "We find that this modest difference in age is sufficient to alter several behaviors such as locomotion and predator avoidance.",
+    "tags": [
+      "3b"
+    ],
+    "primary_tag": "3b",
+    "move": "3"
+  }
+]

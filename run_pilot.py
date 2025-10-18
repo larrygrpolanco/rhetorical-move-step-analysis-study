@@ -40,9 +40,25 @@ def ensure_directory(path):
     Path(path).mkdir(parents=True, exist_ok=True)
 
 
+def split_into_paragraphs(text):
+    """
+    Split text into paragraphs (double newline separated).
+    
+    Args:
+        text: Full article text
+        
+    Returns:
+        List of paragraph strings
+    """
+    # Split on double newlines
+    paragraphs = [p.strip() for p in text.split('\n\n') if p.strip()]
+    return paragraphs
+
+
 def process_article(article_num, condition, prompt, llm_function):
     """
     Process a single article through the LLM pipeline.
+    Processes paragraph-by-paragraph to avoid overwhelming the LLM.
     
     Args:
         article_num: Article number (e.g., 1 for text001.xml)
@@ -64,28 +80,43 @@ def process_article(article_num, condition, prompt, llm_function):
         print(f"  ERROR extracting {article_id}: {e}")
         return
     
-    # Call LLM
-    try:
-        response_text, folder_name = llm_function(prompt, article_text)
-    except Exception as e:
-        print(f"  ERROR calling LLM for {article_id}: {e}")
-        return
+    # Split into paragraphs
+    paragraphs = split_into_paragraphs(article_text)
+    print(f"  Found {len(paragraphs)} paragraphs")
+    
+    # Process each paragraph
+    all_responses = []
+    folder_name = None
+    
+    for i, paragraph in enumerate(paragraphs, 1):
+        print(f"    Processing paragraph {i}/{len(paragraphs)}...", end=" ")
+        
+        try:
+            response_text, folder_name = llm_function(prompt, paragraph)
+            all_responses.append(response_text)
+            print("✓")
+        except Exception as e:
+            print(f"ERROR: {e}")
+            all_responses.append(f"[ERROR processing paragraph {i}]")
+    
+    # Concatenate all responses
+    final_response = "\n\n".join(all_responses)
     
     # Create output directory
-    output_dir = Path(f"pilot_outputs/{condition}/{folder_name}/{article_id}")
+    output_dir = Path(f"pilot_outputs/{condition}")
     ensure_directory(output_dir)
     
-    # Save input
-    input_file = output_dir / "input.txt"
+    # Save full input (all paragraphs)
+    input_file = output_dir / f"{article_id}_input.txt"
     with open(input_file, 'w', encoding='utf-8') as f:
         f.write(article_text)
     
-    # Save output
-    output_file = output_dir / "output.txt"
+    # Save concatenated output
+    output_file = output_dir / f"{article_id}_{condition}.txt"
     with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(response_text)
+        f.write(final_response)
     
-    print(f"  ✓ Saved to {output_dir}")
+    print(f"  ✓ Saved to {output_file}")
 
 
 def main():

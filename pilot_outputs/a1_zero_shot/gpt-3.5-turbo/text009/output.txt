@@ -1,47 +1,8 @@
-[The daily rhythmicity of light and darkness serves most animals for the perception of time [1, 2] and has been reported to be the most important Zeitgeber, synchronizing internal and external events through entrainment of the animal’s circadian clock mechanism [2, 3].]
-
-M1_S1a: Claiming centrality or value of the research area
-
-[Circadian rhythms are manifested in many behavioral patterns, such as locomotion, sleep, foraging, and singing, as well as in physiological processes, including hormonal regulation and gene expression [3, 4].]
-
-M1_S2: Making generalizations about the research area without mentioning specific studies
-
-[The behavioral responses to the phases of daylight and darkness depend on the animal’s visual system, its way of life (diurnal, nocturnal, or crepuscular), and the specific nature of the stimulus [5–8].]
-
-M1_S2: Making generalizations about the research area without mentioning specific studies
-
-[The individuals' synchronization with external environmental rhythms (circadian, circalunar and circannual) is manifested in synchronization of the overall population.]
-
-M1_S2: Making generalizations about the research area without mentioning specific studies
-
-[Artificial light at night (ALAN), the use of anthropogenic outdoor illumination during the night-time, has become prevalent [9, 10] and is increasing worldwide by about 3-6% annually [11].]
-
-M1_S1a: Claiming centrality or value of the research area
-
-M1_S2: Making generalizations about the research area without mentioning specific studies
-
-[ALAN disrupts the natural light-dark cycle, impacting animals’ daily activity patterns and altering their temporal synchronization [1, 5, 12].]
-
-M2_S1e: Pointing out limitations of previous research (something hasn’t been done)
-
-It has been shown to have severe effects on human health [13], on wildlife, and on the environment [4, 14–17].
-
-M3_S5: Announcing and discussing the results/principal outcomes of the present research
-
-[In insects, nocturnal illumination has been reported to induce spatial disorientation [14, 18], resulting in higher predation risk [19, 20], increased mortality [19–22], reduced pollination [16, 23], and collectively impeding biodiversity [24].]
-
-M1_S3: Reviewing a specific previous research study
-
-[Laboratory experiments offer a useful tool for ALAN research, enabling controlling and isolating the light stimuli from all other variables.]
-
-M3_S4a: Summarizing methods of the present research
-
-[Semi-natural conditions therefore offer an excellent alternative, enabling monitoring the experimental animals under almost natural conditions, while limiting the biotic and abiotic variables by isolating the experimental individuals in dedicated enclosures.]
-
-M2_S1b: Indicating a gap in previous research
-
-Our experimental model, the field cricket, Gryllus bimaculatus, is a ground-dwelling species exhibiting distinct diel stridulation and locomotion cycles.
-
-Crickets demonstrate temporal shifts in both these activity patterns in response to changes in illumination regimes [12, 25–28].
-
-Additionally, temporal, circadian variations in gene expression patterns have been observed in the cricket [28, 29].
+[1a] The daily rhythmicity of light and darkness serves most animals for the perception of time.
+[1c] The behavioral responses to the phases of daylight and darkness depend on the animal’s visual system, its way of life (diurnal, nocturnal, or crepuscular), and the specific nature of the stimulus.
+[1c] ALAN disrupts the natural light-dark cycle, impacting animals’ daily activity patterns and altering their temporal synchronization.
+[1c] ALAN has been shown to have severe effects on human health, on wildlife, and on the environment.
+[2a] In insects, nocturnal illumination has been reported to induce spatial disorientation, resulting in higher predation risk, increased mortality, reduced pollination, and collectively impeding biodiversity.
+[3a] Our experimental model, the field cricket, Gryllus bimaculatus, is a ground-dwelling species exhibiting distinct diel stridulation and locomotion cycles.
+[3c] We investigated the impact of ALAN on these nocturnal insects in a semi-natural experimental set-up.
+[3c] Our findings have uncovered the effects of ecologically-relevant ALAN intensities on behavioral patterns of these insects, under such natural conditions.

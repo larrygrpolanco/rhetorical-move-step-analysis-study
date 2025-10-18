@@ -1,0 +1,282 @@
+[
+  {
+    "position": 1,
+    "sentence_id": "t025s001",
+    "text": "Biomolecular condensates serve as important mechanisms for the hierarchical and vectorial organization of chemistry within cells.[1–7]",
+    "tags": [
+      "1a"
+    ],
+    "primary_tag": "1a",
+    "move": "1"
+  },
+  {
+    "position": 2,
+    "sentence_id": "t025s002",
+    "text": "They are non-stoichiometric assemblies of biomolecules that can form via spontaneous or driven processes and exhibit characteristics of phase separation and percolation [8–10].",
+    "tags": [
+      "1a"
+    ],
+    "primary_tag": "1a",
+    "move": "1"
+  },
+  {
+    "position": 3,
+    "sentence_id": "t025s003",
+    "text": "The chemical environment and physicochemical conditions within condensates are distinct from their surroundings,[11–18] enabling cells to selectively partition biomolecules, prevent unwanted cross-talk and interference between various biochemical pathways, and buffer against chemical noise.",
+    "tags": [
+      "1b"
+    ],
+    "primary_tag": "1b",
+    "move": "1"
+  },
+  {
+    "position": 4,
+    "sentence_id": "t025s004",
+    "text": "In recent years, these condensates have gained significant prominence and attracted substantial research interest.",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 5,
+    "sentence_id": "t025s005",
+    "text": "They have been found to primarily form through the involvement of intrinsically disordered proteins (IDPs) [19–22]. ",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 6,
+    "sentence_id": "t025s006",
+    "text": "Multivalent interactions involve the binding of multiple partners simultaneously and are often nonspecific in nature, leading to the spontaneous aggregation and condensationof various cellular components.",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 7,
+    "sentence_id": "t025s007",
+    "text": "These unique proteins lack a fixed threedimensional structure, enabling them to be highly flexible and engage in multivalent interactions.",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 8,
+    "sentence_id": "t025s008",
+    "text": "Many research groups have attempted to establish what is known as the “molecular grammar”,[23–34] which connects amino acid sequences with protein phase behaviors and the collective physical properties of condensates.",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 9,
+    "sentence_id": "t025s009",
+    "text": "Establishing a theoretical framework is crucial for advancing our understanding of biological condensates.",
+    "tags": [
+      "1a"
+    ],
+    "primary_tag": "1a",
+    "move": "1"
+  },
+  {
+    "position": 10,
+    "sentence_id": "t025s010",
+    "text": "The “stickers and spacers” model, originally developed within the context of polymer gelation theory,35–37 has gained popularity for modeling protein condensates [1,2,25,38–40]. ",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 11,
+    "sentence_id": "t025s011",
+    "text": "In this model, biomolecules within condensates are envisioned as possessing two distinct functional components: “stickers” and “spacers”.",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 12,
+    "sentence_id": "t025s012",
+    "text": "Stickers represent specific molecular domains or motifs with a high affinity for one another, facilitating interaction and bringing molecules into close proximity, thereby contributing to the condensate’s cohesive and ordered structure.",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 13,
+    "sentence_id": "t025s013",
+    "text": "Conversely, spacers act as flexible linkers connecting the stickers, enabling the dynamic and transient nature of interactions within the condensate.",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 14,
+    "sentence_id": "t025s014",
+    "text": "This model offers a conceptual framework that assists in interpreting experimental observations regarding condensate stability and material properties [41].",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 15,
+    "sentence_id": "t025s015",
+    "text": "The simplicity of the stickers and spacers model, crucial for its theoretical elegance, encounters limitations when applied to realistic biomolecules.",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 16,
+    "sentence_id": "t025s016",
+    "text": "Specifically, when dealing with an IDP, the identification of stickers and spacers is often challenging [1,3,42,43]. ",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 17,
+    "sentence_id": "t025s017",
+    "text": "Most amino acids undergo some level of interactions, and determining when to disregard these interactions to categorize them as spacers remains ambiguous.",
+    "tags": [
+      "1c"
+    ],
+    "primary_tag": "1c",
+    "move": "1"
+  },
+  {
+    "position": 18,
+    "sentence_id": "t025s018",
+    "text": "We propose that instead of entirely disregarding their interactions, it’s essential to consider the interactions between spacer sequences and explore their impact on the physical properties of condensates.",
+    "tags": [
+      "3a"
+    ],
+    "primary_tag": "3a",
+    "move": "3"
+  },
+  {
+    "position": 19,
+    "sentence_id": "t025s019",
+    "text": "This exploration could offer insights into the evolutionary pressure of IDP sequences, arising from the interplay between sticker and spacer sequences.",
+    "tags": [
+      "3a"
+    ],
+    "primary_tag": "3a",
+    "move": "3"
+  },
+  {
+    "position": 20,
+    "sentence_id": "t025s020",
+    "text": "Moreover, such an investigation could enhance our understanding of real-world biological condensates, where spacers might deviate from ideal behavior but still participate in weak interactions.",
+    "tags": [
+      "3a"
+    ],
+    "primary_tag": "3a",
+    "move": "3"
+  },
+  {
+    "position": 21,
+    "sentence_id": "t025s020",
+    "text": "We expanded the stickers and spacers model to include explicit non-specific pairwise interactions between spacers, alongside the specific interactions among sticker motifs.",
+    "tags": [
+      "3b"
+    ],
+    "primary_tag": "3b",
+    "move": "3"
+  },
+  {
+    "position": 22,
+    "sentence_id": "t025s021",
+    "text": "This extension allowed us to systematically explore the intricate interplay between specific and non-specific interactions in determining the structural and compositional properties of condensates.",
+    "tags": [
+      "3b"
+    ],
+    "primary_tag": "3b",
+    "move": "3"
+  },
+  {
+    "position": 23,
+    "sentence_id": "t025s022",
+    "text": "Our investigation revealed that spacer interactions contribute to phase separation and the co-condensation of multiple molecules.",
+    "tags": [
+      "3b"
+    ],
+    "primary_tag": "3b",
+    "move": "3"
+  },
+  {
+    "position": 24,
+    "sentence_id": "t025s023",
+    "text": "However, the non-specific nature of these interactions results in disorganized condensates with undefined molecular compositions.",
+    "tags": [
+      "2a"
+    ],
+    "primary_tag": "2a",
+    "move": "2"
+  },
+  {
+    "position": 25,
+    "sentence_id": "t025s024",
+    "text": "In contrast, specific sticker-sticker interactions drive the formation of condensates with robust contacts and precise compositions.",
+    "tags": [
+      "2a"
+    ],
+    "primary_tag": "2a",
+    "move": "2"
+  },
+  {
+    "position": 26,
+    "sentence_id": "t025s025",
+    "text": "Subsequently, we discussed the implications of our theory for the evolution of protein sequences, asserting the existence of evolutionary constraints even on segments of protein sequences that interact non-specifically.",
+    "tags": [
+      "3b"
+    ],
+    "primary_tag": "3b",
+    "move": "3"
+  },
+  {
+    "position": 27,
+    "sentence_id": "t025s026",
+    "text": "These constraints ensure the functionality of condensates.",
+    "tags": [
+      "3b"
+    ],
+    "primary_tag": "3b",
+    "move": "3"
+  },
+  {
+    "position": 28,
+    "sentence_id": "t025s027",
+    "text": "This evolutionary pressure naturally favors the emergence of low complexity domains to suppress spurious interactions, facilitating the formation of biologically meaningful condensates.",
+    "tags": [
+      "3b"
+    ],
+    "primary_tag": "3b",
+    "move": "3"
+  }
+]

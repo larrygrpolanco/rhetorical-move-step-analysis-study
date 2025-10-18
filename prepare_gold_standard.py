@@ -12,7 +12,7 @@ Output format matches position-based evaluation needs:
 - Tags converted to list format to handle multi-tag sentences
 - Move extracted from step code (e.g., "1b" -> move "1")
 
-Author: Larry Polanco
+Author: Larry Grullon-Polanco
 Date: 2025
 """
 
