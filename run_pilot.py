@@ -18,9 +18,9 @@ from llm_handler import call_gpt_4, call_claude_sonnet, call_gpt_5_mini
 # CONFIGURATION - EDIT THESE VALUES
 # ============================================================================
 
-CONDITION = "a1_zero_shot"          # Which condition (matches prompt filename)
-LLM_FUNCTION = call_gpt_5_mini          # Which LLM function to use
-ARTICLES = range(1, 2)             # Which articles to process (1-10 for pilot)
+CONDITION = "a1_zero_shot"  # Which condition (matches prompt filename)
+LLM_FUNCTION = call_gpt_5_mini  # Which LLM function to use
+ARTICLES = range(1, 2)  # Which articles to process (1-10 for pilot)
 
 # ============================================================================
 
@@ -30,8 +30,8 @@ def load_prompt(condition):
     prompt_file = Path(f"prompts/{condition}.txt")
     if not prompt_file.exists():
         raise FileNotFoundError(f"Prompt file not found: {prompt_file}")
-    
-    with open(prompt_file, 'r', encoding='utf-8') as f:
+
+    with open(prompt_file, "r", encoding="utf-8") as f:
         return f.read()
 
 
@@ -43,7 +43,7 @@ def ensure_directory(path):
 def process_article(article_num, condition, prompt, llm_function):
     """
     Process a single article through the LLM pipeline.
-    
+
     Args:
         article_num: Article number (e.g., 1 for text001.xml)
         condition: Condition name (e.g., "a1_zero_shot")
@@ -53,9 +53,9 @@ def process_article(article_num, condition, prompt, llm_function):
     # Format article ID
     article_id = f"text{article_num:03d}"
     xml_path = f"Annotated_Dataset/{article_id}.xml"
-    
+
     print(f"Processing {article_id}...")
-    
+
     # Extract article text
     try:
         article = extract_from_xml(xml_path)
@@ -63,29 +63,24 @@ def process_article(article_num, condition, prompt, llm_function):
     except Exception as e:
         print(f"  ERROR extracting {article_id}: {e}")
         return
-    
+
     # Call LLM
     try:
         response_text, folder_name = llm_function(prompt, article_text)
     except Exception as e:
         print(f"  ERROR calling LLM for {article_id}: {e}")
         return
-    
+
     # Create output directory
-    output_dir = Path(f"pilot_outputs/{condition}/{folder_name}/{article_id}")
+    output_dir = Path(f"pilot_outputs/{condition}/{folder_name}/output")
     ensure_directory(output_dir)
-    
-    # Save input
-    input_file = output_dir / "input.txt"
-    with open(input_file, 'w', encoding='utf-8') as f:
-        f.write(article_text)
-    
-    # Save output
-    output_file = output_dir / "output.txt"
-    with open(output_file, 'w', encoding='utf-8') as f:
+
+    # Save output only (input is in XML, no need to duplicate)
+    output_file = output_dir / f"{article_id}.txt"
+    with open(output_file, "w", encoding="utf-8") as f:
         f.write(response_text)
-    
-    print(f"  ✓ Saved to {output_dir}")
+
+    print(f"  ✓ Saved to {output_file}")
 
 
 def main():
@@ -96,7 +91,7 @@ def main():
     print(f"Articles: {min(ARTICLES)} to {max(ARTICLES)}")
     print("=" * 70)
     print()
-    
+
     # Load prompt
     try:
         prompt = load_prompt(CONDITION)
@@ -105,11 +100,11 @@ def main():
     except Exception as e:
         print(f"ERROR: {e}")
         return
-    
+
     # Process each article
     for article_num in ARTICLES:
         process_article(article_num, CONDITION, prompt, LLM_FUNCTION)
-    
+
     print()
     print("=" * 70)
     print("Done!")
