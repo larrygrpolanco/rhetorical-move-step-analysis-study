@@ -3,7 +3,7 @@ Deterministic Parser for LLM Move-Step Annotations
 ===================================================
 
 Purpose:
-    Parse GPT-3.5 outputs into standardized JSON format for evaluation.
+    Parse llm outputs into standardized JSON format for evaluation.
     
 Design Philosophy:
     - Deterministic rules-based parsing (NO LLM fallback)
@@ -90,7 +90,7 @@ def parse_llm_output(raw_text: str, article_id: str = "unknown") -> Tuple[List[D
     Parse LLM output into structured format.
     
     Args:
-        raw_text: Raw text output from GPT-3.5
+        raw_text: Raw text output from llm
         article_id: Identifier for the article (for logging)
     
     Returns:
@@ -284,9 +284,9 @@ def parse_batch(input_dir: Path, output_dir: Path, condition: str = "*"):
 # Example usage
 if __name__ == "__main__":
     # Test on pilot outputs
-    input_dir = Path("pilot_outputs/a1_zero_shot")
-    output_dir = Path("pilot_outputs/a1_zero_shot/parsed")
-    
+    input_dir = Path("pilot_outputs/a1_zero_shot/gpt-5mini/text001")
+    output_dir = Path("pilot_outputs/a1_zero_shot/gpt-5mini/text001")
+
     if input_dir.exists():
         parse_batch(input_dir, output_dir)
     else:

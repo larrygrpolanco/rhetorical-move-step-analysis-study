@@ -1,0 +1,145 @@
+{
+  "article_id": "input",
+  "source_file": "pilot_outputs/a1_zero_shot/gpt-5mini/text001/input.txt",
+  "parsed_at": "2025-10-18T20:22:45.551281",
+  "sentences": [],
+  "parse_stats": {
+    "total_lines": 26,
+    "parsed_sentences": 0,
+    "skipped_lines": 26,
+    "invalid_tags": 0,
+    "multi_tag_sentences": 0,
+    "warnings": [
+      {
+        "line": 1,
+        "message": "Line doesn't start with tag bracket",
+        "text": "Central components of animal cognition are their ability to adapt to new environmental conditions, s"
+      },
+      {
+        "line": 2,
+        "message": "Line doesn't start with tag bracket",
+        "text": "In honeybees, a classical model of learning and memory studies, a large body of data document how co"
+      },
+      {
+        "line": 3,
+        "message": "Line doesn't start with tag bracket",
+        "text": "Evolutionary selections for the improvements of cognitive abilities work on the individual level and"
+      },
+      {
+        "line": 4,
+        "message": "Line doesn't start with tag bracket",
+        "text": "The search for such cognitive adaptations can be performed both on a population level and on an indi"
+      },
+      {
+        "line": 5,
+        "message": "Line doesn't start with tag bracket",
+        "text": "However, little efforts have been concentrated on the study of the causes and lifestyle-related effe"
+      },
+      {
+        "line": 6,
+        "message": "Line doesn't start with tag bracket",
+        "text": "Studies across different vertebrate species although recognized the consistency of inter-individual "
+      },
+      {
+        "line": 7,
+        "message": "Line doesn't start with tag bracket",
+        "text": "Selection for behavioral traits usually involve many animals."
+      },
+      {
+        "line": 8,
+        "message": "Line doesn't start with tag bracket",
+        "text": "Studies on learning and memory in Drosophila have led to the discovery of multiple genes related to "
+      },
+      {
+        "line": 9,
+        "message": "Line doesn't start with tag bracket",
+        "text": "However, the olfactory conditioning procedures engage usually many individuals at the same time e.g."
+      },
+      {
+        "line": 10,
+        "message": "Line doesn't start with tag bracket",
+        "text": "Olfactory conditioning protocols in Drosophila used by others also failed to decipher the heterogene"
+      },
+      {
+        "line": 11,
+        "message": "Line doesn't start with tag bracket",
+        "text": "Honeybees, on the other hand, can be selected for fast learning and then selectively bred via the th"
+      },
+      {
+        "line": 12,
+        "message": "Line doesn't start with tag bracket",
+        "text": "Tait and colleagues [17] tested individual honeybees in associative acquisition, non-associative sen"
+      },
+      {
+        "line": 13,
+        "message": "Line doesn't start with tag bracket",
+        "text": "The proboscis extension response (PER) training is a particularly effective experimental procedure t"
+      },
+      {
+        "line": 14,
+        "message": "Line doesn't start with tag bracket",
+        "text": "However, learning and retention scores are expressed in all these studies by data from groups of ani"
+      },
+      {
+        "line": 15,
+        "message": "Line doesn't start with tag bracket",
+        "text": "Motivated by the study of Gallistel and coworkers [23], Pamir and coworkers [24] analyzed a large da"
+      },
+      {
+        "line": 16,
+        "message": "Line doesn't start with tag bracket",
+        "text": "Importantly, the gradual acquisition in the groups of animals that results from the recruitment of i"
+      },
+      {
+        "line": 17,
+        "message": "Line doesn't start with tag bracket",
+        "text": "Additionally, it has also been found that individual animals switched abruptly to a learned state du"
+      },
+      {
+        "line": 18,
+        "message": "Line doesn't start with tag bracket",
+        "text": "Further, another study also reported that bees switching to learners early during the acquisition ph"
+      },
+      {
+        "line": 19,
+        "message": "Line doesn't start with tag bracket",
+        "text": "These results have revealed some of the important aspects of learning behavior of individuals which "
+      },
+      {
+        "line": 20,
+        "message": "Line doesn't start with tag bracket",
+        "text": "We thus attempt to quantify this population heterogeneity by a sequential conditioning procedure tha"
+      },
+      {
+        "line": 21,
+        "message": "Line doesn't start with tag bracket",
+        "text": "Multiple studies related different behavior in honeybees to their genetic backgrounds, such as the d"
+      },
+      {
+        "line": 22,
+        "message": "Line doesn't start with tag bracket",
+        "text": "It has also been shown that the manipulations of transcript levels in the honeybee brain influence m"
+      },
+      {
+        "line": 23,
+        "message": "Line doesn't start with tag bracket",
+        "text": "Furthermore, a comparative transcriptomic study in the wasp, Polistes metricus revealed genetic asso"
+      },
+      {
+        "line": 24,
+        "message": "Line doesn't start with tag bracket",
+        "text": "In the harvester ant, Pogonomyrmex californicus, large differences in gene expression, including the"
+      },
+      {
+        "line": 25,
+        "message": "Line doesn't start with tag bracket",
+        "text": "We, therefore, selected the honeybees based on our previous work on their multiple forms of learning"
+      },
+      {
+        "line": 26,
+        "message": "Line doesn't start with tag bracket",
+        "text": "The aim of our study was to investigate the behavioral heterogeneity and whether it is associated wi"
+      }
+    ]
+  }
+}

@@ -12,9 +12,9 @@ from openai import OpenAI
 load_dotenv()
 
 
-def call_gpt_35(prompt, text):
+def call_gpt_5_mini(prompt, text):
     """
-    Call GPT-3.5-turbo with the given prompt and text.
+    Call GPT-5 mini with the given prompt and text.
 
     Args:
         prompt: The system/instruction prompt
@@ -25,18 +25,12 @@ def call_gpt_35(prompt, text):
     """
     client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
-    response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": prompt},
-            {"role": "user", "content": text},
-        ],
-        temperature=1.0,
-        max_tokens=2048,
+    response = client.responses.create(
+        model="gpt-5-mini-2025-08-07", input=prompt + "\n\n" + text
     )
 
-    response_text = response.choices[0].message.content
-    folder_name = "gpt-3.5-turbo"
+    response_text = response.output_text
+    folder_name = "gpt-5mini"
 
     return response_text, folder_name
 
