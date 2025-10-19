@@ -1,6 +1,0 @@
-[1a] Gut microbiomes are emerging as important drivers and modulators of host phenotype.
-[1c] with evidence supporting the role of microbiomes in host digestion and nutrition, immune health, development, and, more recently, behavior.
-[1c] Over the past decade, the “microbiota-gut-brain axis”, which describes bidirectional interactions between the gut microbiome and host brain and behavior, has developed as an increasingly important field of study with implications for understanding the ecology and evolution of host-microbe interactions and animal behaviors.
-[2b] However, current studies of the microbiota-gut-brain axis across animal taxa are largely correlational, and causal studies exploring the relationship between gut microbes and host behavior are rare.
-[2d] Likewise, studies indicate an association between gut microbiome and division of labor in eusocial insects.
-[3a] We took advantage of these behavioral and microbiome features to determine whether gut microbes play a causal role in honey bee division of labor, with a specific focus on behavioral maturation and variation in foraging intensity.

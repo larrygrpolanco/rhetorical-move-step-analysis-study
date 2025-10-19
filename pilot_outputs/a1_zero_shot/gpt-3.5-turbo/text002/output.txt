@@ -1,7 +1,0 @@
-[1] The capacity for short-term vocal plasticity is advantageous in contexts where ambient noise is abundant, as it can enable acoustic jamming avoidance.
-[2] Ambient noise presents a special challenge to echolocating bats, who rely on the returning echoes of their sonar pulses for navigation.
-[3] In addition, they maintain social dynamics in part through the exchange of communication calls.
-[3c] Yet, how bats overcome interference from moment-to-moment fluctuations in the amplitude of continuous background noise, a situation analogous to their natural environment, has received less attention.
-[3c] In this study, we investigated the ability of bats to adapt the timing of their vocalizations (both echolocation and communication calls) to overcome acoustic jamming, using temporally predictable and unpredictable noise, across two experiments.
-[3c] We hypothesized that bats would preferentially vocalize in periods of low amplitude in amplitude modulated noise, in line with a metabolically efficient signal optimization strategy.
-[3d] The paper is organized as follows: Section 2 outlines the methodology...

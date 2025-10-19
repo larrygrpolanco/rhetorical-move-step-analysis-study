@@ -1,6 +1,0 @@
-[1a] Central components of animal cognition are their ability to adapt to new environmental conditions, store successful changes of their behavior caused by new learning, and use the relevant memories for further behavioral control.
-[1c] In honeybees, a classical model of learning and memory studies, a large body of data document how cognitive functions are essential for their foraging success and survival of their colonies [1] [2].
-[1a] [4] Evolutionary selections for the improvements of cognitive abilities work on the individual level and are based on genetic variations that are favorable for behavioral traits related to sensory processing, learning and memory formation [3] [4].
-[2b] The search for such cognitive adaptations can be performed both on a population level and on an individual level.
-[2d] However, little efforts have been concentrated on the study of the causes and lifestyle-related effects of individual variations in cognitive abilities and styles within single species [5] except for humans [6] [7] [8].
-[2b] Studies across different vertebrate species although recognized the consistency of inter-individual variability in cognitive capacities ([9] [10] [11]), albeit tracing invertebrate cognition through the lens of individual behavioral variability is a much less explored.
