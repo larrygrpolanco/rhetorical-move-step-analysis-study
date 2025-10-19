@@ -1,6 +1,6 @@
 [
   {
-    "position": 1,
+    "sentence_num": 1,
     "sentence_id": "t043s001",
     "text": "Muscles actively change length to power everyday movement.",
     "tags": [
@@ -10,7 +10,7 @@
     "move": "1"
   },
   {
-    "position": 2,
+    "sentence_num": 2,
     "sentence_id": "t043s002",
     "text": "But despite being the motors of movement, muscles function surprisingly better as brakes than motors (1).",
     "tags": [
@@ -20,7 +20,7 @@
     "move": "1"
   },
   {
-    "position": 3,
+    "sentence_num": 3,
     "sentence_id": "t043s003",
     "text": "Accordingly, muscle forces are enhanced during and following active muscle stretch (i.e., eccentric contraction) compared with contractions at a constant length (i.e., isometric contraction) or during active muscle shortening (i.e., concentric contraction) when muscle activity is matched (2–5).",
     "tags": [
@@ -30,7 +30,7 @@
     "move": "1"
   },
   {
-    "position": 4,
+    "sentence_num": 4,
     "sentence_id": "t043s004",
     "text": "Accordingly, producing a given force eccentrically requires less muscle activity compared with an isometric or a concentric contraction.",
     "tags": [
@@ -40,7 +40,7 @@
     "move": "1"
   },
   {
-    "position": 5,
+    "sentence_num": 5,
     "sentence_id": "t043s005",
     "text": "Since active muscle volume theoretically determines energy expenditure (6), the neuromuscular efficiency of eccentric contractions is therefore increased (7, 8).",
     "tags": [
@@ -50,7 +50,7 @@
     "move": "1"
   },
   {
-    "position": 6,
+    "sentence_num": 6,
     "sentence_id": "t043s006",
     "text": "As eccentric contractions require less energy and muscle activity for equivalent force production, eccentric exercise has received considerable attention over the last decades to rehabilitate injuries, to improve athletic performance, and to help manage neuromuscular diseases (9–13).",
     "tags": [
@@ -60,7 +60,7 @@
     "move": "1"
   },
   {
-    "position": 7,
+    "sentence_num": 7,
     "sentence_id": "t043s007",
     "text": "Accordingly, many training studies aimed to determine the specific adaptations of the muscle-tendon unit (MTU) to eccentric exercise in comparison to concentric exercise.",
     "tags": [
@@ -70,7 +70,7 @@
     "move": "1"
   },
   {
-    "position": 8,
+    "sentence_num": 8,
     "sentence_id": "t043s008",
     "text": "The specific adaptations to eccentric exercise primarily include an increase in fascicle length (14).",
     "tags": [
@@ -80,7 +80,7 @@
     "move": "1"
   },
   {
-    "position": 9,
+    "sentence_num": 9,
     "sentence_id": "t043s009",
     "text": "However, the fascicle length increases following eccentric exercise are highly variable among studies.",
     "tags": [
@@ -90,7 +90,7 @@
     "move": "2"
   },
   {
-    "position": 10,
+    "sentence_num": 10,
     "sentence_id": "t043s010",
     "text": "By examining 15 in vivo human studies on training adaptations to eccentric exercise (11, 15–28), we found that fascicle length changed from −3% (i.e., decreased) to 34% (i.e., increased, see Figure S1).",
     "tags": [
@@ -100,7 +100,7 @@
     "move": "1"
   },
   {
-    "position": 11,
+    "sentence_num": 11,
     "sentence_id": "t043s011",
     "text": "Accordingly, it is important to question why the fascicle length changes to eccentric exercise are so variable.",
     "tags": [
@@ -110,7 +110,7 @@
     "move": "2"
   },
   {
-    "position": 12,
+    "sentence_num": 12,
     "sentence_id": "t043s012",
     "text": "One factor that could affect the muscle lengths and forces attained during and following eccentric contractions and the subsequent MTU adaptations following eccentric exercise is the pre-activation timing and level before MTU stretch.",
     "tags": [
@@ -120,7 +120,7 @@
     "move": "3"
   },
   {
-    "position": 13,
+    "sentence_num": 13,
     "sentence_id": "t043s013",
     "text": "Because of the typical arrangement of a distal elastic tendon in series with a muscle within a lower limb MTU, the length changes of muscle and tendon can be decoupled (29, 30).",
     "tags": [
@@ -130,7 +130,7 @@
     "move": "1"
   },
   {
-    "position": 14,
+    "sentence_num": 14,
     "sentence_id": "t043s014",
     "text": "For example, a muscle can still shorten against the elastic tendon while the MTU is stretched when there is no pre-activation.",
     "tags": [
@@ -140,7 +140,7 @@
     "move": "1"
   },
   {
-    "position": 15,
+    "sentence_num": 15,
     "sentence_id": "t043s015",
     "text": "Accordingly, apparent eccentric exercises (i.e., MTU lengthening exercises) do not necessarily result in isolated eccentric contractions, but can result in a combination of muscle contraction types.",
     "tags": [
@@ -150,7 +150,7 @@
     "move": "1"
   },
   {
-    "position": 16,
+    "sentence_num": 16,
     "sentence_id": "t043s016",
     "text": "Therefore, the highly variable fascicle length changes to apparent eccentric exercise could be due to different muscle fascicle behaviors during these exercises.",
     "tags": [
@@ -160,7 +160,7 @@
     "move": "1"
   },
   {
-    "position": 17,
+    "sentence_num": 17,
     "sentence_id": "t043s017",
     "text": "During apparent eccentric exercise, the decoupling of muscle and tendon length changes can also affect the fascicle stretch amplitudes (31, 32).",
     "tags": [
@@ -170,7 +170,7 @@
     "move": "1"
   },
   {
-    "position": 18,
+    "sentence_num": 18,
     "sentence_id": "t043s018",
     "text": "Differences in fascicle stretch amplitude during eccentric exercises might affect peak fascicle force during stretch, the residual force enhancement (rFE) following stretch (33–35), and the active and passive contributions to eccentric force production.",
     "tags": [
@@ -180,7 +180,7 @@
     "move": "1"
   },
   {
-    "position": 19,
+    "sentence_num": 19,
     "sentence_id": "t043s019",
     "text": "This is because rFE was found to be related to the peak force and/or torque during stretch (33, 36, 37).",
     "tags": [
@@ -190,7 +190,7 @@
     "move": "1"
   },
   {
-    "position": 20,
+    "sentence_num": 20,
     "sentence_id": "t043s020",
     "text": "However, it is unclear whether peak force is affected more by stretch amplitude or fascicle length (38).",
     "tags": [
@@ -200,7 +200,7 @@
     "move": "2"
   },
   {
-    "position": 21,
+    "sentence_num": 21,
     "sentence_id": "t043s021",
     "text": "It is also unclear whether the rFE following active muscle stretch is affected more by the stretch amplitude or the final muscle length.",
     "tags": [
@@ -210,7 +210,7 @@
     "move": "2"
   },
   {
-    "position": 22,
+    "sentence_num": 22,
     "sentence_id": "t043s022",
     "text": "Animal studies showed that rFE increased with increasing muscle stretch amplitude up until a point when stretching occurred at lengths where passive muscle force naturally existed (2, 39).",
     "tags": [
@@ -220,7 +220,7 @@
     "move": "1"
   },
   {
-    "position": 23,
+    "sentence_num": 23,
     "sentence_id": "t043s023",
     "text": "A more recent in vivo study on the human knee extensors however showed that rFE primarily depends on the final fascicle length rather than the fascicle stretch amplitude during submaximal MTU-stretch-hold contractions (40).",
     "tags": [
@@ -230,7 +230,7 @@
     "move": "1"
   },
   {
-    "position": 24,
+    "sentence_num": 24,
     "sentence_id": "t043s024",
     "text": "These findings are potentially relevant for the specific adaptations to eccentric exercise as rFE is thought to be related to the properties of the giant muscle protein titin.",
     "tags": [
@@ -240,7 +240,7 @@
     "move": "3"
   },
   {
-    "position": 25,
+    "sentence_num": 25,
     "sentence_id": "t043s025",
     "text": "In turn, changes in titin stiffness have been reported to drive longitudinal muscle hypertrophy (41), which could be another potential reason for the highly variable fascicle length adaptations to eccentric exercise reported in the literature.",
     "tags": [
@@ -250,7 +250,7 @@
     "move": "3"
   },
   {
-    "position": 26,
+    "sentence_num": 26,
     "sentence_id": "t043s026",
     "text": "Therefore, the aim of this research was to study the effect of MTU series elasticity on the fascicle kinematics (i.e., behavior) and kinetics (i.e., force and work) during apparent eccentric exercise.",
     "tags": [
@@ -260,7 +260,7 @@
     "move": "3"
   },
   {
-    "position": 27,
+    "sentence_num": 27,
     "sentence_id": "t043s027",
     "text": "Changes in human tibialis anterior (TA) MTU series elasticity were induced by implementing three different pre-activation timings and levels (PLs) that were torque controlled (0, 50%, and 95% of the joint-angle-specific peak active torque) prior to MTU stretch.",
     "tags": [
@@ -270,7 +270,7 @@
     "move": "3"
   },
   {
-    "position": 28,
+    "sentence_num": 28,
     "sentence_id": "t043s028",
     "text": "We hypothesized that both fascicle shortening and stretch amplitudes would increase with increasing PL because of a reduction in MTU series elasticity.",
     "tags": [
@@ -280,7 +280,7 @@
     "move": "3"
   },
   {
-    "position": 29,
+    "sentence_num": 29,
     "sentence_id": "t043s029",
     "text": "Based on these expected fascicle kinematics, we also hypothesized that both the positive and negative fascicle work produced during the contractions would increase with increasing PL.",
     "tags": [
@@ -290,7 +290,7 @@
     "move": "3"
   },
   {
-    "position": 30,
+    "sentence_num": 30,
     "sentence_id": "t043s030",
     "text": "We further hypothesized that similar peak forces during MTU stretch would occur at similar fascicle lengths following different fascicle stretch amplitudes that would be in accordance with TA’s active force-length relation (42, 43).",
     "tags": [
@@ -300,7 +300,7 @@
     "move": "3"
   },
   {
-    "position": 31,
+    "sentence_num": 31,
     "sentence_id": "t043s031",
     "text": "Our final hypothesis was that rFE would not be related to fascicle stretch amplitude, but to the peak fascicle force achieved during MTU stretch.",
     "tags": [
@@ -310,7 +310,7 @@
     "move": "3"
   },
   {
-    "position": 32,
+    "sentence_num": 32,
     "sentence_id": "t043s032",
     "text": "This is because energy storage within passive elements (e.g., titin) should be better reflected by peak fascicle force than fascicle stretch amplitude.",
     "tags": [

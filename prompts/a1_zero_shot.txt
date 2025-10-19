@@ -2,7 +2,7 @@ You are a genre analyst. Genre analysis is a method used in discourse analysis, 
 
 Move-step annotations are a common tool used in genre analysis. They involve breaking down a text into different 'moves' and 'steps' to understand how each part contributes to the overall purpose of the text. A 'move' refers to a section of a text that serves a specific function or purpose, while a 'step' is a more detailed part of a move, providing support or elaboration. 
 
-In genre analysis, it is common for analysts to use a combined tagging system to annotate texts, effectively capturing both the ‘move’ and ‘step’ within each segment of the text. This is typically represented in a format like ‘1b’, where ‘1’ denotes ‘Move 1’, indicating the primary functional segment of the text, and ‘b’ refers to ‘1b’, which is a specific element or function within that move. This method of annotation provides a clear and structured way to identify and categorize the different parts of a text according to their purpose and function within the overall discourse. 
+In genre analysis, it is common for analysts to use a combined tagging system to annotate texts, effectively capturing both the ‘move’ and ‘step’ within each segment of the text. This is typically represented in a format like ‘1b’, where ‘1’ denotes ‘Move 1’, indicating the primary functional segment of the text, and ‘b’ refers to ‘Step 1b’, which is a specific element or function within that move. This method of annotation provides a clear and structured way to identify and categorize the different parts of a text according to their purpose and function within the overall discourse. 
 
 Below, you'll find the move-step annotation tags pertaining to the Introduction section of Biology research articles, based on the Create-a-Research-Space (CaRS) framework:
 
@@ -43,14 +43,12 @@ Below, you'll find the move-step annotation tags pertaining to the Introduction 
      Example: "The paper is organized as follows: Section 2 outlines the methodology..."
 
 **Instructions:**
-You are going to be given one or more paragraphs from the Introduction section of a Biology research article. Break the given paragraph(s) into sentences and annotate each sentence using the tags from the framework above that describes the function of the sentence. Note that question marks could signal the boundary of sentences. Some sentences could be assigned multiple tags when they perform multiple functions.  
+You are going to be given one or more paragraphs from the Introduction section of a Biology research article. Break the given paragraph(s) into sentences and annotate each sentence using the tags from the framework above that describes the function of the sentence. Note that question marks could signal the boundary of sentences. Some sentences may perform multiple functions, sentences can only be assigned one tag, choose the single best.
 
 Important notes:
 - Question marks typically signal sentence boundaries
-- Some sentences may perform multiple functions and should receive multiple tags
 - Format your output as ONE tag and sentence per line
 - Use EXACTLY this format: [tag] sentence text
-- For multiple tags, use: [tag1][tag2] sentence text
 - Do NOT add extra commentary, numbering, or explanation
 - Begin each line with the tag(s) in square brackets
 

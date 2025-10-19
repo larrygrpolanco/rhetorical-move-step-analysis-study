@@ -1,6 +1,6 @@
 [
   {
-    "position": 1,
+    "sentence_num": 1,
     "sentence_id": "t009s0001",
     "text": "The daily rhythmicity of light and darkness serves most animals for the perception of time [1, 2] and has been reported to be the most important Zeitgeber, synchronizing internal and external events through entrainment of the animal’s circadian clock mechanism [2, 3].",
     "tags": [
@@ -10,7 +10,7 @@
     "move": "1"
   },
   {
-    "position": 2,
+    "sentence_num": 2,
     "sentence_id": "t009s0002",
     "text": "Circadian rhythms are manifested in many behavioral patterns, such as locomotion, sleep, foraging, and singing, as well as in physiological processes, including hormonal regulation and gene expression [3, 4].",
     "tags": [
@@ -20,7 +20,7 @@
     "move": "1"
   },
   {
-    "position": 3,
+    "sentence_num": 3,
     "sentence_id": "t009s0003",
     "text": "The behavioral responses to the phases of daylight and darkness depend on the animal’s visual system, its way of life (diurnal, nocturnal, or crepuscular), and the specific nature of the stimulus [5–8].",
     "tags": [
@@ -30,7 +30,7 @@
     "move": "1"
   },
   {
-    "position": 4,
+    "sentence_num": 4,
     "sentence_id": "t009s0004",
     "text": "The individuals' synchronization with external environmental rhythms (circadian, circalunar and circannual) is manifested in synchronization of the overall population.",
     "tags": [
@@ -40,7 +40,7 @@
     "move": "1"
   },
   {
-    "position": 5,
+    "sentence_num": 5,
     "sentence_id": "t009s0005",
     "text": "Artificial light at night (ALAN), the use of anthropogenic outdoor illumination during the night-time, has become prevalent [9, 10] and is increasing worldwide by about 3-6% annually [11].",
     "tags": [
@@ -50,7 +50,7 @@
     "move": "1"
   },
   {
-    "position": 6,
+    "sentence_num": 6,
     "sentence_id": "t009s0006",
     "text": "ALAN disrupts the natural light-dark cycle, impacting animals’ daily activity patterns and altering their temporal synchronization [1, 5, 12].",
     "tags": [
@@ -60,7 +60,7 @@
     "move": "1"
   },
   {
-    "position": 7,
+    "sentence_num": 7,
     "sentence_id": "t009s0007",
     "text": "It has been shown to have severe effects on human health [13], on wildlife, and on the environment [4, 14–17].",
     "tags": [
@@ -70,7 +70,7 @@
     "move": "1"
   },
   {
-    "position": 8,
+    "sentence_num": 8,
     "sentence_id": "t009s0008",
     "text": "In insects, nocturnal illumination has been reported to induce spatial disorientation [14, 18], resulting in higher predation risk [19, 20], increased mortality [19–22], reduced pollination [16, 23], and collectively impeding biodiversity [24].",
     "tags": [
@@ -80,7 +80,7 @@
     "move": "1"
   },
   {
-    "position": 9,
+    "sentence_num": 9,
     "sentence_id": "t009s0009",
     "text": "Laboratory experiments offer a useful tool for ALAN research, enabling controlling and isolating the light stimuli from all other variables.",
     "tags": [
@@ -90,7 +90,7 @@
     "move": "1"
   },
   {
-    "position": 10,
+    "sentence_num": 10,
     "sentence_id": "t009s0010",
     "text": "Such experiments, however, lack the complexity of the natural environment including related behavioral aspects such as social interactions.",
     "tags": [
@@ -100,7 +100,7 @@
     "move": "2"
   },
   {
-    "position": 11,
+    "sentence_num": 11,
     "sentence_id": "t009s0011",
     "text": "The natural environment incorporates, alongside light-dark cycles, a multitude of rhythmic processes, including thermoperiods, rhythmic soundscape due to the temporal changes in species’ activities, as well as rhythmic intra- and interspecific (e.g., predator-prey) interactions.",
     "tags": [
@@ -110,7 +110,7 @@
     "move": "2"
   },
   {
-    "position": 12,
+    "sentence_num": 12,
     "sentence_id": "t009s0012",
     "text": "Ideally, ecological ALAN research would be conducted in the untouched, naturally dark environment, while introducing long-term ALAN manipulations.",
     "tags": [
@@ -120,7 +120,7 @@
     "move": "2"
   },
   {
-    "position": 13,
+    "sentence_num": 13,
     "sentence_id": "t009s0013",
     "text": "Such field experiments, however, present significant technical challenges.",
     "tags": [
@@ -130,7 +130,7 @@
     "move": "2"
   },
   {
-    "position": 14,
+    "sentence_num": 14,
     "sentence_id": "t009s0014",
     "text": "Semi-natural conditions therefore offer an excellent alternative, enabling monitoring the experimental animals under almost natural conditions, while limiting the biotic and abiotic variables by isolating the experimental individuals in dedicated enclosures.",
     "tags": [
@@ -140,7 +140,7 @@
     "move": "2"
   },
   {
-    "position": 15,
+    "sentence_num": 15,
     "sentence_id": "t009s0015",
     "text": "Our experimental model, the field cricket, Gryllus bimaculatus, is a ground-dwelling species exhibiting distinct diel stridulation and locomotion cycles.",
     "tags": [
@@ -150,7 +150,7 @@
     "move": "3"
   },
   {
-    "position": 16,
+    "sentence_num": 16,
     "sentence_id": "t009s0016",
     "text": "Crickets demonstrate temporal shifts in both these activity patterns in response to changes in illumination regimes [12, 25–28].",
     "tags": [
@@ -160,7 +160,7 @@
     "move": "1"
   },
   {
-    "position": 17,
+    "sentence_num": 17,
     "sentence_id": "t009s0017",
     "text": "Additionally, temporal, circadian variations in gene expression patterns have been observed in the cricket [28, 29].",
     "tags": [
@@ -170,7 +170,7 @@
     "move": "1"
   },
   {
-    "position": 18,
+    "sentence_num": 18,
     "sentence_id": "t009s0018",
     "text": "We investigated the impact of ALAN on these nocturnal insects in a semi-natural experimental set-up.",
     "tags": [
@@ -180,7 +180,7 @@
     "move": "3"
   },
   {
-    "position": 19,
+    "sentence_num": 19,
     "sentence_id": "t009s0019",
     "text": "Individual crickets were subjected to various ALAN intensities in shaded outdoor conditions that incorporated natural temperature and soundscape rhythms.",
     "tags": [
@@ -190,7 +190,7 @@
     "move": "3"
   },
   {
-    "position": 20,
+    "sentence_num": 20,
     "sentence_id": "t009s0020",
     "text": "We monitored the individual insects’ stridulation behavior for 14 consecutive days and nights.",
     "tags": [
@@ -200,7 +200,7 @@
     "move": "3"
   },
   {
-    "position": 21,
+    "sentence_num": 21,
     "sentence_id": "t009s0021",
     "text": "To the best of our knowledge, this is a first attempt to monitor the behavior of individual insects over such an extended period within a semi-natural setting.",
     "tags": [
@@ -210,7 +210,7 @@
     "move": "3"
   },
   {
-    "position": 22,
+    "sentence_num": 22,
     "sentence_id": "t009s0022",
     "text": "Our findings have uncovered the effects of ecologically-relevant ALAN intensities on behavioral patterns of these insects, under such natural conditions.",
     "tags": [

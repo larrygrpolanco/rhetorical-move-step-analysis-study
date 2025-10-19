@@ -1,6 +1,6 @@
 [
   {
-    "position": 1,
+    "sentence_num": 1,
     "sentence_id": "t020s001",
     "text": "Climate warming has caused well-documented shifts in the distribution of species in terrestrial and aquatic ecosystems [1] including changes in the dynamics of fish populations across the globe [2, 3, 4].",
     "tags": [
@@ -10,7 +10,7 @@
     "move": "1"
   },
   {
-    "position": 2,
+    "sentence_num": 2,
     "sentence_id": "t020s002",
     "text": "In several coastal zones, phenological shifts in the occurrence of adult and larval fish have also been observed [5, 6].",
     "tags": [
@@ -20,7 +20,7 @@
     "move": "1"
   },
   {
-    "position": 3,
+    "sentence_num": 3,
     "sentence_id": "t020s003",
     "text": "In parallel, industrial fishing has altered the abundance, structure, and reproductive characteristics of marine fish populations [7, 8, 9, 10].",
     "tags": [
@@ -30,7 +30,7 @@
     "move": "1"
   },
   {
-    "position": 4,
+    "sentence_num": 4,
     "sentence_id": "t020s004",
     "text": "As opposed to large-scale effects on populations that may be readily detectable, understanding the role of external environmental processes on local or regional population dynamics is more challenging [11].",
     "tags": [
@@ -40,7 +40,7 @@
     "move": "1"
   },
   {
-    "position": 5,
+    "sentence_num": 5,
     "sentence_id": "t020s005",
     "text": "Small pelagic fish species pose an especially complex case, as their populations can exhibit both ‘volatile’ short-term dynamics in response to local or regional conditions, and long-term ‘stable’ cyclicity due to larger scale climate events [12, 13].",
     "tags": [
@@ -50,7 +50,7 @@
     "move": "1"
   },
   {
-    "position": 6,
+    "sentence_num": 6,
     "sentence_id": "t020s006",
     "text": "Furthermore, many species exhibit ontogenetic shifts in habitats, spending part of their life cycle in coastal or estuarine zones, which may constrain the ability of species to cope with warming [14].",
     "tags": [
@@ -60,7 +60,7 @@
     "move": "1"
   },
   {
-    "position": 7,
+    "sentence_num": 7,
     "sentence_id": "t020s007",
     "text": "The importance of external environmental processes can, therefore, be life stage-specific [15, 16].",
     "tags": [
@@ -70,7 +70,7 @@
     "move": "1"
   },
   {
-    "position": 8,
+    "sentence_num": 8,
     "sentence_id": "t020s008",
     "text": "The local dynamics of small pelagic fish are an essential component to better understand potential changes in areas historically important to the life cycle dynamics of species, and to examine whether the phenology in the use of important habitats may have shifted over time.",
     "tags": [
@@ -80,7 +80,7 @@
     "move": "1"
   },
   {
-    "position": 9,
+    "sentence_num": 9,
     "sentence_id": "t020s009",
     "text": "The Atlantic herring (Clupea harengus) is a common, ecologically and commercially important small pelagic fish species in areas of the North Atlantic such as the North Sea [17, 18] where the population is composed of separate autumn- and winter-spawning stocks with life stage-specific distributions [19].",
     "tags": [
@@ -90,7 +90,7 @@
     "move": "1"
   },
   {
-    "position": 10,
+    "sentence_num": 10,
     "sentence_id": "t020s010",
     "text": "In the southern North Sea, Atlantic herring is also commonly observed in the Wadden Sea, which with its shallow coastal waters serves as a spawning, nursery, and feeding ground for many North Sea fish species [20].",
     "tags": [
@@ -100,7 +100,7 @@
     "move": "1"
   },
   {
-    "position": 11,
+    "sentence_num": 11,
     "sentence_id": "t020s011",
     "text": "However, much is unknown about the habitat utilization of the Wadden Sea by Atlantic herring.",
     "tags": [
@@ -110,7 +110,7 @@
     "move": "2"
   },
   {
-    "position": 12,
+    "sentence_num": 12,
     "sentence_id": "t020s012",
     "text": "This is primarily because herring and other small pelagic fishes cannot be properly sampled in the demersal trawl surveys used to annually monitor fish populations in these near-shore waters [21].",
     "tags": [
@@ -120,7 +120,7 @@
     "move": "1"
   },
   {
-    "position": 13,
+    "sentence_num": 13,
     "sentence_id": "t020s013",
     "text": "Furthermore, the coarse temporal resolution of these large-scale surveys does not allow inferences on seasonally important factors.",
     "tags": [
@@ -130,7 +130,7 @@
     "move": "2"
   },
   {
-    "position": 14,
+    "sentence_num": 14,
     "sentence_id": "t020s014",
     "text": "Limited temporal resolution also prevents the detection of potential phenological shifts that might have occurred during the past few decades.",
     "tags": [
@@ -140,7 +140,7 @@
     "move": "2"
   },
   {
-    "position": 15,
+    "sentence_num": 15,
     "sentence_id": "t020s015",
     "text": "This limits our understanding of the external processes governing the local dynamics of herring and other fish moving between shallow coastal nursery and feeding grounds of the Wadden Sea and offshore waters of the North Sea.",
     "tags": [
@@ -150,7 +150,7 @@
     "move": "2"
   },
   {
-    "position": 16,
+    "sentence_num": 16,
     "sentence_id": "t020s016",
     "text": "Local survey efforts conducted at high temporal resolution are needed to help fill such important gaps in knowledge on potential climate-driven changes in phenology and habitat utilization.",
     "tags": [
@@ -160,7 +160,7 @@
     "move": "2"
   },
   {
-    "position": 17,
+    "sentence_num": 17,
     "sentence_id": "t020s017",
     "text": "Survey efforts with sufficiently high temporal resolution to examine climate-driven changes in phenology are rare in the marine environment, particularly those with a historical coverage allowing comparisons over multiple decades.",
     "tags": [
@@ -170,7 +170,7 @@
     "move": "2"
   },
   {
-    "position": 18,
+    "sentence_num": 18,
     "sentence_id": "t020s018",
     "text": "Although long term high temporal resolution time-series exist for lower trophic levels such as plankton [22], they are particularly rare for higher trophic levels such as fish.",
     "tags": [
@@ -180,7 +180,7 @@
     "move": "2"
   },
   {
-    "position": 19,
+    "sentence_num": 19,
     "sentence_id": "t020s019",
     "text": "However, the Royal Netherlands Institute for Sea Research (NIOZ) has consistently used a kom-fyke to collect standardized catch data of marine fishes moving between the North Sea and Western Wadden Sea through the Marsdiep tidal race since the 1960’s [23] (Fig. 1).",
     "tags": [
@@ -190,7 +190,7 @@
     "move": "1"
   },
   {
-    "position": 20,
+    "sentence_num": 20,
     "sentence_id": "t020s020",
     "text": "This survey is unique in northern Europe due to its daily temporal resolution.",
     "tags": [
@@ -200,7 +200,7 @@
     "move": "1"
   },
   {
-    "position": 21,
+    "sentence_num": 21,
     "sentence_id": "t020s021",
     "text": "Previous analyses of these data have identified phenological shifts such as changes in the day of first occurrence, peak occurrence, and last occurrence of members of the Wadden Sea fish community over the past five decades [24].",
     "tags": [
@@ -210,7 +210,7 @@
     "move": "1"
   },
   {
-    "position": 22,
+    "sentence_num": 22,
     "sentence_id": "t020s022",
     "text": "Given its daily resolution, this time series allows a finer-scale exploration of changes in the phenology of species such as Atlantic herring.",
     "tags": [
@@ -220,7 +220,7 @@
     "move": "1"
   },
   {
-    "position": 23,
+    "sentence_num": 23,
     "sentence_id": "t020s023",
     "text": "From a methodological standpoint, the preselection of specific days (first occurrence, peak occurrence, last occurrence) as a phenological yardstick for peak migration may obscure shifts in species such as herring that, due to their schooling and flexible foraging behaviour, exhibit marked daily variation in habitat use or occupancy.",
     "tags": [
@@ -230,7 +230,7 @@
     "move": "3"
   },
   {
-    "position": 24,
+    "sentence_num": 24,
     "sentence_id": "t020s024",
     "text": "Furthermore, it remains unknown if and how potential shifts in phenology differ among young juvenile and adult herring.",
     "tags": [
@@ -240,7 +240,7 @@
     "move": "2"
   },
   {
-    "position": 25,
+    "sentence_num": 25,
     "sentence_id": "t020s025",
     "text": "More detailed phenological analysis would reveal if local dynamics in coastal habitat use by North Sea herring align with the larger regional and global population responses to climate-driven warming observed in marine fish.",
     "tags": [
@@ -250,7 +250,7 @@
     "move": "2"
   },
   {
-    "position": 26,
+    "sentence_num": 26,
     "sentence_id": "t020s026",
     "text": "Here, we examined potential life-stage specific changes in the population dynamics of Atlantic herring moving between the North Sea and Wadden Sea using long-term time series of weekly standardized herring catches (1981-2021) collected by the NIOZ kom-fyke.",
     "tags": [
@@ -260,7 +260,7 @@
     "move": "3"
   },
   {
-    "position": 27,
+    "sentence_num": 27,
     "sentence_id": "t020s027",
     "text": "We used a generalized additive modelling (GAM) approach to decompose the overall trend in weekly standardized herring catches into distinct annual, seasonal, and environmental signals.",
     "tags": [
@@ -270,7 +270,7 @@
     "move": "3"
   },
   {
-    "position": 28,
+    "sentence_num": 28,
     "sentence_id": "t020s028",
     "text": "These results allowed us to identify temporal trends in herring abundance, body size, and reproductive status in the Western Dutch Wadden Sea.",
     "tags": [
@@ -280,7 +280,7 @@
     "move": "3"
   },
   {
-    "position": 29,
+    "sentence_num": 29,
     "sentence_id": "t020s029",
     "text": "We also examined potential changes in the seasonal trends in herring abundance over the past four decades, i.e. phenological shifts.",
     "tags": [
@@ -290,7 +290,7 @@
     "move": "3"
   },
   {
-    "position": 30,
+    "sentence_num": 30,
     "sentence_id": "t020s030",
     "text": "Finally, we checked the sensitivity of our outcomes with respect to changes in the sampling design of the Kom-fyke by re-running our analysis with different sampling frequencies.",
     "tags": [
@@ -300,7 +300,7 @@
     "move": "3"
   },
   {
-    "position": 31,
+    "sentence_num": 31,
     "sentence_id": "t020s031",
     "text": "Our analyses on the longest, most high-resolution time series for marine fish in Northern Europe will advance understanding of the factors determining the movement and phenological shifts of herring and potentially other temperate small pelagic fishes from offshore to nearshore waters.",
     "tags": [
@@ -310,7 +310,7 @@
     "move": "3"
   },
   {
-    "position": 32,
+    "sentence_num": 32,
     "sentence_id": "t020s032",
     "text": "Our work underscores the importance of maintaining highly temporally resolved, long-term ecological time series for examining the dynamics of climate-driven phenological shifts.",
     "tags": [

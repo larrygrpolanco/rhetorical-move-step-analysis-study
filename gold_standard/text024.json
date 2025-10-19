@@ -1,6 +1,6 @@
 [
   {
-    "position": 1,
+    "sentence_num": 1,
     "sentence_id": "t024s001",
     "text": "The activity of G protein coupled receptors (GPCRs) are often affected by the structures and chemistry of the lipid molecules that surround them in the membrane[1].",
     "tags": [
@@ -10,7 +10,7 @@
     "move": "1"
   },
   {
-    "position": 2,
+    "sentence_num": 2,
     "sentence_id": "t024s002",
     "text": "Both the types of lipids and relative composition of lipids in the bilayer influence the conformational ensemble of the receptor.",
     "tags": [
@@ -20,7 +20,7 @@
     "move": "1"
   },
   {
-    "position": 3,
+    "sentence_num": 3,
     "sentence_id": "t024s003",
     "text": "Many studies have shown that different lipids play an important role in GPCR function[2–9].",
     "tags": [
@@ -30,7 +30,7 @@
     "move": "1"
   },
   {
-    "position": 4,
+    "sentence_num": 4,
     "sentence_id": "t024s004",
     "text": "NMR studies of β2-adrenergic receptor (β2AR) in detergent micelles compared to reconstituted high density lipoprotein environment showed that the basal activity and exchange rates between inactive and active conformations is higher in detergents and in phospholipid bilayer containing HDL particles compared to cell membranes [2,10,11].",
     "tags": [
@@ -40,7 +40,7 @@
     "move": "1"
   },
   {
-    "position": 5,
+    "sentence_num": 5,
     "sentence_id": "t024s005",
     "text": "Although it is known that cellular lipids have a definitive effect on receptor activity, the mechanism(s) by which lipid chemistry affects the receptor activity remain nebulous.",
     "tags": [
@@ -50,7 +50,7 @@
     "move": "2"
   },
   {
-    "position": 6,
+    "sentence_num": 6,
     "sentence_id": "t024s006",
     "text": "The three intracellular loops and the carboxy terminus of GPCRs play a critical role in coupling to G proteins and β-arrestins.",
     "tags": [
@@ -60,7 +60,7 @@
     "move": "1"
   },
   {
-    "position": 7,
+    "sentence_num": 7,
     "sentence_id": "t024s007",
     "text": "The extracellular loops are also involved in not only regulating the ligand binding but also in G protein coupling[12,13].",
     "tags": [
@@ -70,7 +70,7 @@
     "move": "1"
   },
   {
-    "position": 8,
+    "sentence_num": 8,
     "sentence_id": "t024s008",
     "text": "However, receptor loop regions and N- and C-termini are largely unstructured and often not resolved in the three-dimensional structures making it particularly difficult to study their role in GPCR function using structural techniques.",
     "tags": [
@@ -80,7 +80,7 @@
     "move": "2"
   },
   {
-    "position": 9,
+    "sentence_num": 9,
     "sentence_id": "t024s009",
     "text": "Recent studies using biophysical techniques have shown that the intrinsically disordered intracellular loop 3 (ICL3) and the carboxy terminus of GPCRs regulate the receptor coupling selectivity to G proteins[14,15].",
     "tags": [
@@ -90,7 +90,7 @@
     "move": "1"
   },
   {
-    "position": 10,
+    "sentence_num": 10,
     "sentence_id": "t024s010",
     "text": "In our previous study[14] on β2AR, we found that ICL3 spans a broad ensemble of conformational states, ranging from “closed” states that block the binding site of the G protein to “open” states that allow for the G protein to bind [14].",
     "tags": [
@@ -100,7 +100,7 @@
     "move": "1"
   },
   {
-    "position": 11,
+    "sentence_num": 11,
     "sentence_id": "t024s011",
     "text": "Thus, ICL3 regulates the access to the G protein coupling site in the receptor.",
     "tags": [
@@ -110,7 +110,7 @@
     "move": "1"
   },
   {
-    "position": 12,
+    "sentence_num": 12,
     "sentence_id": "t024s012",
     "text": "Through this mechanism, ICL3 acts as a secondary regulator of β2AR activation as well as plays an important role in the G protein coupling strength and selectivity.",
     "tags": [
@@ -120,7 +120,7 @@
     "move": "1"
   },
   {
-    "position": 13,
+    "sentence_num": 13,
     "sentence_id": "t024s013",
     "text": "Although it is evident from this study that ICL3 regulates the activity and signaling specificity of β2AR, the role of the membrane lipids in stabilizing the conformation of ICL3 is not known.",
     "tags": [
@@ -130,7 +130,7 @@
     "move": "2"
   },
   {
-    "position": 14,
+    "sentence_num": 14,
     "sentence_id": "t024s014",
     "text": "In this study we have used extensive molecular dynamics simulations (22 μs) in multi-lipid bilayer model that mimics the plasma membrane to analyze the effects of different types of lipids on the conformational ensemble of ICL3 and thereby their effects on β2AR activation.",
     "tags": [

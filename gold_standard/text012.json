@@ -1,6 +1,6 @@
 [
   {
-    "position": 1,
+    "sentence_num": 1,
     "sentence_id": "t012s001",
     "text": "The majority of devastating plant pathogens, including viruses and bacteria, are transmitted by insect vectors [1].",
     "tags": [
@@ -10,7 +10,7 @@
     "move": "1"
   },
   {
-    "position": 2,
+    "sentence_num": 2,
     "sentence_id": "t012s002",
     "text": "In recent decades, the interactions between vectors and pathogens have been widely studied [1–4].",
     "tags": [
@@ -20,7 +20,7 @@
     "move": "1"
   },
   {
-    "position": 3,
+    "sentence_num": 3,
     "sentence_id": "t012s003",
     "text": "However, studies on the mechanisms underlying these interactions have mainly focused on vector-virus or vector-fungus interactions; less research has been performed on vector-bacteria interactions.",
     "tags": [
@@ -30,7 +30,7 @@
     "move": "2"
   },
   {
-    "position": 4,
+    "sentence_num": 4,
     "sentence_id": "t012s004",
     "text": "Knowledge of the relationships between vectors and pathogens is of great significance for understanding the epidemiology of plant pathogens, and this knowledge may help develop new strategies for controlling both vectors and pathogens.",
     "tags": [
@@ -40,7 +40,7 @@
     "move": "1"
   },
   {
-    "position": 5,
+    "sentence_num": 5,
     "sentence_id": "t012s005",
     "text": "The severe Asian form of huanglongbing (HLB) is currently the most destructive citrus disease in Asia and the Americas where it is associated with the phloem-restricted, Gram-negative, α–Proteobacteria ‘Candidatus Liberibacter asiaticus’ (CLas) and transmitted by the Asian citrus psyllid, Diaphorina citri Kuwayama (Hemiptera: Psyllidae) [5–9].",
     "tags": [
@@ -50,7 +50,7 @@
     "move": "1"
   },
   {
-    "position": 6,
+    "sentence_num": 6,
     "sentence_id": "t012s006",
     "text": "However, since CLas has not been cultured in vitro, Koch’s postulates have not been proven.",
     "tags": [
@@ -60,7 +60,7 @@
     "move": "2"
   },
   {
-    "position": 7,
+    "sentence_num": 7,
     "sentence_id": "t012s007",
     "text": "Control of D. citri is the most effective way to prevent HLB epidemics [6,7] but experience in Asia [10] and the United States of America [11,12], and recent press reports from Brazil, indicate that it is impossible to suppress psyllid populations with insecticides to levels that prevent spread of CLas.",
     "tags": [
@@ -70,7 +70,7 @@
     "move": "1"
   },
   {
-    "position": 8,
+    "sentence_num": 8,
     "sentence_id": "t012s008",
     "text": "Previous studies have reported that infection with CLas significantly increases the fecundity of D. citri [13–15].",
     "tags": [
@@ -80,7 +80,7 @@
     "move": "1"
   },
   {
-    "position": 9,
+    "sentence_num": 9,
     "sentence_id": "t012s009",
     "text": "Reproduction is a costly process in terms of energy usage in the adult life of female insects [16], and there is an inevitable trade-off between lipid storage and use, because animals mobilize their lipid reserves during reproduction.",
     "tags": [
@@ -90,7 +90,7 @@
     "move": "1"
   },
   {
-    "position": 10,
+    "sentence_num": 10,
     "sentence_id": "t012s010",
     "text": "How D. citri maintains a balance between lipid metabolism and increased fecundity after infection with CLas is not known.",
     "tags": [
@@ -100,7 +100,7 @@
     "move": "2"
   },
   {
-    "position": 11,
+    "sentence_num": 11,
     "sentence_id": "t012s011",
     "text": "In insects, energy mobilization is under control of adipokinetic hormone (AKH), which was the first insect neurohormone to be identified; it was shown to stimulate lipid mobilization for locomotor activity in locusts [17].",
     "tags": [
@@ -110,7 +110,7 @@
     "move": "1"
   },
   {
-    "position": 12,
+    "sentence_num": 12,
     "sentence_id": "t012s012",
     "text": "To date, more than 80 different forms of AKH have been identified or predicted in arthropod species due to similar structural characteristics of the enzyme [18].",
     "tags": [
@@ -120,7 +120,7 @@
     "move": "1"
   },
   {
-    "position": 13,
+    "sentence_num": 13,
     "sentence_id": "t012s013",
     "text": "The mechanisms of synthesis and biological activity of AKH have also been investigated.",
     "tags": [
@@ -130,7 +130,7 @@
     "move": "1"
   },
   {
-    "position": 14,
+    "sentence_num": 14,
     "sentence_id": "t012s014",
     "text": "Insect store lipids in the form of triacylglycerides (TAG) and as carbohydrates in the form of glycogen in their fat bodies [19].",
     "tags": [
@@ -140,7 +140,7 @@
     "move": "1"
   },
   {
-    "position": 15,
+    "sentence_num": 15,
     "sentence_id": "t012s015",
     "text": "Under conditions of energy demand, AKHs are synthesized in the corpora cardiaca, released into the hemolymph and bind to receptors (AKHRs) located on the plasma membrane of fat body cells.",
     "tags": [
@@ -150,7 +150,7 @@
     "move": "1"
   },
   {
-    "position": 16,
+    "sentence_num": 16,
     "sentence_id": "t012s016",
     "text": "AKHR binding and activation triggers the release of energy-rich substrates after which various cellular signaling pathway components come into play [20].",
     "tags": [
@@ -160,7 +160,7 @@
     "move": "1"
   },
   {
-    "position": 17,
+    "sentence_num": 17,
     "sentence_id": "t012s017",
     "text": "AKHRs are a class of G protein-coupled receptors and were first identified in Drosophila melanogaster [21] and Bombyx mori [22]; subsequently, they were identified in a large number of insect species [23–26].",
     "tags": [
@@ -170,7 +170,7 @@
     "move": "1"
   },
   {
-    "position": 18,
+    "sentence_num": 18,
     "sentence_id": "t012s018",
     "text": "Recent studies have shown that AKH/AKHR signaling plays a regulatory role during female reproduction in insects.",
     "tags": [
@@ -180,7 +180,7 @@
     "move": "1"
   },
   {
-    "position": 19,
+    "sentence_num": 19,
     "sentence_id": "t012s019",
     "text": "For example, depletion of AKHR in Bactrocera dorsalis resulted in TAG accumulation, decreased sexual courtship activity, and fecundity [27].",
     "tags": [
@@ -190,7 +190,7 @@
     "move": "1"
   },
   {
-    "position": 20,
+    "sentence_num": 20,
     "sentence_id": "t012s020",
     "text": "AKHR knockdown in Nilaparvata lugens interferes with trehalose homeostasis and vitellogenin uptake by oocytes, which causes delayed oocyte development and reduced fecundity [28].",
     "tags": [
@@ -200,7 +200,7 @@
     "move": "1"
   },
   {
-    "position": 21,
+    "sentence_num": 21,
     "sentence_id": "t012s021",
     "text": "AKH/AKHR signaling also regulates vitellogenesis and egg development in Locusta migratoria via triacylglycerol mobilization and trehalose homeostasis [29].",
     "tags": [
@@ -210,7 +210,7 @@
     "move": "1"
   },
   {
-    "position": 22,
+    "sentence_num": 22,
     "sentence_id": "t012s022",
     "text": "As outlined above, the fecundity of D. citri is increased by CLas.",
     "tags": [
@@ -220,7 +220,7 @@
     "move": "1"
   },
   {
-    "position": 23,
+    "sentence_num": 23,
     "sentence_id": "t012s023",
     "text": "Whether AKH/AKHR signaling participates in this increase in fecundity due to infection via alterations in lipid metabolism is not currently known.",
     "tags": [
@@ -230,7 +230,7 @@
     "move": "2"
   },
   {
-    "position": 24,
+    "sentence_num": 24,
     "sentence_id": "t012s024",
     "text": "Although numerous studies have been conducted on the AKH/AKHR signaling pathway, miRNA-mediated regulation of the AKH signaling pathway at the post-transcriptional level has been little studied.",
     "tags": [
@@ -240,7 +240,7 @@
     "move": "2"
   },
   {
-    "position": 25,
+    "sentence_num": 25,
     "sentence_id": "t012s025",
     "text": "MicroRNAs (miRNAs) are small, non-coding RNAs containing approximately 22 nucleotides that act mostly on the 3’ untranslated region (UTR) of target mRNAs, resulting in translation repression or mRNA degradation [30].",
     "tags": [
@@ -250,7 +250,7 @@
     "move": "1"
   },
   {
-    "position": 26,
+    "sentence_num": 26,
     "sentence_id": "t012s026",
     "text": "miRNAs play important roles in regulating cellular events at the post-transcriptional level during biological processes [30,31,33].",
     "tags": [
@@ -260,7 +260,7 @@
     "move": "1"
   },
   {
-    "position": 27,
+    "sentence_num": 27,
     "sentence_id": "t012s027",
     "text": "For example, in term of host-virus interactions, miR-8 and miR-429 target Broad isoform Z2, the gene involved in the hormonal regulation of single nucleopolyhedrovirus (HaSNPV)-mediated climbing behavior in Helicoverpa armigera [33].",
     "tags": [
@@ -270,7 +270,7 @@
     "move": "1"
   },
   {
-    "position": 28,
+    "sentence_num": 28,
     "sentence_id": "t012s028",
     "text": "In relation to reproduction, in Aedes aegypti, miR-275 is essential for egg development [34], miR-309 for ovarian development [35] and miR-8 for other reproductive processes [36].",
     "tags": [
@@ -280,7 +280,7 @@
     "move": "1"
   },
   {
-    "position": 29,
+    "sentence_num": 29,
     "sentence_id": "t012s029",
     "text": "As for lipid metabolism, knockdown of miR-277 in A. aegypti activates insulin/FOXO signaling by increasing the expression of ilp7 and ilp8, which reduces TAG levels and inhibits ovarian development [37].",
     "tags": [
@@ -290,7 +290,7 @@
     "move": "1"
   },
   {
-    "position": 30,
+    "sentence_num": 30,
     "sentence_id": "t012s030",
     "text": "Nevertheless, the functions of the miRNAs in insect-pathogen interactions need further investigation.",
     "tags": [
@@ -300,7 +300,7 @@
     "move": "2"
   },
   {
-    "position": 31,
+    "sentence_num": 31,
     "sentence_id": "t012s031",
     "text": "To date, there are no reports that miRNAs participate in D. citri-CLas interactions or are hijacked by CLas to affect lipid metabolism and the fecundity of D. citri.",
     "tags": [
@@ -310,7 +310,7 @@
     "move": "2"
   },
   {
-    "position": 32,
+    "sentence_num": 32,
     "sentence_id": "t012s032",
     "text": "As a consequence, in this study, we used the D. citri-CLas system as a model to study the molecular events associated with AKH/AKHR signaling that affect lipid metabolism and increase fecundity of D. citri induced by CLas.",
     "tags": [
@@ -320,7 +320,7 @@
     "move": "3"
   },
   {
-    "position": 33,
+    "sentence_num": 33,
     "sentence_id": "t012s033",
     "text": "Our study contributes to our understanding of the interactions between vectors and pathogens and may also provide new ways for controlling D. citri and HLB.",
     "tags": [
