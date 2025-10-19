@@ -13,7 +13,7 @@ from parse_llm_output import parse_llm_output
 # ============================================================================
 
 CONDITION = "a1_zero_shot"  # Which condition to parse
-MODEL = "gpt-5mini"  # Which model's outputs to parse
+MODEL = "claude-sonnet-4-5"  # Which model's outputs to parse
 
 # ============================================================================
 

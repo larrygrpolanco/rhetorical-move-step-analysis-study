@@ -1,0 +1,313 @@
+{
+  "article_id": "text008",
+  "condition": "a1_zero_shot",
+  "model": "claude-sonnet-4-5",
+  "source_file": "pilot_outputs/a1_zero_shot/claude-sonnet-4-5/output/text008.txt",
+  "sentences": [
+    {
+      "sentence_num": 1,
+      "text": "Gut microbiomes are emerging as important drivers and modulators of host phenotype [1], with evidence supporting the role of microbiomes in host digestion and nutrition, immune health, development, and, more recently, behavior [2\u20137].",
+      "tags": [
+        "1a"
+      ],
+      "primary_tag": "1a",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1a] Gut microbiomes are emerging as important drivers and modulators of host phenotype [1], with evidence supporting the role of microbiomes in host digestion and nutrition, immune health, development, and, more recently, behavior [2\u20137]."
+    },
+    {
+      "sentence_num": 2,
+      "text": "Over the past decade, the \"microbiota-gut-brain axis\" [7], which describes bidirectional interactions between the gut microbiome and host brain and behavior, has developed as an increasingly important field of study with implications for understanding the ecology and evolution of host-microbe interactions and animal behaviors.",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] Over the past decade, the \"microbiota-gut-brain axis\" [7], which describes bidirectional interactions between the gut microbiome and host brain and behavior, has developed as an increasingly important field of study with implications for understanding the ecology and evolution of host-microbe interactions and animal behaviors."
+    },
+    {
+      "sentence_num": 3,
+      "text": "However, current studies of the microbiota-gut-brain axis across animal taxa are largely correlational, and causal studies exploring the relationship between gut microbes and host behavior are rare [7].",
+      "tags": [
+        "2b"
+      ],
+      "primary_tag": "2b",
+      "move": "2",
+      "parse_confidence": "high",
+      "original_line": "[2b] However, current studies of the microbiota-gut-brain axis across animal taxa are largely correlational, and causal studies exploring the relationship between gut microbes and host behavior are rare [7]."
+    },
+    {
+      "sentence_num": 4,
+      "text": "The functional relationship between hosts and microbiomes varies across host traits.",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] The functional relationship between hosts and microbiomes varies across host traits."
+    },
+    {
+      "sentence_num": 5,
+      "text": "In many cases, this relationship is obligatory, where the microbiome is necessary for normal functioning of the host [7\u201310].",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] In many cases, this relationship is obligatory, where the microbiome is necessary for normal functioning of the host [7\u201310]."
+    },
+    {
+      "sentence_num": 6,
+      "text": "Recently, it has been proposed that gut microbiomes play a facultative role in host phenotype, such that gut microbiomes contribute to phenotypic variation between individuals [11, 12].",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Recently, it has been proposed that gut microbiomes play a facultative role in host phenotype, such that gut microbiomes contribute to phenotypic variation between individuals [11, 12]."
+    },
+    {
+      "sentence_num": 7,
+      "text": "Results in support of a facultative relationship come from studies across taxonomic groups.",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Results in support of a facultative relationship come from studies across taxonomic groups."
+    },
+    {
+      "sentence_num": 8,
+      "text": "These include variations in non-behavioral and behavioral phenotypes [11, 12], such as behaviors associated with aging and senescence [13\u201318] and severity of neurodevelopmental disorders [19\u201321], as well as adaptive variations in behavioral traits both within [22, 23] and between species [24].",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] These include variations in non-behavioral and behavioral phenotypes [11, 12], such as behaviors associated with aging and senescence [13\u201318] and severity of neurodevelopmental disorders [19\u201321], as well as adaptive variations in behavioral traits both within [22, 23] and between species [24]."
+    },
+    {
+      "sentence_num": 9,
+      "text": "Eusocial insects represent a powerful model for understanding how gut microbes contribute to adaptive behavioral trait variation due to their relatively simple and stable gut microbiomes and their complex division of labor [25\u201327].",
+      "tags": [
+        "1a"
+      ],
+      "primary_tag": "1a",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1a] Eusocial insects represent a powerful model for understanding how gut microbes contribute to adaptive behavioral trait variation due to their relatively simple and stable gut microbiomes and their complex division of labor [25\u201327]."
+    },
+    {
+      "sentence_num": 10,
+      "text": "This division of labor is characterized by polyphenism between reproductive and non-reproductive individuals, as well as colony-level behavioral trait variation between non-reproductive individuals performing different tasks [25, 28].",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] This division of labor is characterized by polyphenism between reproductive and non-reproductive individuals, as well as colony-level behavioral trait variation between non-reproductive individuals performing different tasks [25, 28]."
+    },
+    {
+      "sentence_num": 11,
+      "text": "In eusocial insects, gut microbes have been shown to contribute to natural variation in memory [22] and social interactions [29].",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] In eusocial insects, gut microbes have been shown to contribute to natural variation in memory [22] and social interactions [29]."
+    },
+    {
+      "sentence_num": 12,
+      "text": "Likewise, studies indicate an association between gut microbiome and division of labor in eusocial insects [25, 30\u2013 33].",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Likewise, studies indicate an association between gut microbiome and division of labor in eusocial insects [25, 30\u2013 33]."
+    },
+    {
+      "sentence_num": 13,
+      "text": "However, whether gut microbes play a causal role in any aspect of eusocial insect division of labor remains unknown.",
+      "tags": [
+        "2b"
+      ],
+      "primary_tag": "2b",
+      "move": "2",
+      "parse_confidence": "high",
+      "original_line": "[2b] However, whether gut microbes play a causal role in any aspect of eusocial insect division of labor remains unknown."
+    },
+    {
+      "sentence_num": 14,
+      "text": "We use the European honey bee, Apis mellifera, to investigate the causal relationship between the gut microbiome and division of labor.",
+      "tags": [
+        "3a"
+      ],
+      "primary_tag": "3a",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3a] We use the European honey bee, Apis mellifera, to investigate the causal relationship between the gut microbiome and division of labor."
+    },
+    {
+      "sentence_num": 15,
+      "text": "Honey bees are a highly eusocial insect with well-characterized and tractable social behaviors and gut microbiomes.",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] Honey bees are a highly eusocial insect with well-characterized and tractable social behaviors and gut microbiomes."
+    },
+    {
+      "sentence_num": 16,
+      "text": "In typical honey bee colonies, sterile worker bees exhibit age-related division of labor, which is based on a pattern of individual behavioral maturation.",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] In typical honey bee colonies, sterile worker bees exhibit age-related division of labor, which is based on a pattern of individual behavioral maturation."
+    },
+    {
+      "sentence_num": 17,
+      "text": "Typically, adult worker bees perform brood care (\"nursing\") and other activities in the hive during the first 1-3 weeks of adult life and then transition to foraging behaviors outside of the hive for the final 1-2 weeks of their life [28, 34].",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] Typically, adult worker bees perform brood care (\"nursing\") and other activities in the hive during the first 1-3 weeks of adult life and then transition to foraging behaviors outside of the hive for the final 1-2 weeks of their life [28, 34]."
+    },
+    {
+      "sentence_num": 18,
+      "text": "However, honey bee division of labor is flexible and responsive to changing colony needs, and thus does not exclusively rely on the typical age patterns of behavioral maturation [35\u201339].",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] However, honey bee division of labor is flexible and responsive to changing colony needs, and thus does not exclusively rely on the typical age patterns of behavioral maturation [35\u201339]."
+    },
+    {
+      "sentence_num": 19,
+      "text": "In addition, honey bee foragers exhibit considerable individual variation in preference for nectar or pollen [40, 41], exploratory behavior [42], and general foraging intensity [43].",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] In addition, honey bee foragers exhibit considerable individual variation in preference for nectar or pollen [40, 41], exploratory behavior [42], and general foraging intensity [43]."
+    },
+    {
+      "sentence_num": 20,
+      "text": "Therefore, honey bee division of labor involves individual variation in both behavioral maturation and task performance [44].",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] Therefore, honey bee division of labor involves individual variation in both behavioral maturation and task performance [44]."
+    },
+    {
+      "sentence_num": 21,
+      "text": "The honey bee gut microbial community, most of which resides in the hindgut, is well-characterized and relatively simple, composed of \u223c10-20 different species of facultatively anaerobic and microaerophilic host-adapted bacteria within the taxonomic groups of Actinomycetes (Bifidobacterium), Lactobacillaceae (Bombilactobacillus Firm-4 and Lactobacillus Firm-5), Gammaproteobacteria (Gilliamella and Friscella), Alphaproteobacteria (Bartonella and Bombella), and Betaproteobacteria (Snodgrassella) [27].",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] The honey bee gut microbial community, most of which resides in the hindgut, is well-characterized and relatively simple, composed of \u223c10-20 different species of facultatively anaerobic and microaerophilic host-adapted bacteria within the taxonomic groups of Actinomycetes (Bifidobacterium), Lactobacillaceae (Bombilactobacillus Firm-4 and Lactobacillus Firm-5), Gammaproteobacteria (Gilliamella and Friscella), Alphaproteobacteria (Bartonella and Bombella), and Betaproteobacteria (Snodgrassella) [27]."
+    },
+    {
+      "sentence_num": 22,
+      "text": "Furthermore, the individual members of the honey bee gut microbiome are consistently present, but differ in abundance across different individuals and populations of honey bees [27].",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] Furthermore, the individual members of the honey bee gut microbiome are consistently present, but differ in abundance across different individuals and populations of honey bees [27]."
+    },
+    {
+      "sentence_num": 23,
+      "text": "Of particular interest, the composition of honey bee gut microbial communities can be experimentally manipulated.",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] Of particular interest, the composition of honey bee gut microbial communities can be experimentally manipulated."
+    },
+    {
+      "sentence_num": 24,
+      "text": "All species can be cultured [45] and used to inoculate young bees [29, 46, 47], who must acquire their microbiome from older bees or hive materials [48].",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] All species can be cultured [45] and used to inoculate young bees [29, 46, 47], who must acquire their microbiome from older bees or hive materials [48]."
+    },
+    {
+      "sentence_num": 25,
+      "text": "Furthermore, previous studies indicate an association between the gut microbiome and various aspects of division of labor in the honey bee [30\u201332, 49, 50].",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Furthermore, previous studies indicate an association between the gut microbiome and various aspects of division of labor in the honey bee [30\u201332, 49, 50]."
+    },
+    {
+      "sentence_num": 26,
+      "text": "Due to these attributes of the honey bee gut microbiome, it is a great model for understanding the causal effects of gut microbes on complex host behaviors.",
+      "tags": [
+        "1a"
+      ],
+      "primary_tag": "1a",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1a] Due to these attributes of the honey bee gut microbiome, it is a great model for understanding the causal effects of gut microbes on complex host behaviors."
+    },
+    {
+      "sentence_num": 27,
+      "text": "We took advantage of these behavioral and microbiome features to determine whether gut microbes play a causal role in honey bee division of labor, with a specific focus on behavioral maturation and variation in foraging intensity.",
+      "tags": [
+        "3a"
+      ],
+      "primary_tag": "3a",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3a] We took advantage of these behavioral and microbiome features to determine whether gut microbes play a causal role in honey bee division of labor, with a specific focus on behavioral maturation and variation in foraging intensity."
+    }
+  ],
+  "parse_stats": {
+    "total_lines": 53,
+    "parsed_sentences": 27,
+    "skipped_lines": 26,
+    "invalid_tags": 0,
+    "multi_tag_sentences": 0,
+    "warnings": []
+  }
+}

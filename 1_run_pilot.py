@@ -11,7 +11,7 @@ from pathlib import Path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from xml_extractor import extract_from_xml, format_article_for_llm
-from llm_handler import call_gpt_4, call_claude_sonnet, call_gpt_5_mini
+from llm_handler import call_gpt_5, call_claude_sonnet45, call_gpt_5_mini
 
 
 # ============================================================================
@@ -19,7 +19,7 @@ from llm_handler import call_gpt_4, call_claude_sonnet, call_gpt_5_mini
 # ============================================================================
 
 CONDITION = "a1_zero_shot"  # Which condition (matches prompt filename)
-LLM_FUNCTION = call_gpt_5_mini  # Which LLM function to use
+LLM_FUNCTION = call_claude_sonnet45  # Which LLM function to use
 ARTICLES = range(1, 11)  # Which articles to process (1-10 for pilot)
 
 # ============================================================================

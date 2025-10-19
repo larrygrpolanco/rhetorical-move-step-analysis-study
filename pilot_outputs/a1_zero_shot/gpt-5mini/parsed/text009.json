@@ -1,0 +1,258 @@
+{
+  "article_id": "text009",
+  "condition": "a1_zero_shot",
+  "model": "gpt-5mini",
+  "source_file": "pilot_outputs/a1_zero_shot/gpt-5mini/output/text009.txt",
+  "sentences": [
+    {
+      "sentence_num": 1,
+      "text": "The daily rhythmicity of light and darkness serves most animals for the perception of time [1, 2] and has been reported to be the most important Zeitgeber, synchronizing internal and external events through entrainment of the animal\u2019s circadian clock mechanism [2, 3].",
+      "tags": [
+        "1a"
+      ],
+      "primary_tag": "1a",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1a] The daily rhythmicity of light and darkness serves most animals for the perception of time [1, 2] and has been reported to be the most important Zeitgeber, synchronizing internal and external events through entrainment of the animal\u2019s circadian clock mechanism [2, 3]."
+    },
+    {
+      "sentence_num": 2,
+      "text": "Circadian rhythms are manifested in many behavioral patterns, such as locomotion, sleep, foraging, and singing, as well as in physiological processes, including hormonal regulation and gene expression [3, 4].",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] Circadian rhythms are manifested in many behavioral patterns, such as locomotion, sleep, foraging, and singing, as well as in physiological processes, including hormonal regulation and gene expression [3, 4]."
+    },
+    {
+      "sentence_num": 3,
+      "text": "The behavioral responses to the phases of daylight and darkness depend on the animal\u2019s visual system, its way of life (diurnal, nocturnal, or crepuscular), and the specific nature of the stimulus [5\u20138].",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] The behavioral responses to the phases of daylight and darkness depend on the animal\u2019s visual system, its way of life (diurnal, nocturnal, or crepuscular), and the specific nature of the stimulus [5\u20138]."
+    },
+    {
+      "sentence_num": 4,
+      "text": "The individuals' synchronization with external environmental rhythms (circadian, circalunar and circannual) is manifested in synchronization of the overall population.",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] The individuals' synchronization with external environmental rhythms (circadian, circalunar and circannual) is manifested in synchronization of the overall population."
+    },
+    {
+      "sentence_num": 5,
+      "text": "Artificial light at night (ALAN), the use of anthropogenic outdoor illumination during the night-time, has become prevalent [9, 10] and is increasing worldwide by about 3-6% annually [11].",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Artificial light at night (ALAN), the use of anthropogenic outdoor illumination during the night-time, has become prevalent [9, 10] and is increasing worldwide by about 3-6% annually [11]."
+    },
+    {
+      "sentence_num": 6,
+      "text": "ALAN disrupts the natural light-dark cycle, impacting animals\u2019 daily activity patterns and altering their temporal synchronization [1, 5, 12].",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] ALAN disrupts the natural light-dark cycle, impacting animals\u2019 daily activity patterns and altering their temporal synchronization [1, 5, 12]."
+    },
+    {
+      "sentence_num": 7,
+      "text": "It has been shown to have severe effects on human health [13], on wildlife, and on the environment [4, 14\u201317].",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] It has been shown to have severe effects on human health [13], on wildlife, and on the environment [4, 14\u201317]."
+    },
+    {
+      "sentence_num": 8,
+      "text": "In insects, nocturnal illumination has been reported to induce spatial disorientation [14, 18], resulting in higher predation risk [19, 20], increased mortality [19\u201322], reduced pollination [16, 23], and collectively impeding biodiversity [24].",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] In insects, nocturnal illumination has been reported to induce spatial disorientation [14, 18], resulting in higher predation risk [19, 20], increased mortality [19\u201322], reduced pollination [16, 23], and collectively impeding biodiversity [24]."
+    },
+    {
+      "sentence_num": 9,
+      "text": "Laboratory experiments offer a useful tool for ALAN research, enabling controlling and isolating the light stimuli from all other variables.",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] Laboratory experiments offer a useful tool for ALAN research, enabling controlling and isolating the light stimuli from all other variables."
+    },
+    {
+      "sentence_num": 10,
+      "text": "Such experiments, however, lack the complexity of the natural environment including related behavioral aspects such as social interactions.",
+      "tags": [
+        "2b"
+      ],
+      "primary_tag": "2b",
+      "move": "2",
+      "parse_confidence": "high",
+      "original_line": "[2b] Such experiments, however, lack the complexity of the natural environment including related behavioral aspects such as social interactions."
+    },
+    {
+      "sentence_num": 11,
+      "text": "The natural environment incorporates, alongside light-dark cycles, a multitude of rhythmic processes, including thermoperiods, rhythmic soundscape due to the temporal changes in species\u2019 activities, as well as rhythmic intra- and interspecific (e.g., predator-prey) interactions.",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] The natural environment incorporates, alongside light-dark cycles, a multitude of rhythmic processes, including thermoperiods, rhythmic soundscape due to the temporal changes in species\u2019 activities, as well as rhythmic intra- and interspecific (e.g., predator-prey) interactions."
+    },
+    {
+      "sentence_num": 12,
+      "text": "Ideally, ecological ALAN research would be conducted in the untouched, naturally dark environment, while introducing long-term ALAN manipulations.",
+      "tags": [
+        "2b"
+      ],
+      "primary_tag": "2b",
+      "move": "2",
+      "parse_confidence": "high",
+      "original_line": "[2b] Ideally, ecological ALAN research would be conducted in the untouched, naturally dark environment, while introducing long-term ALAN manipulations."
+    },
+    {
+      "sentence_num": 13,
+      "text": "Such field experiments, however, present significant technical challenges.",
+      "tags": [
+        "2b"
+      ],
+      "primary_tag": "2b",
+      "move": "2",
+      "parse_confidence": "high",
+      "original_line": "[2b] Such field experiments, however, present significant technical challenges."
+    },
+    {
+      "sentence_num": 14,
+      "text": "Semi-natural conditions therefore offer an excellent alternative, enabling monitoring the experimental animals under almost natural conditions, while limiting the biotic and abiotic variables by isolating the experimental individuals in dedicated enclosures.",
+      "tags": [
+        "2b"
+      ],
+      "primary_tag": "2b",
+      "move": "2",
+      "parse_confidence": "high",
+      "original_line": "[2b] Semi-natural conditions therefore offer an excellent alternative, enabling monitoring the experimental animals under almost natural conditions, while limiting the biotic and abiotic variables by isolating the experimental individuals in dedicated enclosures."
+    },
+    {
+      "sentence_num": 15,
+      "text": "Our experimental model, the field cricket, Gryllus bimaculatus, is a ground-dwelling species exhibiting distinct diel stridulation and locomotion cycles.",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] Our experimental model, the field cricket, Gryllus bimaculatus, is a ground-dwelling species exhibiting distinct diel stridulation and locomotion cycles."
+    },
+    {
+      "sentence_num": 16,
+      "text": "Crickets demonstrate temporal shifts in both these activity patterns in response to changes in illumination regimes [12, 25\u201328].",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Crickets demonstrate temporal shifts in both these activity patterns in response to changes in illumination regimes [12, 25\u201328]."
+    },
+    {
+      "sentence_num": 17,
+      "text": "Additionally, temporal, circadian variations in gene expression patterns have been observed in the cricket [28, 29].",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Additionally, temporal, circadian variations in gene expression patterns have been observed in the cricket [28, 29]."
+    },
+    {
+      "sentence_num": 18,
+      "text": "We investigated the impact of ALAN on these nocturnal insects in a semi-natural experimental set-up.",
+      "tags": [
+        "3a"
+      ],
+      "primary_tag": "3a",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3a] We investigated the impact of ALAN on these nocturnal insects in a semi-natural experimental set-up."
+    },
+    {
+      "sentence_num": 19,
+      "text": "Individual crickets were subjected to various ALAN intensities in shaded outdoor conditions that incorporated natural temperature and soundscape rhythms.",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] Individual crickets were subjected to various ALAN intensities in shaded outdoor conditions that incorporated natural temperature and soundscape rhythms."
+    },
+    {
+      "sentence_num": 20,
+      "text": "We monitored the individual insects\u2019 stridulation behavior for 14 consecutive days and nights.",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] We monitored the individual insects\u2019 stridulation behavior for 14 consecutive days and nights."
+    },
+    {
+      "sentence_num": 21,
+      "text": "To the best of our knowledge, this is a first attempt to monitor the behavior of individual insects over such an extended period within a semi-natural setting.",
+      "tags": [
+        "2b"
+      ],
+      "primary_tag": "2b",
+      "move": "2",
+      "parse_confidence": "high",
+      "original_line": "[2b] To the best of our knowledge, this is a first attempt to monitor the behavior of individual insects over such an extended period within a semi-natural setting."
+    },
+    {
+      "sentence_num": 22,
+      "text": "Our findings have uncovered the effects of ecologically-relevant ALAN intensities on behavioral patterns of these insects, under such natural conditions.",
+      "tags": [
+        "3c"
+      ],
+      "primary_tag": "3c",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3c] Our findings have uncovered the effects of ecologically-relevant ALAN intensities on behavioral patterns of these insects, under such natural conditions."
+    }
+  ],
+  "parse_stats": {
+    "total_lines": 22,
+    "parsed_sentences": 22,
+    "skipped_lines": 0,
+    "invalid_tags": 0,
+    "multi_tag_sentences": 0,
+    "warnings": []
+  }
+}

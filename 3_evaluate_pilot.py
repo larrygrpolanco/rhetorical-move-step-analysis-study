@@ -26,7 +26,7 @@ from difflib import SequenceMatcher
 # ============================================================================
 
 CONDITION = "a1_zero_shot"  # Which condition to evaluate
-MODEL = "gpt-5mini"         # Which model to evaluate
+MODEL = "claude-sonnet-4-5"  # Which model to evaluate
 
 # ============================================================================
 
