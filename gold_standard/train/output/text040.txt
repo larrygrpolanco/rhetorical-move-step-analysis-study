@@ -1,0 +1,33 @@
+[1a] Glycosidase inhibitors have found applications as agrochemicals and therapeutic agents, for example, to target viral infection, cancer, and genetic disorders [1,2].
+[1a] A promising strategy to increase the potency of such inhibitors is the use of multivalent clusters, molecules that cluster together multiple substrate mimicking molecular units (inhitopes) that can bind to and thereby inhibit the corresponding glycosidase enzyme [3,4].
+[1b] The neoglycocluster 1 represents one of the most potent examples of this kind.
+[1b] The number of inhitopes per cluster (= valency n) is an important parameter for the inhibitory effect.
+[1b] Thereby the inhibition can increase in a non-linear fashion with increasing n, i.e., the increase of the valency by an order of magnitude can increase the inhibition potency by several orders of magnitude.
+[1c] For example, the iminosugar 1-deoxynojirimycin (DNJ) and related N-alkylated derivatives such as 2 are relatively modest inhibitors[4] of the enzyme Jack Bean α-mannosidase (JBα-man): the divalent cluster [7] (Scheme 1) with two DNJ units displays an inhibition constant of 54 μM (Table 1) [5,6].
+[1c] The 36-valent cluster 1, however, features an inhibition constant of only 1.1 nM [7].
+[1c] Thus, the increase of the valency by a factor of 18 increases the potency by a factor of 50 000!
+[1c] This over-amplification of the inhibitory effect (beyond that would be expected from an analogous concentration increase) is referred to as the cluster or multivalent effect.
+[2b] The molecular sources of the multivalent effect are not yet fully understood.
+[1c] Recently, we studied by a deconstruction approach a series of new DNJ-based clusters (3-7) to investigate the architectural parameters that influence the multivalent effect when targeting JBα-man [6].
+[1c] These clusters consist of a cyclic peptide backbone where multiple branches are attached to the backbone nitrogen atoms.
+[1c] Each branch comprises a flexible linker and a terminal DNJ inhitope.
+[1c] Under experimental conditions of the inhibition measurements (pH=5) the N-alkylated DNJ is mostly protonated (pKa = 6.7-7.1) [8,9].
+[1c] Clusters 3-7 differ not only by the number of branches but also by the orientation of the branches and the chemical structures of the linkers (unipod or tripod) [4].
+[1c] The enzyme JBα-man (220 kDa) is a homodimer (LH)[2] bearing two active sites.
+[1c] Its crystal structure[10] in complex with the 36-valent cluster 1 shows that the enzyme can also form dimers with four active sites; Fig. 1A shows a schematic illustration of this dimer.
+[1c] Each site is bound by a DNJ unit.
+[1c] The formation of dimers has been confirmed by analytical ultracentrifugation sedimentation velocity (AUC-SV) experiments but only for high-valency clusters 1 and 4 [6].
+[2b] It is, however, not clear if the formation of dimers is of relevance for the measurements of the inhibition potency (since these experiments are carried out with a 1000x lower (1 μg/mL) concentration than the AUC-SV experiments (1 mg/mL) [6].
+[1c] Obviously, the inhibition potency of these clusters depends strongly on the valency as seen when cluster 1 is deconstructed step by step (Table 1).
+[1c] But there is also an influence on the chemical structure of the branches, or more precisely of the linkers, as seen from the series with n=12: clusters 5a-c with four tripod linkers feature about 1.5 times lower inhibition potencies than cluster 3 with twelve tripod linkers but only with one inhitope per branch.
+[1c] And the potency of cluster 3 is about 1.5 lower than that of cluster 4 with twelve unipod linkers.
+[1c] The importance of the linkers on the multivalent effect has been previously reported [11].
+[1c] On the other hand, the orientation of the branches has little influence (6a-c).
+[1c] To complement this experimental work, we briefly highlighted in the companion study some theoretical and simulation results [6] The aim of this article is to provide a greater in depth analysis of these theoretical and computational aspects.
+[3a] Thermodynamic models can help to understand the basis of multivalency effects [12–14].
+[3b] Here we develop such a simplistic model with the aid of macroscopic rate constants and equilibrium constants.
+[3b] We only consider the formation of complexes with 1:1 stoichiometry and we assume identical chemical activity of unbound DNJ inhitopes at all steps along the binding pathway.
+[3c] We discuss the relationship of our approach with the more advanced approach of Kitov and Bundle [12].
+[3c] We validate assumptions of the thermodynamic model using atomistic simulations than can provide valuable structural insights into the glycoclusters [15,16].
+[3c] We point out limitations of such thermodynamic models for the studied inhibitors, particularly, in the context of JBα-man dimerization (2:1 stoichiometry).
+[3c] We then apply an extension to account for the increasing net charge of the inhibitor with increasing valency.

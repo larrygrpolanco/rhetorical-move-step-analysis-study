@@ -1,0 +1,27 @@
+{
+  "random_seed": 42,
+  "selection_date": "2025",
+  "training_set_size": 30,
+  "three_shot": {
+    "count": 3,
+    "article_ids": [
+      "text021",
+      "text024",
+      "text041"
+    ]
+  },
+  "eight_shot": {
+    "count": 8,
+    "article_ids": [
+      "text021",
+      "text024",
+      "text025",
+      "text028",
+      "text029",
+      "text041",
+      "text044",
+      "text045"
+    ]
+  },
+  "note": "These examples are fixed for all 30 runs to isolate LLM stochasticity"
+}

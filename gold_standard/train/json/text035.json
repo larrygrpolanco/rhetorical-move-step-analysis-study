@@ -1,0 +1,209 @@
+{
+  "article_id": "text035",
+  "title": "The mRNACalc web server accounts for the hypochromicity of modified nucleosides and enables the accurate quantification of nucleoside-modified mRNA",
+  "sentences": [
+    {
+      "sentence_num": 1,
+      "sentence_id": "t035s001",
+      "text": "The therapeutic use of messenger RNA (mRNA) has sparked great optimism in the development of novel vaccines and therapeutics against a myriad of infectious or yet incurable diseases (1).",
+      "step": "1a",
+      "move": "1"
+    },
+    {
+      "sentence_num": 2,
+      "sentence_id": "t035s002",
+      "text": "The mRNA technology enables the production of antigenic, functional, and/or therapeutic proteins by introducing mRNA into the human body and cells (2).",
+      "step": "1a",
+      "move": "1"
+    },
+    {
+      "sentence_num": 3,
+      "sentence_id": "t035s003",
+      "text": "Since mRNAs act in the cytoplasm transiently, they do not bear any risk of integration into the host cell genome.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 4,
+      "sentence_id": "t035s004",
+      "text": "Most importantly, the mRNA technology enables rapid, cost-efficient and scalable production, which is free of cellular (cell cultures) or animal materials (3).",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 5,
+      "sentence_id": "t035s005",
+      "text": "Thus, mRNA technologies facilitate manufacturing and allow for a rapid response to emerging infectious diseases, as emphatically underscored by the rapid rollout of COVID-19 mRNA vaccines in many parts of the world.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 6,
+      "sentence_id": "t035s006",
+      "text": "Modified nucleosides, such as pseudouridine (Ψ), N1-methylpseudouridine (m1Ψ) and 5-methylcytidine (m5C), are often incorporated into the mRNA molecules.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 7,
+      "sentence_id": "t035s007",
+      "text": "Such modifications reduce stimulation of cytoplasmic RNA sensors, such as toll-like receptor 3 and 7, for improved safety profiles and enhanced mRNA translation (4, 5).",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 8,
+      "sentence_id": "t035s008",
+      "text": "However, how modified nucleosides affect mRNA concentration measurements and potentially confound pre-clinical dosing, efficacy, and toxicology studies, which could make or break further clinical development of any therapeutic, remains undefined.",
+      "step": "2b",
+      "move": "2"
+    },
+    {
+      "sentence_num": 9,
+      "sentence_id": "t035s009",
+      "text": "The determination of RNA concentration often relies on measurements of its UV absorbance at 260 nm wavelength (A260) and the implementation of the Beer–Lambert law (6).",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 10,
+      "sentence_id": "t035s010",
+      "text": "The accuracy of these measurements is scattered by the variable hypochromicity of RNA due to its sequence-dependent folding.",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 11,
+      "sentence_id": "t035s011",
+      "text": "The molar absorption coefficient (MAC or extinction coefficient, ε) of a folded RNA at 260 nm (ε260) is reduced as compared to its unfolded state (7).",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 12,
+      "sentence_id": "t035s012",
+      "text": "This difference is buffer- and concentration-dependent and arises from changes in the chemical environment of the nucleobases – the main chromophore, due to base-pairing, stacking, intermolecular interactions, and other conformational changes.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 13,
+      "sentence_id": "t035s013",
+      "text": "Considering these variabilities, a rough estimation for the ε260 of any single stranded RNA (40 μg/ml per absorbance unit) is extensively used and its associated ±10–20% error in the estimation of RNA concentration is widely accepted (6).",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 14,
+      "sentence_id": "t035s014",
+      "text": "This error range may suffice to assess dose-response for mRNA therapeutics across several orders of magnitude in celula or in vivo experiments.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 15,
+      "sentence_id": "t035s015",
+      "text": "Yet it would be valuable to know concentrations at higher accuracy for the development of mRNA technologies.",
+      "step": "2b",
+      "move": "2"
+    },
+    {
+      "sentence_num": 16,
+      "sentence_id": "t035s016",
+      "text": "Our particular concern is in measurements of self-amplifying RNAs (saRNA) and nucleoside-modified mRNAs.",
+      "step": "3a",
+      "move": "3"
+    },
+    {
+      "sentence_num": 17,
+      "sentence_id": "t035s017",
+      "text": "The logarithmic amplification of saRNA can convert a 20% accepted error in RNA concentration into a several fold differences in dose-response between one experiment and the subsequent replicates.",
+      "step": "3a",
+      "move": "3"
+    },
+    {
+      "sentence_num": 18,
+      "sentence_id": "t035s018",
+      "text": "The chemical modifications on the nucleobases of mRNA can also induce profound changes in the mRNA MAC, hindering the accurate quantification of nucleoside-modified mRNA concentrations.",
+      "step": "3a",
+      "move": "3"
+    },
+    {
+      "sentence_num": 19,
+      "sentence_id": "t035s019",
+      "text": "To attain greater accuracy in RNA quantification, RNA molecules are hydrolysed prior to UV absorbance determination using a combination of thermal and alkaline hydrolysis (6, 8).",
+      "step": "3a",
+      "move": "3"
+    },
+    {
+      "sentence_num": 20,
+      "sentence_id": "t035s020",
+      "text": "The RNA hydrolysis shifts the hypochromic folded state of the RNA to the hyperchromic state of the single monophosphate nucleotides (9).",
+      "step": "3a",
+      "move": "3"
+    },
+    {
+      "sentence_num": 21,
+      "sentence_id": "t035s021",
+      "text": "Since the precise MAC of the four standard nucleotides in aqueous buffered solution are known, the molar absorption of any hydrolysed mRNA can be calculated as the sum of the molar absorption of its nucleotide compositions.",
+      "step": "3a",
+      "move": "3"
+    },
+    {
+      "sentence_num": 22,
+      "sentence_id": "t035s022",
+      "text": "Thus, upon the determination of the 260 nm UV absorbance (A260), the RNA concentration can be quantified with an error of ∼4% using these methods (6).",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 23,
+      "sentence_id": "t035s023",
+      "text": "The incorporation of modified nucleosides can alter the RNA molar absorption and increase the error of the measurements in an RNA sequence-dependent manner.",
+      "step": "3a",
+      "move": "3"
+    },
+    {
+      "sentence_num": 24,
+      "sentence_id": "t035s024",
+      "text": "Other non-UV-spectroscopic methods relying on the unspecific RNA binding of fluorophores (such as RiboGreen, Thermo Fisher Scientific) for the determination of RNA concentration may help to overcome any change in the MAC of modified nucleoside mRNA.",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 25,
+      "sentence_id": "t035s025",
+      "text": "However, the impact of RNA modifications on the binding affinity of these fluorophores also remains unknown.",
+      "step": "2b",
+      "move": "2"
+    },
+    {
+      "sentence_num": 26,
+      "sentence_id": "t035s026",
+      "text": "Herein, we report our effort to revisit and determine the molar absorption coefficients of modified nucleosides (Ψ, m1Ψ and m5C).",
+      "step": "3a",
+      "move": "3"
+    },
+    {
+      "sentence_num": 27,
+      "sentence_id": "t035s027",
+      "text": "We also examined three different methods for RNA hydrolysis and provided them along with the mRNACalc web server.",
+      "step": "3a",
+      "move": "3"
+    },
+    {
+      "sentence_num": 28,
+      "sentence_id": "t035s028",
+      "text": "This web tool incorporates the most recently revised ε260 for standard, modified and mRNA capping nucleosides, allowing the accurate determination of standard and nucleoside-modified mRNAs using UV spectroscopy.",
+      "step": "3b",
+      "move": "3"
+    },
+    {
+      "sentence_num": 29,
+      "sentence_id": "t035s029",
+      "text": "Once the RNA sequence, the A260 and the RNA stock volume values are provided as input, the mRNACalc web server calculates the RNA stock concentration in nM and ng/μl and the total RNA mass in μmole and μg.",
+      "step": "3b",
+      "move": "3"
+    }
+  ]
+}

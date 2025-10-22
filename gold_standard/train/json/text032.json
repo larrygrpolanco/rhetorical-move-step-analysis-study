@@ -1,0 +1,279 @@
+{
+  "article_id": "text032",
+  "title": "Identification of Small Molecule Ligand Binding Sites On and In the ARNT PAS-B Domain",
+  "sentences": [
+    {
+      "sentence_num": 1,
+      "sentence_id": "t032s0001",
+      "text": "There has been considerable interest in targeting non-enzymatic protein-protein interfaces for therapeutic purposes [1,2].",
+      "step": "1a",
+      "move": "1"
+    },
+    {
+      "sentence_num": 2,
+      "sentence_id": "t032s0002",
+      "text": "Transcription factor complexes are one class of particular interest for this approach, as small molecule disruptors of specific protein-protein and protein-DNA interactions could potentially modulate the aberrant transcription activities associated with many diseases.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 3,
+      "sentence_id": "t032s0003",
+      "text": "However, with few notable exceptions, transcription factors are perceived as ‘undruggable’ due to their lack of any targetable catalytic sites [3], and the associated challenges of finding small molecules which can specifically bind to and inhibit the large, flat surfaces usually involved in binding other proteins or DNA [4–6].",
+      "step": "2a",
+      "move": "2"
+    },
+    {
+      "sentence_num": 4,
+      "sentence_id": "t032s0004",
+      "text": "Here, we focus on the characterization of small molecule binding with a transcription factor subunit, aryl hydrocarbon receptor nuclear translocator (ARNT), as a case study of exploiting inherent opportunities for developing inhibitors that target transcription factor/coactivator interactions.",
+      "step": "3b",
+      "move": "3"
+    },
+    {
+      "sentence_num": 5,
+      "sentence_id": "t032s0005",
+      "text": "ARNT belongs to the basic Helix Loop Helix - Per-ARNT-Sim (bHLH-PAS) family of transcription factors, named for their shared N-terminal DNA binding bHLH motif and two PAS domains (PAS-A and PAS-B) which all mediate binding the requisite DNA and protein components required for their function [7].",
+      "step": "1a",
+      "move": "1"
+    },
+    {
+      "sentence_num": 6,
+      "sentence_id": "t032s0006",
+      "text": "The bHLH-PAS proteins can be broadly divided into the signal-regulated class I and the constitutively-expressed class II subunits.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 7,
+      "sentence_id": "t032s0007",
+      "text": "ARNT is a class II protein which serves as a ‘universal’ binding partner to several class I bHLH-PAS proteins, including the hypoxia-inducible factors (HIF-α), aryl hydrocarbon receptor (AHR), neuronal PAS proteins (NPAS), and single-minded proteins (SIM) [7].",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 8,
+      "sentence_id": "t032s0008",
+      "text": "Once formed, these heterodimers control a plethora of biological processes, including hypoxia adaptation, xenobiotic metabolism, and neurogenesis [7].",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 9,
+      "sentence_id": "t032s0009",
+      "text": "Two well-characterized examples of ARNT-containing signaling cascades which respond to environmental stimuli are the xenobiotic-sensing AHR and hypoxia-regulated HIF pathways (8) (Fig. 1).",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 10,
+      "sentence_id": "t032s0010",
+      "text": "For the former, AHR regulates the vertebrate xenobiotic response pathway by its binding to a wide variety of small molecules, ranging from pollutants (e.g., [2,3,7,8] - tetrachlorodibenzo-p-dioxin (TCDD, “dioxin”)) to dietary compounds [9–11].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 11,
+      "sentence_id": "t032s0011",
+      "text": "In the cytosol, inactivated AHR is bound to and stabilized by the heat shock protein 90 (HSP90) chaperone and other auxiliary proteins [12,13].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 12,
+      "sentence_id": "t032s0012",
+      "text": "Ligand binding to the AHR PAS-B domain triggers a poorly-understood response which includes translocation of cytosolic AHR into the nucleus, where it heterodimerizes with ARNT to form the functional heterodimeric transcription factor that binds to dioxin response elements (DREs) upstream of AHR-controlled genes and initiates their transcription [14].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 13,
+      "sentence_id": "t032s0013",
+      "text": "The HIF pathway, on the other hand, mediates cellular adaptation to low oxygen levels (hypoxia) [15–17].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 14,
+      "sentence_id": "t032s0014",
+      "text": "Under normoxia, the HIF-α subunits (HIF-1α, 2α, 3α) are rapidly degraded and inactivated through oxygen-dependent pathways; these controls are relieved under hypoxic conditions, letting the HIF-α subunits accumulate and dimerize with ARNT in the nucleus [17].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 15,
+      "sentence_id": "t032s0015",
+      "text": "The HIF-α/ARNT heterodimer complexes bind to hypoxia response elements (HREs) upstream of HIF-controlled genes, leading to erythropoiesis, angiogenesis, and metabolic remodeling [16–18].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 16,
+      "sentence_id": "t032s0016",
+      "text": "In the quiescent state, AHR resides in the cytoplasm in a complex with other proteins including heat shock protein 90 (Hsp90), aryl hydrocarbon receptor interacting protein (AIP), and p23.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 17,
+      "sentence_id": "t032s0017",
+      "text": "Upon ligand binding, AHR translocates to the nucleus and dimerizes with ARNT.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 18,
+      "sentence_id": "t032s0018",
+      "text": "HIF activation is oxygen dependent, relying on the action O2-utilizing hydroxylases.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 19,
+      "sentence_id": "t032s0019",
+      "text": "Under normoxic conditions, the HIF-α subunits are rapidly degraded and inactivated by downstream effects of hydroxylation.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 20,
+      "sentence_id": "t032s0020",
+      "text": "Under hypoxic conditions, HIF-α dimerizes with the β-subunit (ARNT) in the nucleus.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 21,
+      "sentence_id": "t032s0021",
+      "text": "Both AHR and HIF complexes recruit various coactivators as part of the transcription activation process.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 22,
+      "sentence_id": "t032s0022",
+      "text": "Dysregulation of both the AHR and HIF pathways has been implicated in many diseases.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 23,
+      "sentence_id": "t032s0023",
+      "text": "For example, AHR is an important modulator of host-environment interactions and plays critical roles in immune and inflammatory responses [19].",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 24,
+      "sentence_id": "t032s0024",
+      "text": "Overactivation of AHR can also stimulate tumorigenesis, making it a promising but still underutilized therapeutic target for cancer therapies [20,21].",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 25,
+      "sentence_id": "t032s0025",
+      "text": "In comparison, anomalous HIF activities may lead to anemia, inflammation, and ischemia [16,22–25].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 26,
+      "sentence_id": "t032s0026",
+      "text": "Persistent HIF activation can also contribute to tumor growth and progression, aiding tumor cell survival and therapy resistance [22,25,26].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 27,
+      "sentence_id": "t032s0027",
+      "text": "While several strategies targeting different parts of the HIF pathway have been tested, the most efficacious ones focus solely on the HIF-2α isoform [18,27–31], including the clinically-utilized HIF-2α inhibitor belzutifan [32–38].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 28,
+      "sentence_id": "t032s0028",
+      "text": "As with many other transcription factors, AHR and HIF rely on a variety of functionally important coactivators to execute their programs [39–42], opening potential other opportunities for small molecule control of their signaling properties.",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 29,
+      "sentence_id": "t032s0029",
+      "text": "These include a group of coactivators known as the coiled-coil coactivators (CCCs) [41,43–47], recruited via the ARNT PAS-B domain and thus establishing the ARNT PAS-B/coactivator interaction as a potential target for intervention [41,44,46].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 30,
+      "sentence_id": "t032s0030",
+      "text": "In addition, the coiled-coil protein coiled-coil coactivator (CoCoA) CCC protein has been proposed as a primary coactivator of the AHR/ARNT complex, and interacts with the bHLH-PAS regions of both proteins [45], suggesting that ARNT/CCC interactions could be a point of modulation for both HIF and AHR pathways.",
+      "step": "2c",
+      "move": "2"
+    },
+    {
+      "sentence_num": 31,
+      "sentence_id": "t032s0031",
+      "text": "Using NMR-based fragment screening and in vitro interaction assays, we identified 10 compounds that bound ARNT PAS-B with micromolar affinities, including two compounds (KG-548, KG-655) capable of disrupting its interactions with the another CCC protein, the Transforming Acidic Coiled-Coil Containing Protein 3 (TACC3) [48].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 32,
+      "sentence_id": "t032s0032",
+      "text": "While characterizing the binding sites of these ligands has been technically challenging, we recently reported an ARNT/KG-548 cocrystal structure, showing that KG-548 binds on the surface of ARNT PAS-B [49].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 33,
+      "sentence_id": "t032s0033",
+      "text": "Although this binding site is reasonable and appears to be privileged for protein and small molecule interactions [50], solution validation of this binding mode is essential [49].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 34,
+      "sentence_id": "t032s0034",
+      "text": "Meanwhile, the binding mode of KG-655 and others remained unclear from these studies.",
+      "step": "2b",
+      "move": "2"
+    },
+    {
+      "sentence_num": 35,
+      "sentence_id": "t032s0035",
+      "text": "To address these knowledge gaps, we investigated the binding modes of several small molecules with the ARNT PAS-B domain using solution NMR spectroscopy, weighted ensemble molecular dynamics (WEMD) simulations, and ensemble docking.",
+      "step": "3b",
+      "move": "3"
+    },
+    {
+      "sentence_num": 36,
+      "sentence_id": "t032s0036",
+      "text": "We used three ligands, KG-548, KG-655, and KG-279, as proof-of-concept small molecules to showcase two ligand binding modes: one on the external side of the PAS β-sheet (consistent with our KG-548/ARNT crystal structure [49]) and an internal cavity previously seen by x-ray diffraction [48].",
+      "step": "3c",
+      "move": "3"
+    },
+    {
+      "sentence_num": 37,
+      "sentence_id": "t032s0037",
+      "text": "Notably these three compounds differentially preferred binding these sites, likely correlated to their sizes and chemical features.",
+      "step": "3c",
+      "move": "3"
+    },
+    {
+      "sentence_num": 38,
+      "sentence_id": "t032s0038",
+      "text": "We also used ensemble docking to determine potential binding poses of KG-655 and KG-279 in the internal cavity that satisfied NOE-based protein/ligand distances, showing marked distortion of the protein domain upon ligand binding.",
+      "step": "3b",
+      "move": "3"
+    },
+    {
+      "sentence_num": 39,
+      "sentence_id": "t032s0039",
+      "text": "Taken together, this study validates the previously-proposed surface binding site for KG-548 and provided the first direct evidence of ligands binding inside the ARNT PAS-B domain cavity, all of which will aid designing more potent ARNT PAS-B/coactivator inhibitors for functional studies.",
+      "step": "3c",
+      "move": "3"
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 # Study Design: LLM Consistency in Rhetorical Move-Step Annotation
+
 ## A Methodological Study Applying Kim & Lu's (2024) Framework to Biology
 
 ---
@@ -18,9 +19,7 @@
 
 **RQ1 (Performance):** How do zero-shot, few-shot (3-shot and 8-shot), and fine-tuned approaches perform on Biology research article move-step annotation?
 
-**RQ2 (Consistency - PRIMARY):** How does annotation consistency vary across prompting conditions over 30 repeated runs?
-
-**RQ3 (Few-shot Comparison):** Does increasing few-shot examples from 3 to 8 improve performance and/or consistency?
+**RQ2 (Consistency - PRIMARY):** How does annotation consistency vary across prompting conditions, and does higher accuracy correlate with higher consistency?
 
 ---
 
@@ -46,18 +45,20 @@ This study applies the methodological framework established by Kim & Lu (2024), 
 
 ```
 Training Set:   30 articles (60%) - For fine-tuning
-Validation Set: 10 articles (20%) - For prompt development  
+Validation Set: 10 articles (20%) - For prompt development
 Test Set:       10 articles (20%) - For final evaluation (HELD OUT)
 ```
 
 **Justification for 30/10/10 Split:**
 
-1. **Training (30 articles):** 
+1. **Training (30 articles):**
+
    - Sufficient for GPT-4 fine-tuning (Kim & Lu used 40-80)
    - Represents 60% of data - standard for small datasets
    - ~30 sentences per article = ~900 training examples
 
 2. **Validation (10 articles):**
+
    - Used for prompt development and formatting validation
    - Allows parser testing without contaminating test set
    - 20% allocation standard for hyperparameter tuning
@@ -79,6 +80,7 @@ Test Set:       10 articles (20%) - For final evaluation (HELD OUT)
 **Purpose:** Validate automated pipeline infrastructure
 
 **Activities:**
+
 1. ✅ Built XML extraction pipeline (xml_extractor.py)
 2. ✅ Developed deterministic parser (parse_llm_output.py)
 3. ✅ Created automation scripts (1_run_pilot.py, 2_parse_pilot.py)
@@ -94,11 +96,13 @@ Test Set:       10 articles (20%) - For final evaluation (HELD OUT)
 **Approach:** Single-pass development (not iterative refinement)
 
 **Base Prompt:** Adapted from Kim & Lu (2024) with modifications for:
+
 1. CaRS-50 framework (11 steps vs. their 23)
 2. Biology domain examples
 3. Explicit output formatting for deterministic parsing
 
 **Development Process:**
+
 1. Start with Kim & Lu's refined prompt structure
 2. Replace Applied Linguistics moves/steps with CaRS-50 definitions
 3. Add Biology-specific examples for each step
@@ -107,6 +111,7 @@ Test Set:       10 articles (20%) - For final evaluation (HELD OUT)
 6. **Lock the prompt** - no further changes
 
 **Validation Criteria:**
+
 - ✅ Parser successfully extracts all sentences
 - ✅ Tags are formatted correctly (100% parseable)
 - ✅ No systematic formatting errors
@@ -120,22 +125,26 @@ Test Set:       10 articles (20%) - For final evaluation (HELD OUT)
 ### Experimental Conditions (4)
 
 **A1: Zero-Shot**
+
 - Prompt only, no examples
 - Tests baseline performance
 - 1 run on test set
 
 **A2: Few-Shot (3 examples)**
+
 - Prompt + 3 annotated examples
 - Examples: Fixed set randomly selected from training set
 - 1 run on test set
 
-**A3: Few-Shot (8 examples)**  
+**A3: Few-Shot (8 examples)**
+
 - Prompt + 8 annotated examples
 - Examples: Fixed set randomly selected from training set
 - Tests if more examples help
 - 1 run on test set
 
 **A4: Fine-Tuned**
+
 - GPT-4 fine-tuned on 30 training articles
 - OpenAI API supervised fine-tuning
 - Default hyperparameters (see Technical Details)
@@ -148,8 +157,9 @@ Test Set:       10 articles (20%) - For final evaluation (HELD OUT)
 **Fixed Examples:** Use the same example articles across all 30 runs within each condition
 
 **Selection Method:**
+
 1. Randomly sample 3 articles from training set → A2 examples
-2. Randomly sample 8 articles from training set → A3 examples  
+2. Randomly sample 8 articles from training set → A3 examples
 3. Document article IDs used
 4. Use identical examples for all 30 runs in each condition
 
@@ -160,17 +170,19 @@ Test Set:       10 articles (20%) - For final evaluation (HELD OUT)
 **Model:** gpt-4-0613 (fine-tunable version)
 
 **Training Data:** 30 articles from training set, formatted as:
+
 ```json
 {
   "messages": [
-    {"role": "system", "content": "[prompt]"},
-    {"role": "user", "content": "[article text]"},
-    {"role": "assistant", "content": "[gold annotations]"}
+    { "role": "system", "content": "[prompt]" },
+    { "role": "user", "content": "[article text]" },
+    { "role": "assistant", "content": "[gold annotations]" }
   ]
 }
 ```
 
 **Hyperparameters** (OpenAI defaults):
+
 - Epochs: Auto (typically 3-5)
 - Batch size: Auto
 - Learning rate multiplier: Auto
@@ -205,6 +217,7 @@ presence_penalty: 0
 **Total Runs:** 4 conditions × 30 runs = 120 evaluations
 
 **Fixed Elements:**
+
 - Test set: Same 10 articles across all runs
 - Prompt: Identical for all runs
 - Few-shot examples: Same examples for all runs within A2 and A3
@@ -218,11 +231,13 @@ presence_penalty: 0
 **Statistical Justification:**
 
 1. **Variance Comparison Power:**
+
    - Levene's test requires n ≥ 20 per group for adequate power (0.80)
    - 30 runs provides power > 0.80 to detect moderate variance differences
    - Allows detection of effect size f = 0.25 at α = 0.05
 
 2. **Precision of Estimates:**
+
    - With 30 runs, 95% CI width for SD ≈ ±30% of true SD
    - Example: If true SD = 3%, CI ≈ [2.4%, 3.9%]
    - Sufficient precision for meaningful comparisons
@@ -241,18 +256,21 @@ presence_penalty: 0
 ### Performance Metrics (Standard)
 
 **Move-Level (3 classes):**
+
 - Accuracy (primary)
 - Precision, Recall, F1 per move
 - Weighted average P/R/F1
 - Confusion matrix
 
 **Step-Level (11 classes):**
+
 - Accuracy (primary)
 - Precision, Recall, F1 per step
 - Weighted average P/R/F1
 - Confusion matrix
 
 **Statistical Comparison:**
+
 - McNemar's test for paired accuracy comparisons
 - Effect sizes (Cohen's h)
 - 95% confidence intervals
@@ -260,21 +278,17 @@ presence_penalty: 0
 ### Consistency Metrics (Novel)
 
 **Primary Metrics:**
+
 1. **Mean Accuracy** (μ): Average across 30 runs
 2. **Standard Deviation** (σ): Spread of accuracy values
 3. **Coefficient of Variation** (CV): σ/μ × 100% (normalized consistency measure)
 4. **95% Confidence Interval:** [μ - 1.96(σ/√30), μ + 1.96(σ/√30)]
 
-**Secondary Metrics:**
-5. **Range:** Maximum - Minimum accuracy
-6. **Interquartile Range (IQR):** 75th percentile - 25th percentile
-7. **Median:** Middle value across runs
+**Secondary Metrics:** 5. **Range:** Maximum - Minimum accuracy 6. **Interquartile Range (IQR):** 75th percentile - 25th percentile 7. **Median:** Middle value across runs
 
-**Reliability Metric:**
-8. **Intraclass Correlation Coefficient (ICC):** Measures consistency of annotations across runs (adapted from psychometrics)
+**Reliability Metric:** 8. **Intraclass Correlation Coefficient (ICC):** Measures consistency of annotations across runs (adapted from psychometrics)
 
-**Agreement Visualization:**
-9. **Bland-Altman Plots:** Visual assessment of run-to-run agreement
+**Agreement Visualization:** 9. **Bland-Altman Plots:** Visual assessment of run-to-run agreement
 
 ### Example Results Format
 
@@ -307,38 +321,45 @@ Step-Level Accuracy:
 **For each condition (A1, A2, A3, A4):**
 
 a) **Descriptive Statistics:**
-   - Mean, SD, CV, 95% CI, Range, IQR, Median
-   - Reported for both move-level and step-level accuracy
+
+- Mean, SD, CV, 95% CI, Range, IQR, Median
+- Reported for both move-level and step-level accuracy
 
 b) **Distribution Assessment:**
-   - Shapiro-Wilk test for normality
-   - Q-Q plots
-   - Histograms with kernel density estimates
+
+- Shapiro-Wilk test for normality
+- Q-Q plots
+- Histograms with kernel density estimates
 
 c) **Reliability:**
-   - ICC calculation (two-way random effects model)
+
+- ICC calculation (two-way random effects model)
 
 ### 2. Between-Condition Comparisons
 
 **Research Question: Does consistency differ across conditions?**
 
 a) **Variance Comparison:**
-   - **Levene's test:** Tests H₀: σ₁² = σ₂² = σ₃² = σ₄²
-   - If significant → at least one condition has different variance
-   - Report F-statistic, p-value, effect size
+
+- **Levene's test:** Tests H₀: σ₁² = σ₂² = σ₃² = σ₄²
+- If significant → at least one condition has different variance
+- Report F-statistic, p-value, effect size
 
 b) **Post-Hoc Pairwise Comparisons:**
-   - Brown-Forsythe test for each pair of conditions
-   - Bonferroni correction for multiple comparisons (α = 0.05/6 = 0.0083)
-   - Report variance ratios (e.g., "A4 variance is 0.12× that of A1")
+
+- Brown-Forsythe test for each pair of conditions
+- Bonferroni correction for multiple comparisons (α = 0.05/6 = 0.0083)
+- Report variance ratios (e.g., "A4 variance is 0.12× that of A1")
 
 c) **Effect Sizes:**
-   - Cohen's d for mean differences
-   - Variance ratios for consistency differences
+
+- Cohen's d for mean differences
+- Variance ratios for consistency differences
 
 ### 3. Accuracy vs. Consistency Trade-off
 
 **Analysis:**
+
 - Scatter plot: Mean accuracy vs. CV
 - Does higher accuracy come with higher consistency?
 - Which condition optimizes both?
@@ -350,7 +371,7 @@ c) **Effect Sizes:**
 **Figure 3:** Distribution of accuracies across 30 runs - violin plots or boxplots  
 **Figure 4:** Consistency comparison - CV comparison across conditions  
 **Figure 5:** Bland-Altman plots for run-to-run agreement  
-**Figure 6:** Accuracy vs. Consistency trade-off scatter plot  
+**Figure 6:** Accuracy vs. Consistency trade-off scatter plot
 
 ---
 
@@ -359,12 +380,14 @@ c) **Effect Sizes:**
 ### What We Replicate
 
 ✅ **Methodological Framework:**
+
 - Zero-shot, few-shot, fine-tuning comparison
 - Evaluation metrics (P/R/F1, confusion matrices)
 - Statistical tests (McNemar's)
 - Target genre (RA introductions)
 
 ✅ **Design Philosophy:**
+
 - Systematic comparison of prompting strategies
 - Focus on practical applicability
 - Transparent reporting
@@ -374,13 +397,13 @@ c) **Effect Sizes:**
 🔄 **Annotation Framework:** 23 categories → 11 categories (CaRS-50)  
 🔄 **Domain:** Applied Linguistics → Biology  
 🔄 **Model:** GPT-3.5-turbo → GPT-4  
-🔄 **Dataset:** COSSRAI → CaRS-50  
+🔄 **Dataset:** COSSRAI → CaRS-50
 
 ### What We Extend (Novel Contributions)
 
 ✨ **Primary Extension:** Systematic consistency analysis (30 runs per condition)  
-✨ **Secondary Extension:** 3-shot vs. 8-shot comparison  
-✨ **Methodological Extension:** Fully automated, reproducible pipeline  
+✨ **Sub-analysis:** Do 8-shot examples provide advantages over 3-shot?
+✨ **Methodological Extension:** Fully automated, reproducible pipeline
 
 ### Framing Statement (for Paper)
 
@@ -392,18 +415,18 @@ c) **Effect Sizes:**
 
 ## Timeline (10 Weeks)
 
-| Week | Phase | Activities | Outputs |
-|------|-------|-----------|---------|
-| 1 | Setup | Finalize prompt, prepare few-shot examples, prepare fine-tuning data | Locked prompt, example sets |
-| 2 | Setup | Run fine-tuning, validate pipeline | Fine-tuned model |
-| 3 | Phase 2 | Run A1, A2, A3, A4 (single runs) | Baseline results |
-| 4 | Analysis | Evaluate Phase 2, document patterns | Tables, confusion matrices |
-| 5 | Phase 3 | Consistency runs: A1 (30 runs) | A1 consistency data |
-| 6 | Phase 3 | Consistency runs: A2, A3 (60 runs) | A2/A3 consistency data |
-| 7 | Phase 3 | Consistency runs: A4 (30 runs) | A4 consistency data |
-| 8 | Analysis | Statistical analysis, create visualizations | All figures, tables |
-| 9 | Writing | Draft full manuscript | Draft |
-| 10 | Writing | Revisions, formatting, submission prep | Final manuscript |
+| Week | Phase    | Activities                                                           | Outputs                     |
+| ---- | -------- | -------------------------------------------------------------------- | --------------------------- |
+| 1    | Setup    | Finalize prompt, prepare few-shot examples, prepare fine-tuning data | Locked prompt, example sets |
+| 2    | Setup    | Run fine-tuning, validate pipeline                                   | Fine-tuned model            |
+| 3    | Phase 2  | Run A1, A2, A3, A4 (single runs)                                     | Baseline results            |
+| 4    | Analysis | Evaluate Phase 2, document patterns                                  | Tables, confusion matrices  |
+| 5    | Phase 3  | Consistency runs: A1 (30 runs)                                       | A1 consistency data         |
+| 6    | Phase 3  | Consistency runs: A2, A3 (60 runs)                                   | A2/A3 consistency data      |
+| 7    | Phase 3  | Consistency runs: A4 (30 runs)                                       | A4 consistency data         |
+| 8    | Analysis | Statistical analysis, create visualizations                          | All figures, tables         |
+| 9    | Writing  | Draft full manuscript                                                | Draft                       |
+| 10   | Writing  | Revisions, formatting, submission prep                               | Final manuscript            |
 
 ---
 
@@ -416,11 +439,13 @@ c) **Effect Sizes:**
 **Total tokens:** ~1,500 per article
 
 **GPT-4 Pricing:**
+
 - Input: $0.03 / 1K tokens
 - Output: $0.06 / 1K tokens
 - Total per article: ~$0.08
 
 ### Phase 2: Single Runs
+
 - Zero-shot (A1): 10 articles × $0.08 = $0.80
 - 3-shot (A2): 10 articles × $0.10 = $1.00
 - 8-shot (A3): 10 articles × $0.15 = $1.50
@@ -429,6 +454,7 @@ c) **Effect Sizes:**
 - **Phase 2 Total: ~$15**
 
 ### Phase 3: Consistency Runs (30× each)
+
 - A1: 30 × $0.80 = $24
 - A2: 30 × $1.00 = $30
 - A3: 30 × $1.50 = $45
@@ -437,7 +463,7 @@ c) **Effect Sizes:**
 
 **Grand Total: ~$150**
 
-*(Note: Actual costs may vary with API pricing changes)*
+_(Note: Actual costs may vary with API pricing changes)_
 
 ---
 
@@ -446,11 +472,13 @@ c) **Effect Sizes:**
 ### Phase 2 (Performance Baseline)
 
 **Minimum Success:**
+
 - ✅ Move-level accuracy > 50% for fine-tuned model
 - ✅ Clear ranking: Fine-tuned > Few-shot > Zero-shot
 - ✅ Successful parsing of all outputs
 
 **Strong Success:**
+
 - ✅ Move-level accuracy > 85% for fine-tuned model
 - ✅ Significant differences between conditions (McNemar's p < 0.05)
 - ✅ Clear 3-shot vs. 8-shot comparison
@@ -458,11 +486,13 @@ c) **Effect Sizes:**
 ### Phase 3 (Consistency Analysis - Primary)
 
 **Minimum Success:**
+
 - ✅ Measurable variance exists across runs (not all identical)
 - ✅ Statistically significant difference in variance between at least 2 conditions
 - ✅ Interpretable patterns (e.g., fine-tuned more consistent than zero-shot)
 
 **Strong Success:**
+
 - ✅ Clear consistency hierarchy across all 4 conditions
 - ✅ CV differences > 2% between conditions
 - ✅ Actionable insights for method selection (accuracy-consistency trade-off)
@@ -472,6 +502,7 @@ c) **Effect Sizes:**
 **Core Contribution:** First systematic consistency evaluation of LLM move-step annotation
 
 **Secondary Contributions:**
+
 1. Cross-domain validation (Biology)
 2. Few-shot comparison (3 vs. 8)
 3. Fully reproducible methodology
@@ -526,15 +557,29 @@ c) **Effect Sizes:**
 4. **Framework:** 11 categories (simpler than Kim & Lu's 23)
 5. **Temperature:** Fixed at 1.0 (no temperature exploration)
 
+- "We set temperature to 1.0 to match Kim & Lu (2024) and to measure consistency under realistic deployment conditions with natural model variability. While lower temperatures (e.g., 0.3-0.7) might reduce variance, we prioritize measuring consistency of the model's intended behavior rather than artificially constraining it. This allows our findings to generalize to typical use cases where researchers employ default or recommended temperature settings."
+- "Future research should systematically investigate the temperature-consistency trade-off. While lower temperatures may reduce output variability, they may also reduce output quality for complex reasoning tasks. Identifying optimal temperature settings for move-step annotation across different conditions represents an important avenue for practical tool development."
+
+6. **10-article test set:**: This is my biggest statistical limitation. With ~250-300 sentences, you have adequate power for condition-level comparisons, but limited power for fine-grained analysis (e.g., specific move/step performance). Acknowledge this clearly.
+
+- "Few-shot examples were randomly selected from the training set rather than strategically curated (cf. Yu et al., 2024). This choice prioritizes ecological validity over maximal performance—practitioners deploying these methods will typically use random or convenience samples of training data rather than carefully optimized example sets. Our design thus tests the robustness of few-shot learning under realistic deployment conditions."
+
+6. **Single-Pass Prompt Development:**: You lock the prompt after validation. This is methodologically sound for your goals, but you might get reviewer pushback. Be ready to defend this as "testing consistency of a fixed method" vs. "optimizing performance."
+
+- Unlike Kim & Lu (2024), who iteratively refined their prompt on a validation set to maximize accuracy, we adopted a single-pass prompt development approach. Our base prompt was adapted from Kim & Lu's refined prompt with minimal modifications for the CaRS-50 framework (11 steps vs. 23) and Biology domain. After confirming successful parsing on 3-5 validation articles, the prompt was locked for all subsequent evaluations.
+  This design choice reflects our research goals: we evaluate consistency of a fixed method rather than optimize performance through iterative refinement. Consistency analysis requires a stable prompt across all runs—iterative refinement would conflate prompt variability with model stochasticity. Our approach thus tests: "Given a reasonable prompt adapted from established methods, how consistent are different annotation approaches?" This question has greater practical relevance than "What is the maximum achievable accuracy with optimal prompt engineering?"
+
 ### Scope Boundaries
 
 **This study DOES:**
+
 - ✅ Evaluate consistency across prompting conditions
 - ✅ Compare performance on Biology RA introductions
 - ✅ Demonstrate methodological transferability
 - ✅ Provide practical guidance for method selection
 
 **This study DOES NOT:**
+
 - ❌ Replicate Kim & Lu's exact numerical results
 - ❌ Test on multiple domains simultaneously
 - ❌ Compare different LLM families
@@ -570,23 +615,62 @@ c) **Effect Sizes:**
 ### Researcher Positionality
 
 **Statement for Methods Section:**
+
 > This research was conducted by an independent researcher with limited annotated data resources. The choice to use the CaRS-50 dataset (50 articles) rather than larger datasets was dictated by data availability, not optimal design. We acknowledge this limitation and frame our findings accordingly.
 
 ---
 
 ## Key Decisions Summary
 
-| Decision Point | Choice | Rationale |
-|---------------|--------|-----------|
-| Train/Val/Test Split | 30/10/10 | Validation set for prompt development, test set held out |
-| Consistency Runs | 30 per condition | Adequate power for variance comparison |
-| Few-Shot Examples | Fixed sets | Isolates LLM stochasticity |
-| Fine-Tuning Strategy | Once + 30 tests | Tests inference, not training consistency |
-| Prompt Development | Single-pass | Focus on consistency, not prompt optimization |
-| Temperature | 1.0 (fixed) | Matches Kim & Lu, allows natural variability |
-| Primary Framing | Consistency analysis | Novel contribution, less replication baggage |
-| Pilot Work | Transparent disclosure | Methods validation, not hypothesis testing |
+| Decision Point       | Choice                 | Rationale                                                |
+| -------------------- | ---------------------- | -------------------------------------------------------- |
+| Train/Val/Test Split | 30/10/10               | Validation set for prompt development, test set held out |
+| Consistency Runs     | 30 per condition       | Adequate power for variance comparison                   |
+| Few-Shot Examples    | Fixed sets             | Isolates LLM stochasticity                               |
+| Fine-Tuning Strategy | Once + 30 tests        | Tests inference, not training consistency                |
+| Prompt Development   | Single-pass            | Focus on consistency, not prompt optimization            |
+| Temperature          | 1.0 (fixed)            | Matches Kim & Lu, allows natural variability             |
+| Primary Framing      | Consistency analysis   | Novel contribution, less replication baggage             |
+| Pilot Work           | Transparent disclosure | Methods validation, not hypothesis testing               |
 
 ---
+
+Notes on limited n = 10 4. 10-Article Test Set
+Recommendation: Acknowledge + justify + emphasize strengths
+You said this is out of your control—acknowledged. But you can frame this limitation strategically.
+Recommended Discussion text:
+Limitations section:
+
+Our test set consisted of 10 articles (~250-300 sentences), constrained by the availability of gold-standard annotated Biology corpus. While larger test sets would provide greater statistical power for fine-grained analyses (e.g., move-specific performance patterns), our sample size is adequate for our primary research questions:
+
+Condition-level comparisons: With 10 articles × 30 runs = 300 observations per condition, we achieve 80% power to detect moderate variance differences (Cohen's f = 0.25) in our consistency analysis.
+Precedent: Kim & Lu (2024) used a 10-article test set for their primary evaluation, establishing this as acceptable practice for genre analysis studies.
+Repeated measures design: Our 30-run consistency analysis provides substantially more statistical power than single-run evaluations with larger test sets (30 runs × 10 articles = 300 data points vs. 1 run × 30 articles = 30 data points).
+
+The test set size represents a trade-off inherent in corpus linguistics: annotated datasets are expensive to produce, limiting sample sizes, but repeated automated evaluation provides a cost-effective strategy for robust statistical inference.
+
+Key framing elements:
+
+Constraint acknowledgment (data availability—honest)
+Adequacy argument (sufficient for your RQs)
+Precedent (Kim & Lu did the same)
+Methodological advantage (repeated measures compensates)
+Field-level context (common constraint in corpus linguistics)
+
+Additional defense:
+You could add power analysis results to supplementary materials showing exactly what effect sizes you CAN and CANNOT detect with n=10.
+Can detect:
+
+Large condition differences in mean accuracy (d > 0.8)
+Moderate to large variance differences (f > 0.25)
+Strong correlations (r > 0.5)
+
+Cannot reliably detect:
+
+Small effects (d < 0.3)
+Rare event patterns (individual move/step performance)
+Complex interactions
+
+State this explicitly: "Our design prioritizes reliable detection of meaningful, actionable differences over exhaustive fine-grained analysis."
 
 **This design prioritizes transparency, reproducibility, and methodological rigor while making a clear novel contribution to understanding LLM annotation consistency.**

@@ -1,0 +1,36 @@
+[1a] In-silico protein structure prediction, i.e., sequence to structure, tackles one of the core questions in structural biology.
+[1b] AlphaFold 3 has brought a paradigm shift in the field of structural biology by intertwining deep-learning (DL) tools with evolutionary data to predict single-chain structures with high accuracy.
+[1b] Further, AlphaFold-multimer [4] (AFm) and related work [5,6] have demonstrated the utility of AlphaFold to predict protein complexes.
+[1b] The association of proteins to form transient or stable protein complexes often involves binding-induced conformational changes.
+[1c] Capturing conformational dynamics of protein-protein interactions is another grand challenge in structural biology, and many physics-based (computational) approaches have been used to tackle this challenge [2].
+[1b] Computational tools have sampled the uncharted landscape of protein-protein interactions by emulating kinetic mechanisms such as conformer selection and induced-fit and by identifying energetically stable binding states.
+[2c] However, these tools are hampered by the accuracy of the energy functions and the limitations of time and length scales for sampling.
+[1c] In fact, AF-multimer (AFm) predicted accurate protein complexes in only 43% of cases in one recent study [1].
+[1c] As the development of DL-based tools have unveiled ground-breaking performance in structure prediction, integration of a biophysical context has potential to strengthen prediction of protein assemblies and binding pathways.
+[1c] Blind docking challenges prior to AF, particularly CASP13-CAPRI and CASP14-CAPRI experiments, reported high-quality predictions for only 8% targets [7,8].
+[1c] With the availability of AF and AFm, the CASP15-CAPRI experiment stood as its first blind assessment for prediction of protein complexes and higher-order assemblies [9].
+[1c] In this round, the docking community relied on AF and AFm for single-structure or complex predictions.
+[2b] Given that AlphaFold generates a static three-dimensional structure, it has been unclear whether conformational diversity could be captured by AlphaFold.
+[2c] In other terms, given a protein sequence, could AlphaFold generate ensembles of structures that include both unbound and bound conformations?
+[2c] Additionally, can AlphaFold reveal intrinsic conformational heterogeneity?
+[3a] To diversify model complexes generated with AlphaFold-multimer in the recent round of CASP15, predictors employed tuning parameters such as dropout [10], higher recycles on inference [11] or modulating the MSA inputs [12,13] with the amino acid sequence.
+[3a] While these approaches demonstrated the ability to generate broader conformational ensembles, AFm performance still worsens with a higher degree of conformational flexibility between unbound and bound targets [1].
+[3a] Prediction accuracies especially deteriorated in bound complex regions involving loop motions, concerted motions between domains, rearrangement of secondary structures, or hinge-like domain motions, i.e., large-scale conformational changes, which are also challenging for conventional docking methods [14].
+[1b] Unlike state-of-the-art docking algorithms, AlphaFold’s output models incorporate a residue-specific estimate of prediction accuracy.
+[3b] This suggests a few interesting questions: (1) Do the residue-specific estimates from AF/AFm relate to potential metrics demonstrating conformational flexibility?
+[3b] (2) Can AF/AFm metrics deduce information about docking accuracy?
+[3b] (3) Can we create a docking pipeline for in-silico complex structure prediction incorporating AFm to convert sequence to structure to docked complexes?
+[1c] Recent work in physics-based docking approaches tested induced-fit docking [2], large ensembles [15], and fast-fourier transforms with improved energy functions [16] to capture conformational changes and better dock protein structures.
+[1c] Coupling temperature replica exchange with induced-fit docking, ReplicaDock 2.02 achieved successful local docking predictions on 80% of rigid (unbound-to-bound root mean square deviation, RMSDUB < 1.1Å) and 61% medium (1.1 ≤ RMSDUB < 2.2 Å) targets in the Docking Benchmark 5.0 set [17].
+[1c] However, like most state-of-the-art physics-based docking methods, ReplicaDock 2.0 performance was limited for highly flexible targets: 33% success rate on targets with RMSDUB ≥ 2.2 Å. Promisingly, by focusing backbone moves on known mobile residues (i.e., residues that exhibit conformational changes upon binding), ReplicaDock 2.0 sampling substantially improved the docking accuracy.
+[1c] But the flexible residues must first, somehow, be identified.
+[1c] Additionally, physics-based docking is quite slow (6-8 hrs on a 24-core CPU cluster) compared to recent DL based docking tools (0.1-10 minutes on a single NVIDIA GPU).
+[1c] However, docking-specific DL tools such as EquiDock [18] and dMASIF [19] do not allow for protein flexibility, and recent tools like GeoDock [20], and DockGPT [21] have very limited backbone flexibility.
+[1c] Further, all of these DL docking tools have low success rates on unbound docking targets such as those in Docking Benchmark 5.5 [20].
+[3b] In this work, we combine the features of a top deep learning approach (AlphaFold-multimer [4]) with physics-based docking schemes (ReplicaDock 2.02) to systematically dock protein interfaces.
+[3b] The overarching goal is to create a robust pipeline for easier, reproducible, and accurate modeling of protein complexes.
+[3b] We investigate the aforementioned questions and create a protocol to resolve AFm failures and capture binding-induced conformational changes.
+[3b] We first assess the utility of AFm confidence metrics to detect conformational flexibility and binding site confidence.
+[3b] Next, we feed these metrics and the AFm-generated structural template to ReplicaDock 2.0, creating a pipeline we call AlphaRED (AlphaFold-initiated Replica Exchange Docking).
+[3b] We test AlphaRED’s docking accuracy on a curated set of benchmark targets of bound and unbound protein structures of varying levels of binding-induced conformational change, including antibody-antigen interfaces, which additionally challenge AF2m due to the lack of evolutionary information across the interface [22,23].
+[3b] In summary, we to assess the promise of combining the best of deep learning and biophysical approaches for predicting challenging protein complexes.

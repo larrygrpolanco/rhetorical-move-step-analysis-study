@@ -1,0 +1,188 @@
+{
+  "article_id": "text039",
+  "title": "Kinetic and structural characterization of human NUDIX hydrolases NUDT15 and NUDT18 as catalysts of isoprene pyrophosphate hydrolysis",
+  "sentences": [
+    {
+      "sentence_num": 1,
+      "sentence_id": "t039s001",
+      "text": "Isoprene pyrophosphates are metabolites in the mevalonate pathway which is an essential metabolic pathway found in eukaryotes, archaea, and some prokaryotes [1] and is responsible for the multistep conversion of acetyl-CoA into isopentenyl pyrophosphate (IPPP) and its isomer dimethylallyl pyrophosphate (DMAPP).",
+      "step": "1a",
+      "move": "1"
+    },
+    {
+      "sentence_num": 2,
+      "sentence_id": "t039s002",
+      "text": "IPPP and DMAPP are used as building blocks in the biosynthesis of all mammalian isoprenoids.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 3,
+      "sentence_id": "t039s003",
+      "text": "In addition, IPPP and DMAPP are used to produce a diverse array of essential nonsterol and sterol biomolecules.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 4,
+      "sentence_id": "t039s004",
+      "text": "An example is cholesterol which is crucial for maintaining cell membrane integrity and used for production of steroid hormones and bile acids.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 5,
+      "sentence_id": "t039s005",
+      "text": "Other products derived from isoprene PPs are lipoproteins, vitamin K, heme A, the mitochondrial electron carrier ubiquinone, dolichol, and isopentenyladenine used in tRNA modification [1, 2].",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 6,
+      "sentence_id": "t039s006",
+      "text": "Consequently, the isoprene PPs produced by the mevalonate pathway are crucial for a plethora of important biological processes.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 7,
+      "sentence_id": "t039s007",
+      "text": "Figure 1 shows the structures of the physiologically relevant isoprene pyrophosphates (isoprene PPs) in animals.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 8,
+      "sentence_id": "t039s008",
+      "text": "Moreover, approximately 2% of all mammalian proteins undergo post-translational isoprenylation [3].",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 9,
+      "sentence_id": "t039s009",
+      "text": "This process involves the covalent attachment of hydrophobic C-15 isoprene farnesyl or the C-20 isoprene geranylgeranyl group to cysteine residues in the C-terminal end of various proteins.",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 10,
+      "sentence_id": "t039s010",
+      "text": "Proteins that are farnesylated include the small GTP-binding proteins (GTPases) exemplified by the Ras superfamily, whereas other small GTPases such as Rab and Rho GTPases are geranylgeranylated [4].",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 11,
+      "sentence_id": "t039s011",
+      "text": "Prenylation of these proteins enables their attachment to cellular membranes, a prerequisite for these proteins to exert their specific functions in biological processes such as cell survival, cell signaling, and proliferation [5].",
+      "step": "1b",
+      "move": "1"
+    },
+    {
+      "sentence_num": 12,
+      "sentence_id": "t039s012",
+      "text": "The dysregulation of isoprenoid biosynthesis has been implicated in several biochemical disorders, underscoring the crucial role of appropriate isoprenoid levels in maintaining proper cellular function [6–8].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 13,
+      "sentence_id": "t039s013",
+      "text": "Additionally, statins, commonly employed to reduce cholesterol levels, exhibit effects beyond cholesterol regulation likely mediated by changes in isoprene metabolite levels [9].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 14,
+      "sentence_id": "t039s014",
+      "text": "These statin-induced alterations impact fundamental processes such as cell cycle regulation, cell migration, cell proliferation and cell survival [7, 10].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 15,
+      "sentence_id": "t039s015",
+      "text": "Given the significance of isoprenoid metabolites, their levels are presumably tightly controlled.",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 16,
+      "sentence_id": "t039s016",
+      "text": "Mevalonate kinase (MK), the second enzyme in the isoprene biosynthesis pathway, is subject to feedback inhibition by intermediates of the isoprenoid pathway - geranyl pyrophosphate (GPP), farnesyl pyrophosphate (FPP) and geranylgeranyl pyrophosphate (GGPP) [11].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 17,
+      "sentence_id": "t039s017",
+      "text": "Furthermore, HMG-CoA reductase, which catalyzes the rate-limiting step in sterol and isoprenoid biosynthesis, is regulated through a feedback loop to maintain cholesterol levels within appropriate ranges while nonsterol isoprenoids are still being produced.",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 18,
+      "sentence_id": "t039s018",
+      "text": "Sterol molecules and geranylgeraniol (GGOH) participate in this feedback loop by promoting the proteasomal breakdown of the HMG-CoA reductase enzyme [12].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 19,
+      "sentence_id": "t039s019",
+      "text": "In addition, geraniol (GOH) and farnesol (FOH) have been demonstrated to have inhibitory effects on HMG-CoA reductase activity [13–16].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 20,
+      "sentence_id": "t039s020",
+      "text": "How these isoprenoid alcohols are produced in human cells remains unclear, however, a membrane bound polyisoprenoid diphosphate phosphatase (PDP1) has been suggested to be involved in this process [17, 18].",
+      "step": "1c",
+      "move": "1"
+    },
+    {
+      "sentence_num": 21,
+      "sentence_id": "t039s021",
+      "text": "However, no cytosolic phosphatases capable of catalyzing the hydrolysis of isoprene pyrophosphates have been identified to date.",
+      "step": "2b",
+      "move": "2"
+    },
+    {
+      "sentence_num": 22,
+      "sentence_id": "t039s022",
+      "text": "Building upon the finding that the NUDIX enzyme NUDTX1 in the plants Arabidopsis thaliana and rose (Rosa hybrid cultivar) can convert GPP to Geranyl monophosphate (GP) [19, 20], we hypothesized that enzymes within the human NUDIX enzyme family might possess the capability to hydrolyze isoprene pyrophosphates in the cell.",
+      "step": "3a",
+      "move": "3"
+    },
+    {
+      "sentence_num": 23,
+      "sentence_id": "t039s023",
+      "text": "To investigate this, we screened a panel of human NUDIX enzymes for activity with the isoprene pyrophosphates IPPP and DMAPP and found NUDT15 and NUDT18 to efficiently catalyze their hydrolysis.",
+      "step": "3b",
+      "move": "3"
+    },
+    {
+      "sentence_num": 24,
+      "sentence_id": "t039s024",
+      "text": "Moreover, we identified additional isoprene PPs as substrates of NUDT15 and NUDT18 of which GPP was found to be hydrolyzed with the highest catalytic efficiency.",
+      "step": "3c",
+      "move": "3"
+    },
+    {
+      "sentence_num": 25,
+      "sentence_id": "t039s025",
+      "text": "Notably, we showed that overexpression of NUDT15 and NUDT18 resulted in decreased cellular cholesterol content indicating that their activity with isoprene PPs plays a role in a cellular context.",
+      "step": "3c",
+      "move": "3"
+    },
+    {
+      "sentence_num": 26,
+      "sentence_id": "t039s026",
+      "text": "In summary, our findings unveil previously unknown hydrolysis activities of NUDT18 and NUDT15 with endogenous isoprene pyrophosphate substrates, suggesting a novel role for these enzymes in isoprene PP metabolism.",
+      "step": "3c",
+      "move": "3"
+    }
+  ]
+}
