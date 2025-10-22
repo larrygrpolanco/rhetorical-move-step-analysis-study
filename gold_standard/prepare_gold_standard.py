@@ -1,6 +1,12 @@
 """
 Gold Standard Preparation
 ==========================
+Legacy code to prepare the CaRS-50 gold standard dataset for use in model evaluation and training.
+
+Citation:
+Lam, Charles; Nnamoko, Nonso (2025), “CaRS-50 Dataset: Annotated corpus of rhetorical Moves and Steps in 50 article introductions”, Mendeley Data, V1, doi: 10.17632/kwr9s5c4nk.1
+
+
 Converts CaRS-50 XML files into three clean formats ready for use.
 
 Splits:
