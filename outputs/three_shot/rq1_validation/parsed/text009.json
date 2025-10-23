@@ -98,12 +98,12 @@
       "sentence_num": 9,
       "text": "Laboratory experiments offer a useful tool for ALAN research, enabling controlling and isolating the light stimuli from all other variables.",
       "tags": [
-        "2b"
+        "1b"
       ],
-      "primary_tag": "2b",
-      "move": "2",
+      "primary_tag": "1b",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[2b] Laboratory experiments offer a useful tool for ALAN research, enabling controlling and isolating the light stimuli from all other variables."
+      "original_line": "[1b] Laboratory experiments offer a useful tool for ALAN research, enabling controlling and isolating the light stimuli from all other variables."
     },
     {
       "sentence_num": 10,
@@ -131,12 +131,12 @@
       "sentence_num": 12,
       "text": "Ideally, ecological ALAN research would be conducted in the untouched, naturally dark environment, while introducing long-term ALAN manipulations.",
       "tags": [
-        "2c"
+        "2b"
       ],
-      "primary_tag": "2c",
+      "primary_tag": "2b",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2c] Ideally, ecological ALAN research would be conducted in the untouched, naturally dark environment, while introducing long-term ALAN manipulations."
+      "original_line": "[2b] Ideally, ecological ALAN research would be conducted in the untouched, naturally dark environment, while introducing long-term ALAN manipulations."
     },
     {
       "sentence_num": 13,
@@ -230,12 +230,12 @@
       "sentence_num": 21,
       "text": "To the best of our knowledge, this is a first attempt to monitor the behavior of individual insects over such an extended period within a semi-natural setting.",
       "tags": [
-        "2b"
+        "2c"
       ],
-      "primary_tag": "2b",
+      "primary_tag": "2c",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2b] To the best of our knowledge, this is a first attempt to monitor the behavior of individual insects over such an extended period within a semi-natural setting."
+      "original_line": "[2c] To the best of our knowledge, this is a first attempt to monitor the behavior of individual insects over such an extended period within a semi-natural setting."
     },
     {
       "sentence_num": 22,

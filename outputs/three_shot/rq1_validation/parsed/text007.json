@@ -10,12 +10,12 @@
       "sentence_num": 1,
       "text": "Animal models have become increasingly important in stress research to examine behaviors that can inform our understanding of clinical PTSD symptoms.",
       "tags": [
-        "1b"
+        "1a"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1a",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Animal models have become increasingly important in stress research to examine behaviors that can inform our understanding of clinical PTSD symptoms."
+      "original_line": "[1a] Animal models have become increasingly important in stress research to examine behaviors that can inform our understanding of clinical PTSD symptoms."
     },
     {
       "sentence_num": 2,
@@ -32,12 +32,12 @@
       "sentence_num": 3,
       "text": "For example, experiencing intrusive distressing memories of a traumatic event(s) is a DSM-5 diagnostic criteria for PTSD (APA, 2013).",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] For example, experiencing intrusive distressing memories of a traumatic event(s) is a DSM-5 diagnostic criteria for PTSD (APA, 2013)."
+      "original_line": "[1b] For example, experiencing intrusive distressing memories of a traumatic event(s) is a DSM-5 diagnostic criteria for PTSD (APA, 2013)."
     },
     {
       "sentence_num": 4,
@@ -54,12 +54,12 @@
       "sentence_num": 5,
       "text": "Predator odor stressor exposure can also be used to investigate the complex interaction between increased alcohol consumption and stress, which may help in understanding the neurobiology associated with comorbid PTSD and alcohol use disorder (Ornelas, Tyler, et al., 2021; Weera et al., 2020).",
       "tags": [
-        "1c"
+        "2b"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "2b",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1c] Predator odor stressor exposure can also be used to investigate the complex interaction between increased alcohol consumption and stress, which may help in understanding the neurobiology associated with comorbid PTSD and alcohol use disorder (Ornelas, Tyler, et al., 2021; Weera et al., 2020)."
+      "original_line": "[2b] Predator odor stressor exposure can also be used to investigate the complex interaction between increased alcohol consumption and stress, which may help in understanding the neurobiology associated with comorbid PTSD and alcohol use disorder (Ornelas, Tyler, et al., 2021; Weera et al., 2020)."
     },
     {
       "sentence_num": 6,
@@ -87,12 +87,12 @@
       "sentence_num": 8,
       "text": "There may be individual differences in behavioral responses to stress, which may contribute, in part, to susceptible and resilient populations (Center for Substance Abuse, 2014).",
       "tags": [
-        "2c"
+        "2b"
       ],
-      "primary_tag": "2c",
+      "primary_tag": "2b",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2c] There may be individual differences in behavioral responses to stress, which may contribute, in part, to susceptible and resilient populations (Center for Substance Abuse, 2014)."
+      "original_line": "[2b] There may be individual differences in behavioral responses to stress, which may contribute, in part, to susceptible and resilient populations (Center for Substance Abuse, 2014)."
     },
     {
       "sentence_num": 9,
@@ -164,12 +164,12 @@
       "sentence_num": 15,
       "text": "However, we specifically focus on defensive digging and immobility because they capture two distinctly different types of coping behaviors (digging = active, immobility = passive) that we have found useful to characterize individual differences in stress responsivity.",
       "tags": [
-        "3a"
+        "3b"
       ],
-      "primary_tag": "3a",
+      "primary_tag": "3b",
       "move": "3",
       "parse_confidence": "high",
-      "original_line": "[3a] However, we specifically focus on defensive digging and immobility because they capture two distinctly different types of coping behaviors (digging = active, immobility = passive) that we have found useful to characterize individual differences in stress responsivity."
+      "original_line": "[3b] However, we specifically focus on defensive digging and immobility because they capture two distinctly different types of coping behaviors (digging = active, immobility = passive) that we have found useful to characterize individual differences in stress responsivity."
     },
     {
       "sentence_num": 16,

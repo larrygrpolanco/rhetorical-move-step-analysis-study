@@ -157,22 +157,6 @@ According to your study design, use OpenAI's defaults:
 
 4. **Save it somewhere safe** (you'll use it in the next step)
 
----
-
-## Phase 3: Update Your Code (Local - 2 minutes)
-
-### Step 8: Update llm_handler.py
-
-Open `llm_handler.py` and find the `call_fine_tuned()` function.
-
-**Before** (example placeholder):
-```python
-def call_fine_tuned(prompt, article_text, model_id):
-    # model_id will be provided when calling this function
-```
-
-**After** (no changes needed in the function):
-The function already accepts `model_id` as a parameter, so you're all set!
 
 ### Step 9: Test the Fine-Tuned Model
 
@@ -211,27 +195,6 @@ python test_finetuned.py
 
 ---
 
-## Phase 4: Run Your Study (Following Your Study Design)
-
-### Phase 2: Single-Run Evaluation
-
-From your STUDY_DESIGN_FINAL.md:
-
-```bash
-# A4: Fine-tuned (1 run on test set)
-python run_condition.py A4 --model-id "ft:gpt-4.1-2025-04-14:your-org:cars50-biology-30articles:AbC123"
-```
-
-### Phase 3: Consistency Analysis
-
-```bash
-# Run 30 times for consistency analysis
-for i in {1..30}; do
-    python run_condition.py A4 --run-number $i --model-id "YOUR_MODEL_ID"
-done
-```
-
----
 
 ## Troubleshooting
 
@@ -262,71 +225,6 @@ done
 - This might happen with only 30 examples
 - It's OK for your study design
 - Document in your paper's limitations section
-
----
-
-## Expected Results (From Kim & Lu 2024)
-
-Based on similar studies, you can expect:
-
-**Move-Level Accuracy**:
-- Zero-shot: ~40-60%
-- Few-shot: ~50-70%
-- Fine-tuned: ~70-90% ✨
-
-**Step-Level Accuracy**:
-- Zero-shot: ~30-50%
-- Few-shot: ~40-60%
-- Fine-tuned: ~60-80% ✨
-
-**Your results may vary** due to:
-- Smaller training set (30 vs. Kim & Lu's 80)
-- Different domain (Biology vs. Applied Linguistics)
-- Simpler framework (11 vs. 23 categories)
-
----
-
-## Checklist
-
-**Before fine-tuning**:
-- [ ] Ran verify_finetuning_setup.py (all ✓)
-- [ ] Ran prepare_finetuning_data.py (success)
-- [ ] Checked finetuning_data.jsonl (30 lines, valid JSON)
-- [ ] Have OpenAI API key with credits
-
-**During fine-tuning**:
-- [ ] Uploaded finetuning_data.jsonl to OpenAI
-- [ ] Selected model: gpt-4.1-2025-04-14
-- [ ] Used default hyperparameters
-- [ ] Started training
-- [ ] Monitored progress (optional)
-
-**After fine-tuning**:
-- [ ] Copied fine-tuned model ID
-- [ ] Saved model ID in safe place
-- [ ] Tested model with test script
-- [ ] Verified output format is correct
-- [ ] Ready to run Phase 2 evaluation
-
----
-
-## Questions to Consider
-
-Before running your full study, confirm:
-
-1. ✓ Do you have sufficient API credits for 124 total runs?
-   - Phase 2: 4 runs
-   - Phase 3: 120 runs (4 conditions × 30)
-   - Estimated total: ~$150
-
-2. ✓ Do you have time for consistency runs?
-   - Each run: ~2-3 minutes
-   - Total: ~6-8 hours of API time
-   - Can run overnight or in batches
-
-3. ✓ Have you documented your model ID?
-   - You'll need it for all 30 fine-tuned runs
-   - If you lose it, you'll have to fine-tune again
 
 ---
 

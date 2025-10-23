@@ -14,13 +14,13 @@
 [3a] We use the European honey bee, Apis mellifera, to investigate the causal relationship between the gut microbiome and division of labor.
 [1b] Honey bees are a highly eusocial insect with well-characterized and tractable social behaviors and gut microbiomes.
 [1b] In typical honey bee colonies, sterile worker bees exhibit age-related division of labor, which is based on a pattern of individual behavioral maturation.
-[1b] Typically, adult worker bees perform brood care (“nursing”) and other activities in the hive during the first 1-3 weeks of adult life and then transition to foraging behaviors outside of the hive for the final 1-2 weeks of their life [28, 34].
+[1c] Typically, adult worker bees perform brood care (“nursing”) and other activities in the hive during the first 1-3 weeks of adult life and then transition to foraging behaviors outside of the hive for the final 1-2 weeks of their life [28, 34].
 [2b] However, honey bee division of labor is flexible and responsive to changing colony needs, and thus does not exclusively rely on the typical age patterns of behavioral maturation [35–39].
-[1b] In addition, honey bee foragers exhibit considerable individual variation in preference for nectar or pollen [40, 41], exploratory behavior [42], and general foraging intensity [43].
+[1c] In addition, honey bee foragers exhibit considerable individual variation in preference for nectar or pollen [40, 41], exploratory behavior [42], and general foraging intensity [43].
 [1b] Therefore, honey bee division of labor involves individual variation in both behavioral maturation and task performance [44].
-[1b] The honey bee gut microbial community, most of which resides in the hindgut, is well-characterized and relatively simple, composed of ∼10-20 different species of facultatively anaerobic and microaerophilic host-adapted bacteria within the taxonomic groups of Actinomycetes (Bifidobacterium), Lactobacillaceae (Bombilactobacillus Firm-4 and Lactobacillus Firm-5), Gammaproteobacteria (Gilliamella and Friscella), Alphaproteobacteria (Bartonella and Bombella), and Betaproteobacteria (Snodgrassella) [27].
-[1b] Furthermore, the individual members of the honey bee gut microbiome are consistently present, but differ in abundance across different individuals and populations of honey bees [27].
-[3a] Of particular interest, the composition of honey bee gut microbial communities can be experimentally manipulated.
+[1c] The honey bee gut microbial community, most of which resides in the hindgut, is well-characterized and relatively simple, composed of ∼10-20 different species of facultatively anaerobic and microaerophilic host-adapted bacteria within the taxonomic groups of Actinomycetes (Bifidobacterium), Lactobacillaceae (Bombilactobacillus Firm-4 and Lactobacillus Firm-5), Gammaproteobacteria (Gilliamella and Friscella), Alphaproteobacteria (Bartonella and Bombella), and Betaproteobacteria (Snodgrassella) [27].
+[1c] Furthermore, the individual members of the honey bee gut microbiome are consistently present, but differ in abundance across different individuals and populations of honey bees [27].
+[2b] Of particular interest, the composition of honey bee gut microbial communities can be experimentally manipulated.
 [3b] All species can be cultured [45] and used to inoculate young bees [29, 46, 47], who must acquire their microbiome from older bees or hive materials [48].
 [1c] Furthermore, previous studies indicate an association between the gut microbiome and various aspects of division of labor in the honey bee [30–32, 49, 50].
 [3a] Due to these attributes of the honey bee gut microbiome, it is a great model for understanding the causal effects of gut microbes on complex host behaviors.

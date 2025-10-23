@@ -109,12 +109,12 @@
       "sentence_num": 10,
       "text": "The six miRNAs listed above are present in sperm RNA in general and are altered in the father of an autistic child.",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] The six miRNAs listed above are present in sperm RNA in general and are altered in the father of an autistic child."
+      "original_line": "[1b] The six miRNAs listed above are present in sperm RNA in general and are altered in the father of an autistic child."
     },
     {
       "sentence_num": 11,
@@ -164,12 +164,12 @@
       "sentence_num": 15,
       "text": "In particular, although exposure of total RNA from (human) sperm to fertilized mouse eggs may have adverse effects on offspring, can symptoms of autism also become established in the next generation?",
       "tags": [
-        "2c"
+        "2b"
       ],
-      "primary_tag": "2c",
+      "primary_tag": "2b",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2c] In particular, although exposure of total RNA from (human) sperm to fertilized mouse eggs may have adverse effects on offspring, can symptoms of autism also become established in the next generation?"
+      "original_line": "[2b] In particular, although exposure of total RNA from (human) sperm to fertilized mouse eggs may have adverse effects on offspring, can symptoms of autism also become established in the next generation?"
     },
     {
       "sentence_num": 16,

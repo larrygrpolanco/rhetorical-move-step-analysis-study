@@ -54,12 +54,12 @@
       "sentence_num": 5,
       "text": "In many cases, this relationship is obligatory, where the microbiome is necessary for normal functioning of the host [7–10].",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] In many cases, this relationship is obligatory, where the microbiome is necessary for normal functioning of the host [7–10]."
+      "original_line": "[1c] In many cases, this relationship is obligatory, where the microbiome is necessary for normal functioning of the host [7–10]."
     },
     {
       "sentence_num": 6,
@@ -197,23 +197,23 @@
       "sentence_num": 18,
       "text": "However, honey bee division of labor is flexible and responsive to changing colony needs, and thus does not exclusively rely on the typical age patterns of behavioral maturation [35–39].",
       "tags": [
-        "1b"
+        "2b"
       ],
-      "primary_tag": "1b",
-      "move": "1",
+      "primary_tag": "2b",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1b] However, honey bee division of labor is flexible and responsive to changing colony needs, and thus does not exclusively rely on the typical age patterns of behavioral maturation [35–39]."
+      "original_line": "[2b] However, honey bee division of labor is flexible and responsive to changing colony needs, and thus does not exclusively rely on the typical age patterns of behavioral maturation [35–39]."
     },
     {
       "sentence_num": 19,
       "text": "In addition, honey bee foragers exhibit considerable individual variation in preference for nectar or pollen [40, 41], exploratory behavior [42], and general foraging intensity [43].",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] In addition, honey bee foragers exhibit considerable individual variation in preference for nectar or pollen [40, 41], exploratory behavior [42], and general foraging intensity [43]."
+      "original_line": "[1c] In addition, honey bee foragers exhibit considerable individual variation in preference for nectar or pollen [40, 41], exploratory behavior [42], and general foraging intensity [43]."
     },
     {
       "sentence_num": 20,
@@ -241,12 +241,12 @@
       "sentence_num": 22,
       "text": "Furthermore, the individual members of the honey bee gut microbiome are consistently present, but differ in abundance across different individuals and populations of honey bees [27].",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Furthermore, the individual members of the honey bee gut microbiome are consistently present, but differ in abundance across different individuals and populations of honey bees [27]."
+      "original_line": "[1c] Furthermore, the individual members of the honey bee gut microbiome are consistently present, but differ in abundance across different individuals and populations of honey bees [27]."
     },
     {
       "sentence_num": 23,
@@ -263,12 +263,12 @@
       "sentence_num": 24,
       "text": "All species can be cultured [45] and used to inoculate young bees [29, 46, 47], who must acquire their microbiome from older bees or hive materials [48].",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] All species can be cultured [45] and used to inoculate young bees [29, 46, 47], who must acquire their microbiome from older bees or hive materials [48]."
+      "original_line": "[1c] All species can be cultured [45] and used to inoculate young bees [29, 46, 47], who must acquire their microbiome from older bees or hive materials [48]."
     },
     {
       "sentence_num": 25,

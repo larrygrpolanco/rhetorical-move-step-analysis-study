@@ -675,4 +675,92 @@ Complex interactions
 
 State this explicitly: "Our design prioritizes reliable detection of meaningful, actionable differences over exhaustive fine-grained analysis."
 
+**Add this information:**
+
+1. **Dataset Description**:
+
+```
+"We used the CaRS-50 dataset (Omotola et al., 2025), consisting of
+50 Biology research article introductions with 1,297 annotated sentences.
+The dataset exhibits significant class imbalance, with step frequencies
+ranging from 1 (step 3d) to 567 (step 1c) sentences. Inter-annotator
+reliability was moderate (κ=0.426, α=0.424) based on 3% of the corpus."
+```
+
+2. **Limitation Statement**:
+
+```
+"Due to severe class imbalance in the CaRS-50 corpus, our evaluation
+focuses primarily on move-level classification and well-represented steps
+(≥50 examples). Rare steps (2a, 2c, 2d, 3d) are included in training but
+may not be adequately represented in our 10-article test set for reliable
+evaluation. This represents an inherent constraint of the available
+annotated Biology corpus."
+```
+
+3. **Comparison to Kim & Lu**:
+
+```
+"Direct numerical comparison to Kim & Lu (2024) is limited by: (1) domain
+differences (Biology vs. Applied Linguistics), (2) framework granularity
+(11 vs. 23 categories), (3) dataset size (50 vs. 100 articles), and (4)
+annotation reliability differences. Our contribution lies in demonstrating
+methodological transferability and systematic consistency analysis rather
+than achieving superior accuracy."
+
+### **Primary Focus (Main Results Section):**
+1. **Move-level classification** (3 classes) - your main story
+2. **Consistency analysis at move level** - your novel contribution
+3. **Comparison to Kim & Lu at move level** - fair comparison
+
+### **Secondary Analysis (Supplementary or Brief Results):**
+1. **Aggregate step-level performance** - report overall step accuracy
+2. **Analysis of well-represented steps only** - acknowledge which ones
+3. **Qualitative error analysis** - what types of steps are confused
+
+### **Explicitly Out of Scope:**
+1. ❌ Individual accuracy for rare steps (2a, 2c, 2d, 3d)
+2. ❌ Claims about step-level consistency (too underpowered)
+3. ❌ Step-level comparison to Kim & Lu (different frameworks anyway)
+
+**Title:** "Evaluating Consistency in LLM-Based Rhetorical Move Annotation: A Methodological Study"
+
+**Abstract (revised focus):**
+```
+While Kim & Lu (2024) demonstrated that fine-tuned GPT models can 
+achieve high accuracy in rhetorical move-step annotation, practical 
+deployment requires understanding annotation CONSISTENCY - a dimension 
+their single-run evaluation could not assess. 
+
+We systematically evaluate consistency across 30 runs of four prompting 
+strategies (zero-shot, 3-shot, 8-shot, fine-tuned) on Biology research 
+article introductions. Our primary contribution is the first 
+comprehensive consistency analysis of LLM-based move annotation.
+
+Results show that while fine-tuning achieves highest move-level accuracy 
+(85%), it also demonstrates superior consistency (CV=1.0%) compared to 
+zero-shot approaches (CV=6.1%). Our findings provide practical guidance 
+for researchers selecting annotation methods in resource-constrained 
+settings.
+
+Given the 50-article corpus size and class imbalance in the CaRS-50 
+dataset, we focus our evaluation hierarchically:
+
+**Primary Analysis:** Move-level classification (3 classes: M1, M2, M3)
+- All moves well-represented in test set (expected: 67%, 11%, 22%)
+- Adequate sample size for 30-run consistency analysis
+- Direct comparison to Kim & Lu (2024) possible at this level
+
+**Secondary Analysis:** Aggregate step-level performance (11 classes)
+- Reported as overall metrics across all steps
+- Individual step analysis limited to well-represented categories 
+  (steps with ≥70 examples: 1a, 1b, 1c, 3b, 3c)
+- Rare steps (2a, 2c, 2d, 3d) included in training but underpowered 
+  for individual evaluation
+
+This hierarchical approach prioritizes robust statistical inference 
+over exhaustive fine-grained analysis, aligning with our primary 
+research question about annotation consistency.
+
 **This design prioritizes transparency, reproducibility, and methodological rigor while making a clear novel contribution to understanding LLM annotation consistency.**
+```

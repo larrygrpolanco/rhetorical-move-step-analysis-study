@@ -98,12 +98,12 @@
       "sentence_num": 9,
       "text": "In this study, we investigated the ability of bats to adapt the timing of their vocalizations (both echolocation and communication calls) to overcome acoustic jamming, using temporally predictable and unpredictable noise, across two experiments.",
       "tags": [
-        "3a"
+        "3b"
       ],
-      "primary_tag": "3a",
+      "primary_tag": "3b",
       "move": "3",
       "parse_confidence": "high",
-      "original_line": "[3a] In this study, we investigated the ability of bats to adapt the timing of their vocalizations (both echolocation and communication calls) to overcome acoustic jamming, using temporally predictable and unpredictable noise, across two experiments."
+      "original_line": "[3b] In this study, we investigated the ability of bats to adapt the timing of their vocalizations (both echolocation and communication calls) to overcome acoustic jamming, using temporally predictable and unpredictable noise, across two experiments."
     },
     {
       "sentence_num": 10,

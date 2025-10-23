@@ -1,0 +1,7 @@
+level,condition_1,condition_2,statistic,p_value,both_correct,cond1_only_correct,cond2_only_correct,both_wrong
+move,eight_shot,three_shot,10.0,1.0,161,10,11,22
+move,eight_shot,zero_shot,4.0,0.11846923828124999,167,4,11,22
+move,three_shot,zero_shot,4.0,0.1795654296875,168,4,10,22
+step,eight_shot,three_shot,23.0,0.7754496546815659,73,26,23,82
+step,eight_shot,zero_shot,17.0,0.34888887944907765,82,17,24,81
+step,three_shot,zero_shot,9.0,0.08715855330228806,87,9,19,89

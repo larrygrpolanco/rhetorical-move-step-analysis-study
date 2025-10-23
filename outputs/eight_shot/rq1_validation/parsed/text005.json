@@ -4,7 +4,7 @@
   "dataset": "validation",
   "research_question": "rq1",
   "run_number": 1,
-  "model": "claude-sonnet-4-5",
+  "model": "gpt-4.1-2025-04-14",
   "sentences": [
     {
       "sentence_num": 1,
@@ -32,12 +32,12 @@
       "sentence_num": 3,
       "text": "Understanding the neurobiology underlying these conditions is crucial for developing more effective therapeutic interventions.",
       "tags": [
-        "1a"
+        "3a"
       ],
-      "primary_tag": "1a",
-      "move": "1",
+      "primary_tag": "3a",
+      "move": "3",
       "parse_confidence": "high",
-      "original_line": "[1a] Understanding the neurobiology underlying these conditions is crucial for developing more effective therapeutic interventions."
+      "original_line": "[3a] Understanding the neurobiology underlying these conditions is crucial for developing more effective therapeutic interventions."
     },
     {
       "sentence_num": 4,
@@ -87,12 +87,12 @@
       "sentence_num": 8,
       "text": "However, this validity may not be related to the neurobiology of depression (Commons et al., 2017).",
       "tags": [
-        "2c"
+        "2a"
       ],
-      "primary_tag": "2c",
+      "primary_tag": "2a",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2c] However, this validity may not be related to the neurobiology of depression (Commons et al., 2017)."
+      "original_line": "[2a] However, this validity may not be related to the neurobiology of depression (Commons et al., 2017)."
     },
     {
       "sentence_num": 9,
@@ -109,12 +109,12 @@
       "sentence_num": 10,
       "text": "In the literature, even behavioral changes traditionally associated with a depressive-like profile due to stress are not consistent.",
       "tags": [
-        "1c"
+        "2b"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "2b",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1c] In the literature, even behavioral changes traditionally associated with a depressive-like profile due to stress are not consistent."
+      "original_line": "[2b] In the literature, even behavioral changes traditionally associated with a depressive-like profile due to stress are not consistent."
     },
     {
       "sentence_num": 11,
@@ -153,34 +153,34 @@
       "sentence_num": 14,
       "text": "In contrast, studying different behavioral categories associated with depressive-like behaviors is essential to understanding the underlying neural patterns (Marques et al., 2022) and gaining a better comprehension of the modeled phenomenon.",
       "tags": [
-        "2b"
+        "2d"
       ],
-      "primary_tag": "2b",
+      "primary_tag": "2d",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2b] In contrast, studying different behavioral categories associated with depressive-like behaviors is essential to understanding the underlying neural patterns (Marques et al., 2022) and gaining a better comprehension of the modeled phenomenon."
+      "original_line": "[2d] In contrast, studying different behavioral categories associated with depressive-like behaviors is essential to understanding the underlying neural patterns (Marques et al., 2022) and gaining a better comprehension of the modeled phenomenon."
     },
     {
       "sentence_num": 15,
       "text": "For this purpose, a multivariate approach to behavioral assessment, using a set of behavioral tests, can be a valuable alternative.",
       "tags": [
-        "2b"
+        "2d"
       ],
-      "primary_tag": "2b",
+      "primary_tag": "2d",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2b] For this purpose, a multivariate approach to behavioral assessment, using a set of behavioral tests, can be a valuable alternative."
+      "original_line": "[2d] For this purpose, a multivariate approach to behavioral assessment, using a set of behavioral tests, can be a valuable alternative."
     },
     {
       "sentence_num": 16,
       "text": "This methodology has shown promise in understanding the relations between behavioral domains in naive animals (Ramos et al., 1997; Feyissa et al., 2017) and in animal models of stress-related neuropsychiatric disorders (Kanari et al., 2005; Saénz et al., 2006), enriching the ethological assessment of the models, as well as their translational aspects.",
       "tags": [
-        "1c"
+        "2d"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "2d",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1c] This methodology has shown promise in understanding the relations between behavioral domains in naive animals (Ramos et al., 1997; Feyissa et al., 2017) and in animal models of stress-related neuropsychiatric disorders (Kanari et al., 2005; Saénz et al., 2006), enriching the ethological assessment of the models, as well as their translational aspects."
+      "original_line": "[2d] This methodology has shown promise in understanding the relations between behavioral domains in naive animals (Ramos et al., 1997; Feyissa et al., 2017) and in animal models of stress-related neuropsychiatric disorders (Kanari et al., 2005; Saénz et al., 2006), enriching the ethological assessment of the models, as well as their translational aspects."
     },
     {
       "sentence_num": 17,

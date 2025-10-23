@@ -4,7 +4,7 @@
   "dataset": "validation",
   "research_question": "rq1",
   "run_number": 1,
-  "model": "claude-sonnet-4-5",
+  "model": "gpt-4.1-2025-04-14",
   "sentences": [
     {
       "sentence_num": 1,
@@ -65,23 +65,23 @@
       "sentence_num": 6,
       "text": "Studies across different vertebrate species although recognized the consistency of inter-individual variability in cognitive capacities ([9] [10] [11]), albeit tracing invertebrate cognition through the lens of individual behavioral variability is a much less explored.",
       "tags": [
-        "1c"
+        "2b"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "2b",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1c] Studies across different vertebrate species although recognized the consistency of inter-individual variability in cognitive capacities ([9] [10] [11]), albeit tracing invertebrate cognition through the lens of individual behavioral variability is a much less explored."
+      "original_line": "[2b] Studies across different vertebrate species although recognized the consistency of inter-individual variability in cognitive capacities ([9] [10] [11]), albeit tracing invertebrate cognition through the lens of individual behavioral variability is a much less explored."
     },
     {
       "sentence_num": 7,
       "text": "Selection for behavioral traits usually involve many animals.",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Selection for behavioral traits usually involve many animals."
+      "original_line": "[1c] Selection for behavioral traits usually involve many animals."
     },
     {
       "sentence_num": 8,
@@ -109,12 +109,12 @@
       "sentence_num": 10,
       "text": "Olfactory conditioning protocols in Drosophila used by others also failed to decipher the heterogeneity in the expression of learned behavior among the individuals, rather the results were interpreted as the expression of probabilistic behavior at the individual level [14] [15].",
       "tags": [
-        "1c"
+        "2b"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "2b",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1c] Olfactory conditioning protocols in Drosophila used by others also failed to decipher the heterogeneity in the expression of learned behavior among the individuals, rather the results were interpreted as the expression of probabilistic behavior at the individual level [14] [15]."
+      "original_line": "[2b] Olfactory conditioning protocols in Drosophila used by others also failed to decipher the heterogeneity in the expression of learned behavior among the individuals, rather the results were interpreted as the expression of probabilistic behavior at the individual level [14] [15]."
     },
     {
       "sentence_num": 11,
@@ -153,12 +153,12 @@
       "sentence_num": 14,
       "text": "However, learning and retention scores are expressed in all these studies by data from groups of animals thus averaging across the individuals.",
       "tags": [
-        "1c"
+        "2b"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "2b",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1c] However, learning and retention scores are expressed in all these studies by data from groups of animals thus averaging across the individuals."
+      "original_line": "[2b] However, learning and retention scores are expressed in all these studies by data from groups of animals thus averaging across the individuals."
     },
     {
       "sentence_num": 15,
@@ -208,12 +208,12 @@
       "sentence_num": 19,
       "text": "These results have revealed some of the important aspects of learning behavior of individuals which were previously unnoticed in the analyses of group-averaged learning behavior albeit no clear picture has emerged on the different classes of bees which learn odors with different efficacy.",
       "tags": [
-        "1c"
+        "2b"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "2b",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1c] These results have revealed some of the important aspects of learning behavior of individuals which were previously unnoticed in the analyses of group-averaged learning behavior albeit no clear picture has emerged on the different classes of bees which learn odors with different efficacy."
+      "original_line": "[2b] These results have revealed some of the important aspects of learning behavior of individuals which were previously unnoticed in the analyses of group-averaged learning behavior albeit no clear picture has emerged on the different classes of bees which learn odors with different efficacy."
     },
     {
       "sentence_num": 20,
@@ -274,12 +274,12 @@
       "sentence_num": 25,
       "text": "We, therefore, selected the honeybees based on our previous work on their multiple forms of learning, their memory functions and the brain parts involved in these performances [1] [39], the mushroom bodies, which both in the bee brain as well as in Drosophila are known to be involved in higher order processing, learning and memory [40] [41] [42].",
       "tags": [
-        "1c"
+        "3a"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "3a",
+      "move": "3",
       "parse_confidence": "high",
-      "original_line": "[1c] We, therefore, selected the honeybees based on our previous work on their multiple forms of learning, their memory functions and the brain parts involved in these performances [1] [39], the mushroom bodies, which both in the bee brain as well as in Drosophila are known to be involved in higher order processing, learning and memory [40] [41] [42]."
+      "original_line": "[3a] We, therefore, selected the honeybees based on our previous work on their multiple forms of learning, their memory functions and the brain parts involved in these performances [1] [39], the mushroom bodies, which both in the bee brain as well as in Drosophila are known to be involved in higher order processing, learning and memory [40] [41] [42]."
     },
     {
       "sentence_num": 26,

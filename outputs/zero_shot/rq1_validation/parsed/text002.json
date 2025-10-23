@@ -120,12 +120,12 @@
       "sentence_num": 11,
       "text": "Humans regularly employ a similar strategy, such as when a pair of speakers pause their conversation so as not to be drowned out by the blaring siren of a passing ambulance.",
       "tags": [
-        "1b"
+        "2b"
       ],
-      "primary_tag": "1b",
-      "move": "1",
+      "primary_tag": "2b",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1b] Humans regularly employ a similar strategy, such as when a pair of speakers pause their conversation so as not to be drowned out by the blaring siren of a passing ambulance."
+      "original_line": "[2b] Humans regularly employ a similar strategy, such as when a pair of speakers pause their conversation so as not to be drowned out by the blaring siren of a passing ambulance."
     },
     {
       "sentence_num": 12,

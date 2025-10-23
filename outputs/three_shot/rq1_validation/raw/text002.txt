@@ -6,7 +6,7 @@
 [1b] These bats emit highly stereotyped echolocation pulses comprised of brief (∽1-2 ms) [17], multi-harmonic, frequency-modulated downward sweeps (peak frequency 60-90 kHz) [18,19].
 [1b] This species also possesses a repertoire of social calls, some of which have been associated with specific behaviors, such as distress, territorial aggression (males), courtship (males), and the eliciting of maternal attention (infants) [20–22].
 [1b] These communication calls typically feature multiple distinct harmonics, with the most energy concentrated in lower frequencies (below 50 kHz) [20].
-[3a] In this study, we investigated the ability of bats to adapt the timing of their vocalizations (both echolocation and communication calls) to overcome acoustic jamming, using temporally predictable and unpredictable noise, across two experiments.
+[3b] In this study, we investigated the ability of bats to adapt the timing of their vocalizations (both echolocation and communication calls) to overcome acoustic jamming, using temporally predictable and unpredictable noise, across two experiments.
 [3a] We hypothesized that bats would preferentially vocalize in periods of low amplitude in amplitude modulated noise, in line with a metabolically efficient signal optimization strategy.
 [1b] Humans regularly employ a similar strategy, such as when a pair of speakers pause their conversation so as not to be drowned out by the blaring siren of a passing ambulance.
 [3c] We observed that freely vocalizing bats flexibly adapt the timing and rate of their calling to be inversely proportional to dynamically-changing background amplitude levels.

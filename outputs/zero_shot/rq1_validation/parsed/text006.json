@@ -54,23 +54,23 @@
       "sentence_num": 5,
       "text": "The significance of Bayesian inference becomes apparent when studying mouse behavior in a two-armed bandit task (2ABT, Fig. 1A), a serial reversal learning task where rewards for correct choices are delivered on a probabilistic schedule, and the correct port switches between two available options across blocks of trials within a single session.",
       "tags": [
-        "1b"
+        "1a"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1a",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] The significance of Bayesian inference becomes apparent when studying mouse behavior in a two-armed bandit task (2ABT, Fig. 1A), a serial reversal learning task where rewards for correct choices are delivered on a probabilistic schedule, and the correct port switches between two available options across blocks of trials within a single session."
+      "original_line": "[1a] The significance of Bayesian inference becomes apparent when studying mouse behavior in a two-armed bandit task (2ABT, Fig. 1A), a serial reversal learning task where rewards for correct choices are delivered on a probabilistic schedule, and the correct port switches between two available options across blocks of trials within a single session."
     },
     {
       "sentence_num": 6,
       "text": "The fact that rewards are delivered on a probabilistic schedule generates ambiguity as to which port is currently the rewarded port following an unrewarded trial.",
       "tags": [
-        "2c"
+        "1b"
       ],
-      "primary_tag": "2c",
-      "move": "2",
+      "primary_tag": "1b",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[2c] The fact that rewards are delivered on a probabilistic schedule generates ambiguity as to which port is currently the rewarded port following an unrewarded trial."
+      "original_line": "[1b] The fact that rewards are delivered on a probabilistic schedule generates ambiguity as to which port is currently the rewarded port following an unrewarded trial."
     },
     {
       "sentence_num": 7,
@@ -98,23 +98,23 @@
       "sentence_num": 9,
       "text": "Bayesian inference may offer better models of behavior in tasks like the 2ABT because they capture stable within-block choice and rapid between-block switching [11].",
       "tags": [
-        "2b"
+        "2a"
       ],
-      "primary_tag": "2b",
+      "primary_tag": "2a",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2b] Bayesian inference may offer better models of behavior in tasks like the 2ABT because they capture stable within-block choice and rapid between-block switching [11]."
+      "original_line": "[2a] Bayesian inference may offer better models of behavior in tasks like the 2ABT because they capture stable within-block choice and rapid between-block switching [11]."
     },
     {
       "sentence_num": 10,
       "text": "However, the additional explanatory power of Bayesian models with respect to RL models is currently ambiguous.",
       "tags": [
-        "2c"
+        "2b"
       ],
-      "primary_tag": "2c",
+      "primary_tag": "2b",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2c] However, the additional explanatory power of Bayesian models with respect to RL models is currently ambiguous."
+      "original_line": "[2b] However, the additional explanatory power of Bayesian models with respect to RL models is currently ambiguous."
     },
     {
       "sentence_num": 11,

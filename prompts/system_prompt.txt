@@ -43,18 +43,13 @@ Below, you'll find the move-step annotation tags pertaining to the Introduction 
      Example: "The paper is organized as follows: Section 2 outlines the methodology..."
 
 **Instructions:**
-You are going to be given one or more paragraphs from the Introduction section of a Biology research article. Break the given paragraph(s) into sentences and annotate each sentence using the tags from the framework above that describes the function of the sentence. Note that question marks could signal the boundary of sentences. Some sentences may perform multiple functions, sentences can only be assigned one tag, choose the single best.
+You are going to be given one or more paragraphs from the Introduction section of a Biology research article. Break the given paragraph(s) into sentences and annotate each sentence using the tags from the framework above. Each sentence receives ONE tag - if a sentence performs multiple functions, choose the single best tag.
 
-Important notes:
-- Question marks typically signal sentence boundaries
-- Format your output as ONE tag and sentence per line
+Output format:
 - Use EXACTLY this format: [tag] sentence text
-- Do NOT add extra commentary, numbering, or explanation
-- Begin each line with the tag(s) in square brackets
+- ONE tag and sentence per line
+- Do NOT add commentary, numbering, or explanation
+- Begin each line with the tag in square brackets
+- Question marks typically signal sentence boundaries
 
-CRITICAL: You must annotate ALL sentences in the input text, in order.
-- Go through the text sequentially from first sentence to last
-- Do not skip any sentences
-- Do not stop until you have annotated every sentence
-
-You will start your annotation with the given input text.
+CRITICAL: You must annotate ALL sentences in the input text, in order, without skipping any.

@@ -4,7 +4,7 @@
   "dataset": "validation",
   "research_question": "rq1",
   "run_number": 1,
-  "model": "claude-sonnet-4-5",
+  "model": "gpt-4.1-2025-04-14",
   "sentences": [
     {
       "sentence_num": 1,
@@ -32,12 +32,12 @@
       "sentence_num": 3,
       "text": "The cause of autism is linked to the genetic and environmental history of parents which together could lead to the development of autism spectrum disorders (ASD) in children [2,3].",
       "tags": [
-        "1b"
+        "2b"
       ],
-      "primary_tag": "1b",
-      "move": "1",
+      "primary_tag": "2b",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1b] The cause of autism is linked to the genetic and environmental history of parents which together could lead to the development of autism spectrum disorders (ASD) in children [2,3]."
+      "original_line": "[2b] The cause of autism is linked to the genetic and environmental history of parents which together could lead to the development of autism spectrum disorders (ASD) in children [2,3]."
     },
     {
       "sentence_num": 4,
@@ -65,12 +65,12 @@
       "sentence_num": 6,
       "text": "Evidence that the altered level of six miRNAs (miR-19a-3p, miR-361-5p, miR-3613-3p, miR-150-5p, miR-126-3p, miR-499a-5p) in parents and thus inheritance through the expression of altered phenotypes [9] would lead to the inclusion of a common genetic marker for autism cases.",
       "tags": [
-        "1c"
+        "2c"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "2c",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1c] Evidence that the altered level of six miRNAs (miR-19a-3p, miR-361-5p, miR-3613-3p, miR-150-5p, miR-126-3p, miR-499a-5p) in parents and thus inheritance through the expression of altered phenotypes [9] would lead to the inclusion of a common genetic marker for autism cases."
+      "original_line": "[2c] Evidence that the altered level of six miRNAs (miR-19a-3p, miR-361-5p, miR-3613-3p, miR-150-5p, miR-126-3p, miR-499a-5p) in parents and thus inheritance through the expression of altered phenotypes [9] would lead to the inclusion of a common genetic marker for autism cases."
     },
     {
       "sentence_num": 7,
@@ -87,12 +87,12 @@
       "sentence_num": 8,
       "text": "However, how RNA subornation is established and maintained throughout generation remains a matter of speculation.",
       "tags": [
-        "2b"
+        "2c"
       ],
-      "primary_tag": "2b",
+      "primary_tag": "2c",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2b] However, how RNA subornation is established and maintained throughout generation remains a matter of speculation."
+      "original_line": "[2c] However, how RNA subornation is established and maintained throughout generation remains a matter of speculation."
     },
     {
       "sentence_num": 9,
@@ -173,25 +173,25 @@
     },
     {
       "sentence_num": 16,
-      "text": "Here, we focus on experimentally induced autistic traits, particularly the potential of human sperm RNAs to induce \"autism-like\" phenotypes in mice.",
-      "tags": [
-        "3a"
-      ],
-      "primary_tag": "3a",
-      "move": "3",
-      "parse_confidence": "high",
-      "original_line": "[3a] Here, we focus on experimentally induced autistic traits, particularly the potential of human sperm RNAs to induce \"autism-like\" phenotypes in mice."
-    },
-    {
-      "sentence_num": 17,
-      "text": "Offspring born from eggs micro-injected with sperm RNAs from the father of the autistic child's were compared to controls at the molecular level and by behavioural assessment (open field maze, recognition of a familiar and novel object, social interaction, tail suspension, Marble burying and elevated plus maze assays).",
+      "text": "Here, we focus on experimentally induced autistic traits, particularly the potential of human sperm RNAs to induce “autism-like” phenotypes in mice.",
       "tags": [
         "3b"
       ],
       "primary_tag": "3b",
       "move": "3",
       "parse_confidence": "high",
-      "original_line": "[3b] Offspring born from eggs micro-injected with sperm RNAs from the father of the autistic child's were compared to controls at the molecular level and by behavioural assessment (open field maze, recognition of a familiar and novel object, social interaction, tail suspension, Marble burying and elevated plus maze assays)."
+      "original_line": "[3b] Here, we focus on experimentally induced autistic traits, particularly the potential of human sperm RNAs to induce “autism-like” phenotypes in mice."
+    },
+    {
+      "sentence_num": 17,
+      "text": "Offspring born from eggs micro-injected with sperm RNAs from the father of the autistic child’s were compared to controls at the molecular level and by behavioural assessment (open field maze, recognition of a familiar and novel object, social interaction, tail suspension, Marble burying and elevated plus maze assays).",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] Offspring born from eggs micro-injected with sperm RNAs from the father of the autistic child’s were compared to controls at the molecular level and by behavioural assessment (open field maze, recognition of a familiar and novel object, social interaction, tail suspension, Marble burying and elevated plus maze assays)."
     },
     {
       "sentence_num": 18,
@@ -252,12 +252,12 @@
       "sentence_num": 23,
       "text": "Microglia and astrocytes play important roles in the regulation of neuronal metabolism, providing nutritional support of neurons, participating in the synapses formation and facilitating neurotransmission [4,6,17,18].",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Microglia and astrocytes play important roles in the regulation of neuronal metabolism, providing nutritional support of neurons, participating in the synapses formation and facilitating neurotransmission [4,6,17,18]."
+      "original_line": "[1c] Microglia and astrocytes play important roles in the regulation of neuronal metabolism, providing nutritional support of neurons, participating in the synapses formation and facilitating neurotransmission [4,6,17,18]."
     },
     {
       "sentence_num": 24,

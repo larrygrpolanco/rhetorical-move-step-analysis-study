@@ -21,34 +21,34 @@
       "sentence_num": 2,
       "text": "These disorders are complex and symptomatically heterogeneous conditions whose treatment is still ineffective in several clinical subtypes, many of which are unknown (Blackburn, 2019).",
       "tags": [
-        "2b"
+        "1b"
       ],
-      "primary_tag": "2b",
-      "move": "2",
+      "primary_tag": "1b",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[2b] These disorders are complex and symptomatically heterogeneous conditions whose treatment is still ineffective in several clinical subtypes, many of which are unknown (Blackburn, 2019)."
+      "original_line": "[1b] These disorders are complex and symptomatically heterogeneous conditions whose treatment is still ineffective in several clinical subtypes, many of which are unknown (Blackburn, 2019)."
     },
     {
       "sentence_num": 3,
       "text": "Understanding the neurobiology underlying these conditions is crucial for developing more effective therapeutic interventions.",
       "tags": [
-        "3a"
+        "1a"
       ],
-      "primary_tag": "3a",
-      "move": "3",
+      "primary_tag": "1a",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[3a] Understanding the neurobiology underlying these conditions is crucial for developing more effective therapeutic interventions."
+      "original_line": "[1a] Understanding the neurobiology underlying these conditions is crucial for developing more effective therapeutic interventions."
     },
     {
       "sentence_num": 4,
       "text": "In this context, modeling depressive symptoms in animal models has been recognized as an essential approach (Nestler and Hyman, 2010).",
       "tags": [
-        "2d"
+        "1b"
       ],
-      "primary_tag": "2d",
-      "move": "2",
+      "primary_tag": "1b",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[2d] In this context, modeling depressive symptoms in animal models has been recognized as an essential approach (Nestler and Hyman, 2010)."
+      "original_line": "[1b] In this context, modeling depressive symptoms in animal models has been recognized as an essential approach (Nestler and Hyman, 2010)."
     },
     {
       "sentence_num": 5,
@@ -109,12 +109,12 @@
       "sentence_num": 10,
       "text": "In the literature, even behavioral changes traditionally associated with a depressive-like profile due to stress are not consistent.",
       "tags": [
-        "2c"
+        "2b"
       ],
-      "primary_tag": "2c",
+      "primary_tag": "2b",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2c] In the literature, even behavioral changes traditionally associated with a depressive-like profile due to stress are not consistent."
+      "original_line": "[2b] In the literature, even behavioral changes traditionally associated with a depressive-like profile due to stress are not consistent."
     },
     {
       "sentence_num": 11,
@@ -142,45 +142,45 @@
       "sentence_num": 13,
       "text": "In this sense, the punctual use of behavioral tests to distinguish the depressive phenotype seems to generate inconsistent results.",
       "tags": [
-        "2c"
+        "2b"
       ],
-      "primary_tag": "2c",
+      "primary_tag": "2b",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2c] In this sense, the punctual use of behavioral tests to distinguish the depressive phenotype seems to generate inconsistent results."
+      "original_line": "[2b] In this sense, the punctual use of behavioral tests to distinguish the depressive phenotype seems to generate inconsistent results."
     },
     {
       "sentence_num": 14,
       "text": "In contrast, studying different behavioral categories associated with depressive-like behaviors is essential to understanding the underlying neural patterns (Marques et al., 2022) and gaining a better comprehension of the modeled phenomenon.",
       "tags": [
-        "3a"
+        "2b"
       ],
-      "primary_tag": "3a",
-      "move": "3",
+      "primary_tag": "2b",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[3a] In contrast, studying different behavioral categories associated with depressive-like behaviors is essential to understanding the underlying neural patterns (Marques et al., 2022) and gaining a better comprehension of the modeled phenomenon."
+      "original_line": "[2b] In contrast, studying different behavioral categories associated with depressive-like behaviors is essential to understanding the underlying neural patterns (Marques et al., 2022) and gaining a better comprehension of the modeled phenomenon."
     },
     {
       "sentence_num": 15,
       "text": "For this purpose, a multivariate approach to behavioral assessment, using a set of behavioral tests, can be a valuable alternative.",
       "tags": [
-        "3a"
+        "2b"
       ],
-      "primary_tag": "3a",
-      "move": "3",
+      "primary_tag": "2b",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[3a] For this purpose, a multivariate approach to behavioral assessment, using a set of behavioral tests, can be a valuable alternative."
+      "original_line": "[2b] For this purpose, a multivariate approach to behavioral assessment, using a set of behavioral tests, can be a valuable alternative."
     },
     {
       "sentence_num": 16,
       "text": "This methodology has shown promise in understanding the relations between behavioral domains in naive animals (Ramos et al., 1997; Feyissa et al., 2017) and in animal models of stress-related neuropsychiatric disorders (Kanari et al., 2005; Saénz et al., 2006), enriching the ethological assessment of the models, as well as their translational aspects.",
       "tags": [
-        "3b"
+        "1c"
       ],
-      "primary_tag": "3b",
-      "move": "3",
+      "primary_tag": "1c",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[3b] This methodology has shown promise in understanding the relations between behavioral domains in naive animals (Ramos et al., 1997; Feyissa et al., 2017) and in animal models of stress-related neuropsychiatric disorders (Kanari et al., 2005; Saénz et al., 2006), enriching the ethological assessment of the models, as well as their translational aspects."
+      "original_line": "[1c] This methodology has shown promise in understanding the relations between behavioral domains in naive animals (Ramos et al., 1997; Feyissa et al., 2017) and in animal models of stress-related neuropsychiatric disorders (Kanari et al., 2005; Saénz et al., 2006), enriching the ethological assessment of the models, as well as their translational aspects."
     },
     {
       "sentence_num": 17,

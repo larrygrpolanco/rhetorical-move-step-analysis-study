@@ -32,12 +32,12 @@
       "sentence_num": 3,
       "text": "For example, experiencing intrusive distressing memories of a traumatic event(s) is a DSM-5 diagnostic criteria for PTSD (APA, 2013).",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] For example, experiencing intrusive distressing memories of a traumatic event(s) is a DSM-5 diagnostic criteria for PTSD (APA, 2013)."
+      "original_line": "[1b] For example, experiencing intrusive distressing memories of a traumatic event(s) is a DSM-5 diagnostic criteria for PTSD (APA, 2013)."
     },
     {
       "sentence_num": 4,
@@ -76,23 +76,23 @@
       "sentence_num": 7,
       "text": "Importantly, not all individuals who experience a traumatic event develop PTSD.",
       "tags": [
-        "2b"
+        "1b"
       ],
-      "primary_tag": "2b",
-      "move": "2",
+      "primary_tag": "1b",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[2b] Importantly, not all individuals who experience a traumatic event develop PTSD."
+      "original_line": "[1b] Importantly, not all individuals who experience a traumatic event develop PTSD."
     },
     {
       "sentence_num": 8,
       "text": "There may be individual differences in behavioral responses to stress, which may contribute, in part, to susceptible and resilient populations (Center for Substance Abuse, 2014).",
       "tags": [
-        "2b"
+        "1b"
       ],
-      "primary_tag": "2b",
-      "move": "2",
+      "primary_tag": "1b",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[2b] There may be individual differences in behavioral responses to stress, which may contribute, in part, to susceptible and resilient populations (Center for Substance Abuse, 2014)."
+      "original_line": "[1b] There may be individual differences in behavioral responses to stress, which may contribute, in part, to susceptible and resilient populations (Center for Substance Abuse, 2014)."
     },
     {
       "sentence_num": 9,
@@ -164,12 +164,12 @@
       "sentence_num": 15,
       "text": "However, we specifically focus on defensive digging and immobility because they capture two distinctly different types of coping behaviors (digging = active, immobility = passive) that we have found useful to characterize individual differences in stress responsivity.",
       "tags": [
-        "3a"
+        "3b"
       ],
-      "primary_tag": "3a",
+      "primary_tag": "3b",
       "move": "3",
       "parse_confidence": "high",
-      "original_line": "[3a] However, we specifically focus on defensive digging and immobility because they capture two distinctly different types of coping behaviors (digging = active, immobility = passive) that we have found useful to characterize individual differences in stress responsivity."
+      "original_line": "[3b] However, we specifically focus on defensive digging and immobility because they capture two distinctly different types of coping behaviors (digging = active, immobility = passive) that we have found useful to characterize individual differences in stress responsivity."
     },
     {
       "sentence_num": 16,

@@ -54,12 +54,12 @@
       "sentence_num": 5,
       "text": "The significance of Bayesian inference becomes apparent when studying mouse behavior in a two-armed bandit task (2ABT, Fig. 1A), a serial reversal learning task where rewards for correct choices are delivered on a probabilistic schedule, and the correct port switches between two available options across blocks of trials within a single session.",
       "tags": [
-        "1c"
+        "1a"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1a",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] The significance of Bayesian inference becomes apparent when studying mouse behavior in a two-armed bandit task (2ABT, Fig. 1A), a serial reversal learning task where rewards for correct choices are delivered on a probabilistic schedule, and the correct port switches between two available options across blocks of trials within a single session."
+      "original_line": "[1a] The significance of Bayesian inference becomes apparent when studying mouse behavior in a two-armed bandit task (2ABT, Fig. 1A), a serial reversal learning task where rewards for correct choices are delivered on a probabilistic schedule, and the correct port switches between two available options across blocks of trials within a single session."
     },
     {
       "sentence_num": 6,
@@ -153,12 +153,12 @@
       "sentence_num": 14,
       "text": "These data allow us to compare Bayesian and SRL models to examine which computations mice use to solve the 2ABT.",
       "tags": [
-        "3b"
+        "3a"
       ],
-      "primary_tag": "3b",
+      "primary_tag": "3a",
       "move": "3",
       "parse_confidence": "high",
-      "original_line": "[3b] These data allow us to compare Bayesian and SRL models to examine which computations mice use to solve the 2ABT."
+      "original_line": "[3a] These data allow us to compare Bayesian and SRL models to examine which computations mice use to solve the 2ABT."
     },
     {
       "sentence_num": 15,

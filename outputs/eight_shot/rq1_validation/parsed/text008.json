@@ -4,29 +4,29 @@
   "dataset": "validation",
   "research_question": "rq1",
   "run_number": 1,
-  "model": "claude-sonnet-4-5",
+  "model": "gpt-4.1-2025-04-14",
   "sentences": [
     {
       "sentence_num": 1,
       "text": "Gut microbiomes are emerging as important drivers and modulators of host phenotype [1], with evidence supporting the role of microbiomes in host digestion and nutrition, immune health, development, and, more recently, behavior [2–7].",
-      "tags": [
-        "1b"
-      ],
-      "primary_tag": "1b",
-      "move": "1",
-      "parse_confidence": "high",
-      "original_line": "[1b] Gut microbiomes are emerging as important drivers and modulators of host phenotype [1], with evidence supporting the role of microbiomes in host digestion and nutrition, immune health, development, and, more recently, behavior [2–7]."
-    },
-    {
-      "sentence_num": 2,
-      "text": "Over the past decade, the \"microbiota-gut-brain axis\" [7], which describes bidirectional interactions between the gut microbiome and host brain and behavior, has developed as an increasingly important field of study with implications for understanding the ecology and evolution of host-microbe interactions and animal behaviors.",
       "tags": [
         "1a"
       ],
       "primary_tag": "1a",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1a] Over the past decade, the \"microbiota-gut-brain axis\" [7], which describes bidirectional interactions between the gut microbiome and host brain and behavior, has developed as an increasingly important field of study with implications for understanding the ecology and evolution of host-microbe interactions and animal behaviors."
+      "original_line": "[1a] Gut microbiomes are emerging as important drivers and modulators of host phenotype [1], with evidence supporting the role of microbiomes in host digestion and nutrition, immune health, development, and, more recently, behavior [2–7]."
+    },
+    {
+      "sentence_num": 2,
+      "text": "Over the past decade, the “microbiota-gut-brain axis” [7], which describes bidirectional interactions between the gut microbiome and host brain and behavior, has developed as an increasingly important field of study with implications for understanding the ecology and evolution of host-microbe interactions and animal behaviors.",
+      "tags": [
+        "1a"
+      ],
+      "primary_tag": "1a",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1a] Over the past decade, the “microbiota-gut-brain axis” [7], which describes bidirectional interactions between the gut microbiome and host brain and behavior, has developed as an increasingly important field of study with implications for understanding the ecology and evolution of host-microbe interactions and animal behaviors."
     },
     {
       "sentence_num": 3,
@@ -54,12 +54,12 @@
       "sentence_num": 5,
       "text": "In many cases, this relationship is obligatory, where the microbiome is necessary for normal functioning of the host [7–10].",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] In many cases, this relationship is obligatory, where the microbiome is necessary for normal functioning of the host [7–10]."
+      "original_line": "[1b] In many cases, this relationship is obligatory, where the microbiome is necessary for normal functioning of the host [7–10]."
     },
     {
       "sentence_num": 6,
@@ -98,23 +98,23 @@
       "sentence_num": 9,
       "text": "Eusocial insects represent a powerful model for understanding how gut microbes contribute to adaptive behavioral trait variation due to their relatively simple and stable gut microbiomes and their complex division of labor [25–27].",
       "tags": [
-        "1c"
+        "1a"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1a",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] Eusocial insects represent a powerful model for understanding how gut microbes contribute to adaptive behavioral trait variation due to their relatively simple and stable gut microbiomes and their complex division of labor [25–27]."
+      "original_line": "[1a] Eusocial insects represent a powerful model for understanding how gut microbes contribute to adaptive behavioral trait variation due to their relatively simple and stable gut microbiomes and their complex division of labor [25–27]."
     },
     {
       "sentence_num": 10,
       "text": "This division of labor is characterized by polyphenism between reproductive and non-reproductive individuals, as well as colony-level behavioral trait variation between non-reproductive individuals performing different tasks [25, 28].",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] This division of labor is characterized by polyphenism between reproductive and non-reproductive individuals, as well as colony-level behavioral trait variation between non-reproductive individuals performing different tasks [25, 28]."
+      "original_line": "[1b] This division of labor is characterized by polyphenism between reproductive and non-reproductive individuals, as well as colony-level behavioral trait variation between non-reproductive individuals performing different tasks [25, 28]."
     },
     {
       "sentence_num": 11,
@@ -164,12 +164,12 @@
       "sentence_num": 15,
       "text": "Honey bees are a highly eusocial insect with well-characterized and tractable social behaviors and gut microbiomes.",
       "tags": [
-        "1c"
+        "1a"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1a",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] Honey bees are a highly eusocial insect with well-characterized and tractable social behaviors and gut microbiomes."
+      "original_line": "[1a] Honey bees are a highly eusocial insect with well-characterized and tractable social behaviors and gut microbiomes."
     },
     {
       "sentence_num": 16,
@@ -184,47 +184,47 @@
     },
     {
       "sentence_num": 17,
-      "text": "Typically, adult worker bees perform brood care (\"nursing\") and other activities in the hive during the first 1-3 weeks of adult life and then transition to foraging behaviors outside of the hive for the final 1-2 weeks of their life [28, 34].",
+      "text": "Typically, adult worker bees perform brood care (“nursing”) and other activities in the hive during the first 1-3 weeks of adult life and then transition to foraging behaviors outside of the hive for the final 1-2 weeks of their life [28, 34].",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Typically, adult worker bees perform brood care (\"nursing\") and other activities in the hive during the first 1-3 weeks of adult life and then transition to foraging behaviors outside of the hive for the final 1-2 weeks of their life [28, 34]."
+      "original_line": "[1c] Typically, adult worker bees perform brood care (“nursing”) and other activities in the hive during the first 1-3 weeks of adult life and then transition to foraging behaviors outside of the hive for the final 1-2 weeks of their life [28, 34]."
     },
     {
       "sentence_num": 18,
       "text": "However, honey bee division of labor is flexible and responsive to changing colony needs, and thus does not exclusively rely on the typical age patterns of behavioral maturation [35–39].",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] However, honey bee division of labor is flexible and responsive to changing colony needs, and thus does not exclusively rely on the typical age patterns of behavioral maturation [35–39]."
+      "original_line": "[1c] However, honey bee division of labor is flexible and responsive to changing colony needs, and thus does not exclusively rely on the typical age patterns of behavioral maturation [35–39]."
     },
     {
       "sentence_num": 19,
       "text": "In addition, honey bee foragers exhibit considerable individual variation in preference for nectar or pollen [40, 41], exploratory behavior [42], and general foraging intensity [43].",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] In addition, honey bee foragers exhibit considerable individual variation in preference for nectar or pollen [40, 41], exploratory behavior [42], and general foraging intensity [43]."
+      "original_line": "[1c] In addition, honey bee foragers exhibit considerable individual variation in preference for nectar or pollen [40, 41], exploratory behavior [42], and general foraging intensity [43]."
     },
     {
       "sentence_num": 20,
       "text": "Therefore, honey bee division of labor involves individual variation in both behavioral maturation and task performance [44].",
       "tags": [
-        "1b"
+        "3a"
       ],
-      "primary_tag": "1b",
-      "move": "1",
+      "primary_tag": "3a",
+      "move": "3",
       "parse_confidence": "high",
-      "original_line": "[1b] Therefore, honey bee division of labor involves individual variation in both behavioral maturation and task performance [44]."
+      "original_line": "[3a] Therefore, honey bee division of labor involves individual variation in both behavioral maturation and task performance [44]."
     },
     {
       "sentence_num": 21,
@@ -252,23 +252,23 @@
       "sentence_num": 23,
       "text": "Of particular interest, the composition of honey bee gut microbial communities can be experimentally manipulated.",
       "tags": [
-        "1c"
+        "3a"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "3a",
+      "move": "3",
       "parse_confidence": "high",
-      "original_line": "[1c] Of particular interest, the composition of honey bee gut microbial communities can be experimentally manipulated."
+      "original_line": "[3a] Of particular interest, the composition of honey bee gut microbial communities can be experimentally manipulated."
     },
     {
       "sentence_num": 24,
       "text": "All species can be cultured [45] and used to inoculate young bees [29, 46, 47], who must acquire their microbiome from older bees or hive materials [48].",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] All species can be cultured [45] and used to inoculate young bees [29, 46, 47], who must acquire their microbiome from older bees or hive materials [48]."
+      "original_line": "[1b] All species can be cultured [45] and used to inoculate young bees [29, 46, 47], who must acquire their microbiome from older bees or hive materials [48]."
     },
     {
       "sentence_num": 25,
@@ -285,12 +285,12 @@
       "sentence_num": 26,
       "text": "Due to these attributes of the honey bee gut microbiome, it is a great model for understanding the causal effects of gut microbes on complex host behaviors.",
       "tags": [
-        "1c"
+        "1a"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1a",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] Due to these attributes of the honey bee gut microbiome, it is a great model for understanding the causal effects of gut microbes on complex host behaviors."
+      "original_line": "[1a] Due to these attributes of the honey bee gut microbiome, it is a great model for understanding the causal effects of gut microbes on complex host behaviors."
     },
     {
       "sentence_num": 27,

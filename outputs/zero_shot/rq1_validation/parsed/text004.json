@@ -109,34 +109,34 @@
       "sentence_num": 10,
       "text": "However, it is unknown if aging also affects commonly studied behaviors related to emotional regulation and exploration in zebrafish.",
       "tags": [
-        "2c"
+        "2b"
       ],
-      "primary_tag": "2c",
+      "primary_tag": "2b",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2c] However, it is unknown if aging also affects commonly studied behaviors related to emotional regulation and exploration in zebrafish."
+      "original_line": "[2b] However, it is unknown if aging also affects commonly studied behaviors related to emotional regulation and exploration in zebrafish."
     },
     {
       "sentence_num": 11,
       "text": "One of the most widely used behavioral tasks to study exploratory and emotional behavior in zebrafish is the novel tank test (NTT).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] One of the most widely used behavioral tasks to study exploratory and emotional behavior in zebrafish is the novel tank test (NTT)."
+    },
+    {
+      "sentence_num": 12,
+      "text": "In this test, animals are placed into a tank with which they have no prior experience.",
       "tags": [
         "1b"
       ],
       "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] One of the most widely used behavioral tasks to study exploratory and emotional behavior in zebrafish is the novel tank test (NTT)."
-    },
-    {
-      "sentence_num": 12,
-      "text": "In this test, animals are placed into a tank with which they have no prior experience.",
-      "tags": [
-        "3b"
-      ],
-      "primary_tag": "3b",
-      "move": "3",
-      "parse_confidence": "high",
-      "original_line": "[3b] In this test, animals are placed into a tank with which they have no prior experience."
+      "original_line": "[1b] In this test, animals are placed into a tank with which they have no prior experience."
     },
     {
       "sentence_num": 13,
