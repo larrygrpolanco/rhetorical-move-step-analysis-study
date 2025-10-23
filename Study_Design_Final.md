@@ -7,7 +7,7 @@
 ## Executive Summary
 
 **Study Type:** Methodological application with novel consistency analysis  
-**Primary Contribution:** First systematic evaluation of LLM annotation consistency  
+**Primary Contribution:** Systematic evaluation of LLM annotation consistency  
 **Model:** GPT-4 (gpt-4.1-2025-04-14)  
 **Domain:** Biology research article introductions  
 **Dataset:** CaRS-50 (50 annotated articles)  
@@ -407,7 +407,7 @@ c) **Effect Sizes:**
 
 ### Framing Statement (for Paper)
 
-> Building on the methodological framework established by Kim & Lu (2024) for LLM-based rhetorical annotation, we extend their approach in two key ways: (1) we conduct the first systematic evaluation of annotation **consistency** across 30 repeated runs per condition, addressing a critical gap for practical tool deployment, and (2) we test generalization to a different domain (Biology) and annotation framework (CaRS-50), demonstrating the broader applicability of their prompting strategies.
+> Building on the methodological framework established by Kim & Lu (2024) for LLM-based rhetorical annotation, we extend their approach in two key ways: (1) we conduct the a systematic evaluation of annotation **consistency** across 30 repeated runs per condition, addressing a critical gap for practical tool deployment, and (2) we test generalization to a different domain (Biology) and annotation framework (CaRS-50), demonstrating the broader applicability of their prompting strategies.
 
 **Key Point:** We cite Kim & Lu prominently but frame this as an **extension study** focused on consistency, not as a direct replication.
 
@@ -499,7 +499,7 @@ _(Note: Actual costs may vary with API pricing changes)_
 
 ### Publication Viability
 
-**Core Contribution:** First systematic consistency evaluation of LLM move-step annotation
+**Core Contribution:** Systematic consistency evaluation of LLM move-step annotation
 
 **Secondary Contributions:**
 
@@ -635,6 +635,10 @@ _(Note: Actual costs may vary with API pricing changes)_
 
 ---
 
+
+The Impact of Example Selection in Few-Shot Prompting on Automated Essay Scoring Using GPT Models
+https://link.springer.com/chapter/10.1007/978-3-031-64315-6_5
+
 "We replicated Kim & Lu's methodology using the CaRS-50 annotation scheme (Omotola et al., 2025), which uses a simplified 13-category system compared to Kim & Lu's 23-category system. While direct step-level comparison is not possible, we can compare move-level accuracy and overall methodology effectiveness."
 
 Notes on limited n = 10 4. 10-Article Test Set
@@ -734,7 +738,7 @@ their single-run evaluation could not assess.
 
 We systematically evaluate consistency across 30 runs of four prompting 
 strategies (zero-shot, 3-shot, 8-shot, fine-tuned) on Biology research 
-article introductions. Our primary contribution is the first 
+article introductions. Our primary contribution is the
 comprehensive consistency analysis of LLM-based move annotation.
 
 Results show that while fine-tuning achieves highest move-level accuracy 

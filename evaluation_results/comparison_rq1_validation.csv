@@ -1,7 +1,13 @@
 level,condition_1,condition_2,statistic,p_value,both_correct,cond1_only_correct,cond2_only_correct,both_wrong
+move,eight_shot,fine_tuned,17.0,1.0,154,17,17,16
 move,eight_shot,three_shot,10.0,1.0,161,10,11,22
 move,eight_shot,zero_shot,4.0,0.11846923828124999,167,4,11,22
+move,fine_tuned,three_shot,17.0,0.9999999999999998,154,17,18,15
+move,fine_tuned,zero_shot,11.0,0.26493089646101,160,11,18,15
 move,three_shot,zero_shot,4.0,0.1795654296875,168,4,10,22
+step,eight_shot,fine_tuned,28.0,0.44996253629022254,64,35,28,77
 step,eight_shot,three_shot,23.0,0.7754496546815659,73,26,23,82
 step,eight_shot,zero_shot,17.0,0.34888887944907765,82,17,24,81
+step,fine_tuned,three_shot,33.0,0.7202027723528612,59,33,37,75
+step,fine_tuned,zero_shot,28.0,0.11960933562988493,64,28,42,70
 step,three_shot,zero_shot,9.0,0.08715855330228806,87,9,19,89

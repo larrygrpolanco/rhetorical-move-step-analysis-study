@@ -28,7 +28,7 @@ from sklearn.metrics import (
 # CONFIGURATION
 # ============================================================================
 
-CONDITION = "eight_shot"  # Options: zero_shot, three_shot, eight_shot, fine_tuned
+CONDITION = "fine_tuned"  # Options: zero_shot, three_shot, eight_shot, fine_tuned
 DATASET = "validation"  # Options: validation, test
 RESEARCH_QUESTION = "rq1"  # Options: rq1, rq2_run_01, rq2_run_02, etc.
 

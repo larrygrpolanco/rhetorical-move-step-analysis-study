@@ -138,13 +138,6 @@ According to your study design, use OpenAI's defaults:
    - Training complete!
    - Your model is ready to use
 
-**What if it fails?**
-- Check the error message
-- Common issues:
-  - Format error → re-run prepare_finetuning_data.py
-  - Insufficient credits → add payment method
-  - Invalid model selection → use gpt-4.1-2025-04-14
-
 ### Step 7: Get Your Fine-Tuned Model ID
 
 **Once training succeeds:**
