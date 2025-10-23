@@ -635,6 +635,8 @@ _(Note: Actual costs may vary with API pricing changes)_
 
 ---
 
+"We replicated Kim & Lu's methodology using the CaRS-50 annotation scheme (Omotola et al., 2025), which uses a simplified 13-category system compared to Kim & Lu's 23-category system. While direct step-level comparison is not possible, we can compare move-level accuracy and overall methodology effectiveness."
+
 Notes on limited n = 10 4. 10-Article Test Set
 Recommendation: Acknowledge + justify + emphasize strengths
 You said this is out of your control—acknowledged. But you can frame this limitation strategically.
