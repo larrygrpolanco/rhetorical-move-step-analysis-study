@@ -448,7 +448,7 @@ def main():
     print()
 
     # Create output directory
-    output_dir = Path(f"evaluation_results/{CONDITION}_{RESEARCH_QUESTION}_{DATASET}")
+    output_dir = Path("evaluation_results")
     output_dir.mkdir(exist_ok=True)
 
     # Evaluate each article

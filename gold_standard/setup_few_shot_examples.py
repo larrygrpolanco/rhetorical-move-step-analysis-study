@@ -66,7 +66,7 @@ def select_few_shot_examples(seed=42):
     three_shot_ids = sorted(random.sample(training_articles, 3))
 
     # Select 8-shot examples (reset seed for independent selection)
-    random.seed(seed)
+    random.seed(seed + 1)
     eight_shot_ids = sorted(random.sample(training_articles, 8))
 
     # Package results
