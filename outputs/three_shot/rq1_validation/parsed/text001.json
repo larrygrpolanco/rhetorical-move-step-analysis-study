@@ -1,6 +1,6 @@
 {
   "article_id": "text001",
-  "condition": "zero_shot",
+  "condition": "three_shot",
   "dataset": "validation",
   "research_question": "rq1",
   "run_number": 1,
@@ -10,12 +10,12 @@
       "sentence_num": 1,
       "text": "Central components of animal cognition are their ability to adapt to new environmental conditions, store successful changes of their behavior caused by new learning, and use the relevant memories for further behavioral control.",
       "tags": [
-        "1b"
+        "1a"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1a",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Central components of animal cognition are their ability to adapt to new environmental conditions, store successful changes of their behavior caused by new learning, and use the relevant memories for further behavioral control."
+      "original_line": "[1a] Central components of animal cognition are their ability to adapt to new environmental conditions, store successful changes of their behavior caused by new learning, and use the relevant memories for further behavioral control."
     },
     {
       "sentence_num": 2,
@@ -65,12 +65,12 @@
       "sentence_num": 6,
       "text": "Studies across different vertebrate species although recognized the consistency of inter-individual variability in cognitive capacities ([9] [10] [11]), albeit tracing invertebrate cognition through the lens of individual behavioral variability is a much less explored.",
       "tags": [
-        "2b"
+        "1c"
       ],
-      "primary_tag": "2b",
-      "move": "2",
+      "primary_tag": "1c",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[2b] Studies across different vertebrate species although recognized the consistency of inter-individual variability in cognitive capacities ([9] [10] [11]), albeit tracing invertebrate cognition through the lens of individual behavioral variability is a much less explored."
+      "original_line": "[1c] Studies across different vertebrate species although recognized the consistency of inter-individual variability in cognitive capacities ([9] [10] [11]), albeit tracing invertebrate cognition through the lens of individual behavioral variability is a much less explored."
     },
     {
       "sentence_num": 7,
@@ -274,12 +274,12 @@
       "sentence_num": 25,
       "text": "We, therefore, selected the honeybees based on our previous work on their multiple forms of learning, their memory functions and the brain parts involved in these performances [1] [39], the mushroom bodies, which both in the bee brain as well as in Drosophila are known to be involved in higher order processing, learning and memory [40] [41] [42].",
       "tags": [
-        "1c"
+        "3b"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "3b",
+      "move": "3",
       "parse_confidence": "high",
-      "original_line": "[1c] We, therefore, selected the honeybees based on our previous work on their multiple forms of learning, their memory functions and the brain parts involved in these performances [1] [39], the mushroom bodies, which both in the bee brain as well as in Drosophila are known to be involved in higher order processing, learning and memory [40] [41] [42]."
+      "original_line": "[3b] We, therefore, selected the honeybees based on our previous work on their multiple forms of learning, their memory functions and the brain parts involved in these performances [1] [39], the mushroom bodies, which both in the bee brain as well as in Drosophila are known to be involved in higher order processing, learning and memory [40] [41] [42]."
     },
     {
       "sentence_num": 26,
@@ -294,9 +294,9 @@
     }
   ],
   "parse_stats": {
-    "total_lines": 51,
+    "total_lines": 26,
     "parsed_sentences": 26,
-    "skipped_lines": 25,
+    "skipped_lines": 0,
     "invalid_tags": 0,
     "multi_tag_sentences": 0,
     "warnings": []

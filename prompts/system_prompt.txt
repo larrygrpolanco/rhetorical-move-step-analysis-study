@@ -56,6 +56,5 @@ CRITICAL: You must annotate ALL sentences in the input text, in order.
 - Go through the text sequentially from first sentence to last
 - Do not skip any sentences
 - Do not stop until you have annotated every sentence
-- Count: if the input has 26 sentences, your output must have 26 annotated lines
 
 You will start your annotation with the given input text.
