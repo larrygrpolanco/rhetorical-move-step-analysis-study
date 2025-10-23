@@ -4,7 +4,7 @@
   "dataset": "validation",
   "research_question": "rq1",
   "run_number": 1,
-  "model": "claude-sonnet-4-5",
+  "model": "gpt-4.1-2025-04-14",
   "sentences": [
     {
       "sentence_num": 1,
@@ -21,45 +21,45 @@
       "sentence_num": 2,
       "text": "Zebrafish, like humans, display gradual senescence (Kishi et al., 2009).",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Zebrafish, like humans, display gradual senescence (Kishi et al., 2009)."
+      "original_line": "[1c] Zebrafish, like humans, display gradual senescence (Kishi et al., 2009)."
     },
     {
       "sentence_num": 3,
       "text": "With advancing age, zebrafish have reduced regenerative capacity, accumulation of DNA damage, and cardiovascular impairment (Gilbert et al., 2014; Sun et al., 2014).",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] With advancing age, zebrafish have reduced regenerative capacity, accumulation of DNA damage, and cardiovascular impairment (Gilbert et al., 2014; Sun et al., 2014)."
+      "original_line": "[1c] With advancing age, zebrafish have reduced regenerative capacity, accumulation of DNA damage, and cardiovascular impairment (Gilbert et al., 2014; Sun et al., 2014)."
     },
     {
       "sentence_num": 4,
       "text": "The shared consequences of aging in humans and zebrafish, combined with the low cost of housing zebrafish for extended periods, suggests that zebrafish could serve as a valuable model organism in the study of aging.",
       "tags": [
-        "1b"
+        "1a"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1a",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] The shared consequences of aging in humans and zebrafish, combined with the low cost of housing zebrafish for extended periods, suggests that zebrafish could serve as a valuable model organism in the study of aging."
+      "original_line": "[1a] The shared consequences of aging in humans and zebrafish, combined with the low cost of housing zebrafish for extended periods, suggests that zebrafish could serve as a valuable model organism in the study of aging."
     },
     {
       "sentence_num": 5,
       "text": "In humans, many behaviors vary across the lifespan, such as emotional regulation and anxiety (John and Gross, 2004; Lenze and Wetherell, 2011; Nivard et al., 2015).",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] In humans, many behaviors vary across the lifespan, such as emotional regulation and anxiety (John and Gross, 2004; Lenze and Wetherell, 2011; Nivard et al., 2015)."
+      "original_line": "[1c] In humans, many behaviors vary across the lifespan, such as emotional regulation and anxiety (John and Gross, 2004; Lenze and Wetherell, 2011; Nivard et al., 2015)."
     },
     {
       "sentence_num": 6,
@@ -109,12 +109,12 @@
       "sentence_num": 10,
       "text": "However, it is unknown if aging also affects commonly studied behaviors related to emotional regulation and exploration in zebrafish.",
       "tags": [
-        "2b"
+        "2c"
       ],
-      "primary_tag": "2b",
+      "primary_tag": "2c",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2b] However, it is unknown if aging also affects commonly studied behaviors related to emotional regulation and exploration in zebrafish."
+      "original_line": "[2c] However, it is unknown if aging also affects commonly studied behaviors related to emotional regulation and exploration in zebrafish."
     },
     {
       "sentence_num": 11,
@@ -131,12 +131,12 @@
       "sentence_num": 12,
       "text": "In this test, animals are placed into a tank with which they have no prior experience.",
       "tags": [
-        "1b"
+        "3b"
       ],
-      "primary_tag": "1b",
-      "move": "1",
+      "primary_tag": "3b",
+      "move": "3",
       "parse_confidence": "high",
-      "original_line": "[1b] In this test, animals are placed into a tank with which they have no prior experience."
+      "original_line": "[3b] In this test, animals are placed into a tank with which they have no prior experience."
     },
     {
       "sentence_num": 13,

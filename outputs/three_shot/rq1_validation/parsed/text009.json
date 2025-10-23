@@ -4,18 +4,18 @@
   "dataset": "validation",
   "research_question": "rq1",
   "run_number": 1,
-  "model": "claude-sonnet-4-5",
+  "model": "gpt-4.1-2025-04-14",
   "sentences": [
     {
       "sentence_num": 1,
-      "text": "The daily rhythmicity of light and darkness serves most animals for the perception of time [1, 2] and has been reported to be the most important Zeitgeber, synchronizing internal and external events through entrainment of the animal's circadian clock mechanism [2, 3].",
+      "text": "The daily rhythmicity of light and darkness serves most animals for the perception of time [1, 2] and has been reported to be the most important Zeitgeber, synchronizing internal and external events through entrainment of the animal’s circadian clock mechanism [2, 3].",
       "tags": [
-        "1b"
+        "1a"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1a",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] The daily rhythmicity of light and darkness serves most animals for the perception of time [1, 2] and has been reported to be the most important Zeitgeber, synchronizing internal and external events through entrainment of the animal's circadian clock mechanism [2, 3]."
+      "original_line": "[1a] The daily rhythmicity of light and darkness serves most animals for the perception of time [1, 2] and has been reported to be the most important Zeitgeber, synchronizing internal and external events through entrainment of the animal’s circadian clock mechanism [2, 3]."
     },
     {
       "sentence_num": 2,
@@ -30,14 +30,14 @@
     },
     {
       "sentence_num": 3,
-      "text": "The behavioral responses to the phases of daylight and darkness depend on the animal's visual system, its way of life (diurnal, nocturnal, or crepuscular), and the specific nature of the stimulus [5–8].",
+      "text": "The behavioral responses to the phases of daylight and darkness depend on the animal’s visual system, its way of life (diurnal, nocturnal, or crepuscular), and the specific nature of the stimulus [5–8].",
       "tags": [
         "1b"
       ],
       "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] The behavioral responses to the phases of daylight and darkness depend on the animal's visual system, its way of life (diurnal, nocturnal, or crepuscular), and the specific nature of the stimulus [5–8]."
+      "original_line": "[1b] The behavioral responses to the phases of daylight and darkness depend on the animal’s visual system, its way of life (diurnal, nocturnal, or crepuscular), and the specific nature of the stimulus [5–8]."
     },
     {
       "sentence_num": 4,
@@ -54,23 +54,23 @@
       "sentence_num": 5,
       "text": "Artificial light at night (ALAN), the use of anthropogenic outdoor illumination during the night-time, has become prevalent [9, 10] and is increasing worldwide by about 3-6% annually [11].",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Artificial light at night (ALAN), the use of anthropogenic outdoor illumination during the night-time, has become prevalent [9, 10] and is increasing worldwide by about 3-6% annually [11]."
+      "original_line": "[1c] Artificial light at night (ALAN), the use of anthropogenic outdoor illumination during the night-time, has become prevalent [9, 10] and is increasing worldwide by about 3-6% annually [11]."
     },
     {
       "sentence_num": 6,
-      "text": "ALAN disrupts the natural light-dark cycle, impacting animals' daily activity patterns and altering their temporal synchronization [1, 5, 12].",
+      "text": "ALAN disrupts the natural light-dark cycle, impacting animals’ daily activity patterns and altering their temporal synchronization [1, 5, 12].",
       "tags": [
         "1c"
       ],
       "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] ALAN disrupts the natural light-dark cycle, impacting animals' daily activity patterns and altering their temporal synchronization [1, 5, 12]."
+      "original_line": "[1c] ALAN disrupts the natural light-dark cycle, impacting animals’ daily activity patterns and altering their temporal synchronization [1, 5, 12]."
     },
     {
       "sentence_num": 7,
@@ -98,12 +98,12 @@
       "sentence_num": 9,
       "text": "Laboratory experiments offer a useful tool for ALAN research, enabling controlling and isolating the light stimuli from all other variables.",
       "tags": [
-        "1c"
+        "2b"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "2b",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1c] Laboratory experiments offer a useful tool for ALAN research, enabling controlling and isolating the light stimuli from all other variables."
+      "original_line": "[2b] Laboratory experiments offer a useful tool for ALAN research, enabling controlling and isolating the light stimuli from all other variables."
     },
     {
       "sentence_num": 10,
@@ -118,25 +118,25 @@
     },
     {
       "sentence_num": 11,
-      "text": "The natural environment incorporates, alongside light-dark cycles, a multitude of rhythmic processes, including thermoperiods, rhythmic soundscape due to the temporal changes in species' activities, as well as rhythmic intra- and interspecific (e.g., predator-prey) interactions.",
+      "text": "The natural environment incorporates, alongside light-dark cycles, a multitude of rhythmic processes, including thermoperiods, rhythmic soundscape due to the temporal changes in species’ activities, as well as rhythmic intra- and interspecific (e.g., predator-prey) interactions.",
       "tags": [
         "1b"
       ],
       "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] The natural environment incorporates, alongside light-dark cycles, a multitude of rhythmic processes, including thermoperiods, rhythmic soundscape due to the temporal changes in species' activities, as well as rhythmic intra- and interspecific (e.g., predator-prey) interactions."
+      "original_line": "[1b] The natural environment incorporates, alongside light-dark cycles, a multitude of rhythmic processes, including thermoperiods, rhythmic soundscape due to the temporal changes in species’ activities, as well as rhythmic intra- and interspecific (e.g., predator-prey) interactions."
     },
     {
       "sentence_num": 12,
       "text": "Ideally, ecological ALAN research would be conducted in the untouched, naturally dark environment, while introducing long-term ALAN manipulations.",
       "tags": [
-        "2b"
+        "2c"
       ],
-      "primary_tag": "2b",
+      "primary_tag": "2c",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2b] Ideally, ecological ALAN research would be conducted in the untouched, naturally dark environment, while introducing long-term ALAN manipulations."
+      "original_line": "[2c] Ideally, ecological ALAN research would be conducted in the untouched, naturally dark environment, while introducing long-term ALAN manipulations."
     },
     {
       "sentence_num": 13,
@@ -164,12 +164,12 @@
       "sentence_num": 15,
       "text": "Our experimental model, the field cricket, Gryllus bimaculatus, is a ground-dwelling species exhibiting distinct diel stridulation and locomotion cycles.",
       "tags": [
-        "1b"
+        "3b"
       ],
-      "primary_tag": "1b",
-      "move": "1",
+      "primary_tag": "3b",
+      "move": "3",
       "parse_confidence": "high",
-      "original_line": "[1b] Our experimental model, the field cricket, Gryllus bimaculatus, is a ground-dwelling species exhibiting distinct diel stridulation and locomotion cycles."
+      "original_line": "[3b] Our experimental model, the field cricket, Gryllus bimaculatus, is a ground-dwelling species exhibiting distinct diel stridulation and locomotion cycles."
     },
     {
       "sentence_num": 16,
@@ -217,25 +217,25 @@
     },
     {
       "sentence_num": 20,
-      "text": "We monitored the individual insects' stridulation behavior for 14 consecutive days and nights.",
+      "text": "We monitored the individual insects’ stridulation behavior for 14 consecutive days and nights.",
       "tags": [
         "3b"
       ],
       "primary_tag": "3b",
       "move": "3",
       "parse_confidence": "high",
-      "original_line": "[3b] We monitored the individual insects' stridulation behavior for 14 consecutive days and nights."
+      "original_line": "[3b] We monitored the individual insects’ stridulation behavior for 14 consecutive days and nights."
     },
     {
       "sentence_num": 21,
       "text": "To the best of our knowledge, this is a first attempt to monitor the behavior of individual insects over such an extended period within a semi-natural setting.",
       "tags": [
-        "3b"
+        "2b"
       ],
-      "primary_tag": "3b",
-      "move": "3",
+      "primary_tag": "2b",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[3b] To the best of our knowledge, this is a first attempt to monitor the behavior of individual insects over such an extended period within a semi-natural setting."
+      "original_line": "[2b] To the best of our knowledge, this is a first attempt to monitor the behavior of individual insects over such an extended period within a semi-natural setting."
     },
     {
       "sentence_num": 22,

@@ -4,7 +4,7 @@
   "dataset": "validation",
   "research_question": "rq1",
   "run_number": 1,
-  "model": "claude-sonnet-4-5",
+  "model": "gpt-4.1-2025-04-14",
   "sentences": [
     {
       "sentence_num": 1,
@@ -19,14 +19,14 @@
     },
     {
       "sentence_num": 2,
-      "text": "Over the past decade, the \"microbiota-gut-brain axis\" [7], which describes bidirectional interactions between the gut microbiome and host brain and behavior, has developed as an increasingly important field of study with implications for understanding the ecology and evolution of host-microbe interactions and animal behaviors.",
+      "text": "Over the past decade, the “microbiota-gut-brain axis” [7], which describes bidirectional interactions between the gut microbiome and host brain and behavior, has developed as an increasingly important field of study with implications for understanding the ecology and evolution of host-microbe interactions and animal behaviors.",
       "tags": [
-        "1c"
+        "1a"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1a",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] Over the past decade, the \"microbiota-gut-brain axis\" [7], which describes bidirectional interactions between the gut microbiome and host brain and behavior, has developed as an increasingly important field of study with implications for understanding the ecology and evolution of host-microbe interactions and animal behaviors."
+      "original_line": "[1a] Over the past decade, the “microbiota-gut-brain axis” [7], which describes bidirectional interactions between the gut microbiome and host brain and behavior, has developed as an increasingly important field of study with implications for understanding the ecology and evolution of host-microbe interactions and animal behaviors."
     },
     {
       "sentence_num": 3,
@@ -54,23 +54,23 @@
       "sentence_num": 5,
       "text": "In many cases, this relationship is obligatory, where the microbiome is necessary for normal functioning of the host [7–10].",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] In many cases, this relationship is obligatory, where the microbiome is necessary for normal functioning of the host [7–10]."
+      "original_line": "[1b] In many cases, this relationship is obligatory, where the microbiome is necessary for normal functioning of the host [7–10]."
     },
     {
       "sentence_num": 6,
       "text": "Recently, it has been proposed that gut microbiomes play a facultative role in host phenotype, such that gut microbiomes contribute to phenotypic variation between individuals [11, 12].",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] Recently, it has been proposed that gut microbiomes play a facultative role in host phenotype, such that gut microbiomes contribute to phenotypic variation between individuals [11, 12]."
+      "original_line": "[1b] Recently, it has been proposed that gut microbiomes play a facultative role in host phenotype, such that gut microbiomes contribute to phenotypic variation between individuals [11, 12]."
     },
     {
       "sentence_num": 7,
@@ -184,25 +184,25 @@
     },
     {
       "sentence_num": 17,
-      "text": "Typically, adult worker bees perform brood care (\"nursing\") and other activities in the hive during the first 1-3 weeks of adult life and then transition to foraging behaviors outside of the hive for the final 1-2 weeks of their life [28, 34].",
+      "text": "Typically, adult worker bees perform brood care (“nursing”) and other activities in the hive during the first 1-3 weeks of adult life and then transition to foraging behaviors outside of the hive for the final 1-2 weeks of their life [28, 34].",
       "tags": [
         "1b"
       ],
       "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Typically, adult worker bees perform brood care (\"nursing\") and other activities in the hive during the first 1-3 weeks of adult life and then transition to foraging behaviors outside of the hive for the final 1-2 weeks of their life [28, 34]."
+      "original_line": "[1b] Typically, adult worker bees perform brood care (“nursing”) and other activities in the hive during the first 1-3 weeks of adult life and then transition to foraging behaviors outside of the hive for the final 1-2 weeks of their life [28, 34]."
     },
     {
       "sentence_num": 18,
       "text": "However, honey bee division of labor is flexible and responsive to changing colony needs, and thus does not exclusively rely on the typical age patterns of behavioral maturation [35–39].",
       "tags": [
-        "1b"
+        "2b"
       ],
-      "primary_tag": "1b",
-      "move": "1",
+      "primary_tag": "2b",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1b] However, honey bee division of labor is flexible and responsive to changing colony needs, and thus does not exclusively rely on the typical age patterns of behavioral maturation [35–39]."
+      "original_line": "[2b] However, honey bee division of labor is flexible and responsive to changing colony needs, and thus does not exclusively rely on the typical age patterns of behavioral maturation [35–39]."
     },
     {
       "sentence_num": 19,
@@ -252,23 +252,23 @@
       "sentence_num": 23,
       "text": "Of particular interest, the composition of honey bee gut microbial communities can be experimentally manipulated.",
       "tags": [
-        "1b"
+        "3a"
       ],
-      "primary_tag": "1b",
-      "move": "1",
+      "primary_tag": "3a",
+      "move": "3",
       "parse_confidence": "high",
-      "original_line": "[1b] Of particular interest, the composition of honey bee gut microbial communities can be experimentally manipulated."
+      "original_line": "[3a] Of particular interest, the composition of honey bee gut microbial communities can be experimentally manipulated."
     },
     {
       "sentence_num": 24,
       "text": "All species can be cultured [45] and used to inoculate young bees [29, 46, 47], who must acquire their microbiome from older bees or hive materials [48].",
       "tags": [
-        "1b"
+        "3b"
       ],
-      "primary_tag": "1b",
-      "move": "1",
+      "primary_tag": "3b",
+      "move": "3",
       "parse_confidence": "high",
-      "original_line": "[1b] All species can be cultured [45] and used to inoculate young bees [29, 46, 47], who must acquire their microbiome from older bees or hive materials [48]."
+      "original_line": "[3b] All species can be cultured [45] and used to inoculate young bees [29, 46, 47], who must acquire their microbiome from older bees or hive materials [48]."
     },
     {
       "sentence_num": 25,
@@ -285,12 +285,12 @@
       "sentence_num": 26,
       "text": "Due to these attributes of the honey bee gut microbiome, it is a great model for understanding the causal effects of gut microbes on complex host behaviors.",
       "tags": [
-        "1a"
+        "3a"
       ],
-      "primary_tag": "1a",
-      "move": "1",
+      "primary_tag": "3a",
+      "move": "3",
       "parse_confidence": "high",
-      "original_line": "[1a] Due to these attributes of the honey bee gut microbiome, it is a great model for understanding the causal effects of gut microbes on complex host behaviors."
+      "original_line": "[3a] Due to these attributes of the honey bee gut microbiome, it is a great model for understanding the causal effects of gut microbes on complex host behaviors."
     },
     {
       "sentence_num": 27,

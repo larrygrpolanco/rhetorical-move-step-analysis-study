@@ -1,0 +1,205 @@
+sentence_num,text,gold_move,pred_move,gold_step,pred_step,move_correct,step_correct
+1,Central components of animal cognition are their ability to adapt to new environ...,1,1,1b,1a,True,False
+2,"In honeybees, a classical model of learning and memory studies, a large body of ...",1,1,1b,1c,True,False
+3,Evolutionary selections for the improvements of cognitive abilities work on the ...,1,1,1c,1c,True,True
+4,The search for such cognitive adaptations can be performed both on a population ...,1,1,1b,1b,True,True
+5,"However, little efforts have been concentrated on the study of the causes and li...",2,2,2a,2b,True,False
+6,Studies across different vertebrate species although recognized the consistency ...,2,1,2b,1c,False,False
+7,Selection for behavioral traits usually involve many animals....,1,1,1b,1b,True,True
+8,Studies on learning and memory in Drosophila have led to the discovery of multip...,1,1,1c,1c,True,True
+9,"However, the olfactory conditioning procedures engage usually many individuals a...",1,2,1c,2b,False,False
+10,Olfactory conditioning protocols in Drosophila used by others also failed to dec...,1,2,1c,2b,False,False
+11,"Honeybees, on the other hand, can be selected for fast learning and then selecti...",1,1,1c,1c,True,True
+12,"Tait and colleagues [17] tested individual honeybees in associative acquisition,...",1,1,1c,1c,True,True
+13,The proboscis extension response (PER) training is a particularly effective expe...,1,1,1c,1c,True,True
+14,"However, learning and retention scores are expressed in all these studies by dat...",2,2,2c,2b,True,False
+15,"Motivated by the study of Gallistel and coworkers [23], Pamir and coworkers [24]...",1,2,1c,2d,False,False
+16,"Importantly, the gradual acquisition in the groups of animals that results from ...",1,2,1c,2d,False,False
+17,"Additionally, it has also been found that individual animals switched abruptly t...",1,2,1c,2d,False,False
+18,"Further, another study also reported that bees switching to learners early durin...",1,2,1c,2d,False,False
+19,These results have revealed some of the important aspects of learning behavior o...,1,2,1a,2b,False,False
+20,We thus attempt to quantify this population heterogeneity by a sequential condit...,3,3,3b,3a,True,False
+21,Multiple studies related different behavior in honeybees to their genetic backgr...,1,1,1c,1c,True,True
+22,It has also been shown that the manipulations of transcript levels in the honeyb...,1,1,1b,1c,True,False
+23,"Furthermore, a comparative transcriptomic study in the wasp, Polistes metricus r...",1,1,1c,1c,True,True
+24,"In the harvester ant, Pogonomyrmex californicus, large differences in gene expre...",1,1,1c,1c,True,True
+25,"We, therefore, selected the honeybees based on our previous work on their multip...",3,3,3b,3b,True,True
+26,The aim of our study was to investigate the behavioral heterogeneity and whether...,3,3,3a,3a,True,True
+1,The capacity for short-term vocal plasticity is advantageous in contexts where a...,1,1,1b,1a,True,False
+2,"Ambient noise presents a special challenge to echolocating bats, who rely on the...",1,1,1b,1b,True,True
+3,"It is well established that bats possess impressive vocal plasticity, freely mod...",1,1,1c,1c,True,True
+4,"Yet, how bats overcome interference from moment-to-moment fluctuations in the am...",2,2,2a,2b,True,False
+5,Carollia perspicillata bats live in colonies of up to hundreds of individuals wh...,1,1,1b,1b,True,True
+6,These bats emit highly stereotyped echolocation pulses comprised of brief (∽1-2 ...,1,1,1c,1b,True,False
+7,"This species also possesses a repertoire of social calls, some of which have bee...",1,1,1c,1b,True,False
+8,"These communication calls typically feature multiple distinct harmonics, with th...",1,1,1b,1b,True,True
+9,"In this study, we investigated the ability of bats to adapt the timing of their ...",3,3,3b,3a,True,False
+10,We hypothesized that bats would preferentially vocalize in periods of low amplit...,3,3,3b,3a,True,False
+11,"Humans regularly employ a similar strategy, such as when a pair of speakers paus...",1,1,1a,1b,True,False
+12,We observed that freely vocalizing bats flexibly adapt the timing and rate of th...,3,3,3c,3c,True,True
+13,This temporal jamming avoidance behavior emerged in the presence of both predict...,1,3,1a,3c,False,False
+14,"In addition, calling behavior is modulated not only by instantaneous amplitude l...",3,3,3c,3c,True,True
+1,"Among the many definitions of recursion (Martins, 2012), the view that it repres...",1,1,1c,1c,True,True
+2,"Across varying terminologies, the common denominator across fields is that to re...",1,1,1b,1b,True,True
+3,This is achieved by nesting an item within itself or within another item of the ...,1,1,1b,1b,True,True
+4,"Recursive patterns in everyday life are ubiquitous and include, for example, com...",1,1,1a,1b,True,False
+5,"Accordingly, recursion is not the simple repetition of a pattern or item on sing...",1,1,1b,1b,True,True
+6,This means that the same pattern or item is encountered at least at two differen...,1,1,1b,1b,True,True
+7,"In language, although classically associated with syntax (Chomsky, 2010; Idsardi...",1,1,1c,1c,True,True
+8,Recursive vocal sequences or structures in nonhuman primates could potentially i...,1,2,1b,2c,False,False
+9,"Their apparent absence, notably in great apes – our closest living relatives – h...",2,2,2b,2b,True,True
+10,This absence of evidence has led some scholars to question altogether the role o...,2,2,2b,2c,True,False
+11,Decades-long debates on the evolution of language have carved around the success...,1,1,1c,1c,True,True
+12,Syntax-like vocal combinatorics have been identified in some bird (Engesser et a...,1,1,1c,1c,True,True
+13,Three notable exceptions demonstrated recursion learning in non-human animals se...,1,1,1c,1c,True,True
+14,These studies show that animals can learn to recognise recursion in synthetic st...,1,2,1c,2b,False,False
+15,"Evidence of recursive vocal structures in wild animals (i.e., without human prim...",3,2,3a,2b,False,False
+1,The challenge of understanding how the detrimental effects of age can be mitigat...,1,1,1a,1a,True,True
+2,"Zebrafish, like humans, display gradual senescence (Kishi et al., 2009)....",1,1,1b,1c,True,False
+3,"With advancing age, zebrafish have reduced regenerative capacity, accumulation o...",1,1,1b,1c,True,False
+4,"The shared consequences of aging in humans and zebrafish, combined with the low ...",1,1,1b,1b,True,True
+5,"In humans, many behaviors vary across the lifespan, such as emotional regulation...",1,1,1c,1c,True,True
+6,The trajectory of these behaviors is shaped by the complex interplay of environm...,1,1,1c,1c,True,True
+7,"Untangling the web of interactions between age, genetics, and sex, is facilitate...",1,1,1a,1b,True,False
+8,Although there has been a large increase in the study of zebrafish behavior in t...,1,2,1c,2b,False,False
+9,"These studies have found that older fish have changes in circadian rhythms, decr...",1,1,1c,1c,True,True
+10,"However, it is unknown if aging also affects commonly studied behaviors related ...",2,2,2b,2c,True,False
+11,One of the most widely used behavioral tasks to study exploratory and emotional ...,1,1,1c,1c,True,True
+12,"In this test, animals are placed into a tank with which they have no prior exper...",1,1,1c,1c,True,True
+13,Spending time near the bottom or periphery of the tank are typically interpreted...,1,1,1c,1b,True,False
+14,Nonassociative memory can also be assessed by measuring how behavior habituates ...,1,1,1c,1b,True,False
+15,"To determine whether age affects behavior in the NTT, and if the effects of age ...",3,3,3a,3a,True,True
+16,We find that this modest difference in age is sufficient to alter several behavi...,3,3,3b,3c,True,False
+1,"Depressive disorders, as one of the main stress-related neuropsychiatric disorde...",1,1,1a,1a,True,True
+2,These disorders are complex and symptomatically heterogeneous conditions whose t...,1,2,1b,2b,False,False
+3,Understanding the neurobiology underlying these conditions is crucial for develo...,1,3,1a,3a,False,False
+4,"In this context, modeling depressive symptoms in animal models has been recogniz...",1,2,1c,2d,False,False
+5,The majority of studies investigating depressive aspects in animal models focus ...,1,1,1c,1c,True,True
+6,These models typically employ well-established experimental paradigms involving ...,1,1,1c,1b,True,False
+7,"Classical behavioral tests, such as the forced swim test and sucrose preference ...",1,1,1b,1b,True,True
+8,"However, this validity may not be related to the neurobiology of depression (Com...",2,2,2a,2c,True,False
+9,"In this regard, it is questioned whether some of these tests exclusively measure...",2,2,2a,2c,True,False
+10,"In the literature, even behavioral changes traditionally associated with a depre...",1,2,1c,2c,False,False
+11,Stepanichev et al. (2016) observed a decrease in sucrose consumption and prefere...,1,1,1c,1c,True,True
+12,"Additionally, Naudon and Jay (2015) identified distinct associations between imm...",1,1,1c,1c,True,True
+13,"In this sense, the punctual use of behavioral tests to distinguish the depressiv...",2,2,2c,2c,True,True
+14,"In contrast, studying different behavioral categories associated with depressive...",2,3,2a,3a,False,False
+15,"For this purpose, a multivariate approach to behavioral assessment, using a set ...",1,3,1b,3a,False,False
+16,This methodology has shown promise in understanding the relations between behavi...,1,3,1a,3b,False,False
+17,"Despite this, there are still few studies that use this approach....",2,2,2b,2b,True,True
+18,This study aimed to understand the association between a wide range of behaviora...,3,3,3b,3a,True,False
+19,"Furthermore, we aimed to examine the predictive value of these behavioral measur...",3,3,3b,3a,True,False
+20,We found that behavioral variables exhibit a correlation pattern that distinguis...,3,3,3c,3c,True,True
+21,"Furthermore, we identified a covariation pattern consisting of decreased time sp...",3,3,3c,3c,True,True
+22,"Notably, the behavior observed in the forced swim test did not exhibit a signifi...",3,3,3c,3c,True,True
+23,"Additionally, we discerned distinct phenotypic clusters, including subpopulation...",3,3,3c,3c,True,True
+1,"Reinforcement learning (RL) algorithms hypothesize that, in value-based decision...",1,1,1b,1a,True,False
+2,The growing family of RL models has proved remarkably successful for explaining ...,1,1,1c,1c,True,True
+3,"However, these standard RL (SRL) models may not account as well for behavioral a...",2,2,2b,2b,True,True
+4,"To solve such tasks, evidence suggests that the brain represents a “belief state...",1,2,1c,2b,False,False
+5,The significance of Bayesian inference becomes apparent when studying mouse beha...,1,1,1b,1c,True,False
+6,The fact that rewards are delivered on a probabilistic schedule generates ambigu...,1,2,1b,2b,False,False
+7,Both mice and human subjects trained in this task are capable of maintaining sta...,1,1,1b,1c,True,False
+8,The simplest versions of standard RL models do not capture choice stability with...,1,2,1b,2b,False,False
+9,Bayesian inference may offer better models of behavior in tasks like the 2ABT be...,1,2,1c,2b,False,False
+10,"However, the additional explanatory power of Bayesian models with respect to RL ...",2,2,2a,2c,True,False
+11,Comparison of Bayesian and RL models using human behavior in the 2ABT suggested ...,2,2,2c,2c,True,True
+12,The limitations of a purely Bayesian account of reversal learning were also chal...,2,2,2c,2a,True,False
+13,Here we report data from mice performing the 2ABT along with recording of dopami...,3,3,3b,3b,True,True
+14,These data allow us to compare Bayesian and SRL models to examine which computat...,3,3,3a,3b,True,False
+15,"In addition to comparing “pure” Bayesian and SRL models, it is also valuable to ...",3,3,3a,3b,True,False
+16,"Therefore, we also examined a belief state RL model (BRL), where Bayesian infere...",3,3,3b,3b,True,True
+17,Past studies have shown that dopamine signaling may be better explained by model...,1,1,1c,1c,True,True
+18,We hypothesized that RPE signals generated by the BRL model would match dopamine...,3,3,3b,3a,True,False
+19,"We also hypothesized that the BRL model would better match the choice data, in p...",3,3,3b,3a,True,False
+1,Animal models have become increasingly important in stress research to examine b...,1,1,1a,1b,True,False
+2,Exposure to a predator odor stressor has been shown to be a valid and reliable a...,1,1,1b,1c,True,False
+3,"For example, experiencing intrusive distressing memories of a traumatic event(s)...",1,1,1b,1c,True,False
+4,"Animal models of predator odor stress, such as bobcat urine produces contextual ...",3,1,3a,1c,False,False
+5,Predator odor stressor exposure can also be used to investigate the complex inte...,3,1,3a,1c,False,False
+6,"For example, several studies have shown increased alcohol drinking (Alavi et al....",1,1,1c,1c,True,True
+7,"Importantly, not all individuals who experience a traumatic event develop PTSD....",2,2,2a,2b,True,False
+8,"There may be individual differences in behavioral responses to stress, which may...",1,2,1c,2c,False,False
+9,"Using the TMT exposure procedure outlined in this current protocol, we are able ...",2,3,2d,3b,False,False
+10,"Using these behavioral phenotype groups, we can then assess how engagement in di...",3,3,3a,3b,True,False
+11,"For example, we have found that rats, specifically female rats, that engage in g...",3,3,3b,3c,True,False
+12,"Therefore, by quantifying behaviors that occur during the stressor, we can then ...",3,3,3a,3b,True,False
+13,The current exposure protocol takes advantage of observing and quantifying the b...,3,3,3c,3b,True,False
+14,"Therefore, one can quantify a multitude of stress-reactive behaviors including a...",3,3,3c,3b,True,False
+15,"However, we specifically focus on defensive digging and immobility because they ...",3,3,3c,3a,True,False
+16,In this article we will provide detailed description of the specific TMT exposur...,3,3,3c,3d,True,False
+1,Gut microbiomes are emerging as important drivers and modulators of host phenoty...,1,1,1b,1a,True,False
+2,"Over the past decade, the “microbiota-gut-brain axis” [7], which describes bidir...",1,1,1b,1a,True,False
+3,"However, current studies of the microbiota-gut-brain axis across animal taxa are...",2,2,2b,2b,True,True
+4,The functional relationship between hosts and microbiomes varies across host tra...,2,1,2b,1b,False,False
+5,"In many cases, this relationship is obligatory, where the microbiome is necessar...",1,1,1c,1b,True,False
+6,"Recently, it has been proposed that gut microbiomes play a facultative role in h...",1,1,1c,1b,True,False
+7,Results in support of a facultative relationship come from studies across taxono...,1,1,1c,1c,True,True
+8,"These include variations in non-behavioral and behavioral phenotypes [11, 12], s...",1,1,1c,1c,True,True
+9,Eusocial insects represent a powerful model for understanding how gut microbes c...,1,1,1c,1a,True,False
+10,This division of labor is characterized by polyphenism between reproductive and ...,1,1,1c,1b,True,False
+11,"In eusocial insects, gut microbes have been shown to contribute to natural varia...",1,1,1c,1c,True,True
+12,"Likewise, studies indicate an association between gut microbiome and division of...",1,1,1c,1c,True,True
+13,"However, whether gut microbes play a causal role in any aspect of eusocial insec...",2,2,2c,2b,True,False
+14,"We use the European honey bee, Apis mellifera, to investigate the causal relatio...",3,3,3b,3a,True,False
+15,Honey bees are a highly eusocial insect with well-characterized and tractable so...,1,1,1b,1b,True,True
+16,"In typical honey bee colonies, sterile worker bees exhibit age-related division ...",1,1,1b,1b,True,True
+17,"Typically, adult worker bees perform brood care (“nursing”) and other activities...",1,1,1b,1b,True,True
+18,"However, honey bee division of labor is flexible and responsive to changing colo...",2,2,2c,2b,True,False
+19,"In addition, honey bee foragers exhibit considerable individual variation in pre...",1,1,1b,1b,True,True
+20,"Therefore, honey bee division of labor involves individual variation in both beh...",1,1,1c,1b,True,False
+21,"The honey bee gut microbial community, most of which resides in the hindgut, is ...",1,1,1b,1b,True,True
+22,"Furthermore, the individual members of the honey bee gut microbiome are consiste...",1,1,1b,1b,True,True
+23,"Of particular interest, the composition of honey bee gut microbial communities c...",1,3,1b,3a,False,False
+24,"All species can be cultured [45] and used to inoculate young bees [29, 46, 47], ...",1,3,1c,3b,False,False
+25,"Furthermore, previous studies indicate an association between the gut microbiome...",1,1,1c,1c,True,True
+26,"Due to these attributes of the honey bee gut microbiome, it is a great model for...",3,3,3a,3a,True,True
+27,We took advantage of these behavioral and microbiome features to determine wheth...,3,3,3c,3a,True,False
+1,The daily rhythmicity of light and darkness serves most animals for the percepti...,1,1,1a,1a,True,True
+2,"Circadian rhythms are manifested in many behavioral patterns, such as locomotion...",1,1,1b,1b,True,True
+3,The behavioral responses to the phases of daylight and darkness depend on the an...,1,1,1b,1b,True,True
+4,"The individuals' synchronization with external environmental rhythms (circadian,...",1,1,1b,1b,True,True
+5,"Artificial light at night (ALAN), the use of anthropogenic outdoor illumination ...",1,1,1a,1c,True,False
+6,"ALAN disrupts the natural light-dark cycle, impacting animals’ daily activity pa...",1,1,1a,1c,True,False
+7,"It has been shown to have severe effects on human health [13], on wildlife, and ...",1,1,1a,1c,True,False
+8,"In insects, nocturnal illumination has been reported to induce spatial disorient...",1,1,1b,1c,True,False
+9,"Laboratory experiments offer a useful tool for ALAN research, enabling controlli...",1,2,1b,2b,False,False
+10,"Such experiments, however, lack the complexity of the natural environment includ...",2,2,2a,2b,True,False
+11,"The natural environment incorporates, alongside light-dark cycles, a multitude o...",2,1,2a,1b,False,False
+12,"Ideally, ecological ALAN research would be conducted in the untouched, naturally...",2,2,2a,2c,True,False
+13,"Such field experiments, however, present significant technical challenges....",2,2,2a,2b,True,False
+14,"Semi-natural conditions therefore offer an excellent alternative, enabling monit...",2,2,2a,2b,True,False
+15,"Our experimental model, the field cricket, Gryllus bimaculatus, is a ground-dwel...",3,3,3b,3b,True,True
+16,Crickets demonstrate temporal shifts in both these activity patterns in response...,1,1,1c,1c,True,True
+17,"Additionally, temporal, circadian variations in gene expression patterns have be...",1,1,1c,1c,True,True
+18,We investigated the impact of ALAN on these nocturnal insects in a semi-natural ...,3,3,3b,3a,True,False
+19,Individual crickets were subjected to various ALAN intensities in shaded outdoor...,3,3,3c,3b,True,False
+20,We monitored the individual insects’ stridulation behavior for 14 consecutive da...,3,3,3b,3b,True,True
+21,"To the best of our knowledge, this is a first attempt to monitor the behavior of...",3,2,3a,2b,False,False
+22,Our findings have uncovered the effects of ecologically-relevant ALAN intensitie...,3,3,3c,3c,True,True
+1,Autism is one of the most common behavioral changes detected early in life [1]....,1,1,1a,1a,True,True
+2,"Despite extensive research, the etiology of autism remains very complex....",1,2,1b,2b,False,False
+3,The cause of autism is linked to the genetic and environmental history of parent...,1,1,1c,1c,True,True
+4,A recent survey reveals several hundred distinct sites of nucleotide changes in ...,1,1,1c,1c,True,True
+5,Several environmental and genetic factors identified in humans have already been...,1,1,1c,1c,True,True
+6,"Evidence that the altered level of six miRNAs (miR-19a-3p, miR-361-5p, miR-3613-...",1,1,1c,1c,True,True
+7,Altered levels of RNAs such as non-coding RNAs can be passed on to the next gene...,1,1,1c,1c,True,True
+8,"However, how RNA subornation is established and maintained throughout generation...",2,2,2a,2c,True,False
+9,"Recently, on the activity of sperm RNA characterized in mouse models, a growing ...",1,1,1c,1c,True,True
+10,The six miRNAs listed above are present in sperm RNA in general and are altered ...,1,1,1c,1c,True,True
+11,"Five of six (miR-19a-3p, miR-150-5p, miR-126-3p, miR-361-5p, miR-499a-5p) are al...",1,1,1c,1c,True,True
+12,These six inherited miRNAs are then found downregulated in the sera of autistic ...,1,1,1c,1c,True,True
+13,One of the questions posed here is to examine sperm RNA activities of that cover...,3,2,3a,2c,False,False
+14,Microinjection of sperm RNA into fertilized mouse eggs could lead to variable ph...,1,1,1c,1c,True,True
+15,"In particular, although exposure of total RNA from (human) sperm to fertilized m...",3,2,3b,2c,False,False
+16,"Here, we focus on experimentally induced autistic traits, particularly the poten...",3,3,3b,3a,True,False
+17,Offspring born from eggs micro-injected with sperm RNAs from the father of the a...,3,3,3b,3b,True,True
+18,"In addition, we examined the prefrontal cortex, corpus callosum, striatum, hippo...",3,3,3b,3b,True,True
+19,"Our study involved, the examination of the brain anatomy in animals from all gro...",3,3,3b,3b,True,True
+20,"Notably, differences were observed in animals induced by valproic acid (VPA) and...",3,3,3c,3c,True,True
+21,"While astrocytes showed abnormal astrogliosis (and microgliosis, which is normal...",3,3,3c,3c,True,True
+22,"Moreover, we did not observe hypertrophy GFAP and Iba-1 positive-cells or hyperp...",3,3,3c,3c,True,True
+23,Microglia and astrocytes play important roles in the regulation of neuronal meta...,3,1,3c,1b,False,False
+24,"Furthermore, in the microinjected with RNA group, there was a significant increa...",3,3,3c,3c,True,True
+25,These results could be attributed to the observed autistic traits in both groups...,3,3,3c,3c,True,True
+26,In appears that in both groups of mice the manifestation of autistic behavioral ...,3,3,3c,3c,True,True

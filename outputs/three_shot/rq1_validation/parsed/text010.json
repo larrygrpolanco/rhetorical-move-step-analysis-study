@@ -4,7 +4,7 @@
   "dataset": "validation",
   "research_question": "rq1",
   "run_number": 1,
-  "model": "claude-sonnet-4-5",
+  "model": "gpt-4.1-2025-04-14",
   "sentences": [
     {
       "sentence_num": 1,
@@ -32,12 +32,12 @@
       "sentence_num": 3,
       "text": "The cause of autism is linked to the genetic and environmental history of parents which together could lead to the development of autism spectrum disorders (ASD) in children [2,3].",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] The cause of autism is linked to the genetic and environmental history of parents which together could lead to the development of autism spectrum disorders (ASD) in children [2,3]."
+      "original_line": "[1c] The cause of autism is linked to the genetic and environmental history of parents which together could lead to the development of autism spectrum disorders (ASD) in children [2,3]."
     },
     {
       "sentence_num": 4,
@@ -109,45 +109,45 @@
       "sentence_num": 10,
       "text": "The six miRNAs listed above are present in sperm RNA in general and are altered in the father of an autistic child.",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] The six miRNAs listed above are present in sperm RNA in general and are altered in the father of an autistic child."
+      "original_line": "[1c] The six miRNAs listed above are present in sperm RNA in general and are altered in the father of an autistic child."
     },
     {
       "sentence_num": 11,
       "text": "Five of six (miR-19a-3p, miR-150-5p, miR-126-3p, miR-361-5p, miR-499a-5p) are also present in mouse sperm, the sixth miR-3613-3p does not exist in the mouse genome.",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Five of six (miR-19a-3p, miR-150-5p, miR-126-3p, miR-361-5p, miR-499a-5p) are also present in mouse sperm, the sixth miR-3613-3p does not exist in the mouse genome."
+      "original_line": "[1c] Five of six (miR-19a-3p, miR-150-5p, miR-126-3p, miR-361-5p, miR-499a-5p) are also present in mouse sperm, the sixth miR-3613-3p does not exist in the mouse genome."
     },
     {
       "sentence_num": 12,
       "text": "These six inherited miRNAs are then found downregulated in the sera of autistic patients and ‵autism-like‵ mouse models.",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] These six inherited miRNAs are then found downregulated in the sera of autistic patients and ‵autism-like‵ mouse models."
+      "original_line": "[1c] These six inherited miRNAs are then found downregulated in the sera of autistic patients and ‵autism-like‵ mouse models."
     },
     {
       "sentence_num": 13,
       "text": "One of the questions posed here is to examine sperm RNA activities of that cover a possible paternally acquired autistic phenotype.",
       "tags": [
-        "3a"
+        "2c"
       ],
-      "primary_tag": "3a",
-      "move": "3",
+      "primary_tag": "2c",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[3a] One of the questions posed here is to examine sperm RNA activities of that cover a possible paternally acquired autistic phenotype."
+      "original_line": "[2c] One of the questions posed here is to examine sperm RNA activities of that cover a possible paternally acquired autistic phenotype."
     },
     {
       "sentence_num": 14,
@@ -164,34 +164,34 @@
       "sentence_num": 15,
       "text": "In particular, although exposure of total RNA from (human) sperm to fertilized mouse eggs may have adverse effects on offspring, can symptoms of autism also become established in the next generation?",
       "tags": [
-        "3a"
+        "2c"
       ],
-      "primary_tag": "3a",
-      "move": "3",
+      "primary_tag": "2c",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[3a] In particular, although exposure of total RNA from (human) sperm to fertilized mouse eggs may have adverse effects on offspring, can symptoms of autism also become established in the next generation?"
+      "original_line": "[2c] In particular, although exposure of total RNA from (human) sperm to fertilized mouse eggs may have adverse effects on offspring, can symptoms of autism also become established in the next generation?"
     },
     {
       "sentence_num": 16,
-      "text": "Here, we focus on experimentally induced autistic traits, particularly the potential of human sperm RNAs to induce \"autism-like\" phenotypes in mice.",
+      "text": "Here, we focus on experimentally induced autistic traits, particularly the potential of human sperm RNAs to induce “autism-like” phenotypes in mice.",
       "tags": [
         "3a"
       ],
       "primary_tag": "3a",
       "move": "3",
       "parse_confidence": "high",
-      "original_line": "[3a] Here, we focus on experimentally induced autistic traits, particularly the potential of human sperm RNAs to induce \"autism-like\" phenotypes in mice."
+      "original_line": "[3a] Here, we focus on experimentally induced autistic traits, particularly the potential of human sperm RNAs to induce “autism-like” phenotypes in mice."
     },
     {
       "sentence_num": 17,
-      "text": "Offspring born from eggs micro-injected with sperm RNAs from the father of the autistic child's were compared to controls at the molecular level and by behavioural assessment (open field maze, recognition of a familiar and novel object, social interaction, tail suspension, Marble burying and elevated plus maze assays).",
+      "text": "Offspring born from eggs micro-injected with sperm RNAs from the father of the autistic child’s were compared to controls at the molecular level and by behavioural assessment (open field maze, recognition of a familiar and novel object, social interaction, tail suspension, Marble burying and elevated plus maze assays).",
       "tags": [
         "3b"
       ],
       "primary_tag": "3b",
       "move": "3",
       "parse_confidence": "high",
-      "original_line": "[3b] Offspring born from eggs micro-injected with sperm RNAs from the father of the autistic child's were compared to controls at the molecular level and by behavioural assessment (open field maze, recognition of a familiar and novel object, social interaction, tail suspension, Marble burying and elevated plus maze assays)."
+      "original_line": "[3b] Offspring born from eggs micro-injected with sperm RNAs from the father of the autistic child’s were compared to controls at the molecular level and by behavioural assessment (open field maze, recognition of a familiar and novel object, social interaction, tail suspension, Marble burying and elevated plus maze assays)."
     },
     {
       "sentence_num": 18,

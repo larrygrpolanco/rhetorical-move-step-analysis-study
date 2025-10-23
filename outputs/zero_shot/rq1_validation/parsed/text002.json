@@ -4,7 +4,7 @@
   "dataset": "validation",
   "research_question": "rq1",
   "run_number": 1,
-  "model": "claude-sonnet-4-5",
+  "model": "gpt-4.1-2025-04-14",
   "sentences": [
     {
       "sentence_num": 1,
@@ -30,14 +30,14 @@
     },
     {
       "sentence_num": 3,
-      "text": "It is well established that bats possess impressive vocal plasticity, freely modifying various parameters of their vocalizations [2] such asthe amplitude (known as the \"Lombard effect\") [3–7,30] duration [4,8–10], repetition or emission pattern [8,9,11], complexity [8], and spectral content [6,12,13] (but see [14–16]) in response to playback of interfering noise.",
+      "text": "It is well established that bats possess impressive vocal plasticity, freely modifying various parameters of their vocalizations [2] such asthe amplitude (known as the “Lombard effect”) [3–7,30] duration [4,8–10], repetition or emission pattern [8,9,11], complexity [8], and spectral content [6,12,13] (but see [14–16]) in response to playback of interfering noise.",
       "tags": [
         "1c"
       ],
       "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] It is well established that bats possess impressive vocal plasticity, freely modifying various parameters of their vocalizations [2] such asthe amplitude (known as the \"Lombard effect\") [3–7,30] duration [4,8–10], repetition or emission pattern [8,9,11], complexity [8], and spectral content [6,12,13] (but see [14–16]) in response to playback of interfering noise."
+      "original_line": "[1c] It is well established that bats possess impressive vocal plasticity, freely modifying various parameters of their vocalizations [2] such asthe amplitude (known as the “Lombard effect”) [3–7,30] duration [4,8–10], repetition or emission pattern [8,9,11], complexity [8], and spectral content [6,12,13] (but see [14–16]) in response to playback of interfering noise."
     },
     {
       "sentence_num": 4,
@@ -54,12 +54,12 @@
       "sentence_num": 5,
       "text": "Carollia perspicillata bats live in colonies of up to hundreds of individuals where the acoustic landscape is densely populated by vocalizations which all share overlapping spectral and temporal properties.",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Carollia perspicillata bats live in colonies of up to hundreds of individuals where the acoustic landscape is densely populated by vocalizations which all share overlapping spectral and temporal properties."
+      "original_line": "[1c] Carollia perspicillata bats live in colonies of up to hundreds of individuals where the acoustic landscape is densely populated by vocalizations which all share overlapping spectral and temporal properties."
     },
     {
       "sentence_num": 6,
@@ -76,12 +76,12 @@
       "sentence_num": 7,
       "text": "This species also possesses a repertoire of social calls, some of which have been associated with specific behaviors, such as distress, territorial aggression (males), courtship (males), and the eliciting of maternal attention (infants) [20–22].",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] This species also possesses a repertoire of social calls, some of which have been associated with specific behaviors, such as distress, territorial aggression (males), courtship (males), and the eliciting of maternal attention (infants) [20–22]."
+      "original_line": "[1c] This species also possesses a repertoire of social calls, some of which have been associated with specific behaviors, such as distress, territorial aggression (males), courtship (males), and the eliciting of maternal attention (infants) [20–22]."
     },
     {
       "sentence_num": 8,
@@ -162,9 +162,9 @@
     }
   ],
   "parse_stats": {
-    "total_lines": 27,
+    "total_lines": 14,
     "parsed_sentences": 14,
-    "skipped_lines": 13,
+    "skipped_lines": 0,
     "invalid_tags": 0,
     "multi_tag_sentences": 0,
     "warnings": []

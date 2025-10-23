@@ -4,29 +4,29 @@
   "dataset": "validation",
   "research_question": "rq1",
   "run_number": 1,
-  "model": "claude-sonnet-4-5",
+  "model": "gpt-4.1-2025-04-14",
   "sentences": [
     {
       "sentence_num": 1,
-      "text": "Among the many definitions of recursion (Martins, 2012), the view that it represents the repetition of an element or pattern within a self-similar element or pattern has crossed centuries and disciplines, from von Humboldt (1836) and Hockett (1960), to Mandelbrot (1980) and Chomsky (2010); from fractals in mathematics (Mandelbrot, 1980) to generative grammars in linguistics (Chomsky, 2010), from graphic (e.g., \"Print Gallery\" by M. C. Escher) to popular art (e.g., 1940's Batman #8 comic book cover).",
+      "text": "Among the many definitions of recursion (Martins, 2012), the view that it represents the repetition of an element or pattern within a self-similar element or pattern has crossed centuries and disciplines, from von Humboldt (1836) and Hockett (1960), to Mandelbrot (1980) and Chomsky (2010); from fractals in mathematics (Mandelbrot, 1980) to generative grammars in linguistics (Chomsky, 2010), from graphic (e.g., “Print Gallery” by M. C. Escher) to popular art (e.g., 1940’s Batman #8 comic book cover).",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Among the many definitions of recursion (Martins, 2012), the view that it represents the repetition of an element or pattern within a self-similar element or pattern has crossed centuries and disciplines, from von Humboldt (1836) and Hockett (1960), to Mandelbrot (1980) and Chomsky (2010); from fractals in mathematics (Mandelbrot, 1980) to generative grammars in linguistics (Chomsky, 2010), from graphic (e.g., \"Print Gallery\" by M. C. Escher) to popular art (e.g., 1940's Batman #8 comic book cover)."
+      "original_line": "[1c] Among the many definitions of recursion (Martins, 2012), the view that it represents the repetition of an element or pattern within a self-similar element or pattern has crossed centuries and disciplines, from von Humboldt (1836) and Hockett (1960), to Mandelbrot (1980) and Chomsky (2010); from fractals in mathematics (Mandelbrot, 1980) to generative grammars in linguistics (Chomsky, 2010), from graphic (e.g., “Print Gallery” by M. C. Escher) to popular art (e.g., 1940’s Batman #8 comic book cover)."
     },
     {
       "sentence_num": 2,
-      "text": "Across varying terminologies, the common denominator across fields is that to re-curse (from the Latin to 're-run' or 're-invoke') is an operation that produces multiple, potentially infinite sets of items from one initial item or a finite set.",
+      "text": "Across varying terminologies, the common denominator across fields is that to re-curse (from the Latin to ‘re-run’ or ‘re-invoke’) is an operation that produces multiple, potentially infinite sets of items from one initial item or a finite set.",
       "tags": [
         "1b"
       ],
       "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Across varying terminologies, the common denominator across fields is that to re-curse (from the Latin to 're-run' or 're-invoke') is an operation that produces multiple, potentially infinite sets of items from one initial item or a finite set."
+      "original_line": "[1b] Across varying terminologies, the common denominator across fields is that to re-curse (from the Latin to ‘re-run’ or ‘re-invoke’) is an operation that produces multiple, potentially infinite sets of items from one initial item or a finite set."
     },
     {
       "sentence_num": 3,
@@ -41,14 +41,14 @@
     },
     {
       "sentence_num": 4,
-      "text": "Recursive patterns in everyday life are ubiquitous and include, for example, computer folders stored inside other computer folders, Russian dolls nested in each other, Romanesco broccoli's spirals arranged in a spiral, and the same number of minutes passed within the same number of hours (e.g., 12:12).",
+      "text": "Recursive patterns in everyday life are ubiquitous and include, for example, computer folders stored inside other computer folders, Russian dolls nested in each other, Romanesco broccoli’s spirals arranged in a spiral, and the same number of minutes passed within the same number of hours (e.g., 12:12).",
       "tags": [
-        "1b"
+        "1a"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1a",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Recursive patterns in everyday life are ubiquitous and include, for example, computer folders stored inside other computer folders, Russian dolls nested in each other, Romanesco broccoli's spirals arranged in a spiral, and the same number of minutes passed within the same number of hours (e.g., 12:12)."
+      "original_line": "[1a] Recursive patterns in everyday life are ubiquitous and include, for example, computer folders stored inside other computer folders, Russian dolls nested in each other, Romanesco broccoli’s spirals arranged in a spiral, and the same number of minutes passed within the same number of hours (e.g., 12:12)."
     },
     {
       "sentence_num": 5,
@@ -87,34 +87,34 @@
       "sentence_num": 8,
       "text": "Recursive vocal sequences or structures in nonhuman primates could potentially inform insipient or transitional states of recursion along human evolution before the rise of modern language.",
       "tags": [
-        "1a"
+        "2c"
       ],
-      "primary_tag": "1a",
-      "move": "1",
+      "primary_tag": "2c",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1a] Recursive vocal sequences or structures in nonhuman primates could potentially inform insipient or transitional states of recursion along human evolution before the rise of modern language."
+      "original_line": "[2c] Recursive vocal sequences or structures in nonhuman primates could potentially inform insipient or transitional states of recursion along human evolution before the rise of modern language."
     },
     {
       "sentence_num": 9,
       "text": "Their apparent absence, notably in great apes – our closest living relatives – has been interpreted as indicating that a neuro-cognitive or neuro-computational transformation occurred in our lineage but none other (Hauser et al., 2002).",
       "tags": [
-        "1c"
+        "2b"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "2b",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1c] Their apparent absence, notably in great apes – our closest living relatives – has been interpreted as indicating that a neuro-cognitive or neuro-computational transformation occurred in our lineage but none other (Hauser et al., 2002)."
+      "original_line": "[2b] Their apparent absence, notably in great apes – our closest living relatives – has been interpreted as indicating that a neuro-cognitive or neuro-computational transformation occurred in our lineage but none other (Hauser et al., 2002)."
     },
     {
       "sentence_num": 10,
-      "text": "This absence of evidence has led some scholars to question altogether the role of natural selection for the emergence of language, tacitly favouring sudden \"hopeful monster\" mutant scenarios (Berwick and Chomsky, 2019; Bolhuis and Wynne, 2009).",
+      "text": "This absence of evidence has led some scholars to question altogether the role of natural selection for the emergence of language, tacitly favouring sudden “hopeful monster” mutant scenarios (Berwick and Chomsky, 2019; Bolhuis and Wynne, 2009).",
       "tags": [
-        "1c"
+        "2c"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "2c",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1c] This absence of evidence has led some scholars to question altogether the role of natural selection for the emergence of language, tacitly favouring sudden \"hopeful monster\" mutant scenarios (Berwick and Chomsky, 2019; Bolhuis and Wynne, 2009)."
+      "original_line": "[2c] This absence of evidence has led some scholars to question altogether the role of natural selection for the emergence of language, tacitly favouring sudden “hopeful monster” mutant scenarios (Berwick and Chomsky, 2019; Bolhuis and Wynne, 2009)."
     },
     {
       "sentence_num": 11,
@@ -153,12 +153,12 @@
       "sentence_num": 14,
       "text": "These studies show that animals can learn to recognise recursion in synthetic stimuli after dedicated human training in laboratory settings, but they do not show spontaneous production of recursive vocal combinatorics in naturalistic settings.",
       "tags": [
-        "2b"
+        "1c"
       ],
-      "primary_tag": "2b",
-      "move": "2",
+      "primary_tag": "1c",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[2b] These studies show that animals can learn to recognise recursion in synthetic stimuli after dedicated human training in laboratory settings, but they do not show spontaneous production of recursive vocal combinatorics in naturalistic settings."
+      "original_line": "[1c] These studies show that animals can learn to recognise recursion in synthetic stimuli after dedicated human training in laboratory settings, but they do not show spontaneous production of recursive vocal combinatorics in naturalistic settings."
     },
     {
       "sentence_num": 15,
@@ -173,9 +173,9 @@
     }
   ],
   "parse_stats": {
-    "total_lines": 29,
+    "total_lines": 15,
     "parsed_sentences": 15,
-    "skipped_lines": 14,
+    "skipped_lines": 0,
     "invalid_tags": 0,
     "multi_tag_sentences": 0,
     "warnings": []

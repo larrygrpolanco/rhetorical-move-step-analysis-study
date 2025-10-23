@@ -4,18 +4,18 @@
   "dataset": "validation",
   "research_question": "rq1",
   "run_number": 1,
-  "model": "claude-sonnet-4-5",
+  "model": "gpt-4.1-2025-04-14",
   "sentences": [
     {
       "sentence_num": 1,
       "text": "Central components of animal cognition are their ability to adapt to new environmental conditions, store successful changes of their behavior caused by new learning, and use the relevant memories for further behavioral control.",
       "tags": [
-        "1b"
+        "1a"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1a",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Central components of animal cognition are their ability to adapt to new environmental conditions, store successful changes of their behavior caused by new learning, and use the relevant memories for further behavioral control."
+      "original_line": "[1a] Central components of animal cognition are their ability to adapt to new environmental conditions, store successful changes of their behavior caused by new learning, and use the relevant memories for further behavioral control."
     },
     {
       "sentence_num": 2,
@@ -32,12 +32,12 @@
       "sentence_num": 3,
       "text": "Evolutionary selections for the improvements of cognitive abilities work on the individual level and are based on genetic variations that are favorable for behavioral traits related to sensory processing, learning and memory formation [3] [4].",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Evolutionary selections for the improvements of cognitive abilities work on the individual level and are based on genetic variations that are favorable for behavioral traits related to sensory processing, learning and memory formation [3] [4]."
+      "original_line": "[1c] Evolutionary selections for the improvements of cognitive abilities work on the individual level and are based on genetic variations that are favorable for behavioral traits related to sensory processing, learning and memory formation [3] [4]."
     },
     {
       "sentence_num": 4,
@@ -65,12 +65,12 @@
       "sentence_num": 6,
       "text": "Studies across different vertebrate species although recognized the consistency of inter-individual variability in cognitive capacities ([9] [10] [11]), albeit tracing invertebrate cognition through the lens of individual behavioral variability is a much less explored.",
       "tags": [
-        "2b"
+        "1c"
       ],
-      "primary_tag": "2b",
-      "move": "2",
+      "primary_tag": "1c",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[2b] Studies across different vertebrate species although recognized the consistency of inter-individual variability in cognitive capacities ([9] [10] [11]), albeit tracing invertebrate cognition through the lens of individual behavioral variability is a much less explored."
+      "original_line": "[1c] Studies across different vertebrate species although recognized the consistency of inter-individual variability in cognitive capacities ([9] [10] [11]), albeit tracing invertebrate cognition through the lens of individual behavioral variability is a much less explored."
     },
     {
       "sentence_num": 7,
@@ -142,12 +142,12 @@
       "sentence_num": 13,
       "text": "The proboscis extension response (PER) training is a particularly effective experimental procedure that allows testing individual honeybees to a whole range of associative, non-associative and rule learning related paradigms in a well-controlled sequence of events [21] [22].",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] The proboscis extension response (PER) training is a particularly effective experimental procedure that allows testing individual honeybees to a whole range of associative, non-associative and rule learning related paradigms in a well-controlled sequence of events [21] [22]."
+      "original_line": "[1b] The proboscis extension response (PER) training is a particularly effective experimental procedure that allows testing individual honeybees to a whole range of associative, non-associative and rule learning related paradigms in a well-controlled sequence of events [21] [22]."
     },
     {
       "sentence_num": 14,
@@ -208,12 +208,12 @@
       "sentence_num": 19,
       "text": "These results have revealed some of the important aspects of learning behavior of individuals which were previously unnoticed in the analyses of group-averaged learning behavior albeit no clear picture has emerged on the different classes of bees which learn odors with different efficacy.",
       "tags": [
-        "2b"
+        "2c"
       ],
-      "primary_tag": "2b",
+      "primary_tag": "2c",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2b] These results have revealed some of the important aspects of learning behavior of individuals which were previously unnoticed in the analyses of group-averaged learning behavior albeit no clear picture has emerged on the different classes of bees which learn odors with different efficacy."
+      "original_line": "[2c] These results have revealed some of the important aspects of learning behavior of individuals which were previously unnoticed in the analyses of group-averaged learning behavior albeit no clear picture has emerged on the different classes of bees which learn odors with different efficacy."
     },
     {
       "sentence_num": 20,
@@ -274,12 +274,12 @@
       "sentence_num": 25,
       "text": "We, therefore, selected the honeybees based on our previous work on their multiple forms of learning, their memory functions and the brain parts involved in these performances [1] [39], the mushroom bodies, which both in the bee brain as well as in Drosophila are known to be involved in higher order processing, learning and memory [40] [41] [42].",
       "tags": [
-        "1c"
+        "2d"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "2d",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1c] We, therefore, selected the honeybees based on our previous work on their multiple forms of learning, their memory functions and the brain parts involved in these performances [1] [39], the mushroom bodies, which both in the bee brain as well as in Drosophila are known to be involved in higher order processing, learning and memory [40] [41] [42]."
+      "original_line": "[2d] We, therefore, selected the honeybees based on our previous work on their multiple forms of learning, their memory functions and the brain parts involved in these performances [1] [39], the mushroom bodies, which both in the bee brain as well as in Drosophila are known to be involved in higher order processing, learning and memory [40] [41] [42]."
     },
     {
       "sentence_num": 26,
@@ -294,9 +294,9 @@
     }
   ],
   "parse_stats": {
-    "total_lines": 51,
+    "total_lines": 26,
     "parsed_sentences": 26,
-    "skipped_lines": 25,
+    "skipped_lines": 0,
     "invalid_tags": 0,
     "multi_tag_sentences": 0,
     "warnings": []

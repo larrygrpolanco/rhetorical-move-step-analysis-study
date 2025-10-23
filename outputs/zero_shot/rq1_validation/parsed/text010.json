@@ -4,7 +4,7 @@
   "dataset": "validation",
   "research_question": "rq1",
   "run_number": 1,
-  "model": "claude-sonnet-4-5",
+  "model": "gpt-4.1-2025-04-14",
   "sentences": [
     {
       "sentence_num": 1,
@@ -54,12 +54,12 @@
       "sentence_num": 5,
       "text": "Several environmental and genetic factors identified in humans have already been validated with mouse models [5–6], however, have not yet been associated in all autistic patients [7–8].",
       "tags": [
-        "2b"
+        "1c"
       ],
-      "primary_tag": "2b",
-      "move": "2",
+      "primary_tag": "1c",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[2b] Several environmental and genetic factors identified in humans have already been validated with mouse models [5–6], however, have not yet been associated in all autistic patients [7–8]."
+      "original_line": "[1c] Several environmental and genetic factors identified in humans have already been validated with mouse models [5–6], however, have not yet been associated in all autistic patients [7–8]."
     },
     {
       "sentence_num": 6,
@@ -76,12 +76,12 @@
       "sentence_num": 7,
       "text": "Altered levels of RNAs such as non-coding RNAs can be passed on to the next generation via the germline to alter offspring phenotypes [10,11].",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] Altered levels of RNAs such as non-coding RNAs can be passed on to the next generation via the germline to alter offspring phenotypes [10,11]."
+      "original_line": "[1b] Altered levels of RNAs such as non-coding RNAs can be passed on to the next generation via the germline to alter offspring phenotypes [10,11]."
     },
     {
       "sentence_num": 8,
@@ -142,12 +142,12 @@
       "sentence_num": 13,
       "text": "One of the questions posed here is to examine sperm RNA activities of that cover a possible paternally acquired autistic phenotype.",
       "tags": [
-        "3a"
+        "2c"
       ],
-      "primary_tag": "3a",
-      "move": "3",
+      "primary_tag": "2c",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[3a] One of the questions posed here is to examine sperm RNA activities of that cover a possible paternally acquired autistic phenotype."
+      "original_line": "[2c] One of the questions posed here is to examine sperm RNA activities of that cover a possible paternally acquired autistic phenotype."
     },
     {
       "sentence_num": 14,
@@ -173,25 +173,25 @@
     },
     {
       "sentence_num": 16,
-      "text": "Here, we focus on experimentally induced autistic traits, particularly the potential of human sperm RNAs to induce \"autism-like\" phenotypes in mice.",
+      "text": "Here, we focus on experimentally induced autistic traits, particularly the potential of human sperm RNAs to induce “autism-like” phenotypes in mice.",
       "tags": [
         "3a"
       ],
       "primary_tag": "3a",
       "move": "3",
       "parse_confidence": "high",
-      "original_line": "[3a] Here, we focus on experimentally induced autistic traits, particularly the potential of human sperm RNAs to induce \"autism-like\" phenotypes in mice."
+      "original_line": "[3a] Here, we focus on experimentally induced autistic traits, particularly the potential of human sperm RNAs to induce “autism-like” phenotypes in mice."
     },
     {
       "sentence_num": 17,
-      "text": "Offspring born from eggs micro-injected with sperm RNAs from the father of the autistic child's were compared to controls at the molecular level and by behavioural assessment (open field maze, recognition of a familiar and novel object, social interaction, tail suspension, Marble burying and elevated plus maze assays).",
+      "text": "Offspring born from eggs micro-injected with sperm RNAs from the father of the autistic child’s were compared to controls at the molecular level and by behavioural assessment (open field maze, recognition of a familiar and novel object, social interaction, tail suspension, Marble burying and elevated plus maze assays).",
       "tags": [
         "3b"
       ],
       "primary_tag": "3b",
       "move": "3",
       "parse_confidence": "high",
-      "original_line": "[3b] Offspring born from eggs micro-injected with sperm RNAs from the father of the autistic child's were compared to controls at the molecular level and by behavioural assessment (open field maze, recognition of a familiar and novel object, social interaction, tail suspension, Marble burying and elevated plus maze assays)."
+      "original_line": "[3b] Offspring born from eggs micro-injected with sperm RNAs from the father of the autistic child’s were compared to controls at the molecular level and by behavioural assessment (open field maze, recognition of a familiar and novel object, social interaction, tail suspension, Marble burying and elevated plus maze assays)."
     },
     {
       "sentence_num": 18,
@@ -294,9 +294,9 @@
     }
   ],
   "parse_stats": {
-    "total_lines": 51,
+    "total_lines": 26,
     "parsed_sentences": 26,
-    "skipped_lines": 25,
+    "skipped_lines": 0,
     "invalid_tags": 0,
     "multi_tag_sentences": 0,
     "warnings": []

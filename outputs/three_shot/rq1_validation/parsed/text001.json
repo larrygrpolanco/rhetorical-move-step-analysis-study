@@ -4,7 +4,7 @@
   "dataset": "validation",
   "research_question": "rq1",
   "run_number": 1,
-  "model": "claude-sonnet-4-5",
+  "model": "gpt-4.1-2025-04-14",
   "sentences": [
     {
       "sentence_num": 1,
@@ -32,12 +32,12 @@
       "sentence_num": 3,
       "text": "Evolutionary selections for the improvements of cognitive abilities work on the individual level and are based on genetic variations that are favorable for behavioral traits related to sensory processing, learning and memory formation [3] [4].",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Evolutionary selections for the improvements of cognitive abilities work on the individual level and are based on genetic variations that are favorable for behavioral traits related to sensory processing, learning and memory formation [3] [4]."
+      "original_line": "[1c] Evolutionary selections for the improvements of cognitive abilities work on the individual level and are based on genetic variations that are favorable for behavioral traits related to sensory processing, learning and memory formation [3] [4]."
     },
     {
       "sentence_num": 4,
@@ -164,45 +164,45 @@
       "sentence_num": 15,
       "text": "Motivated by the study of Gallistel and coworkers [23], Pamir and coworkers [24] analyzed a large dataset on PER conditioning in the honeybee and found that once an animal started eliciting the conditioned response (CR), it kept showing the CR in the subsequent conditioning trials with a high probability.",
       "tags": [
-        "1c"
+        "2d"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "2d",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1c] Motivated by the study of Gallistel and coworkers [23], Pamir and coworkers [24] analyzed a large dataset on PER conditioning in the honeybee and found that once an animal started eliciting the conditioned response (CR), it kept showing the CR in the subsequent conditioning trials with a high probability."
+      "original_line": "[2d] Motivated by the study of Gallistel and coworkers [23], Pamir and coworkers [24] analyzed a large dataset on PER conditioning in the honeybee and found that once an animal started eliciting the conditioned response (CR), it kept showing the CR in the subsequent conditioning trials with a high probability."
     },
     {
       "sentence_num": 16,
       "text": "Importantly, the gradual acquisition in the groups of animals that results from the recruitment of individuals to the learner population, as predicted by Gallistel et al [23], was also found for the honeybees.",
       "tags": [
-        "1c"
+        "2d"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "2d",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1c] Importantly, the gradual acquisition in the groups of animals that results from the recruitment of individuals to the learner population, as predicted by Gallistel et al [23], was also found for the honeybees."
+      "original_line": "[2d] Importantly, the gradual acquisition in the groups of animals that results from the recruitment of individuals to the learner population, as predicted by Gallistel et al [23], was also found for the honeybees."
     },
     {
       "sentence_num": 17,
       "text": "Additionally, it has also been found that individual animals switched abruptly to a learned state during the acquisition phase after a different number of acquisition trials and when they switched, they continued performing as learners Pamir [24].",
       "tags": [
-        "1c"
+        "2d"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "2d",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1c] Additionally, it has also been found that individual animals switched abruptly to a learned state during the acquisition phase after a different number of acquisition trials and when they switched, they continued performing as learners Pamir [24]."
+      "original_line": "[2d] Additionally, it has also been found that individual animals switched abruptly to a learned state during the acquisition phase after a different number of acquisition trials and when they switched, they continued performing as learners Pamir [24]."
     },
     {
       "sentence_num": 18,
       "text": "Further, another study also reported that bees switching to learners early during the acquisition phase had higher retention scores later in the tests of memory retention but they did not discriminate better between the rewarded and unrewarded conditioned stimuli during differential conditioning [25].",
       "tags": [
-        "1c"
+        "2d"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "2d",
+      "move": "2",
       "parse_confidence": "high",
-      "original_line": "[1c] Further, another study also reported that bees switching to learners early during the acquisition phase had higher retention scores later in the tests of memory retention but they did not discriminate better between the rewarded and unrewarded conditioned stimuli during differential conditioning [25]."
+      "original_line": "[2d] Further, another study also reported that bees switching to learners early during the acquisition phase had higher retention scores later in the tests of memory retention but they did not discriminate better between the rewarded and unrewarded conditioned stimuli during differential conditioning [25]."
     },
     {
       "sentence_num": 19,

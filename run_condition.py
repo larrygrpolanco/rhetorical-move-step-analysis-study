@@ -29,7 +29,7 @@ from parse_llm_output import parse_llm_output
 # CONFIGURATION
 # ============================================================================
 
-CONDITION = "eight_shot"  # Options: zero_shot, three_shot, eight_shot, fine_tuned
+CONDITION = "three_shot"  # Options: zero_shot, three_shot, eight_shot, fine_tuned
 DATASET = "validation"  # Options: validation, test
 RESEARCH_QUESTION = "rq1"  # Options: rq1 (single run), rq2 (consistency)
 ARTICLES = range(1, 11)  # Validation: range(1, 11), Test: range(11, 21)

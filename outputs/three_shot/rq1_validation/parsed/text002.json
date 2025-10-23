@@ -4,7 +4,7 @@
   "dataset": "validation",
   "research_question": "rq1",
   "run_number": 1,
-  "model": "claude-sonnet-4-5",
+  "model": "gpt-4.1-2025-04-14",
   "sentences": [
     {
       "sentence_num": 1,
@@ -30,14 +30,14 @@
     },
     {
       "sentence_num": 3,
-      "text": "It is well established that bats possess impressive vocal plasticity, freely modifying various parameters of their vocalizations [2] such asthe amplitude (known as the \"Lombard effect\") [3–7,30] duration [4,8–10], repetition or emission pattern [8,9,11], complexity [8], and spectral content [6,12,13] (but see [14–16]) in response to playback of interfering noise.",
+      "text": "It is well established that bats possess impressive vocal plasticity, freely modifying various parameters of their vocalizations [2] such asthe amplitude (known as the “Lombard effect”) [3–7,30] duration [4,8–10], repetition or emission pattern [8,9,11], complexity [8], and spectral content [6,12,13] (but see [14–16]) in response to playback of interfering noise.",
       "tags": [
         "1c"
       ],
       "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] It is well established that bats possess impressive vocal plasticity, freely modifying various parameters of their vocalizations [2] such asthe amplitude (known as the \"Lombard effect\") [3–7,30] duration [4,8–10], repetition or emission pattern [8,9,11], complexity [8], and spectral content [6,12,13] (but see [14–16]) in response to playback of interfering noise."
+      "original_line": "[1c] It is well established that bats possess impressive vocal plasticity, freely modifying various parameters of their vocalizations [2] such asthe amplitude (known as the “Lombard effect”) [3–7,30] duration [4,8–10], repetition or emission pattern [8,9,11], complexity [8], and spectral content [6,12,13] (but see [14–16]) in response to playback of interfering noise."
     },
     {
       "sentence_num": 4,

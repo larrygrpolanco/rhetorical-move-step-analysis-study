@@ -8,7 +8,7 @@
 
 **Study Type:** Methodological application with novel consistency analysis  
 **Primary Contribution:** First systematic evaluation of LLM annotation consistency  
-**Model:** GPT-4 (gpt-4-0613)  
+**Model:** GPT-4 (gpt-4.1-2025-04-14)  
 **Domain:** Biology research article introductions  
 **Dataset:** CaRS-50 (50 annotated articles)  
 **Total Runs:** 124 (4 conditions × 1 initial + 4 conditions × 30 consistency)
@@ -167,7 +167,7 @@ Test Set:       10 articles (20%) - For final evaluation (HELD OUT)
 
 ### Fine-Tuning Technical Details
 
-**Model:** gpt-4-0613 (fine-tunable version)
+**Model:** gpt-4.1-2025-04-14 (fine-tunable version)
 
 **Training Data:** 30 articles from training set, formatted as:
 

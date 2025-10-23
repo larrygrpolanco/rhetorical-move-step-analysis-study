@@ -4,7 +4,7 @@
   "dataset": "validation",
   "research_question": "rq1",
   "run_number": 1,
-  "model": "claude-sonnet-4-5",
+  "model": "gpt-4.1-2025-04-14",
   "sentences": [
     {
       "sentence_num": 1,
@@ -32,12 +32,12 @@
       "sentence_num": 3,
       "text": "For example, experiencing intrusive distressing memories of a traumatic event(s) is a DSM-5 diagnostic criteria for PTSD (APA, 2013).",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] For example, experiencing intrusive distressing memories of a traumatic event(s) is a DSM-5 diagnostic criteria for PTSD (APA, 2013)."
+      "original_line": "[1c] For example, experiencing intrusive distressing memories of a traumatic event(s) is a DSM-5 diagnostic criteria for PTSD (APA, 2013)."
     },
     {
       "sentence_num": 4,
@@ -54,12 +54,12 @@
       "sentence_num": 5,
       "text": "Predator odor stressor exposure can also be used to investigate the complex interaction between increased alcohol consumption and stress, which may help in understanding the neurobiology associated with comorbid PTSD and alcohol use disorder (Ornelas, Tyler, et al., 2021; Weera et al., 2020).",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Predator odor stressor exposure can also be used to investigate the complex interaction between increased alcohol consumption and stress, which may help in understanding the neurobiology associated with comorbid PTSD and alcohol use disorder (Ornelas, Tyler, et al., 2021; Weera et al., 2020)."
+      "original_line": "[1c] Predator odor stressor exposure can also be used to investigate the complex interaction between increased alcohol consumption and stress, which may help in understanding the neurobiology associated with comorbid PTSD and alcohol use disorder (Ornelas, Tyler, et al., 2021; Weera et al., 2020)."
     },
     {
       "sentence_num": 6,
@@ -109,12 +109,12 @@
       "sentence_num": 10,
       "text": "Using these behavioral phenotype groups, we can then assess how engagement in different coping strategies during stress exposure may lead to or mitigate against lasting consequences of stress (for example, contextual stress memory, anxiety-like behavior, hyperarousal, or alcohol drinking).",
       "tags": [
-        "3a"
+        "3b"
       ],
-      "primary_tag": "3a",
+      "primary_tag": "3b",
       "move": "3",
       "parse_confidence": "high",
-      "original_line": "[3a] Using these behavioral phenotype groups, we can then assess how engagement in different coping strategies during stress exposure may lead to or mitigate against lasting consequences of stress (for example, contextual stress memory, anxiety-like behavior, hyperarousal, or alcohol drinking)."
+      "original_line": "[3b] Using these behavioral phenotype groups, we can then assess how engagement in different coping strategies during stress exposure may lead to or mitigate against lasting consequences of stress (for example, contextual stress memory, anxiety-like behavior, hyperarousal, or alcohol drinking)."
     },
     {
       "sentence_num": 11,
@@ -164,12 +164,12 @@
       "sentence_num": 15,
       "text": "However, we specifically focus on defensive digging and immobility because they capture two distinctly different types of coping behaviors (digging = active, immobility = passive) that we have found useful to characterize individual differences in stress responsivity.",
       "tags": [
-        "3b"
+        "3a"
       ],
-      "primary_tag": "3b",
+      "primary_tag": "3a",
       "move": "3",
       "parse_confidence": "high",
-      "original_line": "[3b] However, we specifically focus on defensive digging and immobility because they capture two distinctly different types of coping behaviors (digging = active, immobility = passive) that we have found useful to characterize individual differences in stress responsivity."
+      "original_line": "[3a] However, we specifically focus on defensive digging and immobility because they capture two distinctly different types of coping behaviors (digging = active, immobility = passive) that we have found useful to characterize individual differences in stress responsivity."
     },
     {
       "sentence_num": 16,
@@ -184,9 +184,9 @@
     }
   ],
   "parse_stats": {
-    "total_lines": 31,
+    "total_lines": 16,
     "parsed_sentences": 16,
-    "skipped_lines": 15,
+    "skipped_lines": 0,
     "invalid_tags": 0,
     "multi_tag_sentences": 0,
     "warnings": []
