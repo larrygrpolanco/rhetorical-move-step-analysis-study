@@ -3,6 +3,8 @@ Fine-Tuning Data Preparation Script
 ====================================
 Prepares training data for GPT-4 fine-tuning in OpenAI's JSONL format.
 
+Must be moved to the root of the repository.
+
 This script:
 1. Loads the system prompt (system_prompt.txt)
 2. Loads all 30 training articles (text021-050) with their gold annotations
