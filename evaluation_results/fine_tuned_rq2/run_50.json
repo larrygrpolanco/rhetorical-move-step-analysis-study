@@ -1,0 +1,3850 @@
+{
+  "condition": "fine_tuned",
+  "dataset": "test",
+  "research_question": "rq2",
+  "run_number": 50,
+  "total_articles": 10,
+  "total_sentences": 267,
+  "move_metrics": {
+    "accuracy": 0.8576779026217228,
+    "weighted_precision": 0.8510178959617162,
+    "weighted_recall": 0.8576779026217228,
+    "weighted_f1": 0.8525335576103096,
+    "per_class": {
+      "1": {
+        "precision": 0.9010989010989011,
+        "recall": 0.9265536723163842,
+        "f1": 0.9136490250696379,
+        "support": 177
+      },
+      "2": {
+        "precision": 0.6666666666666666,
+        "recall": 0.5128205128205128,
+        "f1": 0.5797101449275363,
+        "support": 39
+      },
+      "3": {
+        "precision": 0.8181818181818182,
+        "recall": 0.8823529411764706,
+        "f1": 0.8490566037735849,
+        "support": 51
+      }
+    }
+  },
+  "step_metrics": {
+    "accuracy": 0.6292134831460674,
+    "weighted_precision": 0.6024982485913956,
+    "weighted_recall": 0.6292134831460674,
+    "weighted_f1": 0.6067468108568504,
+    "per_class": {
+      "1a": {
+        "precision": 0.5555555555555556,
+        "recall": 0.47619047619047616,
+        "f1": 0.5128205128205128,
+        "support": 21
+      },
+      "1b": {
+        "precision": 0.6666666666666666,
+        "recall": 0.4888888888888889,
+        "f1": 0.5641025641025641,
+        "support": 45
+      },
+      "1c": {
+        "precision": 0.732824427480916,
+        "recall": 0.8648648648648649,
+        "f1": 0.7933884297520661,
+        "support": 111
+      },
+      "2a": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 5
+      },
+      "2b": {
+        "precision": 0.5454545454545454,
+        "recall": 0.5217391304347826,
+        "f1": 0.5333333333333333,
+        "support": 23
+      },
+      "2c": {
+        "precision": 0.16666666666666666,
+        "recall": 0.25,
+        "f1": 0.2,
+        "support": 4
+      },
+      "2d": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 7
+      },
+      "3a": {
+        "precision": 0.2727272727272727,
+        "recall": 0.3,
+        "f1": 0.2857142857142857,
+        "support": 10
+      },
+      "3b": {
+        "precision": 0.5428571428571428,
+        "recall": 0.7916666666666666,
+        "f1": 0.6440677966101694,
+        "support": 24
+      },
+      "3c": {
+        "precision": 0.5555555555555556,
+        "recall": 0.3125,
+        "f1": 0.4,
+        "support": 16
+      },
+      "3d": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      }
+    }
+  },
+  "per_article_metrics": [
+    {
+      "article_id": "text011",
+      "article_num": 11,
+      "sentence_count": 16,
+      "move_metrics": {
+        "accuracy": 0.9375,
+        "weighted_precision": 0.9431818181818181,
+        "weighted_recall": 0.9375,
+        "weighted_f1": 0.9327380952380953,
+        "per_class": {
+          "1": {
+            "precision": 0.9090909090909091,
+            "recall": 1.0,
+            "f1": 0.9523809523809523,
+            "support": 10
+          },
+          "2": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8,
+            "support": 3
+          },
+          "3": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 3
+          }
+        }
+      },
+      "step_metrics": {
+        "accuracy": 0.625,
+        "weighted_precision": 0.7708333333333334,
+        "weighted_recall": 0.625,
+        "weighted_f1": 0.6541666666666667,
+        "per_class": {
+          "1a": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "1b": {
+            "precision": 0.3333333333333333,
+            "recall": 1.0,
+            "f1": 0.5,
+            "support": 1
+          },
+          "1c": {
+            "precision": 1.0,
+            "recall": 0.875,
+            "f1": 0.9333333333333333,
+            "support": 8
+          },
+          "2a": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 3
+          },
+          "2b": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "2c": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "2d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "3a": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "3b": {
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5,
+            "support": 3
+          },
+          "3c": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "3d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          }
+        }
+      },
+      "sentence_details": [
+        {
+          "sentence_num": 1,
+          "text": "Due to its importance in shaping ecological communities and the species, the che...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1a",
+          "pred_step": "1a",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 2,
+          "text": "Under this paradigm, plants that evolve the ability to produce toxic or deterren...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 3,
+          "text": "However, as their enemies evolve the ability to tolerate or neutralize these met...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2a",
+          "pred_step": "2b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 4,
+          "text": "The Brassicaceae, a family of more than 4000 plant species, presents many instan...",
+          "gold_move": "2",
+          "pred_move": "1",
+          "gold_step": "2a",
+          "pred_step": "1b",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 5,
+          "text": "Glucosinolates evolved as a defense in this lineage approximately 90 million yea...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 6,
+          "text": "Since the original gain of glucosinolate biosynthesis, many insect species have ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 7,
+          "text": "Several lineages within the Brassicaceae have more recently evolved the producti...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 8,
+          "text": "It is hypothesized that these key evolutionary innovations allowed these lineage...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 9,
+          "text": "A meta-analysis of phytochemical coevolution theory found that specialist insect...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 10,
+          "text": "Consistent with this theory, the glucosinolate-tolerant small and large white ca...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 11,
+          "text": "Experiments involving bioactivity-guided fractionation identified cardiac glycos...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 12,
+          "text": "Similarly, isolated cardiac glycosides were shown to be feeding deterrents for t...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 13,
+          "text": "However, in the absence of mutant lines that lack cardiac glycosides, it has not...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2a",
+          "pred_step": "2b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 14,
+          "text": "The aims of this study were two-fold: First, we sought to identify cardiac glyco...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3a",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 15,
+          "text": "Second, we revisited classical ecological experiments with modern tools, develop...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 16,
+          "text": "This effectively reversed the \u201cescape from herbivory\u201d of E. cheiranthoides and a...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3c",
+          "move_correct": true,
+          "step_correct": false
+        }
+      ]
+    },
+    {
+      "article_id": "text012",
+      "article_num": 12,
+      "sentence_count": 33,
+      "move_metrics": {
+        "accuracy": 0.9696969696969697,
+        "weighted_precision": 0.9709090909090908,
+        "weighted_recall": 0.9696969696969697,
+        "weighted_f1": 0.9688406831263973,
+        "per_class": {
+          "1": {
+            "precision": 0.96,
+            "recall": 1.0,
+            "f1": 0.9795918367346939,
+            "support": 24
+          },
+          "2": {
+            "precision": 1.0,
+            "recall": 0.8571428571428571,
+            "f1": 0.9230769230769231,
+            "support": 7
+          },
+          "3": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 2
+          }
+        }
+      },
+      "step_metrics": {
+        "accuracy": 0.6666666666666666,
+        "weighted_precision": 0.6273448773448773,
+        "weighted_recall": 0.6666666666666666,
+        "weighted_f1": 0.6206804891015417,
+        "per_class": {
+          "1a": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666,
+            "support": 1
+          },
+          "1b": {
+            "precision": 0.5,
+            "recall": 0.16666666666666666,
+            "f1": 0.25,
+            "support": 6
+          },
+          "1c": {
+            "precision": 0.7619047619047619,
+            "recall": 0.9411764705882353,
+            "f1": 0.8421052631578947,
+            "support": 17
+          },
+          "2a": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "2b": {
+            "precision": 0.75,
+            "recall": 0.6,
+            "f1": 0.6666666666666666,
+            "support": 5
+          },
+          "2c": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "2d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "3a": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "3b": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666,
+            "support": 1
+          },
+          "3c": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "3d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          }
+        }
+      },
+      "sentence_details": [
+        {
+          "sentence_num": 1,
+          "text": "The majority of devastating plant pathogens, including viruses and bacteria, are...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1a",
+          "pred_step": "1a",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 2,
+          "text": "In recent decades, the interactions between vectors and pathogens have been wide...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 3,
+          "text": "However, studies on the mechanisms underlying these interactions have mainly foc...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2a",
+          "pred_step": "2b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 4,
+          "text": "Knowledge of the relationships between vectors and pathogens is of great signifi...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1a",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 5,
+          "text": "The severe Asian form of huanglongbing (HLB) is currently the most destructive c...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 6,
+          "text": "However, since CLas has not been cultured in vitro, Koch\u2019s postulates have not b...",
+          "gold_move": "2",
+          "pred_move": "1",
+          "gold_step": "2c",
+          "pred_step": "1c",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 7,
+          "text": "Control of D. citri is the most effective way to prevent HLB epidemics [6,7] but...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 8,
+          "text": "Previous studies have reported that infection with CLas significantly increases ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 9,
+          "text": "Reproduction is a costly process in terms of energy usage in the adult life of f...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 10,
+          "text": "How D. citri maintains a balance between lipid metabolism and increased fecundit...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2b",
+          "pred_step": "2c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 11,
+          "text": "In insects, energy mobilization is under control of adipokinetic hormone (AKH), ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 12,
+          "text": "To date, more than 80 different forms of AKH have been identified or predicted i...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 13,
+          "text": "The mechanisms of synthesis and biological activity of AKH have also been invest...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 14,
+          "text": "Insect store lipids in the form of triacylglycerides (TAG) and as carbohydrates ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 15,
+          "text": "Under conditions of energy demand, AKHs are synthesized in the corpora cardiaca,...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 16,
+          "text": "AKHR binding and activation triggers the release of energy-rich substrates after...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 17,
+          "text": "AKHRs are a class of G protein-coupled receptors and were first identified in Dr...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 18,
+          "text": "Recent studies have shown that AKH/AKHR signaling plays a regulatory role during...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 19,
+          "text": "For example, depletion of AKHR in Bactrocera dorsalis resulted in TAG accumulati...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 20,
+          "text": "AKHR knockdown in Nilaparvata lugens interferes with trehalose homeostasis and v...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 21,
+          "text": "AKH/AKHR signaling also regulates vitellogenesis and egg development in Locusta ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 22,
+          "text": "As outlined above, the fecundity of D. citri is increased by CLas....",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 23,
+          "text": "Whether AKH/AKHR signaling participates in this increase in fecundity due to inf...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2b",
+          "pred_step": "2c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 24,
+          "text": "Although numerous studies have been conducted on the AKH/AKHR signaling pathway,...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2b",
+          "pred_step": "2b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 25,
+          "text": "MicroRNAs (miRNAs) are small, non-coding RNAs containing approximately 22 nucleo...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 26,
+          "text": "miRNAs play important roles in regulating cellular events at the post-transcript...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 27,
+          "text": "For example, in term of host-virus interactions, miR-8 and miR-429 target Broad ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 28,
+          "text": "In relation to reproduction, in Aedes aegypti, miR-275 is essential for egg deve...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 29,
+          "text": "As for lipid metabolism, knockdown of miR-277 in A. aegypti activates insulin/FO...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 30,
+          "text": "Nevertheless, the functions of the miRNAs in insect-pathogen interactions need f...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2b",
+          "pred_step": "2b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 31,
+          "text": "To date, there are no reports that miRNAs participate in D. citri-CLas interacti...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2b",
+          "pred_step": "2b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 32,
+          "text": "As a consequence, in this study, we used the D. citri-CLas system as a model to ...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 33,
+          "text": "Our study contributes to our understanding of the interactions between vectors a...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3a",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": false
+        }
+      ]
+    },
+    {
+      "article_id": "text013",
+      "article_num": 13,
+      "sentence_count": 25,
+      "move_metrics": {
+        "accuracy": 0.96,
+        "weighted_precision": 0.98,
+        "weighted_recall": 0.96,
+        "weighted_f1": 0.9660606060606061,
+        "per_class": {
+          "1": {
+            "precision": 1.0,
+            "recall": 0.9411764705882353,
+            "f1": 0.9696969696969697,
+            "support": 17
+          },
+          "2": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666,
+            "support": 1
+          },
+          "3": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 7
+          }
+        }
+      },
+      "step_metrics": {
+        "accuracy": 0.72,
+        "weighted_precision": 0.812,
+        "weighted_recall": 0.72,
+        "weighted_f1": 0.676937441643324,
+        "per_class": {
+          "1a": {
+            "precision": 1.0,
+            "recall": 0.16666666666666666,
+            "f1": 0.2857142857142857,
+            "support": 6
+          },
+          "1b": {
+            "precision": 0.6,
+            "recall": 0.75,
+            "f1": 0.6666666666666666,
+            "support": 4
+          },
+          "1c": {
+            "precision": 0.7,
+            "recall": 1.0,
+            "f1": 0.8235294117647058,
+            "support": 7
+          },
+          "2a": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "2b": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666,
+            "support": 1
+          },
+          "2c": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "2d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "3a": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "3b": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666,
+            "support": 1
+          },
+          "3c": {
+            "precision": 1.0,
+            "recall": 0.8,
+            "f1": 0.8888888888888888,
+            "support": 5
+          },
+          "3d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          }
+        }
+      },
+      "sentence_details": [
+        {
+          "sentence_num": 1,
+          "text": "In recent decades, the increased industrialization of agroecosystems has gathere...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1a",
+          "pred_step": "1a",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 2,
+          "text": "This trend is characterized by prioritizing short-term gains in productivity thr...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 3,
+          "text": "Agricultural industrialization and environmental change have led to increases in...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 4,
+          "text": "Adding to these challenges are the heightened demands on human labor and precari...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1a",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 5,
+          "text": "Coffee agroecosystems exhibit a large variety of management practices that reinf...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1a",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 6,
+          "text": "Coffee production syndromes can be mainly distinguished by shade management (sha...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 7,
+          "text": "In this sense, coffee agroecosystems are model systems to understand how differe...",
+          "gold_move": "1",
+          "pred_move": "2",
+          "gold_step": "1a",
+          "pred_step": "2b",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 8,
+          "text": "In the large-scale capitalist syndrome, decisions and practices follow a maximiz...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 9,
+          "text": "This syndrome of coffee production results in practices that may promote the dev...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 10,
+          "text": "For instance, the coffee leaf rust (CLR) can travel across the coffee plantation...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 11,
+          "text": "In this regard, increased agricultural simplification and industrialization of c...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 12,
+          "text": "Some studies have proposed that harvesters can also bear CLR spores during harve...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 13,
+          "text": "The range of movement and duration of the daily harvest are also determined by t...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 14,
+          "text": "This relates to the general framework of movement ecology where one can wonder w...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1a",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 15,
+          "text": "In most landlord-owned large-scale coffee plantations, harvesters are paid by pi...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 16,
+          "text": "These practices affect the social and health conditions of the workers, which ar...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1a",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 17,
+          "text": "We argue that the movement of the harvesters under labor-intensive plantation co...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3a",
+          "pred_step": "3a",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 18,
+          "text": "In fact, other studies have stressed the relation between the landscape structur...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 19,
+          "text": "However, the spatial movement of the harvesters in plantations within this syndr...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2b",
+          "pred_step": "2b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 20,
+          "text": "Here we present a description and qualitative analysis of the spatial movement o...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 21,
+          "text": "Specifically, we asked 1) how to statistically characterize the spatial trajecto...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3c",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 22,
+          "text": "We first recorded and analyzed with state-space models the spatial movements of ...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3c",
+          "pred_step": "3c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 23,
+          "text": "We then constructed a driver tree for harvest dynamics, which incorporated quali...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3c",
+          "pred_step": "3c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 24,
+          "text": "We also highlighted the relationship between these variables and the syndrome of...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3c",
+          "pred_step": "3c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 25,
+          "text": "Finally, we put in conversation the patterns and dynamics of the spatial movemen...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3c",
+          "pred_step": "3c",
+          "move_correct": true,
+          "step_correct": true
+        }
+      ]
+    },
+    {
+      "article_id": "text014",
+      "article_num": 14,
+      "sentence_count": 23,
+      "move_metrics": {
+        "accuracy": 0.8260869565217391,
+        "weighted_precision": 0.8056265984654732,
+        "weighted_recall": 0.8260869565217391,
+        "weighted_f1": 0.8009973507869721,
+        "per_class": {
+          "1": {
+            "precision": 0.8235294117647058,
+            "recall": 1.0,
+            "f1": 0.9032258064516129,
+            "support": 14
+          },
+          "2": {
+            "precision": 0.5,
+            "recall": 0.25,
+            "f1": 0.3333333333333333,
+            "support": 4
+          },
+          "3": {
+            "precision": 1.0,
+            "recall": 0.8,
+            "f1": 0.8888888888888888,
+            "support": 5
+          }
+        }
+      },
+      "step_metrics": {
+        "accuracy": 0.5652173913043478,
+        "weighted_precision": 0.5124223602484472,
+        "weighted_recall": 0.5652173913043478,
+        "weighted_f1": 0.5091367359798362,
+        "per_class": {
+          "1a": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "1b": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666,
+            "support": 4
+          },
+          "1c": {
+            "precision": 0.6428571428571429,
+            "recall": 1.0,
+            "f1": 0.782608695652174,
+            "support": 9
+          },
+          "2a": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "2b": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "2c": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "2d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 3
+          },
+          "3a": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "3b": {
+            "precision": 0.5,
+            "recall": 0.5,
+            "f1": 0.5,
+            "support": 2
+          },
+          "3c": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "3d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          }
+        }
+      },
+      "sentence_details": [
+        {
+          "sentence_num": 1,
+          "text": "Various axes of global change are increasing rapidly (Steffen and others 2015) a...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1a",
+          "pred_step": "1a",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 2,
+          "text": "For coral reefs, three major stressors have been identified as playing important...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 3,
+          "text": "As coral reefs appear to be classic examples of ecosystems under heavy multi-str...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 4,
+          "text": "For example, while climate change and temperature-induced coral bleaching is oft...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 5,
+          "text": "While addressing anthropogenic climate change at the global scale is undoubtedly...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 6,
+          "text": "This is especially true if multiple stressors interact to nonlinearly increase n...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 7,
+          "text": "At a local scale, the role of herbivory has been a dominant focus of coral reef ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 8,
+          "text": "Researchers have argued for decades that losses in herbivory can drive phase shi...",
+          "gold_move": "2",
+          "pred_move": "1",
+          "gold_step": "2d",
+          "pred_step": "1c",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 9,
+          "text": "This has been argued to be caused by the overfishing of herbivores (McManus and ...",
+          "gold_move": "2",
+          "pred_move": "1",
+          "gold_step": "2d",
+          "pred_step": "1c",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 10,
+          "text": "Importantly, loss of hard corals and shifts to algae-dominated reefs result in h...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 11,
+          "text": "Adding complexity to the efficacy of local management actions aimed at restoring...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 12,
+          "text": "Nutrient loading has been shown to alter important biological parameters that me...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 13,
+          "text": "Additionally, increased availability of nutrients have a positive impact on alga...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 14,
+          "text": "Importantly, these collective biological responses to multiple stressors suggest...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 15,
+          "text": "Indeed, empirical research has found that the recovery of coral reefs after blea...",
+          "gold_move": "2",
+          "pred_move": "1",
+          "gold_step": "2d",
+          "pred_step": "1c",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 16,
+          "text": "However, there still remains considerable debate among researchers regarding how...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2c",
+          "pred_step": "2b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 17,
+          "text": "Some researchers have begun to incorporate multiple stressors into theoretical a...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 18,
+          "text": "These studies have shown that multi-stressors can indeed interact and together c...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 19,
+          "text": "While the nuances of coral reef dynamics and the multitude of anthropogenic impa...",
+          "gold_move": "3",
+          "pred_move": "2",
+          "gold_step": "3a",
+          "pred_step": "2b",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 20,
+          "text": "Here, as a step towards this goal, we expand on existing theory (Mumby and other...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3a",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 21,
+          "text": "We do this by integrating the combined influence of overfishing (i.e., loss/redu...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 22,
+          "text": "Our approach integrates general ecological concepts (e.g., ecological succession...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3c",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 23,
+          "text": "We end by evaluating empirical evidence from Barbados within our framework that ...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3d",
+          "pred_step": "3c",
+          "move_correct": true,
+          "step_correct": false
+        }
+      ]
+    },
+    {
+      "article_id": "text015",
+      "article_num": 15,
+      "sentence_count": 29,
+      "move_metrics": {
+        "accuracy": 0.7931034482758621,
+        "weighted_precision": 0.8103448275862069,
+        "weighted_recall": 0.7931034482758621,
+        "weighted_f1": 0.7851250845165653,
+        "per_class": {
+          "1": {
+            "precision": 0.75,
+            "recall": 0.9375,
+            "f1": 0.8333333333333334,
+            "support": 16
+          },
+          "2": {
+            "precision": 0.5,
+            "recall": 0.3333333333333333,
+            "f1": 0.4,
+            "support": 3
+          },
+          "3": {
+            "precision": 1.0,
+            "recall": 0.7,
+            "f1": 0.8235294117647058,
+            "support": 10
+          }
+        }
+      },
+      "step_metrics": {
+        "accuracy": 0.5172413793103449,
+        "weighted_precision": 0.5096059113300493,
+        "weighted_recall": 0.5172413793103449,
+        "weighted_f1": 0.4952978056426332,
+        "per_class": {
+          "1a": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "1b": {
+            "precision": 0.8,
+            "recall": 0.5714285714285714,
+            "f1": 0.6666666666666666,
+            "support": 7
+          },
+          "1c": {
+            "precision": 0.42857142857142855,
+            "recall": 0.75,
+            "f1": 0.5454545454545454,
+            "support": 8
+          },
+          "2a": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "2b": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "2c": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "2d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "3a": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 1
+          },
+          "3b": {
+            "precision": 0.75,
+            "recall": 0.6,
+            "f1": 0.6666666666666666,
+            "support": 5
+          },
+          "3c": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 4
+          },
+          "3d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          }
+        }
+      },
+      "sentence_details": [
+        {
+          "sentence_num": 1,
+          "text": "How animals use space in their environment and interact with conspecifics is fun...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1a",
+          "pred_step": "1a",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 2,
+          "text": "Interactions with conspecifics are frequently heterogeneous, reflecting individu...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 3,
+          "text": "Since animal space use and conspecific interactions are crucial determinants of ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 4,
+          "text": "However, studies that disentangle the relative contributions of environmental an...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2a",
+          "pred_step": "2b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 5,
+          "text": "Food availability is a common source of environmental variability that can alter...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 6,
+          "text": "At local scales, low food availability may increase space use through increased ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 7,
+          "text": "Point food sources (e.g., bird feeders, landfills, crop fields) can increase spa...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 8,
+          "text": "Individual variation among animals can also affect space use and spatial overlap...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 9,
+          "text": "For example, in rodents, testosterone-mediated behavior in mature males can incr...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 10,
+          "text": "Individual variation may also arise through differing burdens of macroparasites ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 11,
+          "text": "Helminth infection could increase feeding behavior, requiring infected hosts to ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 12,
+          "text": "Conversely, helminths may cause sickness-induced lethargy in infected animals an...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 13,
+          "text": "Further, since space use and spatial overlap can influence macroparasite exposur...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 14,
+          "text": "Much of our knowledge of how food availability and macroparasite infection impac...",
+          "gold_move": "2",
+          "pred_move": "1",
+          "gold_step": "2b",
+          "pred_step": "1c",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 15,
+          "text": "In natural settings, food availability and macroparasite infection frequently co...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 16,
+          "text": "For example, abundant food resources could alleviate increased foraging requirem...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 17,
+          "text": "Ultimately, rigorous field experiments in wildlife are necessary to test the ind...",
+          "gold_move": "1",
+          "pred_move": "2",
+          "gold_step": "1c",
+          "pred_step": "2b",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 18,
+          "text": "Such research is pertinent and timely because land-use change is altering patter...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 19,
+          "text": "Our goal was to determine the effects of food supplementation and macroparasite ...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3a",
+          "pred_step": "3a",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 20,
+          "text": "We used bank voles (Clethrionomys glareolus, previously Myodes glareolus) as our...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 21,
+          "text": "Reproductive males hold territories that are approximately double those of femal...",
+          "gold_move": "3",
+          "pred_move": "1",
+          "gold_step": "3c",
+          "pred_step": "1c",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 22,
+          "text": "Reproductive females are territorial toward other reproductive females but may o...",
+          "gold_move": "3",
+          "pred_move": "1",
+          "gold_step": "3c",
+          "pred_step": "1c",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 23,
+          "text": "In both sexes, space use of non-reproductive voles is less than that of reproduc...",
+          "gold_move": "3",
+          "pred_move": "1",
+          "gold_step": "3c",
+          "pred_step": "1c",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 24,
+          "text": "Both food availability and population density are thought to regulate vole terri...",
+          "gold_move": "2",
+          "pred_move": "1",
+          "gold_step": "2d",
+          "pred_step": "1c",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 25,
+          "text": "We experimentally manipulated wild bank vole populations via food supplementatio...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 26,
+          "text": "Specifically, we 1) quantified space use by sex and reproductive status in the b...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 27,
+          "text": "Space use and spatial overlap were compared between treatments to test the effec...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3c",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 28,
+          "text": "As abundant food often increases small mammal population density through immigra...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 29,
+          "text": "We hypothesized that helminth infection would increase host movement (due to inc...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3c",
+          "move_correct": true,
+          "step_correct": false
+        }
+      ]
+    },
+    {
+      "article_id": "text016",
+      "article_num": 16,
+      "sentence_count": 31,
+      "move_metrics": {
+        "accuracy": 0.9032258064516129,
+        "weighted_precision": 0.9193548387096774,
+        "weighted_recall": 0.9032258064516129,
+        "weighted_f1": 0.906431576838309,
+        "per_class": {
+          "1": {
+            "precision": 1.0,
+            "recall": 0.9166666666666666,
+            "f1": 0.9565217391304348,
+            "support": 24
+          },
+          "2": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "3": {
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1": 0.8571428571428571,
+            "support": 6
+          }
+        }
+      },
+      "step_metrics": {
+        "accuracy": 0.7096774193548387,
+        "weighted_precision": 0.8075268817204302,
+        "weighted_recall": 0.7096774193548387,
+        "weighted_f1": 0.7296566077003122,
+        "per_class": {
+          "1a": {
+            "precision": 0.25,
+            "recall": 0.5,
+            "f1": 0.3333333333333333,
+            "support": 2
+          },
+          "1b": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666,
+            "support": 6
+          },
+          "1c": {
+            "precision": 0.8666666666666667,
+            "recall": 0.8125,
+            "f1": 0.8387096774193549,
+            "support": 16
+          },
+          "2a": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "2b": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "2c": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "2d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "3a": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "3b": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8,
+            "support": 4
+          },
+          "3c": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666,
+            "support": 2
+          },
+          "3d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          }
+        }
+      },
+      "sentence_details": [
+        {
+          "sentence_num": 1,
+          "text": "Impacts of biological invasions can be difficult to measure at the early stages ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1a",
+          "pred_step": "1a",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 2,
+          "text": "In many cases, managers lack baseline data against which to compare population c...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 3,
+          "text": "Even when such data do exist, per capita impacts may not scale up to statistical...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 4,
+          "text": "Moreover, similar to detection and establishment, assessment of impacts can \u201clag...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 5,
+          "text": "Yet gauging impacts early in the invasion process can buy managers valuable time...",
+          "gold_move": "1",
+          "pred_move": "2",
+          "gold_step": "1a",
+          "pred_step": "2d",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 6,
+          "text": "For predatory invasive species, diet studies offer crucial early insight into th...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 7,
+          "text": "Diet analysis can also be combined with manipulative experiments and behavioral ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 8,
+          "text": "For example, several diet studies of the invasive lionfish (Pterois volitans and...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 9,
+          "text": "While diet analysis has traditionally relied on visual identification of stomach...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 10,
+          "text": "DNA metabarcoding has been shown to identify stomach contents to higher taxonomi...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 11,
+          "text": "There have also been recent methodological improvements in the analysis of DNA m...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 12,
+          "text": "Chief among these challenges is accounting for bias introduced during the requir...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 13,
+          "text": "However, quantitative modeling methods that were recently developed for other ap...",
+          "gold_move": "2",
+          "pred_move": "3",
+          "gold_step": "2d",
+          "pred_step": "3b",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 14,
+          "text": "We combine DNA metabarcoding of crab stomach contents with quantitative models t...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 15,
+          "text": "Green crabs were first detected in Willapa Bay in 1998 (Dumbauld and Kauffman, 1...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 16,
+          "text": "Recent trapping and monitoring efforts, as well as opportunistic observations ma...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 17,
+          "text": "These trends have raised concern that shifting conditions are enabling green cra...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 18,
+          "text": "These later phases of the invasion process are most commonly associated with imp...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 19,
+          "text": "Regional resource managers anticipate significant impacts of the green crab inva...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1a",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 20,
+          "text": "Willapa Bay contributes approximately a quarter of all Washington state shellfis...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1a",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 21,
+          "text": "Shellfish growers have expressed concern that green crab might already be reduci...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1a",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 22,
+          "text": "Though species- and community-level impacts of green crab have been documented i...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 23,
+          "text": "For instance, McDonald et al. (2001) demonstrated that juvenile green crab can b...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 24,
+          "text": "Additionally, while previous research has documented declines in the native hair...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 25,
+          "text": "Yet, feeding behavior of generalist invasive predators can vary substantially ac...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 26,
+          "text": "Thus, local, habitat-specific diet analyses are needed to assess the variability...",
+          "gold_move": "1",
+          "pred_move": "3",
+          "gold_step": "1b",
+          "pred_step": "3a",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 27,
+          "text": "We provide a timely investigation of European green crab diet at aquaculture sit...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 28,
+          "text": "We first identified putative prey taxa from green crab stomach contents using DN...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 29,
+          "text": "We then constructed mock prey \u201ccommunities\u201d for a subset of species of particula...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 30,
+          "text": "We used this abundance data to model the composition of the average diet of a gr...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3c",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 31,
+          "text": "Our work not only provides the first detailed description of in situ green crab ...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3c",
+          "pred_step": "3c",
+          "move_correct": true,
+          "step_correct": true
+        }
+      ]
+    },
+    {
+      "article_id": "text017",
+      "article_num": 17,
+      "sentence_count": 18,
+      "move_metrics": {
+        "accuracy": 0.7222222222222222,
+        "weighted_precision": 0.7301587301587301,
+        "weighted_recall": 0.7222222222222222,
+        "weighted_f1": 0.7160493827160495,
+        "per_class": {
+          "1": {
+            "precision": 0.8571428571428571,
+            "recall": 0.9230769230769231,
+            "f1": 0.8888888888888888,
+            "support": 13
+          },
+          "2": {
+            "precision": 0.5,
+            "recall": 0.25,
+            "f1": 0.3333333333333333,
+            "support": 4
+          },
+          "3": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          }
+        }
+      },
+      "step_metrics": {
+        "accuracy": 0.6666666666666666,
+        "weighted_precision": 0.6080246913580247,
+        "weighted_recall": 0.6666666666666666,
+        "weighted_f1": 0.6180555555555555,
+        "per_class": {
+          "1a": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666,
+            "support": 2
+          },
+          "1b": {
+            "precision": 0.75,
+            "recall": 0.75,
+            "f1": 0.75,
+            "support": 4
+          },
+          "1c": {
+            "precision": 0.7777777777777778,
+            "recall": 1.0,
+            "f1": 0.875,
+            "support": 7
+          },
+          "2a": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "2b": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 3
+          },
+          "2c": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666,
+            "support": 1
+          },
+          "2d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "3a": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "3b": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "3c": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "3d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          }
+        }
+      },
+      "sentence_details": [
+        {
+          "sentence_num": 1,
+          "text": "The ambrosia beetle Cnestus mutilatus Blandford, 1894 (Coleoptera: Curculionidae...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1a",
+          "pred_step": "1a",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 2,
+          "text": "The species has since spread widely and quickly (3), utilizing a suite of adapti...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 3,
+          "text": "It is possible that C. mutilatus will not become a pest in its new geographic ra...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 4,
+          "text": "Most ambrosia beetles take advantage of the weakened defenses of stressed or dyi...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 5,
+          "text": "However, timber- and tree-associated industries need to remain wary of their des...",
+          "gold_move": "2",
+          "pred_move": "1",
+          "gold_step": "2b",
+          "pred_step": "1b",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 6,
+          "text": "The woody tissues of dying and dead trees ferment residual sugars, producing sev...",
+          "gold_move": "2",
+          "pred_move": "1",
+          "gold_step": "2b",
+          "pred_step": "1c",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 7,
+          "text": "A small proportion of these alcohols volatize (10) and attract the beetles, whic...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 8,
+          "text": "Stressed nursery trees and many wood products also volatize alcohols, and holes ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 9,
+          "text": "Examples include damage to wine or beer casks (8), overwatered or freeze-stresse...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 10,
+          "text": "Cnestus mutilatus has even been documented boring holes into the plastic walls o...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 11,
+          "text": "Ambrosia beetles could also cause ecological damage by seeding the spread of mic...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 12,
+          "text": "Fungi transported by ambrosia beetles can dramatically alter the natural progres...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 13,
+          "text": "Geosmithia morbida (Ascomycota), the fungal pathogen that causes Thousand Canker...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 14,
+          "text": "Given this potential for both economic and ecological damage, C. mutilatus merit...",
+          "gold_move": "1",
+          "pred_move": "3",
+          "gold_step": "1a",
+          "pred_step": "3a",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 15,
+          "text": "Traps for ambrosia beetles are typically baited with slow-release ethanol prepar...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 16,
+          "text": "However, propan-2-ol (hereafter referred to as isopropanol), while being used in...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2c",
+          "pred_step": "2c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 17,
+          "text": "There would be considerable advantages to having an inexpensive and easy-to-obta...",
+          "gold_move": "3",
+          "pred_move": "2",
+          "gold_step": "3a",
+          "pred_step": "2c",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 18,
+          "text": "The purpose of this study was to gather experimental evidence that isopropanol c...",
+          "gold_move": "2",
+          "pred_move": "3",
+          "gold_step": "2b",
+          "pred_step": "3a",
+          "move_correct": false,
+          "step_correct": false
+        }
+      ]
+    },
+    {
+      "article_id": "text018",
+      "article_num": 18,
+      "sentence_count": 34,
+      "move_metrics": {
+        "accuracy": 0.8235294117647058,
+        "weighted_precision": 0.8561085972850678,
+        "weighted_recall": 0.8235294117647058,
+        "weighted_f1": 0.8108823529411765,
+        "per_class": {
+          "1": {
+            "precision": 0.8461538461538461,
+            "recall": 0.9166666666666666,
+            "f1": 0.88,
+            "support": 24
+          },
+          "2": {
+            "precision": 1.0,
+            "recall": 0.42857142857142855,
+            "f1": 0.6,
+            "support": 7
+          },
+          "3": {
+            "precision": 0.6,
+            "recall": 1.0,
+            "f1": 0.75,
+            "support": 3
+          }
+        }
+      },
+      "step_metrics": {
+        "accuracy": 0.6764705882352942,
+        "weighted_precision": 0.6803921568627451,
+        "weighted_recall": 0.6764705882352942,
+        "weighted_f1": 0.6129329780692765,
+        "per_class": {
+          "1a": {
+            "precision": 1.0,
+            "recall": 0.2,
+            "f1": 0.3333333333333333,
+            "support": 5
+          },
+          "1b": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666,
+            "support": 2
+          },
+          "1c": {
+            "precision": 0.6666666666666666,
+            "recall": 0.9411764705882353,
+            "f1": 0.7804878048780488,
+            "support": 17
+          },
+          "2a": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "2b": {
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.8571428571428571,
+            "support": 4
+          },
+          "2c": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "2d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 2
+          },
+          "3a": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1
+          },
+          "3b": {
+            "precision": 0.4,
+            "recall": 1.0,
+            "f1": 0.5714285714285714,
+            "support": 2
+          },
+          "3c": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "3d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          }
+        }
+      },
+      "sentence_details": [
+        {
+          "sentence_num": 1,
+          "text": "Conserving global biodiversity in the Anthropocene requires a deep understanding...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1a",
+          "pred_step": "1a",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 2,
+          "text": "The suite of biotic and abiotic conditions that can contribute to population gro...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 3,
+          "text": "However, novel stressors such as climate change (Acevedo et al., 2020; \u015eekercio\u011d...",
+          "gold_move": "2",
+          "pred_move": "1",
+          "gold_step": "2c",
+          "pred_step": "1c",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 4,
+          "text": "The form and magnitude of these altered associations is often ambiguous or diffi...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 5,
+          "text": "Therefore, understanding how novel stressors change the way wildlife populations...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1a",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 6,
+          "text": "Emerging infectious diseases are one of many stressors that threaten wildlife po...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 7,
+          "text": "Early conservation measures to bolster the demographic resilience and adaptabili...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 8,
+          "text": "However, it is often unclear whether those same conservation measures will promo...",
+          "gold_move": "2",
+          "pred_move": "1",
+          "gold_step": "2b",
+          "pred_step": "1c",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 9,
+          "text": "This information is particularly important for rare and endangered host species ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1a",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 10,
+          "text": "The size of a host population can contribute to its response to pathogen invasio...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 11,
+          "text": "Greater standing genetic diversity in large host populations may promote evoluti...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 12,
+          "text": "Large populations also have less risk of stochastic fadeout, which can be exacer...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 13,
+          "text": "However, if large populations also have high host densities, pathogen transmissi...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 14,
+          "text": "While there are clear theoretical mechanisms of how host population size can con...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2b",
+          "pred_step": "2b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 15,
+          "text": "Environmental dependence of pathogen transmission or disease severity can create...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 16,
+          "text": "Temperature, for example, can have complex effects on disease by influencing pat...",
+          "gold_move": "1",
+          "pred_move": "3",
+          "gold_step": "1c",
+          "pred_step": "3b",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 17,
+          "text": "These environmental effects can further exacerbate impacts to host populations i...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 18,
+          "text": "Understanding environmental contributions to host population response offers a p...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1a",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 19,
+          "text": "Importantly, environmental associations need not take the same form both pre- an...",
+          "gold_move": "1",
+          "pred_move": "3",
+          "gold_step": "1a",
+          "pred_step": "3b",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 20,
+          "text": "White-nose syndrome (WNS) is an emerging infectious disease of hibernating bats ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 21,
+          "text": "The pathogen was introduced to North America in the early 2000s from its origin ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 22,
+          "text": "Pseudogymnoascus destructans establishes an environmental pathogen reservoir wit...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 23,
+          "text": "This results in seasonal infection dynamics in which WNS prevalence increases as...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 24,
+          "text": "Infection severity increases over the winter hibernation period when body temper...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 25,
+          "text": "Infection with P. destructans is accompanied by a suite of physiological changes...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 26,
+          "text": "The Indiana bat (Myotis sodalis) is a North American species that has experience...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 27,
+          "text": "Despite its status as endangered under the U.S. Endangered Species Act, little i...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2b",
+          "pred_step": "2b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 28,
+          "text": "Environmental correlates of disease severity and population response have been p...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 29,
+          "text": "However, previous work has not found a clear association between temperature con...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2b",
+          "pred_step": "2b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 30,
+          "text": "Evidence additionally suggests that for many species impacted by WNS, colony siz...",
+          "gold_move": "2",
+          "pred_move": "1",
+          "gold_step": "2d",
+          "pred_step": "1c",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 31,
+          "text": "However, the particularly gregarious nature and large cluster sizes of Indiana b...",
+          "gold_move": "2",
+          "pred_move": "1",
+          "gold_step": "2d",
+          "pred_step": "1c",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 32,
+          "text": "In this study, we pair an extensive bat population dataset curated by the U.S.....",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3a",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 33,
+          "text": "Fish and Wildlife Service with a hibernacula environmental dataset to identify p...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 34,
+          "text": "Our data provide information on how population-level processes and variation in ...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": true
+        }
+      ]
+    },
+    {
+      "article_id": "text019",
+      "article_num": 19,
+      "sentence_count": 26,
+      "move_metrics": {
+        "accuracy": 0.8461538461538461,
+        "weighted_precision": 0.9572649572649573,
+        "weighted_recall": 0.8461538461538461,
+        "weighted_f1": 0.8980493191019506,
+        "per_class": {
+          "1": {
+            "precision": 0.9444444444444444,
+            "recall": 0.85,
+            "f1": 0.8947368421052632,
+            "support": 20
+          },
+          "2": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "3": {
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091,
+            "support": 6
+          }
+        }
+      },
+      "step_metrics": {
+        "accuracy": 0.5769230769230769,
+        "weighted_precision": 0.7096153846153845,
+        "weighted_recall": 0.5769230769230769,
+        "weighted_f1": 0.6136752136752137,
+        "per_class": {
+          "1a": {
+            "precision": 0.25,
+            "recall": 1.0,
+            "f1": 0.4,
+            "support": 1
+          },
+          "1b": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 4
+          },
+          "1c": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8,
+            "support": 15
+          },
+          "2a": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "2b": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "2c": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "2d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "3a": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 2
+          },
+          "3b": {
+            "precision": 0.8,
+            "recall": 1.0,
+            "f1": 0.8888888888888888,
+            "support": 4
+          },
+          "3c": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "3d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          }
+        }
+      },
+      "sentence_details": [
+        {
+          "sentence_num": 1,
+          "text": "The impacts of climate change and the failure to meet emission reduction targets...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1a",
+          "pred_step": "1a",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 2,
+          "text": "Forests are a major focus of NCS schemes, as they sequester the equivalent of ne...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1a",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 3,
+          "text": "However, NCS policies often focus on the potential for future sequestration whil...",
+          "gold_move": "1",
+          "pred_move": "2",
+          "gold_step": "1b",
+          "pred_step": "2b",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 4,
+          "text": "Therefore, relying on forest carbon offsets to mitigate greenhouse gas emissions...",
+          "gold_move": "1",
+          "pred_move": "2",
+          "gold_step": "1b",
+          "pred_step": "2c",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 5,
+          "text": "Using forests as NCS requires an accurate accounting of the risks posed by distu...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1a",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 6,
+          "text": "The importance and complexity of accounting for these factors is magnified as cl...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1a",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 7,
+          "text": "For example, increased droughts will likely lead to increased susceptibility of ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 8,
+          "text": "Under a changing climate, using historical data to calculate the likelihood of d...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 9,
+          "text": "Similarly, across the eastern U.S., warmer sea surface temperature will likely l...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 10,
+          "text": "Estimating impacts of disturbances on carbon stocks requires consideration of th...",
+          "gold_move": "3",
+          "pred_move": "1",
+          "gold_step": "3a",
+          "pred_step": "1b",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 11,
+          "text": "Most previous research has focused on wildfires, which includes pyrogenic emissi...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 12,
+          "text": "In contrast, trees damaged by biotic agents and storms can either decompose in p...",
+          "gold_move": "1",
+          "pred_move": "2",
+          "gold_step": "1c",
+          "pred_step": "2a",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 13,
+          "text": "Throughout the last century, New England\u2019s forests have served as a critical car...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 14,
+          "text": "Currently, New England is among the most forested regions in the United States, ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 15,
+          "text": "New England forest carbon is central to regional and national decarbonization st...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 16,
+          "text": "Hurricanes are a dominant disturbance agent in New England, with the North Atlan...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 17,
+          "text": "Ten hurricanes had a significant impact in New England during the 20th century, ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 18,
+          "text": "For example, the 1938 hurricane downed 70% of the timber volume at Harvard Fores...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 19,
+          "text": "It caused extensive damage throughout New England, destroying over 8,900 buildin...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 20,
+          "text": "It has been suggested that over the next century, storm wind speeds may increase...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 21,
+          "text": "It is unknown whether the frequency of storms will change; however, some meteoro...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 22,
+          "text": "In this study, we quantify the potential impact of 21st century hurricanes on Ne...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3a",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 23,
+          "text": "We analyze three scenarios based on hurricane data for the ten most impactful st...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 24,
+          "text": "The extent and intensity of the modeled storms, together with a novel map of for...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 25,
+          "text": "Specifically, we ask: 1) What risks do hurricanes pose to existing live abovegro...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 26,
+          "text": "2) How will this risk be affected by predicted changes in climate and subsequent...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": true
+        }
+      ]
+    },
+    {
+      "article_id": "text020",
+      "article_num": 20,
+      "sentence_count": 32,
+      "move_metrics": {
+        "accuracy": 0.78125,
+        "weighted_precision": 0.8002518315018315,
+        "weighted_recall": 0.78125,
+        "weighted_f1": 0.7775669642857141,
+        "per_class": {
+          "1": {
+            "precision": 0.9230769230769231,
+            "recall": 0.8,
+            "f1": 0.8571428571428571,
+            "support": 15
+          },
+          "2": {
+            "precision": 0.7142857142857143,
+            "recall": 0.5555555555555556,
+            "f1": 0.625,
+            "support": 9
+          },
+          "3": {
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8,
+            "support": 8
+          }
+        }
+      },
+      "step_metrics": {
+        "accuracy": 0.5625,
+        "weighted_precision": 0.65625,
+        "weighted_recall": 0.5625,
+        "weighted_f1": 0.5695075757575758,
+        "per_class": {
+          "1a": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666,
+            "support": 1
+          },
+          "1b": {
+            "precision": 1.0,
+            "recall": 0.5714285714285714,
+            "f1": 0.7272727272727273,
+            "support": 7
+          },
+          "1c": {
+            "precision": 0.7142857142857143,
+            "recall": 0.7142857142857143,
+            "f1": 0.7142857142857143,
+            "support": 7
+          },
+          "2a": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "2b": {
+            "precision": 0.8333333333333334,
+            "recall": 0.5555555555555556,
+            "f1": 0.6666666666666666,
+            "support": 9
+          },
+          "2c": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "2d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          },
+          "3a": {
+            "precision": 0.25,
+            "recall": 0.5,
+            "f1": 0.3333333333333333,
+            "support": 2
+          },
+          "3b": {
+            "precision": 0.25,
+            "recall": 1.0,
+            "f1": 0.4,
+            "support": 2
+          },
+          "3c": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 4
+          },
+          "3d": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          }
+        }
+      },
+      "sentence_details": [
+        {
+          "sentence_num": 1,
+          "text": "Climate warming has caused well-documented shifts in the distribution of species...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1a",
+          "pred_step": "1a",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 2,
+          "text": "In several coastal zones, phenological shifts in the occurrence of adult and lar...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 3,
+          "text": "In parallel, industrial fishing has altered the abundance, structure, and reprod...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 4,
+          "text": "As opposed to large-scale effects on populations that may be readily detectable,...",
+          "gold_move": "1",
+          "pred_move": "2",
+          "gold_step": "1b",
+          "pred_step": "2c",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 5,
+          "text": "Small pelagic fish species pose an especially complex case, as their populations...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 6,
+          "text": "Furthermore, many species exhibit ontogenetic shifts in habitats, spending part ...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 7,
+          "text": "The importance of external environmental processes can, therefore, be life stage...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 8,
+          "text": "The local dynamics of small pelagic fish are an essential component to better un...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1b",
+          "pred_step": "1a",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 9,
+          "text": "The Atlantic herring (Clupea harengus) is a common, ecologically and commerciall...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 10,
+          "text": "In the southern North Sea, Atlantic herring is also commonly observed in the Wad...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 11,
+          "text": "However, much is unknown about the habitat utilization of the Wadden Sea by Atla...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2b",
+          "pred_step": "2b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 12,
+          "text": "This is primarily because herring and other small pelagic fishes cannot be prope...",
+          "gold_move": "1",
+          "pred_move": "2",
+          "gold_step": "1c",
+          "pred_step": "2b",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 13,
+          "text": "Furthermore, the coarse temporal resolution of these large-scale surveys does no...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2b",
+          "pred_step": "2b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 14,
+          "text": "Limited temporal resolution also prevents the detection of potential phenologica...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2b",
+          "pred_step": "2b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 15,
+          "text": "This limits our understanding of the external processes governing the local dyna...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2b",
+          "pred_step": "2b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 16,
+          "text": "Local survey efforts conducted at high temporal resolution are needed to help fi...",
+          "gold_move": "2",
+          "pred_move": "3",
+          "gold_step": "2b",
+          "pred_step": "3a",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 17,
+          "text": "Survey efforts with sufficiently high temporal resolution to examine climate-dri...",
+          "gold_move": "2",
+          "pred_move": "3",
+          "gold_step": "2b",
+          "pred_step": "3a",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 18,
+          "text": "Although long term high temporal resolution time-series exist for lower trophic ...",
+          "gold_move": "2",
+          "pred_move": "1",
+          "gold_step": "2b",
+          "pred_step": "1c",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 19,
+          "text": "However, the Royal Netherlands Institute for Sea Research (NIOZ) has consistentl...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 20,
+          "text": "This survey is unique in northern Europe due to its daily temporal resolution....",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 21,
+          "text": "Previous analyses of these data have identified phenological shifts such as chan...",
+          "gold_move": "1",
+          "pred_move": "1",
+          "gold_step": "1c",
+          "pred_step": "1c",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 22,
+          "text": "Given its daily resolution, this time series allows a finer-scale exploration of...",
+          "gold_move": "1",
+          "pred_move": "3",
+          "gold_step": "1c",
+          "pred_step": "3a",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 23,
+          "text": "From a methodological standpoint, the preselection of specific days (first occur...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3a",
+          "pred_step": "3a",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 24,
+          "text": "Furthermore, it remains unknown if and how potential shifts in phenology differ ...",
+          "gold_move": "2",
+          "pred_move": "2",
+          "gold_step": "2b",
+          "pred_step": "2b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 25,
+          "text": "More detailed phenological analysis would reveal if local dynamics in coastal ha...",
+          "gold_move": "2",
+          "pred_move": "3",
+          "gold_step": "2b",
+          "pred_step": "3b",
+          "move_correct": false,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 26,
+          "text": "Here, we examined potential life-stage specific changes in the population dynami...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 27,
+          "text": "We used a generalized additive modelling (GAM) approach to decompose the overall...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3b",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": true
+        },
+        {
+          "sentence_num": 28,
+          "text": "These results allowed us to identify temporal trends in herring abundance, body ...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3c",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 29,
+          "text": "We also examined potential changes in the seasonal trends in herring abundance o...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3c",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 30,
+          "text": "Finally, we checked the sensitivity of our outcomes with respect to changes in t...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3c",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 31,
+          "text": "Our analyses on the longest, most high-resolution time series for marine fish in...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3c",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": false
+        },
+        {
+          "sentence_num": 32,
+          "text": "Our work underscores the importance of maintaining highly temporally resolved, l...",
+          "gold_move": "3",
+          "pred_move": "3",
+          "gold_step": "3a",
+          "pred_step": "3b",
+          "move_correct": true,
+          "step_correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+level,condition_1,condition_2,statistic,p_value,both_correct,cond1_only_correct,cond2_only_correct,both_wrong
+move,eight_shot,fine_tuned,20.0,0.12634707581392135,186,20,32,29
+move,eight_shot,three_shot,9.0,0.042773945257067694,185,21,9,52
+move,eight_shot,zero_shot,8.0,0.010673840530216694,198,8,23,38
+move,fine_tuned,three_shot,20.0,0.0036899642765400487,174,44,20,29
+move,fine_tuned,zero_shot,17.0,0.7428293587290682,201,17,20,29
+move,three_shot,zero_shot,2.0,4.628673195838928e-07,192,2,29,44
+step,eight_shot,fine_tuned,39.0,0.24610644971627832,96,39,51,81
+step,eight_shot,three_shot,21.0,0.06273668035582848,99,36,21,111
+step,eight_shot,zero_shot,37.0,0.9087769252754927,96,39,37,95
+step,fine_tuned,three_shot,37.0,0.009335048120644805,83,64,37,83
+step,fine_tuned,zero_shot,43.0,0.1933479044956428,90,57,43,77
+step,three_shot,zero_shot,21.0,0.10478948242660333,99,21,34,113

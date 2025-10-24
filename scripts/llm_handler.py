@@ -166,7 +166,7 @@ def call_fine_tuned(prompt, article_text, model_id):
     ]
 
     response = client.chat.completions.create(
-        model="ft:gpt-4.1-2025-04-14:personal:cars50-biology-30articles:CTtuYIpb",  # Use the fine-tuned model ID
+        model="ft:gpt-4.1-2025-04-14:personal:cars50-30articles:CUDbECQ2",  # Use the fine-tuned model ID
         messages=messages,
         temperature=1.0,
         max_tokens=4096,

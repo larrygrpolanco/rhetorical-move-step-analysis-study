@@ -1,0 +1,4 @@
+move,zero_shot_cv,zero_shot_accuracy,fine_tuned_cv,fine_tuned_accuracy,cv_difference,more_consistent
+M1,0.0,1.0,0.0,1.0,0.0,fine_tuned
+M2,0.0,1.0,0.0,1.0,0.0,fine_tuned
+M3,0.0,1.0,0.0,1.0,0.0,fine_tuned

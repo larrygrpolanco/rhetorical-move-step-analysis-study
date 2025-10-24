@@ -1,0 +1,4 @@
+move,n_sentences,n_runs,mean_accuracy,sd_accuracy,cv,median,min,max
+M1,165,50,1.0,0.0,0.0,1.0,1.0,1.0
+M2,56,50,1.0,0.0,0.0,1.0,1.0,1.0
+M3,46,50,1.0,0.0,0.0,1.0,1.0,1.0

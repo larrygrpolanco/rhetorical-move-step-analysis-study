@@ -1,0 +1,107 @@
+{
+  "condition": "fine_tuned",
+  "dataset": "test",
+  "research_question": "rq1",
+  "total_articles": 10,
+  "total_sentences": 267,
+  "move_metrics": {
+    "accuracy": 0.8164794007490637,
+    "weighted_precision": 0.8117606686223502,
+    "weighted_recall": 0.8164794007490637,
+    "weighted_f1": 0.8108919270627449,
+    "per_class": {
+      "1": {
+        "precision": 0.8971428571428571,
+        "recall": 0.8870056497175142,
+        "f1": 0.8920454545454546,
+        "support": 177
+      },
+      "2": {
+        "precision": 0.5517241379310345,
+        "recall": 0.41025641025641024,
+        "f1": 0.47058823529411764,
+        "support": 39
+      },
+      "3": {
+        "precision": 0.7142857142857143,
+        "recall": 0.8823529411764706,
+        "f1": 0.7894736842105263,
+        "support": 51
+      }
+    }
+  },
+  "step_metrics": {
+    "accuracy": 0.550561797752809,
+    "weighted_precision": 0.5233658589089637,
+    "weighted_recall": 0.550561797752809,
+    "weighted_f1": 0.5219710813252711,
+    "per_class": {
+      "1a": {
+        "precision": 0.6428571428571429,
+        "recall": 0.42857142857142855,
+        "f1": 0.5142857142857142,
+        "support": 21
+      },
+      "1b": {
+        "precision": 0.4666666666666667,
+        "recall": 0.3111111111111111,
+        "f1": 0.37333333333333335,
+        "support": 45
+      },
+      "1c": {
+        "precision": 0.6793893129770993,
+        "recall": 0.8018018018018018,
+        "f1": 0.7355371900826446,
+        "support": 111
+      },
+      "2a": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 5
+      },
+      "2b": {
+        "precision": 0.55,
+        "recall": 0.4782608695652174,
+        "f1": 0.5116279069767442,
+        "support": 23
+      },
+      "2c": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4
+      },
+      "2d": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 7
+      },
+      "3a": {
+        "precision": 0.11764705882352941,
+        "recall": 0.2,
+        "f1": 0.14814814814814814,
+        "support": 10
+      },
+      "3b": {
+        "precision": 0.5,
+        "recall": 0.875,
+        "f1": 0.6363636363636364,
+        "support": 24
+      },
+      "3c": {
+        "precision": 0.25,
+        "recall": 0.0625,
+        "f1": 0.1,
+        "support": 16
+      },
+      "3d": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+Dataset,Articles,Total Sentences,Avg Sentences/Article,Move 1,Move 2,Move 3
+validation,10,204,20.4,123 (60.3%),28 (13.7%),53 (26.0%)
+test,10,267,26.7,177 (66.3%),39 (14.6%),51 (19.1%)
+train,30,826,27.5,569 (68.9%),73 (8.8%),184 (22.3%)

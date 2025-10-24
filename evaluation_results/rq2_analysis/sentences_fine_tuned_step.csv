@@ -1,0 +1,35 @@
+sentence_num,condition,level,text_preview,n_runs,gold_label,agreement_rate,n_correct,n_incorrect,entropy,modal_prediction,modal_frequency,unique_predictions,consistency_category
+1,fine_tuned,step,"Due to its importance in shaping ecological communities and the species, the che...",500,1a,0.956,478,22,0.3032855335348615,1a,0.956,3,High consistency
+2,fine_tuned,step,"Under this paradigm, plants that evolve the ability to produce toxic or deterren...",500,1b,0.754,377,123,0.73057063157561,1b,0.844,3,Moderate consistency
+3,fine_tuned,step,"However, as their enemies evolve the ability to tolerate or neutralize these met...",500,2a,0.188,94,406,1.9244528712655236,1c,0.558,7,Problematic
+4,fine_tuned,step,"The Brassicaceae, a family of more than 4000 plant species, presents many instan...",500,2a,0.252,126,374,1.9240513923311455,1c,0.538,6,Problematic
+5,fine_tuned,step,Glucosinolates evolved as a defense in this lineage approximately 90 million yea...,500,1c,0.306,153,347,1.8883051594456663,1c,0.59,9,Uncertain
+6,fine_tuned,step,"Since the original gain of glucosinolate biosynthesis, many insect species have ...",500,1c,0.408,204,296,1.6279300711575482,1c,0.65,8,Uncertain
+7,fine_tuned,step,Several lineages within the Brassicaceae have more recently evolved the producti...,500,1c,0.694,347,153,0.8134736391030225,1c,0.832,6,Uncertain
+8,fine_tuned,step,It is hypothesized that these key evolutionary innovations allowed these lineage...,500,1c,0.736,368,132,1.3073235573304842,1c,0.762,8,Moderate consistency
+9,fine_tuned,step,A meta-analysis of phytochemical coevolution theory found that specialist insect...,500,1c,0.634,317,183,1.1933681367184332,1c,0.792,9,Uncertain
+10,fine_tuned,step,"Consistent with this theory, the glucosinolate-tolerant small and large white ca...",500,1c,0.714,357,143,1.852605309517643,1c,0.556,8,Moderate consistency
+11,fine_tuned,step,Experiments involving bioactivity-guided fractionation identified cardiac glycos...,500,1c,0.922,461,39,0.9224746299984814,1c,0.838,8,High consistency
+12,fine_tuned,step,"Similarly, isolated cardiac glycosides were shown to be feeding deterrents for t...",500,1c,0.84,420,80,0.887231549562928,1c,0.84,8,Moderate consistency
+13,fine_tuned,step,"However, in the absence of mutant lines that lack cardiac glycosides, it has not...",500,2a,0.696,348,152,1.6751677056860494,1c,0.648,10,Uncertain
+14,fine_tuned,step,"The aims of this study were two-fold: First, we sought to identify cardiac glyco...",500,3b,0.574,287,213,2.186468964602197,1c,0.476,9,Uncertain
+15,fine_tuned,step,"Second, we revisited classical ecological experiments with modern tools, develop...",500,3b,0.46,230,270,1.894330717759754,1c,0.602,8,Uncertain
+16,fine_tuned,step,This effectively reversed the “escape from herbivory” of E. cheiranthoides and a...,500,3b,0.382,191,309,2.4168939009104773,1c,0.488,10,Uncertain
+17,fine_tuned,step,AKHRs are a class of G protein-coupled receptors and were first identified in Dr...,450,1c,0.6555555555555556,295,155,1.9553235822075155,1c,0.5066666666666667,10,Uncertain
+18,fine_tuned,step,Recent studies have shown that AKH/AKHR signaling plays a regulatory role during...,450,1c,0.48444444444444446,218,232,1.9190310883689676,1c,0.5733333333333334,10,Uncertain
+19,fine_tuned,step,"For example, depletion of AKHR in Bactrocera dorsalis resulted in TAG accumulati...",400,1c,0.5875,235,165,2.2053747555444794,1c,0.4725,9,Uncertain
+20,fine_tuned,step,AKHR knockdown in Nilaparvata lugens interferes with trehalose homeostasis and v...,400,1c,0.7575,303,97,1.889227943021123,1c,0.495,9,Moderate consistency
+21,fine_tuned,step,AKH/AKHR signaling also regulates vitellogenesis and egg development in Locusta ...,400,1c,0.6475,259,141,1.8360859342936926,1c,0.5825,10,Uncertain
+22,fine_tuned,step,"As outlined above, the fecundity of D. citri is increased by CLas....",400,1b,0.3775,151,249,2.227581955050272,1c,0.3875,11,Uncertain
+23,fine_tuned,step,Whether AKH/AKHR signaling participates in this increase in fecundity due to inf...,400,2b,0.5325,213,187,2.4022051917001406,3b,0.3125,10,Uncertain
+24,fine_tuned,step,"Although numerous studies have been conducted on the AKH/AKHR signaling pathway,...",350,2b,0.5228571428571429,183,167,2.2137723698819443,1c,0.41714285714285715,10,Uncertain
+25,fine_tuned,step,"MicroRNAs (miRNAs) are small, non-coding RNAs containing approximately 22 nucleo...",350,1c,0.5714285714285714,200,150,2.332338663907738,1c,0.32285714285714284,10,Uncertain
+26,fine_tuned,step,miRNAs play important roles in regulating cellular events at the post-transcript...,300,1b,0.49666666666666665,149,151,2.2976423991448973,3b,0.36,8,Uncertain
+27,fine_tuned,step,"For example, in term of host-virus interactions, miR-8 and miR-429 target Broad ...",250,1c,0.736,184,66,1.9568528885070895,3b,0.46,5,Moderate consistency
+28,fine_tuned,step,"In relation to reproduction, in Aedes aegypti, miR-275 is essential for egg deve...",250,1c,0.648,162,88,1.7435758001127402,1c,0.38,7,Uncertain
+29,fine_tuned,step,"As for lipid metabolism, knockdown of miR-277 in A. aegypti activates insulin/FO...",250,1c,0.592,148,102,2.0709107742960495,3b,0.308,6,Uncertain
+30,fine_tuned,step,"Nevertheless, the functions of the miRNAs in insect-pathogen interactions need f...",200,2b,0.405,81,119,2.293922166400678,3b,0.285,9,Uncertain
+31,fine_tuned,step,"To date, there are no reports that miRNAs participate in D. citri-CLas interacti...",200,2b,0.535,107,93,2.239911574314794,2b,0.345,9,Uncertain
+32,fine_tuned,step,"As a consequence, in this study, we used the D. citri-CLas system as a model to ...",150,3b,0.21333333333333335,32,118,1.6206314616238233,3b,0.46,5,Problematic
+33,fine_tuned,step,Our study contributes to our understanding of the interactions between vectors a...,100,3a,0.57,57,43,1.1091107110521705,3b,0.72,3,Uncertain
+34,fine_tuned,step,Our data provide information on how population-level processes and variation in ...,50,3b,0.56,28,22,1.1829661954675215,3b,0.56,3,Uncertain
