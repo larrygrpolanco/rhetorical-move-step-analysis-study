@@ -29,6 +29,6 @@
 [2b] However, previous work has not found a clear association between temperature conditions of hibernacula and the response of Indiana bat colonies (Langwig et al., 2012).
 [2d] Evidence additionally suggests that for many species impacted by WNS, colony size may be related to the initial population response to the disease (Frick et al., 2015; Langwig et al., 2012).
 [2d] However, the particularly gregarious nature and large cluster sizes of Indiana bats (Clawson et al., 1980; Hardin and Hassell, 1970; Thomson, 1982) may result in constant density across colony sizes and time, keeping pathogen transmission and declines high regardless of colony size.
-[3a] In this study, we pair an extensive bat population dataset curated by the U.S.
+[3a] In this study, we pair an extensive bat population dataset curated by the U.S..
 [3b] Fish and Wildlife Service with a hibernacula environmental dataset to identify potential contributions of host population size and environmental conditions to Indiana bat population trends prior, during, and after pathogen arrival.
 [3b] Our data provide information on how population-level processes and variation in environmental conditions can generate heterogeneous host population responses to novel infectious diseases, lending insights into how to successfully manage their impacts.

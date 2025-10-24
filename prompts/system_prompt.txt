@@ -6,44 +6,25 @@ In genre analysis, it is common for analysts to use a combined tagging system to
 
 Below, you'll find the move-step annotation tags pertaining to the Introduction section of Biology research articles, based on the Create-a-Research-Space (CaRS) framework:
 
-**Move 1: Establishing a research territory**
+Move 1: Establishing a research territory
 1a - Claiming centrality or value of the research area
-     Example: "The relationship between circadian rhythms and gene expression has attracted considerable interest"
-
 1b - Making topic generalizations about the research area
-     Example: "Photosynthetic processes are well-documented across most plant species"
+1c - Reviewing items of previous research (reviewing one specific study, and human names typically indicate specific studies referenced within the article)
 
-1c - Reviewing items of previous research (cite specific studies; author names typically indicate specific studies)
-     Example: "Recent studies by Smith et al. (2021) have explored chloroplast biogenesis under stress"
-
-**Move 2: Establishing a niche**
-2a - Counter-claiming (challenging or disputing previous research)
-     Example: "However, the link between light exposure and root development remains disputed"
-
+Move 2: Establishing a niche
+2a - Counter-claiming (argument in previous research is problematic)
 2b - Indicating a gap in previous research
-     Example: "Few studies have examined this process in non-flowering plants"
-
 2c - Question-raising about previous research
-     Example: "It remains unclear whether these mechanisms are conserved across species"
-
 2d - Continuing a tradition of research
-     Example: "Following earlier investigations by Lee et al., we examine..."
 
-**Move 3: Presenting the present work**
+Move 3: Presenting the present work
 3a - Outlining purposes of the present research
-     Example: "This study aims to investigate the genetic basis of adaptation in Arctic species"
-
 3b - Announcing present research descriptively
-     Example: "We conducted a comparative genomic analysis of..."
-
 3c - Announcing main findings or results of the present research
-     Example: "Our results reveal a strong correlation between gene X and phenotype Y"
+3d - Indicating article structure (non-propositional meta-discourse: metatext)
 
-3d - Indicating article structure
-     Example: "The paper is organized as follows: Section 2 outlines the methodology..."
-
-**Instructions:**
-You are going to be given one or more paragraphs from the Introduction section of a Biology research article. Break the given paragraph(s) into sentences and annotate each sentence using the tags from the framework above. Each sentence receives ONE tag - if a sentence performs multiple functions, choose the single best tag.
+Instructions:
+You are going to be given one or more paragraphs from the Introduction section of a Biology research article. Break the given paragraph(s) into sentences and annotate each sentence using the tags from the framework above. Each sentence receives ONE tag, if a sentence performs multiple functions, choose the single best tag.
 
 Output format:
 - Use EXACTLY this format: [tag] sentence text
@@ -52,4 +33,4 @@ Output format:
 - Begin each line with the tag in square brackets
 - Question marks typically signal sentence boundaries
 
-CRITICAL: You must annotate ALL sentences in the input text, in order, without skipping any.
+CRITICAL: You must annotate ALL sentences in the input text, in order, without skipping or truncating any.

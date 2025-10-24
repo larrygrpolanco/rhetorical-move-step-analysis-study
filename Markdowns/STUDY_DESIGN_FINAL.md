@@ -11,7 +11,7 @@
 **Model:** GPT-4 (gpt-4.1-2025-04-14)  
 **Domain:** Biology research article introductions  
 **Dataset:** CaRS-50 (50 annotated articles)  
-**Total Runs:** 124 (4 conditions × 1 initial + 4 conditions × 30 consistency)
+**Total Runs:** 104 on test set (10 articles, ~267 sentences)(4 conditions × 1 initial + 2 conditions × 50 consistency)
 
 ---
 
@@ -45,7 +45,7 @@ This study applies the methodological framework established by Kim & Lu (2024), 
 
 ```
 Training Set:   30 articles (60%) - For fine-tuning
-Validation Set: 10 articles (20%) - For prompt development
+Validation Set: 10 articles (20%) - For prompt development and pipeline testing
 Test Set:       10 articles (20%) - For final evaluation (HELD OUT)
 ```
 
@@ -53,15 +53,15 @@ Test Set:       10 articles (20%) - For final evaluation (HELD OUT)
 
 1. **Training (30 articles):**
 
-   - Sufficient for GPT-4 fine-tuning (Kim & Lu used 40-80)
-   - Represents 60% of data - standard for small datasets
+   - limitation of dataset, but good for testing fine-tuning limitations (Kim & Lu used 40-80)
+   - Represents 60% of data
    - ~30 sentences per article = ~900 training examples
 
 2. **Validation (10 articles):**
 
    - Used for prompt development and formatting validation
    - Allows parser testing without contaminating test set
-   - 20% allocation standard for hyperparameter tuning
+
 
 3. **Test (10 articles):**
    - True holdout set (~250-300 sentences)
@@ -81,13 +81,14 @@ Test Set:       10 articles (20%) - For final evaluation (HELD OUT)
 
 **Activities:**
 
-1. ✅ Built XML extraction pipeline (xml_extractor.py)
-2. ✅ Developed deterministic parser (parse_llm_output.py)
-3. ✅ Created automation scripts (1_run_pilot.py, 2_parse_pilot.py)
-4. ✅ Validated workflow on subset of articles
-5. ✅ Established gold standard format (prepare_gold_standard.py)
+1. Built XML extraction pipeline (xml_extractor.py)
+2. Developed deterministic parser (parse_llm_output.py)
+3. Created automation scripts (run_condition.py)
+4. Validated workflow on subset of articles
+5. Established gold standard format (prepare_gold_standard.py) and 
+6. Created evaluation scripts for calculating and reporting metrics
 
-**Key Outcome:** Confirmed that automated pipeline can reliably extract, annotate, parse, and evaluate without manual intervention.
+**Key Outcome:** Confirmed that automated pipeline can reliably extract, annotate, parse, and evaluate with checkpoints for manual inspection.
 
 **Scope Limitation:** Pilot focused exclusively on infrastructure validation, not on accuracy optimization or hypothesis testing. No results from pilot testing influenced research questions or design decisions.
 
