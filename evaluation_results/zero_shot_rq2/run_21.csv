@@ -1,0 +1,268 @@
+sentence_num,text,gold_move,pred_move,gold_step,pred_step,move_correct,step_correct
+1,"Due to its importance in shaping ecological communities and the species, the che...",1,1,1a,1a,True,True
+2,"Under this paradigm, plants that evolve the ability to produce toxic or deterren...",1,1,1b,1b,True,True
+3,"However, as their enemies evolve the ability to tolerate or neutralize these met...",2,2,2a,2a,True,True
+4,"The Brassicaceae, a family of more than 4000 plant species, presents many instan...",2,1,2a,1b,False,False
+5,Glucosinolates evolved as a defense in this lineage approximately 90 million yea...,1,1,1c,1c,True,True
+6,"Since the original gain of glucosinolate biosynthesis, many insect species have ...",1,1,1c,1c,True,True
+7,Several lineages within the Brassicaceae have more recently evolved the producti...,1,1,1c,1c,True,True
+8,It is hypothesized that these key evolutionary innovations allowed these lineage...,1,2,1c,2c,False,False
+9,A meta-analysis of phytochemical coevolution theory found that specialist insect...,1,1,1c,1c,True,True
+10,"Consistent with this theory, the glucosinolate-tolerant small and large white ca...",1,1,1c,1b,True,False
+11,Experiments involving bioactivity-guided fractionation identified cardiac glycos...,1,1,1c,1c,True,True
+12,"Similarly, isolated cardiac glycosides were shown to be feeding deterrents for t...",1,1,1c,1c,True,True
+13,"However, in the absence of mutant lines that lack cardiac glycosides, it has not...",2,2,2a,2b,True,False
+14,"The aims of this study were two-fold: First, we sought to identify cardiac glyco...",3,3,3b,3a,True,False
+15,"Second, we revisited classical ecological experiments with modern tools, develop...",3,3,3b,3b,True,True
+16,This effectively reversed the “escape from herbivory” of E. cheiranthoides and a...,3,3,3b,3c,True,False
+1,"The majority of devastating plant pathogens, including viruses and bacteria, are...",1,1,1a,1a,True,True
+2,"In recent decades, the interactions between vectors and pathogens have been wide...",1,1,1c,1c,True,True
+3,"However, studies on the mechanisms underlying these interactions have mainly foc...",2,2,2a,2b,True,False
+4,Knowledge of the relationships between vectors and pathogens is of great signifi...,1,1,1b,1a,True,False
+5,The severe Asian form of huanglongbing (HLB) is currently the most destructive c...,1,1,1c,1b,True,False
+6,"However, since CLas has not been cultured in vitro, Koch’s postulates have not b...",2,2,2c,2b,True,False
+7,"Control of D. citri is the most effective way to prevent HLB epidemics [6,7] but...",1,2,1c,2b,False,False
+8,Previous studies have reported that infection with CLas significantly increases ...,1,1,1c,1c,True,True
+9,Reproduction is a costly process in terms of energy usage in the adult life of f...,1,1,1b,1b,True,True
+10,How D. citri maintains a balance between lipid metabolism and increased fecundit...,2,2,2b,2c,True,False
+11,"In insects, energy mobilization is under control of adipokinetic hormone (AKH), ...",1,1,1c,1b,True,False
+12,"To date, more than 80 different forms of AKH have been identified or predicted i...",1,1,1c,1b,True,False
+13,The mechanisms of synthesis and biological activity of AKH have also been invest...,1,1,1c,1c,True,True
+14,Insect store lipids in the form of triacylglycerides (TAG) and as carbohydrates ...,1,1,1c,1b,True,False
+15,"Under conditions of energy demand, AKHs are synthesized in the corpora cardiaca,...",1,1,1b,1b,True,True
+16,AKHR binding and activation triggers the release of energy-rich substrates after...,1,1,1b,1b,True,True
+17,AKHRs are a class of G protein-coupled receptors and were first identified in Dr...,1,1,1c,1c,True,True
+18,Recent studies have shown that AKH/AKHR signaling plays a regulatory role during...,1,1,1c,1c,True,True
+19,"For example, depletion of AKHR in Bactrocera dorsalis resulted in TAG accumulati...",1,1,1c,1c,True,True
+20,AKHR knockdown in Nilaparvata lugens interferes with trehalose homeostasis and v...,1,1,1c,1c,True,True
+21,AKH/AKHR signaling also regulates vitellogenesis and egg development in Locusta ...,1,1,1c,1c,True,True
+22,"As outlined above, the fecundity of D. citri is increased by CLas....",1,1,1b,1c,True,False
+23,Whether AKH/AKHR signaling participates in this increase in fecundity due to inf...,2,2,2b,2c,True,False
+24,"Although numerous studies have been conducted on the AKH/AKHR signaling pathway,...",2,2,2b,2b,True,True
+25,"MicroRNAs (miRNAs) are small, non-coding RNAs containing approximately 22 nucleo...",1,1,1c,1b,True,False
+26,miRNAs play important roles in regulating cellular events at the post-transcript...,1,1,1b,1b,True,True
+27,"For example, in term of host-virus interactions, miR-8 and miR-429 target Broad ...",1,1,1c,1c,True,True
+28,"In relation to reproduction, in Aedes aegypti, miR-275 is essential for egg deve...",1,1,1c,1c,True,True
+29,"As for lipid metabolism, knockdown of miR-277 in A. aegypti activates insulin/FO...",1,1,1c,1c,True,True
+30,"Nevertheless, the functions of the miRNAs in insect-pathogen interactions need f...",2,2,2b,2b,True,True
+31,"To date, there are no reports that miRNAs participate in D. citri-CLas interacti...",2,2,2b,2b,True,True
+32,"As a consequence, in this study, we used the D. citri-CLas system as a model to ...",3,3,3b,3a,True,False
+33,Our study contributes to our understanding of the interactions between vectors a...,3,3,3a,3a,True,True
+1,"In recent decades, the increased industrialization of agroecosystems has gathere...",1,1,1a,1a,True,True
+2,This trend is characterized by prioritizing short-term gains in productivity thr...,1,1,1b,1b,True,True
+3,Agricultural industrialization and environmental change have led to increases in...,1,1,1b,1c,True,False
+4,Adding to these challenges are the heightened demands on human labor and precari...,1,2,1a,2b,False,False
+5,Coffee agroecosystems exhibit a large variety of management practices that reinf...,1,1,1a,1b,True,False
+6,Coffee production syndromes can be mainly distinguished by shade management (sha...,1,1,1c,1b,True,False
+7,"In this sense, coffee agroecosystems are model systems to understand how differe...",1,1,1a,1a,True,True
+8,"In the large-scale capitalist syndrome, decisions and practices follow a maximiz...",1,1,1c,1c,True,True
+9,This syndrome of coffee production results in practices that may promote the dev...,1,2,1c,2c,False,False
+10,"For instance, the coffee leaf rust (CLR) can travel across the coffee plantation...",1,1,1c,1c,True,True
+11,"In this regard, increased agricultural simplification and industrialization of c...",1,1,1c,1c,True,True
+12,Some studies have proposed that harvesters can also bear CLR spores during harve...,1,2,1c,2c,False,False
+13,The range of movement and duration of the daily harvest are also determined by t...,1,1,1b,1b,True,True
+14,This relates to the general framework of movement ecology where one can wonder w...,1,2,1a,2c,False,False
+15,"In most landlord-owned large-scale coffee plantations, harvesters are paid by pi...",1,1,1b,1c,True,False
+16,"These practices affect the social and health conditions of the workers, which ar...",1,2,1a,2c,False,False
+17,We argue that the movement of the harvesters under labor-intensive plantation co...,3,2,3a,2c,False,False
+18,"In fact, other studies have stressed the relation between the landscape structur...",1,1,1c,1c,True,True
+19,"However, the spatial movement of the harvesters in plantations within this syndr...",2,2,2b,2b,True,True
+20,Here we present a description and qualitative analysis of the spatial movement o...,3,3,3b,3a,True,False
+21,"Specifically, we asked 1) how to statistically characterize the spatial trajecto...",3,3,3c,3a,True,False
+22,We first recorded and analyzed with state-space models the spatial movements of ...,3,3,3c,3b,True,False
+23,"We then constructed a driver tree for harvest dynamics, which incorporated quali...",3,3,3c,3b,True,False
+24,We also highlighted the relationship between these variables and the syndrome of...,3,3,3c,3b,True,False
+25,"Finally, we put in conversation the patterns and dynamics of the spatial movemen...",3,3,3c,3b,True,False
+1,Various axes of global change are increasing rapidly (Steffen and others 2015) a...,1,1,1a,1c,True,False
+2,"For coral reefs, three major stressors have been identified as playing important...",1,1,1b,1c,True,False
+3,As coral reefs appear to be classic examples of ecosystems under heavy multi-str...,1,1,1b,1a,True,False
+4,"For example, while climate change and temperature-induced coral bleaching is oft...",1,1,1c,1c,True,True
+5,While addressing anthropogenic climate change at the global scale is undoubtedly...,1,1,1c,1b,True,False
+6,This is especially true if multiple stressors interact to nonlinearly increase n...,1,2,1b,2c,False,False
+7,"At a local scale, the role of herbivory has been a dominant focus of coral reef ...",1,1,1c,1c,True,True
+8,Researchers have argued for decades that losses in herbivory can drive phase shi...,2,1,2d,1c,False,False
+9,This has been argued to be caused by the overfishing of herbivores (McManus and ...,2,1,2d,1c,False,False
+10,"Importantly, loss of hard corals and shifts to algae-dominated reefs result in h...",1,1,1b,1b,True,True
+11,Adding complexity to the efficacy of local management actions aimed at restoring...,1,2,1c,2b,False,False
+12,Nutrient loading has been shown to alter important biological parameters that me...,1,1,1c,1c,True,True
+13,"Additionally, increased availability of nutrients have a positive impact on alga...",1,1,1c,1c,True,True
+14,"Importantly, these collective biological responses to multiple stressors suggest...",1,2,1c,2c,False,False
+15,"Indeed, empirical research has found that the recovery of coral reefs after blea...",2,1,2d,1c,False,False
+16,"However, there still remains considerable debate among researchers regarding how...",2,2,2c,2b,True,False
+17,Some researchers have begun to incorporate multiple stressors into theoretical a...,1,1,1c,1c,True,True
+18,These studies have shown that multi-stressors can indeed interact and together c...,1,1,1c,1c,True,True
+19,While the nuances of coral reef dynamics and the multitude of anthropogenic impa...,3,2,3a,2b,False,False
+20,"Here, as a step towards this goal, we expand on existing theory (Mumby and other...",3,3,3b,3b,True,True
+21,"We do this by integrating the combined influence of overfishing (i.e., loss/redu...",3,3,3b,3b,True,True
+22,"Our approach integrates general ecological concepts (e.g., ecological succession...",3,3,3c,3a,True,False
+23,We end by evaluating empirical evidence from Barbados within our framework that ...,3,3,3d,3b,True,False
+1,How animals use space in their environment and interact with conspecifics is fun...,1,1,1a,1a,True,True
+2,"Interactions with conspecifics are frequently heterogeneous, reflecting individu...",1,1,1b,1b,True,True
+3,Since animal space use and conspecific interactions are crucial determinants of ...,1,1,1b,1a,True,False
+4,"However, studies that disentangle the relative contributions of environmental an...",2,2,2a,2b,True,False
+5,Food availability is a common source of environmental variability that can alter...,1,1,1b,1b,True,True
+6,"At local scales, low food availability may increase space use through increased ...",1,1,1b,1c,True,False
+7,"Point food sources (e.g., bird feeders, landfills, crop fields) can increase spa...",1,1,1c,1c,True,True
+8,Individual variation among animals can also affect space use and spatial overlap...,1,1,1c,1b,True,False
+9,"For example, in rodents, testosterone-mediated behavior in mature males can incr...",1,1,1c,1c,True,True
+10,Individual variation may also arise through differing burdens of macroparasites ...,1,1,1b,1b,True,True
+11,"Helminth infection could increase feeding behavior, requiring infected hosts to ...",1,1,1c,1c,True,True
+12,"Conversely, helminths may cause sickness-induced lethargy in infected animals an...",1,1,1c,1c,True,True
+13,"Further, since space use and spatial overlap can influence macroparasite exposur...",1,2,1c,2c,False,False
+14,Much of our knowledge of how food availability and macroparasite infection impac...,2,2,2b,2b,True,True
+15,"In natural settings, food availability and macroparasite infection frequently co...",1,2,1b,2b,False,False
+16,"For example, abundant food resources could alleviate increased foraging requirem...",1,2,1b,2c,False,False
+17,"Ultimately, rigorous field experiments in wildlife are necessary to test the ind...",1,2,1c,2b,False,False
+18,Such research is pertinent and timely because land-use change is altering patter...,1,1,1c,1a,True,False
+19,Our goal was to determine the effects of food supplementation and macroparasite ...,3,3,3a,3a,True,True
+20,"We used bank voles (Clethrionomys glareolus, previously Myodes glareolus) as our...",3,3,3b,3b,True,True
+21,Reproductive males hold territories that are approximately double those of femal...,3,1,3c,1c,False,False
+22,Reproductive females are territorial toward other reproductive females but may o...,3,1,3c,1c,False,False
+23,"In both sexes, space use of non-reproductive voles is less than that of reproduc...",3,1,3c,1c,False,False
+24,Both food availability and population density are thought to regulate vole terri...,2,1,2d,1c,False,False
+25,We experimentally manipulated wild bank vole populations via food supplementatio...,3,3,3b,3b,True,True
+26,"Specifically, we 1) quantified space use by sex and reproductive status in the b...",3,3,3b,3b,True,True
+27,Space use and spatial overlap were compared between treatments to test the effec...,3,3,3c,3b,True,False
+28,As abundant food often increases small mammal population density through immigra...,3,3,3b,3a,True,False
+29,We hypothesized that helminth infection would increase host movement (due to inc...,3,3,3b,3a,True,False
+1,Impacts of biological invasions can be difficult to measure at the early stages ...,1,2,1a,2b,False,False
+2,"In many cases, managers lack baseline data against which to compare population c...",1,1,1b,1c,True,False
+3,"Even when such data do exist, per capita impacts may not scale up to statistical...",1,1,1b,1c,True,False
+4,"Moreover, similar to detection and establishment, assessment of impacts can “lag...",1,1,1b,1c,True,False
+5,Yet gauging impacts early in the invasion process can buy managers valuable time...,1,1,1a,1a,True,True
+6,"For predatory invasive species, diet studies offer crucial early insight into th...",1,1,1b,1b,True,True
+7,Diet analysis can also be combined with manipulative experiments and behavioral ...,1,1,1b,1b,True,True
+8,"For example, several diet studies of the invasive lionfish (Pterois volitans and...",1,1,1c,1c,True,True
+9,While diet analysis has traditionally relied on visual identification of stomach...,1,1,1c,1c,True,True
+10,DNA metabarcoding has been shown to identify stomach contents to higher taxonomi...,1,1,1c,1c,True,True
+11,There have also been recent methodological improvements in the analysis of DNA m...,1,1,1c,1c,True,True
+12,Chief among these challenges is accounting for bias introduced during the requir...,1,1,1c,1c,True,True
+13,"However, quantitative modeling methods that were recently developed for other ap...",2,2,2d,2b,True,False
+14,We combine DNA metabarcoding of crab stomach contents with quantitative models t...,3,3,3b,3b,True,True
+15,"Green crabs were first detected in Willapa Bay in 1998 (Dumbauld and Kauffman, 1...",1,1,1c,1c,True,True
+16,"Recent trapping and monitoring efforts, as well as opportunistic observations ma...",1,1,1c,1c,True,True
+17,These trends have raised concern that shifting conditions are enabling green cra...,1,2,1c,2b,False,False
+18,These later phases of the invasion process are most commonly associated with imp...,1,1,1c,1c,True,True
+19,Regional resource managers anticipate significant impacts of the green crab inva...,1,1,1c,1c,True,True
+20,Willapa Bay contributes approximately a quarter of all Washington state shellfis...,1,1,1c,1c,True,True
+21,Shellfish growers have expressed concern that green crab might already be reduci...,1,2,1c,2c,False,False
+22,Though species- and community-level impacts of green crab have been documented i...,1,2,1c,2b,False,False
+23,"For instance, McDonald et al. (2001) demonstrated that juvenile green crab can b...",1,1,1c,1c,True,True
+24,"Additionally, while previous research has documented declines in the native hair...",1,2,1c,2b,False,False
+25,"Yet, feeding behavior of generalist invasive predators can vary substantially ac...",1,2,1c,2b,False,False
+26,"Thus, local, habitat-specific diet analyses are needed to assess the variability...",1,2,1b,2b,False,False
+27,We provide a timely investigation of European green crab diet at aquaculture sit...,3,3,3b,3a,True,False
+28,We first identified putative prey taxa from green crab stomach contents using DN...,3,3,3b,3b,True,True
+29,We then constructed mock prey “communities” for a subset of species of particula...,3,3,3b,3b,True,True
+30,We used this abundance data to model the composition of the average diet of a gr...,3,3,3c,3b,True,False
+31,Our work not only provides the first detailed description of in situ green crab ...,3,3,3c,3c,True,True
+1,"The ambrosia beetle Cnestus mutilatus Blandford, 1894 (Coleoptera: Curculionidae...",1,1,1a,1b,True,False
+2,"The species has since spread widely and quickly (3), utilizing a suite of adapti...",1,1,1b,1b,True,True
+3,It is possible that C. mutilatus will not become a pest in its new geographic ra...,1,2,1b,2c,False,False
+4,Most ambrosia beetles take advantage of the weakened defenses of stressed or dyi...,1,1,1b,1b,True,True
+5,"However, timber- and tree-associated industries need to remain wary of their des...",2,2,2b,2a,True,False
+6,"The woody tissues of dying and dead trees ferment residual sugars, producing sev...",2,1,2b,1b,False,False
+7,"A small proportion of these alcohols volatize (10) and attract the beetles, whic...",1,1,1c,1b,True,False
+8,"Stressed nursery trees and many wood products also volatize alcohols, and holes ...",1,1,1c,1b,True,False
+9,"Examples include damage to wine or beer casks (8), overwatered or freeze-stresse...",1,1,1c,1c,True,True
+10,Cnestus mutilatus has even been documented boring holes into the plastic walls o...,1,1,1c,1c,True,True
+11,Ambrosia beetles could also cause ecological damage by seeding the spread of mic...,1,1,1c,1b,True,False
+12,Fungi transported by ambrosia beetles can dramatically alter the natural progres...,1,1,1c,1b,True,False
+13,"Geosmithia morbida (Ascomycota), the fungal pathogen that causes Thousand Canker...",1,1,1c,1c,True,True
+14,"Given this potential for both economic and ecological damage, C. mutilatus merit...",1,1,1a,1a,True,True
+15,Traps for ambrosia beetles are typically baited with slow-release ethanol prepar...,1,1,1b,1b,True,True
+16,"However, propan-2-ol (hereafter referred to as isopropanol), while being used in...",2,2,2c,2a,True,False
+17,There would be considerable advantages to having an inexpensive and easy-to-obta...,3,2,3a,2b,False,False
+18,The purpose of this study was to gather experimental evidence that isopropanol c...,2,3,2b,3a,False,False
+1,Conserving global biodiversity in the Anthropocene requires a deep understanding...,1,1,1a,1a,True,True
+2,The suite of biotic and abiotic conditions that can contribute to population gro...,1,1,1b,1b,True,True
+3,"However, novel stressors such as climate change (Acevedo et al., 2020; Şekercioĝ...",2,2,2c,2c,True,True
+4,The form and magnitude of these altered associations is often ambiguous or diffi...,1,2,1c,2c,False,False
+5,"Therefore, understanding how novel stressors change the way wildlife populations...",1,1,1a,1a,True,True
+6,Emerging infectious diseases are one of many stressors that threaten wildlife po...,1,1,1c,1c,True,True
+7,Early conservation measures to bolster the demographic resilience and adaptabili...,1,1,1c,1c,True,True
+8,"However, it is often unclear whether those same conservation measures will promo...",2,2,2b,2c,True,False
+9,This information is particularly important for rare and endangered host species ...,1,1,1a,1a,True,True
+10,The size of a host population can contribute to its response to pathogen invasio...,1,1,1b,1b,True,True
+11,Greater standing genetic diversity in large host populations may promote evoluti...,1,1,1c,1b,True,False
+12,"Large populations also have less risk of stochastic fadeout, which can be exacer...",1,1,1c,1b,True,False
+13,"However, if large populations also have high host densities, pathogen transmissi...",1,2,1c,2a,False,False
+14,While there are clear theoretical mechanisms of how host population size can con...,2,2,2b,2b,True,True
+15,Environmental dependence of pathogen transmission or disease severity can create...,1,1,1c,1c,True,True
+16,"Temperature, for example, can have complex effects on disease by influencing pat...",1,1,1c,1b,True,False
+17,These environmental effects can further exacerbate impacts to host populations i...,1,2,1c,2a,False,False
+18,Understanding environmental contributions to host population response offers a p...,1,1,1a,1a,True,True
+19,"Importantly, environmental associations need not take the same form both pre- an...",1,2,1a,2b,False,False
+20,White-nose syndrome (WNS) is an emerging infectious disease of hibernating bats ...,1,1,1c,1b,True,False
+21,The pathogen was introduced to North America in the early 2000s from its origin ...,1,1,1c,1c,True,True
+22,Pseudogymnoascus destructans establishes an environmental pathogen reservoir wit...,1,1,1c,1c,True,True
+23,This results in seasonal infection dynamics in which WNS prevalence increases as...,1,1,1c,1b,True,False
+24,Infection severity increases over the winter hibernation period when body temper...,1,1,1c,1c,True,True
+25,Infection with P. destructans is accompanied by a suite of physiological changes...,1,1,1c,1c,True,True
+26,The Indiana bat (Myotis sodalis) is a North American species that has experience...,1,1,1c,1c,True,True
+27,"Despite its status as endangered under the U.S. Endangered Species Act, little i...",2,2,2b,2b,True,True
+28,Environmental correlates of disease severity and population response have been p...,1,1,1c,1c,True,True
+29,"However, previous work has not found a clear association between temperature con...",2,2,2b,2b,True,True
+30,"Evidence additionally suggests that for many species impacted by WNS, colony siz...",2,1,2d,1c,False,False
+31,"However, the particularly gregarious nature and large cluster sizes of Indiana b...",2,2,2d,2c,True,False
+32,"In this study, we pair an extensive bat population dataset curated by the U.S....",3,3,3a,3a,True,True
+33,Fish and Wildlife Service with a hibernacula environmental dataset to identify p...,3,3,3b,3b,True,True
+34,Our data provide information on how population-level processes and variation in ...,3,3,3b,3b,True,True
+1,The impacts of climate change and the failure to meet emission reduction targets...,1,1,1a,1a,True,True
+2,"Forests are a major focus of NCS schemes, as they sequester the equivalent of ne...",1,1,1b,1b,True,True
+3,"However, NCS policies often focus on the potential for future sequestration whil...",1,2,1b,2b,False,False
+4,"Therefore, relying on forest carbon offsets to mitigate greenhouse gas emissions...",1,2,1b,2a,False,False
+5,Using forests as NCS requires an accurate accounting of the risks posed by distu...,1,1,1b,1b,True,True
+6,The importance and complexity of accounting for these factors is magnified as cl...,1,1,1c,1a,True,False
+7,"For example, increased droughts will likely lead to increased susceptibility of ...",1,1,1c,1b,True,False
+8,"Under a changing climate, using historical data to calculate the likelihood of d...",1,2,1c,2b,False,False
+9,"Similarly, across the eastern U.S., warmer sea surface temperature will likely l...",1,2,1c,2b,False,False
+10,Estimating impacts of disturbances on carbon stocks requires consideration of th...,3,1,3a,1b,False,False
+11,"Most previous research has focused on wildfires, which includes pyrogenic emissi...",1,1,1c,1c,True,True
+12,"In contrast, trees damaged by biotic agents and storms can either decompose in p...",1,2,1c,2a,False,False
+13,"Throughout the last century, New England’s forests have served as a critical car...",1,1,1c,1c,True,True
+14,"Currently, New England is among the most forested regions in the United States, ...",1,1,1c,1b,True,False
+15,New England forest carbon is central to regional and national decarbonization st...,1,1,1c,1a,True,False
+16,"Hurricanes are a dominant disturbance agent in New England, with the North Atlan...",1,1,1c,1b,True,False
+17,"Ten hurricanes had a significant impact in New England during the 20th century, ...",1,1,1c,1c,True,True
+18,"For example, the 1938 hurricane downed 70% of the timber volume at Harvard Fores...",1,1,1c,1c,True,True
+19,"It caused extensive damage throughout New England, destroying over 8,900 buildin...",1,1,1c,1c,True,True
+20,"It has been suggested that over the next century, storm wind speeds may increase...",1,2,1c,2c,False,False
+21,"It is unknown whether the frequency of storms will change; however, some meteoro...",1,2,1c,2c,False,False
+22,"In this study, we quantify the potential impact of 21st century hurricanes on Ne...",3,3,3a,3a,True,True
+23,We analyze three scenarios based on hurricane data for the ten most impactful st...,3,3,3b,3b,True,True
+24,"The extent and intensity of the modeled storms, together with a novel map of for...",3,3,3b,3b,True,True
+25,"Specifically, we ask: 1) What risks do hurricanes pose to existing live abovegro...",3,3,3b,3a,True,False
+26,2) How will this risk be affected by predicted changes in climate and subsequent...,3,3,3b,3a,True,False
+1,Climate warming has caused well-documented shifts in the distribution of species...,1,1,1a,1c,True,False
+2,"In several coastal zones, phenological shifts in the occurrence of adult and lar...",1,1,1b,1c,True,False
+3,"In parallel, industrial fishing has altered the abundance, structure, and reprod...",1,1,1b,1c,True,False
+4,"As opposed to large-scale effects on populations that may be readily detectable,...",1,2,1b,2b,False,False
+5,"Small pelagic fish species pose an especially complex case, as their populations...",1,1,1b,1b,True,True
+6,"Furthermore, many species exhibit ontogenetic shifts in habitats, spending part ...",1,1,1b,1c,True,False
+7,"The importance of external environmental processes can, therefore, be life stage...",1,1,1b,1b,True,True
+8,The local dynamics of small pelagic fish are an essential component to better un...,1,1,1b,1a,True,False
+9,"The Atlantic herring (Clupea harengus) is a common, ecologically and commerciall...",1,1,1c,1c,True,True
+10,"In the southern North Sea, Atlantic herring is also commonly observed in the Wad...",1,1,1c,1c,True,True
+11,"However, much is unknown about the habitat utilization of the Wadden Sea by Atla...",2,2,2b,2b,True,True
+12,This is primarily because herring and other small pelagic fishes cannot be prope...,1,2,1c,2b,False,False
+13,"Furthermore, the coarse temporal resolution of these large-scale surveys does no...",2,2,2b,2b,True,True
+14,Limited temporal resolution also prevents the detection of potential phenologica...,2,2,2b,2b,True,True
+15,This limits our understanding of the external processes governing the local dyna...,2,2,2b,2b,True,True
+16,Local survey efforts conducted at high temporal resolution are needed to help fi...,2,2,2b,2b,True,True
+17,Survey efforts with sufficiently high temporal resolution to examine climate-dri...,2,2,2b,2b,True,True
+18,Although long term high temporal resolution time-series exist for lower trophic ...,2,1,2b,1c,False,False
+19,"However, the Royal Netherlands Institute for Sea Research (NIOZ) has consistentl...",1,3,1c,3b,False,False
+20,This survey is unique in northern Europe due to its daily temporal resolution....,1,3,1c,3a,False,False
+21,Previous analyses of these data have identified phenological shifts such as chan...,1,1,1c,1c,True,True
+22,"Given its daily resolution, this time series allows a finer-scale exploration of...",1,3,1c,3b,False,False
+23,"From a methodological standpoint, the preselection of specific days (first occur...",3,2,3a,2c,False,False
+24,"Furthermore, it remains unknown if and how potential shifts in phenology differ ...",2,2,2b,2c,True,False
+25,More detailed phenological analysis would reveal if local dynamics in coastal ha...,2,3,2b,3a,False,False
+26,"Here, we examined potential life-stage specific changes in the population dynami...",3,3,3b,3a,True,False
+27,We used a generalized additive modelling (GAM) approach to decompose the overall...,3,3,3b,3b,True,True
+28,"These results allowed us to identify temporal trends in herring abundance, body ...",3,3,3c,3c,True,True
+29,We also examined potential changes in the seasonal trends in herring abundance o...,3,3,3c,3a,True,False
+30,"Finally, we checked the sensitivity of our outcomes with respect to changes in t...",3,3,3c,3b,True,False
+31,"Our analyses on the longest, most high-resolution time series for marine fish in...",3,3,3c,3a,True,False
+32,"Our work underscores the importance of maintaining highly temporally resolved, l...",3,3,3a,3a,True,True

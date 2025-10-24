@@ -29,7 +29,7 @@ from sklearn.metrics import (
 # ============================================================================
 
 CONDITION = "zero_shot"  # Options: zero_shot, fine_tuned
-DATASET = "validation"  # Always 'test' for RQ2
+DATASET = "test"  # Always 'test' for RQ2
 
 # Article ranges
 ARTICLE_RANGES = {

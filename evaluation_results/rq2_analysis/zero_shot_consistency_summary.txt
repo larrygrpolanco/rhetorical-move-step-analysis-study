@@ -1,0 +1,63 @@
+======================================================================
+CONSISTENCY ANALYSIS: ZERO_SHOT
+======================================================================
+
+Number of runs: 50
+Dataset: test
+Research Question: RQ2
+
+----------------------------------------------------------------------
+DESCRIPTIVE STATISTICS
+----------------------------------------------------------------------
+
+Move Accuracy:
+  Mean: 0.7914 (79.14%)
+  SD: 0.0163 (1.63%)
+  CV: 2.06%
+  95% CI: [0.7868, 0.7960]
+  Range: [0.7491, 0.8202] (span: 0.0712)
+  Median: 0.7903
+  IQR: 0.0215
+  Normality: Normal (Shapiro-Wilk p=0.3268)
+
+Step Accuracy:
+  Mean: 0.4936 (49.36%)
+  SD: 0.0165 (1.65%)
+  CV: 3.35%
+  95% CI: [0.4889, 0.4983]
+  Range: [0.4457, 0.5281] (span: 0.0824)
+  Median: 0.4981
+  IQR: 0.0225
+  Normality: Normal (Shapiro-Wilk p=0.1636)
+
+Move F1:
+  Mean: 0.8104 (81.04%)
+  SD: 0.0137 (1.37%)
+  CV: 1.69%
+  95% CI: [0.8065, 0.8143]
+  Range: [0.7754, 0.8350] (span: 0.0596)
+  Median: 0.8098
+  IQR: 0.0191
+  Normality: Normal (Shapiro-Wilk p=0.4576)
+
+Step F1:
+  Mean: 0.5095 (50.95%)
+  SD: 0.0153 (1.53%)
+  CV: 3.00%
+  95% CI: [0.5052, 0.5138]
+  Range: [0.4619, 0.5417] (span: 0.0797)
+  Median: 0.5117
+  IQR: 0.0196
+  Normality: Normal (Shapiro-Wilk p=0.4553)
+
+----------------------------------------------------------------------
+CONSISTENCY INTERPRETATION
+----------------------------------------------------------------------
+
+Coefficient of Variation (CV) Guidelines:
+  < 5%:   Excellent consistency
+  5-10%:  Good consistency
+  10-20%: Moderate consistency
+  > 20%:  Poor consistency
+
+Move Accuracy CV: 2.06% → EXCELLENT consistency

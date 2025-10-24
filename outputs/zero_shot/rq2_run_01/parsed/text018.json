@@ -32,12 +32,12 @@
       "sentence_num": 3,
       "text": "However, novel stressors such as climate change (Acevedo et al., 2020; Şekercioĝlu et al., 2012; Van Dyck et al., 2015), invasive species introduction (Hagman et al., 2009), and habitat fragmentation and loss (Haddad et al., 2015; Mantyka-Pringle et al., 2015) can alter associations between biotic and abiotic conditions and population growth or stability.",
       "tags": [
-        "2a"
+        "2b"
       ],
-      "primary_tag": "2a",
+      "primary_tag": "2b",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2a] However, novel stressors such as climate change (Acevedo et al., 2020; Şekercioĝlu et al., 2012; Van Dyck et al., 2015), invasive species introduction (Hagman et al., 2009), and habitat fragmentation and loss (Haddad et al., 2015; Mantyka-Pringle et al., 2015) can alter associations between biotic and abiotic conditions and population growth or stability."
+      "original_line": "[2b] However, novel stressors such as climate change (Acevedo et al., 2020; Şekercioĝlu et al., 2012; Van Dyck et al., 2015), invasive species introduction (Hagman et al., 2009), and habitat fragmentation and loss (Haddad et al., 2015; Mantyka-Pringle et al., 2015) can alter associations between biotic and abiotic conditions and population growth or stability."
     },
     {
       "sentence_num": 4,
@@ -54,12 +54,12 @@
       "sentence_num": 5,
       "text": "Therefore, understanding how novel stressors change the way wildlife populations respond to biotic and abiotic conditions will be essential to their successful conservation in a rapidly changing world.",
       "tags": [
-        "2b"
+        "2a"
       ],
-      "primary_tag": "2b",
+      "primary_tag": "2a",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2b] Therefore, understanding how novel stressors change the way wildlife populations respond to biotic and abiotic conditions will be essential to their successful conservation in a rapidly changing world."
+      "original_line": "[2a] Therefore, understanding how novel stressors change the way wildlife populations respond to biotic and abiotic conditions will be essential to their successful conservation in a rapidly changing world."
     },
     {
       "sentence_num": 6,
@@ -76,12 +76,12 @@
       "sentence_num": 7,
       "text": "Early conservation measures to bolster the demographic resilience and adaptability of host populations might dampen the impact of disease following its arrival (Grant et al., 2017; Hodgson et al., 2015).",
       "tags": [
-        "3a"
+        "1c"
       ],
-      "primary_tag": "3a",
-      "move": "3",
+      "primary_tag": "1c",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[3a] Early conservation measures to bolster the demographic resilience and adaptability of host populations might dampen the impact of disease following its arrival (Grant et al., 2017; Hodgson et al., 2015)."
+      "original_line": "[1c] Early conservation measures to bolster the demographic resilience and adaptability of host populations might dampen the impact of disease following its arrival (Grant et al., 2017; Hodgson et al., 2015)."
     },
     {
       "sentence_num": 8,
@@ -197,12 +197,12 @@
       "sentence_num": 18,
       "text": "Understanding environmental contributions to host population response offers a point of leverage for conservation efforts, as protection and enhancement of critical environmental conditions is fundamental to the conservation of threatened host species.",
       "tags": [
-        "2b"
+        "1a"
       ],
-      "primary_tag": "2b",
-      "move": "2",
+      "primary_tag": "1a",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[2b] Understanding environmental contributions to host population response offers a point of leverage for conservation efforts, as protection and enhancement of critical environmental conditions is fundamental to the conservation of threatened host species."
+      "original_line": "[1a] Understanding environmental contributions to host population response offers a point of leverage for conservation efforts, as protection and enhancement of critical environmental conditions is fundamental to the conservation of threatened host species."
     },
     {
       "sentence_num": 19,
@@ -285,12 +285,12 @@
       "sentence_num": 26,
       "text": "The Indiana bat (Myotis sodalis) is a North American species that has experienced severe but variable population declines due to WNS (Langwig et al., 2012; Thogmartin et al., 2012).",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] The Indiana bat (Myotis sodalis) is a North American species that has experienced severe but variable population declines due to WNS (Langwig et al., 2012; Thogmartin et al., 2012)."
+      "original_line": "[1c] The Indiana bat (Myotis sodalis) is a North American species that has experienced severe but variable population declines due to WNS (Langwig et al., 2012; Thogmartin et al., 2012)."
     },
     {
       "sentence_num": 27,
@@ -318,12 +318,12 @@
       "sentence_num": 29,
       "text": "However, previous work has not found a clear association between temperature conditions of hibernacula and the response of Indiana bat colonies (Langwig et al., 2012).",
       "tags": [
-        "2b"
+        "2c"
       ],
-      "primary_tag": "2b",
+      "primary_tag": "2c",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2b] However, previous work has not found a clear association between temperature conditions of hibernacula and the response of Indiana bat colonies (Langwig et al., 2012)."
+      "original_line": "[2c] However, previous work has not found a clear association between temperature conditions of hibernacula and the response of Indiana bat colonies (Langwig et al., 2012)."
     },
     {
       "sentence_num": 30,
@@ -340,12 +340,12 @@
       "sentence_num": 31,
       "text": "However, the particularly gregarious nature and large cluster sizes of Indiana bats (Clawson et al., 1980; Hardin and Hassell, 1970; Thomson, 1982) may result in constant density across colony sizes and time, keeping pathogen transmission and declines high regardless of colony size.",
       "tags": [
-        "2b"
+        "2c"
       ],
-      "primary_tag": "2b",
+      "primary_tag": "2c",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2b] However, the particularly gregarious nature and large cluster sizes of Indiana bats (Clawson et al., 1980; Hardin and Hassell, 1970; Thomson, 1982) may result in constant density across colony sizes and time, keeping pathogen transmission and declines high regardless of colony size."
+      "original_line": "[2c] However, the particularly gregarious nature and large cluster sizes of Indiana bats (Clawson et al., 1980; Hardin and Hassell, 1970; Thomson, 1982) may result in constant density across colony sizes and time, keeping pathogen transmission and declines high regardless of colony size."
     },
     {
       "sentence_num": 32,
@@ -360,6 +360,17 @@
     },
     {
       "sentence_num": 33,
+      "text": "Fish and Wildlife Service with a hibernacula environmental dataset to identify potential contributions of host population size and environmental conditions to Indiana bat population trends prior, during, and after pathogen arrival.",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] Fish and Wildlife Service with a hibernacula environmental dataset to identify potential contributions of host population size and environmental conditions to Indiana bat population trends prior, during, and after pathogen arrival."
+    },
+    {
+      "sentence_num": 34,
       "text": "Our data provide information on how population-level processes and variation in environmental conditions can generate heterogeneous host population responses to novel infectious diseases, lending insights into how to successfully manage their impacts.",
       "tags": [
         "3c"
@@ -372,16 +383,10 @@
   ],
   "parse_stats": {
     "total_lines": 34,
-    "parsed_sentences": 33,
-    "skipped_lines": 1,
+    "parsed_sentences": 34,
+    "skipped_lines": 0,
     "invalid_tags": 0,
     "multi_tag_sentences": 0,
-    "warnings": [
-      {
-        "line": 33,
-        "message": "Line doesn't start with tag bracket",
-        "text": "Fish and Wildlife Service with a hibernacula environmental dataset to identify potential contributio"
-      }
-    ]
+    "warnings": []
   }
 }
