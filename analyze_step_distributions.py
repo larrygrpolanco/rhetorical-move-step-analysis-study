@@ -323,7 +323,7 @@ def create_step_comparison_table(all_stats):
     return pd.DataFrame(rows)
 
 
-def save_results(all_stats, few_shot_stats, output_dir="analysis_results"):
+def save_results(all_stats, few_shot_stats, output_dir="step_analysis"):
     """
     Save analysis results to files.
 
