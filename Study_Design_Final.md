@@ -19,7 +19,7 @@
 
 **RQ1 (Performance):** How do zero-shot, few-shot (3-shot and 8-shot), and fine-tuned approaches perform on Biology research article move-step annotation?
 
-**RQ2 (Consistency - PRIMARY):** How does annotation consistency vary across prompting conditions, and does higher accuracy correlate with higher consistency?
+**RQ2 (Consistency - PRIMARY):** How consistent is annotation across repeated runs for zero-shot and fine-tuned approaches, and how do they compare?
 
 ---
 
@@ -67,9 +67,9 @@ Test Set:       10 articles (20%) - For final evaluation (HELD OUT)
    - True holdout set (~250-300 sentences)
    - Never seen during development
    - Sufficient for robust evaluation (Kim & Lu used 10)
-   - Enables 30 repeated evaluations with adequate sample size
+   - Enables 50 repeated evaluations with adequate sample size
 
-**Statistical Power:** With 10 test articles × 30 runs = 300 observations per condition, we have 80% power to detect moderate differences in variance (Cohen's f = 0.25) using Levene's test at α = 0.05.
+**Statistical Power:** With 10 test articles × 50 runs = 500 observations per condition
 
 ---
 
@@ -130,18 +130,6 @@ Test Set:       10 articles (20%) - For final evaluation (HELD OUT)
 - Tests baseline performance
 - 1 run on test set
 
-**A2: Few-Shot (3 examples)**
-
-- Prompt + 3 annotated examples
-- Examples: Fixed set randomly selected from training set
-- 1 run on test set
-
-**A3: Few-Shot (8 examples)**
-
-- Prompt + 8 annotated examples
-- Examples: Fixed set randomly selected from training set
-- Tests if more examples help
-- 1 run on test set
 
 **A4: Fine-Tuned**
 
@@ -150,20 +138,8 @@ Test Set:       10 articles (20%) - For final evaluation (HELD OUT)
 - Default hyperparameters (see Technical Details)
 - 1 run on test set
 
-**Total Phase 2 Runs:** 4
+**Total Phase 2 Runs:** 2
 
-### Few-Shot Example Selection Strategy
-
-**Fixed Examples:** Use the same example articles across all 30 runs within each condition
-
-**Selection Method:**
-
-1. Randomly sample 3 articles from training set → A2 examples
-2. Randomly sample 8 articles from training set → A3 examples
-3. Document article IDs used
-4. Use identical examples for all 30 runs in each condition
-
-**Rationale:** Fixed examples isolate LLM stochasticity (our research question) from example-selection variance.
 
 ### Fine-Tuning Technical Details
 
@@ -183,14 +159,14 @@ Test Set:       10 articles (20%) - For final evaluation (HELD OUT)
 
 **Hyperparameters** (OpenAI defaults):
 
-- Epochs: Auto (typically 3-5)
-- Batch size: Auto
-- Learning rate multiplier: Auto
+- Epochs: 3
+- Batch size: 1
+- Learning rate multiplier: 2
 - No custom hyperparameter tuning
 
 **Validation:** Use OpenAI's built-in validation split from training data
 
-**Strategy:** Fine-tune once, evaluate 30 times (tests inference consistency, not training consistency)
+**Strategy:** Fine-tune once, evaluate 50 times (tests inference consistency, not training consistency)
 
 ### Model Parameters (Fixed Across All Conditions)
 
@@ -212,21 +188,21 @@ presence_penalty: 0
 
 **Objective:** Measure annotation consistency across repeated runs
 
-**Method:** Run each condition 30 times on the same test set
+**Method:** Run each condition 50 times on the same test set
 
-**Total Runs:** 4 conditions × 30 runs = 120 evaluations
+**Total Runs:** 2 conditions × 50 runs = 100 evaluations
 
 **Fixed Elements:**
 
 - Test set: Same 10 articles across all runs
 - Prompt: Identical for all runs
-- Few-shot examples: Same examples for all runs within A2 and A3
 - Model parameters: Temperature 1.0, all other settings constant
-- Fine-tuned model: Same model checkpoint for all 30 fine-tuned runs
+- Fine-tuned model: Same model checkpoint for all 50 fine-tuned runs
 
 **Variable Element:** Random seed / stochastic sampling (inherent to LLM generation)
 
 ### Why 30 Runs?
+NOW 50!
 
 **Statistical Justification:**
 
