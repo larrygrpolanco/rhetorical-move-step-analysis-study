@@ -61,3 +61,27 @@ Coefficient of Variation (CV) Guidelines:
   > 20%:  Poor consistency
 
 Move Accuracy CV: 1.45% → EXCELLENT consistency
+
+----------------------------------------------------------------------
+RELIABILITY (ICC)
+----------------------------------------------------------------------
+
+Move-Level ICC:
+  Type: ICC(2,1)
+  Value: 0.835
+  95% CI: [0.810, 0.860]
+  Interpretation: Good reliability (suitable for research)
+  Based on: 267 sentences, 50 runs
+
+Step-Level ICC:
+  Type: ICC(2,1)
+  Value: 0.746
+  95% CI: [0.710, 0.780]
+  Interpretation: Moderate reliability (acceptable with caution)
+  Based on: 267 sentences, 50 runs
+
+ICC Interpretation Guidelines:
+  < 0.5:    Poor reliability (unsuitable for applied use)
+  0.5-0.75: Moderate reliability (acceptable with caution)
+  0.75-0.9: Good reliability (suitable for research)
+  > 0.9:    Excellent reliability (suitable for applied use)

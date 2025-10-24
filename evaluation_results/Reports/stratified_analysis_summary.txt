@@ -1,0 +1,110 @@
+======================================================================
+STRATIFIED CONSISTENCY ANALYSIS - RQ2.4
+======================================================================
+
+Dataset: test
+Conditions: zero_shot, fine_tuned
+
+----------------------------------------------------------------------
+CONSISTENCY BY MOVE TYPE: ZERO_SHOT
+----------------------------------------------------------------------
+
+M1:
+  Sentences: 29
+  Runs: 50
+  Mean Accuracy: 0.8258 (82.58%)
+  SD: 0.0181
+  CV: 2.20%
+  Range: [0.7853, 0.8588]
+
+M2:
+  Sentences: 22
+  Runs: 50
+  Mean Accuracy: 0.7574 (75.74%)
+  SD: 0.0195
+  CV: 2.58%
+  Range: [0.7179, 0.7949]
+
+M3:
+  Sentences: 21
+  Runs: 50
+  Mean Accuracy: 0.8482 (84.82%)
+  SD: 0.0087
+  CV: 1.02%
+  Range: [0.8431, 0.8627]
+
+----------------------------------------------------------------------
+CONSISTENCY BY MOVE TYPE: FINE_TUNED
+----------------------------------------------------------------------
+
+M1:
+  Sentences: 29
+  Runs: 50
+  Mean Accuracy: 0.8828 (88.28%)
+  SD: 0.0289
+  CV: 3.27%
+  Range: [0.8023, 0.9322]
+
+M2:
+  Sentences: 22
+  Runs: 50
+  Mean Accuracy: 0.5205 (52.05%)
+  SD: 0.0526
+  CV: 10.11%
+  Range: [0.4103, 0.6154]
+
+M3:
+  Sentences: 21
+  Runs: 50
+  Mean Accuracy: 0.9165 (91.65%)
+  SD: 0.0380
+  CV: 4.14%
+  Range: [0.8431, 1.0000]
+
+----------------------------------------------------------------------
+CROSS-CONDITION COMPARISON BY MOVE
+----------------------------------------------------------------------
+
+M1:
+  Zero-shot CV: 2.20%
+  Fine-tuned CV: 3.27%
+  Difference: 1.07 pp
+  More consistent: Zero-shot
+
+M2:
+  Zero-shot CV: 2.58%
+  Fine-tuned CV: 10.11%
+  Difference: 7.53 pp
+  More consistent: Zero-shot
+
+M3:
+  Zero-shot CV: 1.02%
+  Fine-tuned CV: 4.14%
+  Difference: 3.12 pp
+  More consistent: Zero-shot
+
+----------------------------------------------------------------------
+STEP-LEVEL CONSISTENCY (min_support=10)
+----------------------------------------------------------------------
+
+ZERO_SHOT:
+  Steps analyzed: 5
+  Mean CV: 10.56%
+  Most consistent: 1b (CV=5.69%)
+  Least consistent: 3c (CV=23.13%)
+
+FINE_TUNED:
+  Steps analyzed: 5
+  Mean CV: 22.11%
+  Most consistent: 1c (CV=5.09%)
+  Least consistent: 3c (CV=56.60%)
+
+----------------------------------------------------------------------
+KEY FINDINGS
+----------------------------------------------------------------------
+
+Most stable move (both conditions): M3
+Least stable move (both conditions): M2
+
+Moves where zero-shot more consistent: 3/3
+Moves where fine-tuned more consistent: 0/3
