@@ -1,0 +1,118 @@
+======================================================================
+CONSISTENCY COMPARISON: ZERO-SHOT VS FINE-TUNED
+======================================================================
+
+Research Question 2 (RQ2): Consistency Analysis
+Dataset: test
+
+----------------------------------------------------------------------
+1. VARIANCE COMPARISON (Levene's Test)
+----------------------------------------------------------------------
+
+Research question: Do zero-shot and fine-tuned differ in variance?
+H0: σ²(zero-shot) = σ²(fine-tuned)
+
+MOVE_ACCURACY:
+  Zero-shot variance: 0.000158
+  Fine-tuned variance: 0.000467
+  Variance ratio (ZS/FT): 0.339
+  Levene's statistic: 22.9072
+  p-value: 0.0000
+  ✓ SIGNIFICANT difference in variance (p < 0.05)
+
+STEP_ACCURACY:
+  Zero-shot variance: 0.000362
+  Fine-tuned variance: 0.000641
+  Variance ratio (ZS/FT): 0.564
+  Levene's statistic: 7.0538
+  p-value: 0.0086
+  ✓ SIGNIFICANT difference in variance (p < 0.05)
+
+MOVE_F1:
+  Zero-shot variance: 0.000116
+  Fine-tuned variance: 0.000430
+  Variance ratio (ZS/FT): 0.269
+  Levene's statistic: 37.1828
+  p-value: 0.0000
+  ✓ SIGNIFICANT difference in variance (p < 0.05)
+
+STEP_F1:
+  Zero-shot variance: 0.000352
+  Fine-tuned variance: 0.000586
+  Variance ratio (ZS/FT): 0.600
+  Levene's statistic: 6.4837
+  p-value: 0.0116
+  ✓ SIGNIFICANT difference in variance (p < 0.05)
+
+----------------------------------------------------------------------
+2. MEAN COMPARISON (Welch's t-test)
+----------------------------------------------------------------------
+
+Research question: Do zero-shot and fine-tuned differ in mean accuracy?
+H0: μ(zero-shot) = μ(fine-tuned)
+
+MOVE_ACCURACY:
+  Zero-shot mean: 0.8176
+  Fine-tuned mean: 0.8337
+  Difference: -0.0160
+  95% CI: [-0.0210, -0.0111]
+  t-statistic: -6.4087
+  p-value: 0.0000
+  Cohen's d: -0.906 (Large)
+  ✓ SIGNIFICANT difference in mean (p < 0.05)
+
+STEP_ACCURACY:
+  Zero-shot mean: 0.4804
+  Fine-tuned mean: 0.5797
+  Difference: -0.0993
+  95% CI: [-0.1056, -0.0931]
+  t-statistic: -31.3770
+  p-value: 0.0000
+  Cohen's d: -4.437 (Large)
+  ✓ SIGNIFICANT difference in mean (p < 0.05)
+
+MOVE_F1:
+  Zero-shot mean: 0.8307
+  Fine-tuned mean: 0.8312
+  Difference: -0.0005
+  95% CI: [-0.0051, 0.0041]
+  t-statistic: -0.2192
+  p-value: 0.8268
+  Cohen's d: -0.031 (Negligible)
+  ✗ No significant difference in mean (p ≥ 0.05)
+
+STEP_F1:
+  Zero-shot mean: 0.4922
+  Fine-tuned mean: 0.5610
+  Difference: -0.0689
+  95% CI: [-0.0749, -0.0628]
+  t-statistic: -22.4835
+  p-value: 0.0000
+  Cohen's d: -3.180 (Large)
+  ✓ SIGNIFICANT difference in mean (p < 0.05)
+
+----------------------------------------------------------------------
+3. CONSISTENCY COMPARISON (Coefficient of Variation)
+----------------------------------------------------------------------
+
+Zero-shot CV: 1.54%
+Fine-tuned CV: 2.59%
+Difference: 1.05 percentage points
+
+→ Zero-shot shows LOWER variability (more consistent)
+
+----------------------------------------------------------------------
+4. INTERPRETATION GUIDELINES
+----------------------------------------------------------------------
+
+Effect Size (Cohen's d):
+  < 0.2:   Negligible
+  0.2-0.5: Small
+  0.5-0.8: Medium
+  > 0.8:   Large
+
+Coefficient of Variation (CV):
+  < 5%:    Excellent consistency
+  5-10%:   Good consistency
+  10-20%:  Moderate consistency
+  > 20%:   Poor consistency

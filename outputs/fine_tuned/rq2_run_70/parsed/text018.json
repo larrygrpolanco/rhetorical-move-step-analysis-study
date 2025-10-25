@@ -43,12 +43,12 @@
       "sentence_num": 4,
       "text": "The form and magnitude of these altered associations is often ambiguous or difficult to characterize and can create the potential for a mismatch between conservation interventions and intended outcomes, possibly with negative effects on the targeted population (Sutherland et al., 2004).",
       "tags": [
-        "2c"
+        "1c"
       ],
-      "primary_tag": "2c",
-      "move": "2",
+      "primary_tag": "1c",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[2c] The form and magnitude of these altered associations is often ambiguous or difficult to characterize and can create the potential for a mismatch between conservation interventions and intended outcomes, possibly with negative effects on the targeted population (Sutherland et al., 2004)."
+      "original_line": "[1c] The form and magnitude of these altered associations is often ambiguous or difficult to characterize and can create the potential for a mismatch between conservation interventions and intended outcomes, possibly with negative effects on the targeted population (Sutherland et al., 2004)."
     },
     {
       "sentence_num": 5,
@@ -65,12 +65,12 @@
       "sentence_num": 6,
       "text": "Emerging infectious diseases are one of many stressors that threaten wildlife populations and can result in host species declines or population extirpations (Altizer et al., 2013; Anderson et al., 2004; Daszak et al., 2001, 2000; Fisher et al., 2012; Rogalski et al., 2017), as evidenced by West Nile Virus and avian malaria in birds (Kilpatrick, 2011; Van Riper III et al., 1986), chytridiomycosis in amphibians (Skerratt et al., 2007), snake fungal disease (Lorch et al., 2016), sarcoptic mange in wombats (Martin et al., 2018), facial tumor disease in Tasmanian devils (Mccallum, 2008), and white-nose syndrome in bats (Hoyt et al., 2021).",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] Emerging infectious diseases are one of many stressors that threaten wildlife populations and can result in host species declines or population extirpations (Altizer et al., 2013; Anderson et al., 2004; Daszak et al., 2001, 2000; Fisher et al., 2012; Rogalski et al., 2017), as evidenced by West Nile Virus and avian malaria in birds (Kilpatrick, 2011; Van Riper III et al., 1986), chytridiomycosis in amphibians (Skerratt et al., 2007), snake fungal disease (Lorch et al., 2016), sarcoptic mange in wombats (Martin et al., 2018), facial tumor disease in Tasmanian devils (Mccallum, 2008), and white-nose syndrome in bats (Hoyt et al., 2021)."
+      "original_line": "[1b] Emerging infectious diseases are one of many stressors that threaten wildlife populations and can result in host species declines or population extirpations (Altizer et al., 2013; Anderson et al., 2004; Daszak et al., 2001, 2000; Fisher et al., 2012; Rogalski et al., 2017), as evidenced by West Nile Virus and avian malaria in birds (Kilpatrick, 2011; Van Riper III et al., 1986), chytridiomycosis in amphibians (Skerratt et al., 2007), snake fungal disease (Lorch et al., 2016), sarcoptic mange in wombats (Martin et al., 2018), facial tumor disease in Tasmanian devils (Mccallum, 2008), and white-nose syndrome in bats (Hoyt et al., 2021)."
     },
     {
       "sentence_num": 7,
@@ -87,34 +87,34 @@
       "sentence_num": 8,
       "text": "However, it is often unclear whether those same conservation measures will promote the persistence of the host population during pathogen invasion when pathogen transmission dynamics (Huang et al., 2021; Leach et al., 2016) or environmental dependence of disease (Langwig et al., 2012; McNew et al., 2019; Samuel et al., 2015) can significantly shift the fitness landscape of the host.",
       "tags": [
-        "2b"
-      ],
-      "primary_tag": "2b",
-      "move": "2",
-      "parse_confidence": "high",
-      "original_line": "[2b] However, it is often unclear whether those same conservation measures will promote the persistence of the host population during pathogen invasion when pathogen transmission dynamics (Huang et al., 2021; Leach et al., 2016) or environmental dependence of disease (Langwig et al., 2012; McNew et al., 2019; Samuel et al., 2015) can significantly shift the fitness landscape of the host."
-    },
-    {
-      "sentence_num": 9,
-      "text": "This information is particularly important for rare and endangered host species with limited habitat availability or population sizes before pathogen invasion, as their sensitivity to novel stressors and management interventions necessitates unequivocal conservation best practices.",
-      "tags": [
         "2c"
       ],
       "primary_tag": "2c",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2c] This information is particularly important for rare and endangered host species with limited habitat availability or population sizes before pathogen invasion, as their sensitivity to novel stressors and management interventions necessitates unequivocal conservation best practices."
+      "original_line": "[2c] However, it is often unclear whether those same conservation measures will promote the persistence of the host population during pathogen invasion when pathogen transmission dynamics (Huang et al., 2021; Leach et al., 2016) or environmental dependence of disease (Langwig et al., 2012; McNew et al., 2019; Samuel et al., 2015) can significantly shift the fitness landscape of the host."
+    },
+    {
+      "sentence_num": 9,
+      "text": "This information is particularly important for rare and endangered host species with limited habitat availability or population sizes before pathogen invasion, as their sensitivity to novel stressors and management interventions necessitates unequivocal conservation best practices.",
+      "tags": [
+        "1a"
+      ],
+      "primary_tag": "1a",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1a] This information is particularly important for rare and endangered host species with limited habitat availability or population sizes before pathogen invasion, as their sensitivity to novel stressors and management interventions necessitates unequivocal conservation best practices."
     },
     {
       "sentence_num": 10,
       "text": "The size of a host population can contribute to its response to pathogen invasion and ultimately its risk of extirpation.",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] The size of a host population can contribute to its response to pathogen invasion and ultimately its risk of extirpation."
+      "original_line": "[1b] The size of a host population can contribute to its response to pathogen invasion and ultimately its risk of extirpation."
     },
     {
       "sentence_num": 11,
@@ -186,23 +186,23 @@
       "sentence_num": 17,
       "text": "These environmental effects can further exacerbate impacts to host populations if high-quality habitat prior to pathogen invasion becomes population sinks or ecological traps of high pathogen transmission and disease severity following disease emergence (Hopkins et al., 2021; Leach et al., 2016).",
       "tags": [
-        "2b"
+        "1c"
       ],
-      "primary_tag": "2b",
-      "move": "2",
+      "primary_tag": "1c",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[2b] These environmental effects can further exacerbate impacts to host populations if high-quality habitat prior to pathogen invasion becomes population sinks or ecological traps of high pathogen transmission and disease severity following disease emergence (Hopkins et al., 2021; Leach et al., 2016)."
+      "original_line": "[1c] These environmental effects can further exacerbate impacts to host populations if high-quality habitat prior to pathogen invasion becomes population sinks or ecological traps of high pathogen transmission and disease severity following disease emergence (Hopkins et al., 2021; Leach et al., 2016)."
     },
     {
       "sentence_num": 18,
       "text": "Understanding environmental contributions to host population response offers a point of leverage for conservation efforts, as protection and enhancement of critical environmental conditions is fundamental to the conservation of threatened host species.",
       "tags": [
-        "3a"
+        "1a"
       ],
-      "primary_tag": "3a",
-      "move": "3",
+      "primary_tag": "1a",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[3a] Understanding environmental contributions to host population response offers a point of leverage for conservation efforts, as protection and enhancement of critical environmental conditions is fundamental to the conservation of threatened host species."
+      "original_line": "[1a] Understanding environmental contributions to host population response offers a point of leverage for conservation efforts, as protection and enhancement of critical environmental conditions is fundamental to the conservation of threatened host species."
     },
     {
       "sentence_num": 19,
@@ -230,45 +230,45 @@
       "sentence_num": 21,
       "text": "The pathogen was introduced to North America in the early 2000s from its origin in Eurasia and has since spread widely through naïve hibernating bat populations (Blehert et al., 2009; Drees et al., 2017; Leopardi et al., 2015), causing severe population declines (Frick et al., 2015; Hoyt et al., 2021; Langwig et al., 2016, 2012).",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] The pathogen was introduced to North America in the early 2000s from its origin in Eurasia and has since spread widely through naïve hibernating bat populations (Blehert et al., 2009; Drees et al., 2017; Leopardi et al., 2015), causing severe population declines (Frick et al., 2015; Hoyt et al., 2021; Langwig et al., 2016, 2012)."
+      "original_line": "[1b] The pathogen was introduced to North America in the early 2000s from its origin in Eurasia and has since spread widely through naïve hibernating bat populations (Blehert et al., 2009; Drees et al., 2017; Leopardi et al., 2015), causing severe population declines (Frick et al., 2015; Hoyt et al., 2021; Langwig et al., 2016, 2012)."
     },
     {
       "sentence_num": 22,
       "text": "Pseudogymnoascus destructans establishes an environmental pathogen reservoir within winter hibernacula (Hoyt et al., 2020, 2015; Laggan et al., 2023), the caves and mines where bats hibernate, and can persist for years in the absence of its host (Hoyt et al., 2015).",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] Pseudogymnoascus destructans establishes an environmental pathogen reservoir within winter hibernacula (Hoyt et al., 2020, 2015; Laggan et al., 2023), the caves and mines where bats hibernate, and can persist for years in the absence of its host (Hoyt et al., 2015)."
+      "original_line": "[1b] Pseudogymnoascus destructans establishes an environmental pathogen reservoir within winter hibernacula (Hoyt et al., 2020, 2015; Laggan et al., 2023), the caves and mines where bats hibernate, and can persist for years in the absence of its host (Hoyt et al., 2015)."
     },
     {
       "sentence_num": 23,
       "text": "This results in seasonal infection dynamics in which WNS prevalence increases as bats arrive in hibernacula in late fall but declines during spring and summer months when bats do not primarily use hibernacula for roosting and bats are often euthermic (Langwig et al., 2015).",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] This results in seasonal infection dynamics in which WNS prevalence increases as bats arrive in hibernacula in late fall but declines during spring and summer months when bats do not primarily use hibernacula for roosting and bats are often euthermic (Langwig et al., 2015)."
+      "original_line": "[1b] This results in seasonal infection dynamics in which WNS prevalence increases as bats arrive in hibernacula in late fall but declines during spring and summer months when bats do not primarily use hibernacula for roosting and bats are often euthermic (Langwig et al., 2015)."
     },
     {
       "sentence_num": 24,
       "text": "Infection severity increases over the winter hibernation period when body temperatures drop to approximately ambient conditions (Langwig et al., 2017, 2015), allowing the cold-adapted fungus to invade the epidermal tissue (Lorch et al., 2011; Warnecke et al., 2013).",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] Infection severity increases over the winter hibernation period when body temperatures drop to approximately ambient conditions (Langwig et al., 2017, 2015), allowing the cold-adapted fungus to invade the epidermal tissue (Lorch et al., 2011; Warnecke et al., 2013)."
+      "original_line": "[1b] Infection severity increases over the winter hibernation period when body temperatures drop to approximately ambient conditions (Langwig et al., 2017, 2015), allowing the cold-adapted fungus to invade the epidermal tissue (Lorch et al., 2011; Warnecke et al., 2013)."
     },
     {
       "sentence_num": 25,
@@ -285,12 +285,12 @@
       "sentence_num": 26,
       "text": "The Indiana bat (Myotis sodalis) is a North American species that has experienced severe but variable population declines due to WNS (Langwig et al., 2012; Thogmartin et al., 2012).",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] The Indiana bat (Myotis sodalis) is a North American species that has experienced severe but variable population declines due to WNS (Langwig et al., 2012; Thogmartin et al., 2012)."
+      "original_line": "[1b] The Indiana bat (Myotis sodalis) is a North American species that has experienced severe but variable population declines due to WNS (Langwig et al., 2012; Thogmartin et al., 2012)."
     },
     {
       "sentence_num": 27,
@@ -318,34 +318,34 @@
       "sentence_num": 29,
       "text": "However, previous work has not found a clear association between temperature conditions of hibernacula and the response of Indiana bat colonies (Langwig et al., 2012).",
       "tags": [
-        "2b"
-      ],
-      "primary_tag": "2b",
-      "move": "2",
-      "parse_confidence": "high",
-      "original_line": "[2b] However, previous work has not found a clear association between temperature conditions of hibernacula and the response of Indiana bat colonies (Langwig et al., 2012)."
-    },
-    {
-      "sentence_num": 30,
-      "text": "Evidence additionally suggests that for many species impacted by WNS, colony size may be related to the initial population response to the disease (Frick et al., 2015; Langwig et al., 2012).",
-      "tags": [
         "1c"
       ],
       "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] Evidence additionally suggests that for many species impacted by WNS, colony size may be related to the initial population response to the disease (Frick et al., 2015; Langwig et al., 2012)."
+      "original_line": "[1c] However, previous work has not found a clear association between temperature conditions of hibernacula and the response of Indiana bat colonies (Langwig et al., 2012)."
+    },
+    {
+      "sentence_num": 30,
+      "text": "Evidence additionally suggests that for many species impacted by WNS, colony size may be related to the initial population response to the disease (Frick et al., 2015; Langwig et al., 2012).",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] Evidence additionally suggests that for many species impacted by WNS, colony size may be related to the initial population response to the disease (Frick et al., 2015; Langwig et al., 2012)."
     },
     {
       "sentence_num": 31,
       "text": "However, the particularly gregarious nature and large cluster sizes of Indiana bats (Clawson et al., 1980; Hardin and Hassell, 1970; Thomson, 1982) may result in constant density across colony sizes and time, keeping pathogen transmission and declines high regardless of colony size.",
       "tags": [
-        "2c"
+        "2b"
       ],
-      "primary_tag": "2c",
+      "primary_tag": "2b",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2c] However, the particularly gregarious nature and large cluster sizes of Indiana bats (Clawson et al., 1980; Hardin and Hassell, 1970; Thomson, 1982) may result in constant density across colony sizes and time, keeping pathogen transmission and declines high regardless of colony size."
+      "original_line": "[2b] However, the particularly gregarious nature and large cluster sizes of Indiana bats (Clawson et al., 1980; Hardin and Hassell, 1970; Thomson, 1982) may result in constant density across colony sizes and time, keeping pathogen transmission and declines high regardless of colony size."
     },
     {
       "sentence_num": 32,

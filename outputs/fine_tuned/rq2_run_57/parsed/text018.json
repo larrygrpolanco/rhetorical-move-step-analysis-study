@@ -32,56 +32,56 @@
       "sentence_num": 3,
       "text": "However, novel stressors such as climate change (Acevedo et al., 2020; Şekercioĝlu et al., 2012; Van Dyck et al., 2015), invasive species introduction (Hagman et al., 2009), and habitat fragmentation and loss (Haddad et al., 2015; Mantyka-Pringle et al., 2015) can alter associations between biotic and abiotic conditions and population growth or stability.",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] However, novel stressors such as climate change (Acevedo et al., 2020; Şekercioĝlu et al., 2012; Van Dyck et al., 2015), invasive species introduction (Hagman et al., 2009), and habitat fragmentation and loss (Haddad et al., 2015; Mantyka-Pringle et al., 2015) can alter associations between biotic and abiotic conditions and population growth or stability."
+      "original_line": "[1c] However, novel stressors such as climate change (Acevedo et al., 2020; Şekercioĝlu et al., 2012; Van Dyck et al., 2015), invasive species introduction (Hagman et al., 2009), and habitat fragmentation and loss (Haddad et al., 2015; Mantyka-Pringle et al., 2015) can alter associations between biotic and abiotic conditions and population growth or stability."
     },
     {
       "sentence_num": 4,
       "text": "The form and magnitude of these altered associations is often ambiguous or difficult to characterize and can create the potential for a mismatch between conservation interventions and intended outcomes, possibly with negative effects on the targeted population (Sutherland et al., 2004).",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] The form and magnitude of these altered associations is often ambiguous or difficult to characterize and can create the potential for a mismatch between conservation interventions and intended outcomes, possibly with negative effects on the targeted population (Sutherland et al., 2004)."
+      "original_line": "[1c] The form and magnitude of these altered associations is often ambiguous or difficult to characterize and can create the potential for a mismatch between conservation interventions and intended outcomes, possibly with negative effects on the targeted population (Sutherland et al., 2004)."
     },
     {
       "sentence_num": 5,
       "text": "Therefore, understanding how novel stressors change the way wildlife populations respond to biotic and abiotic conditions will be essential to their successful conservation in a rapidly changing world.",
       "tags": [
-        "1b"
+        "1a"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1a",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Therefore, understanding how novel stressors change the way wildlife populations respond to biotic and abiotic conditions will be essential to their successful conservation in a rapidly changing world."
+      "original_line": "[1a] Therefore, understanding how novel stressors change the way wildlife populations respond to biotic and abiotic conditions will be essential to their successful conservation in a rapidly changing world."
     },
     {
       "sentence_num": 6,
       "text": "Emerging infectious diseases are one of many stressors that threaten wildlife populations and can result in host species declines or population extirpations (Altizer et al., 2013; Anderson et al., 2004; Daszak et al., 2001, 2000; Fisher et al., 2012; Rogalski et al., 2017), as evidenced by West Nile Virus and avian malaria in birds (Kilpatrick, 2011; Van Riper III et al., 1986), chytridiomycosis in amphibians (Skerratt et al., 2007), snake fungal disease (Lorch et al., 2016), sarcoptic mange in wombats (Martin et al., 2018), facial tumor disease in Tasmanian devils (Mccallum, 2008), and white-nose syndrome in bats (Hoyt et al., 2021).",
       "tags": [
-        "1a"
+        "1c"
       ],
-      "primary_tag": "1a",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1a] Emerging infectious diseases are one of many stressors that threaten wildlife populations and can result in host species declines or population extirpations (Altizer et al., 2013; Anderson et al., 2004; Daszak et al., 2001, 2000; Fisher et al., 2012; Rogalski et al., 2017), as evidenced by West Nile Virus and avian malaria in birds (Kilpatrick, 2011; Van Riper III et al., 1986), chytridiomycosis in amphibians (Skerratt et al., 2007), snake fungal disease (Lorch et al., 2016), sarcoptic mange in wombats (Martin et al., 2018), facial tumor disease in Tasmanian devils (Mccallum, 2008), and white-nose syndrome in bats (Hoyt et al., 2021)."
+      "original_line": "[1c] Emerging infectious diseases are one of many stressors that threaten wildlife populations and can result in host species declines or population extirpations (Altizer et al., 2013; Anderson et al., 2004; Daszak et al., 2001, 2000; Fisher et al., 2012; Rogalski et al., 2017), as evidenced by West Nile Virus and avian malaria in birds (Kilpatrick, 2011; Van Riper III et al., 1986), chytridiomycosis in amphibians (Skerratt et al., 2007), snake fungal disease (Lorch et al., 2016), sarcoptic mange in wombats (Martin et al., 2018), facial tumor disease in Tasmanian devils (Mccallum, 2008), and white-nose syndrome in bats (Hoyt et al., 2021)."
     },
     {
       "sentence_num": 7,
       "text": "Early conservation measures to bolster the demographic resilience and adaptability of host populations might dampen the impact of disease following its arrival (Grant et al., 2017; Hodgson et al., 2015).",
       "tags": [
-        "1a"
+        "1c"
       ],
-      "primary_tag": "1a",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1a] Early conservation measures to bolster the demographic resilience and adaptability of host populations might dampen the impact of disease following its arrival (Grant et al., 2017; Hodgson et al., 2015)."
+      "original_line": "[1c] Early conservation measures to bolster the demographic resilience and adaptability of host populations might dampen the impact of disease following its arrival (Grant et al., 2017; Hodgson et al., 2015)."
     },
     {
       "sentence_num": 8,
@@ -109,12 +109,12 @@
       "sentence_num": 10,
       "text": "The size of a host population can contribute to its response to pathogen invasion and ultimately its risk of extirpation.",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] The size of a host population can contribute to its response to pathogen invasion and ultimately its risk of extirpation."
+      "original_line": "[1c] The size of a host population can contribute to its response to pathogen invasion and ultimately its risk of extirpation."
     },
     {
       "sentence_num": 11,
@@ -153,12 +153,12 @@
       "sentence_num": 14,
       "text": "While there are clear theoretical mechanisms of how host population size can contribute to its response to an emerging infectious disease, this association is often left uncharacterized due to the difficulty of obtaining sufficient data, despite being essential to prioritizing populations for conservation action.",
       "tags": [
-        "2b"
+        "1c"
       ],
-      "primary_tag": "2b",
-      "move": "2",
+      "primary_tag": "1c",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[2b] While there are clear theoretical mechanisms of how host population size can contribute to its response to an emerging infectious disease, this association is often left uncharacterized due to the difficulty of obtaining sufficient data, despite being essential to prioritizing populations for conservation action."
+      "original_line": "[1c] While there are clear theoretical mechanisms of how host population size can contribute to its response to an emerging infectious disease, this association is often left uncharacterized due to the difficulty of obtaining sufficient data, despite being essential to prioritizing populations for conservation action."
     },
     {
       "sentence_num": 15,
@@ -197,89 +197,89 @@
       "sentence_num": 18,
       "text": "Understanding environmental contributions to host population response offers a point of leverage for conservation efforts, as protection and enhancement of critical environmental conditions is fundamental to the conservation of threatened host species.",
       "tags": [
-        "1c"
+        "3a"
       ],
-      "primary_tag": "1c",
-      "move": "1",
+      "primary_tag": "3a",
+      "move": "3",
       "parse_confidence": "high",
-      "original_line": "[1c] Understanding environmental contributions to host population response offers a point of leverage for conservation efforts, as protection and enhancement of critical environmental conditions is fundamental to the conservation of threatened host species."
+      "original_line": "[3a] Understanding environmental contributions to host population response offers a point of leverage for conservation efforts, as protection and enhancement of critical environmental conditions is fundamental to the conservation of threatened host species."
     },
     {
       "sentence_num": 19,
       "text": "Importantly, environmental associations need not take the same form both pre- and post-pathogen arrival, and effective approaches to host species conservation must incorporate these dynamic processes.",
       "tags": [
-        "2b"
+        "3a"
       ],
-      "primary_tag": "2b",
-      "move": "2",
+      "primary_tag": "3a",
+      "move": "3",
       "parse_confidence": "high",
-      "original_line": "[2b] Importantly, environmental associations need not take the same form both pre- and post-pathogen arrival, and effective approaches to host species conservation must incorporate these dynamic processes."
+      "original_line": "[3a] Importantly, environmental associations need not take the same form both pre- and post-pathogen arrival, and effective approaches to host species conservation must incorporate these dynamic processes."
     },
     {
       "sentence_num": 20,
       "text": "White-nose syndrome (WNS) is an emerging infectious disease of hibernating bats caused by the fungal pathogen Pseudogymnoascus destructans (Lorch et al., 2011; Minnis and Lindner, 2013; Warnecke et al., 2012).",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] White-nose syndrome (WNS) is an emerging infectious disease of hibernating bats caused by the fungal pathogen Pseudogymnoascus destructans (Lorch et al., 2011; Minnis and Lindner, 2013; Warnecke et al., 2012)."
+      "original_line": "[1b] White-nose syndrome (WNS) is an emerging infectious disease of hibernating bats caused by the fungal pathogen Pseudogymnoascus destructans (Lorch et al., 2011; Minnis and Lindner, 2013; Warnecke et al., 2012)."
     },
     {
       "sentence_num": 21,
       "text": "The pathogen was introduced to North America in the early 2000s from its origin in Eurasia and has since spread widely through naïve hibernating bat populations (Blehert et al., 2009; Drees et al., 2017; Leopardi et al., 2015), causing severe population declines (Frick et al., 2015; Hoyt et al., 2021; Langwig et al., 2016, 2012).",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] The pathogen was introduced to North America in the early 2000s from its origin in Eurasia and has since spread widely through naïve hibernating bat populations (Blehert et al., 2009; Drees et al., 2017; Leopardi et al., 2015), causing severe population declines (Frick et al., 2015; Hoyt et al., 2021; Langwig et al., 2016, 2012)."
+      "original_line": "[1b] The pathogen was introduced to North America in the early 2000s from its origin in Eurasia and has since spread widely through naïve hibernating bat populations (Blehert et al., 2009; Drees et al., 2017; Leopardi et al., 2015), causing severe population declines (Frick et al., 2015; Hoyt et al., 2021; Langwig et al., 2016, 2012)."
     },
     {
       "sentence_num": 22,
       "text": "Pseudogymnoascus destructans establishes an environmental pathogen reservoir within winter hibernacula (Hoyt et al., 2020, 2015; Laggan et al., 2023), the caves and mines where bats hibernate, and can persist for years in the absence of its host (Hoyt et al., 2015).",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] Pseudogymnoascus destructans establishes an environmental pathogen reservoir within winter hibernacula (Hoyt et al., 2020, 2015; Laggan et al., 2023), the caves and mines where bats hibernate, and can persist for years in the absence of its host (Hoyt et al., 2015)."
+      "original_line": "[1b] Pseudogymnoascus destructans establishes an environmental pathogen reservoir within winter hibernacula (Hoyt et al., 2020, 2015; Laggan et al., 2023), the caves and mines where bats hibernate, and can persist for years in the absence of its host (Hoyt et al., 2015)."
     },
     {
       "sentence_num": 23,
       "text": "This results in seasonal infection dynamics in which WNS prevalence increases as bats arrive in hibernacula in late fall but declines during spring and summer months when bats do not primarily use hibernacula for roosting and bats are often euthermic (Langwig et al., 2015).",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] This results in seasonal infection dynamics in which WNS prevalence increases as bats arrive in hibernacula in late fall but declines during spring and summer months when bats do not primarily use hibernacula for roosting and bats are often euthermic (Langwig et al., 2015)."
+      "original_line": "[1b] This results in seasonal infection dynamics in which WNS prevalence increases as bats arrive in hibernacula in late fall but declines during spring and summer months when bats do not primarily use hibernacula for roosting and bats are often euthermic (Langwig et al., 2015)."
     },
     {
       "sentence_num": 24,
       "text": "Infection severity increases over the winter hibernation period when body temperatures drop to approximately ambient conditions (Langwig et al., 2017, 2015), allowing the cold-adapted fungus to invade the epidermal tissue (Lorch et al., 2011; Warnecke et al., 2013).",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] Infection severity increases over the winter hibernation period when body temperatures drop to approximately ambient conditions (Langwig et al., 2017, 2015), allowing the cold-adapted fungus to invade the epidermal tissue (Lorch et al., 2011; Warnecke et al., 2013)."
+      "original_line": "[1b] Infection severity increases over the winter hibernation period when body temperatures drop to approximately ambient conditions (Langwig et al., 2017, 2015), allowing the cold-adapted fungus to invade the epidermal tissue (Lorch et al., 2011; Warnecke et al., 2013)."
     },
     {
       "sentence_num": 25,
       "text": "Infection with P. destructans is accompanied by a suite of physiological changes that lead to dehydration (Cryan et al., 2013; Mcguire et al., 2017; Verant et al., 2014), frequent arousals from torpor (Lilley et al., 2016; Reeder et al., 2012; Warnecke et al., 2012), emaciation, and ultimately mortality (Cryan et al., 2010; Warnecke et al., 2013).",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] Infection with P. destructans is accompanied by a suite of physiological changes that lead to dehydration (Cryan et al., 2013; Mcguire et al., 2017; Verant et al., 2014), frequent arousals from torpor (Lilley et al., 2016; Reeder et al., 2012; Warnecke et al., 2012), emaciation, and ultimately mortality (Cryan et al., 2010; Warnecke et al., 2013)."
+      "original_line": "[1b] Infection with P. destructans is accompanied by a suite of physiological changes that lead to dehydration (Cryan et al., 2013; Mcguire et al., 2017; Verant et al., 2014), frequent arousals from torpor (Lilley et al., 2016; Reeder et al., 2012; Warnecke et al., 2012), emaciation, and ultimately mortality (Cryan et al., 2010; Warnecke et al., 2013)."
     },
     {
       "sentence_num": 26,
@@ -296,12 +296,12 @@
       "sentence_num": 27,
       "text": "Despite its status as endangered under the U.S. Endangered Species Act, little is known about drivers of variation in Indiana bat declines and persistence with disease, information important for its conservation.",
       "tags": [
-        "2b"
+        "1c"
       ],
-      "primary_tag": "2b",
-      "move": "2",
+      "primary_tag": "1c",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[2b] Despite its status as endangered under the U.S. Endangered Species Act, little is known about drivers of variation in Indiana bat declines and persistence with disease, information important for its conservation."
+      "original_line": "[1c] Despite its status as endangered under the U.S. Endangered Species Act, little is known about drivers of variation in Indiana bat declines and persistence with disease, information important for its conservation."
     },
     {
       "sentence_num": 28,
@@ -318,12 +318,12 @@
       "sentence_num": 29,
       "text": "However, previous work has not found a clear association between temperature conditions of hibernacula and the response of Indiana bat colonies (Langwig et al., 2012).",
       "tags": [
-        "2b"
+        "1c"
       ],
-      "primary_tag": "2b",
-      "move": "2",
+      "primary_tag": "1c",
+      "move": "1",
       "parse_confidence": "high",
-      "original_line": "[2b] However, previous work has not found a clear association between temperature conditions of hibernacula and the response of Indiana bat colonies (Langwig et al., 2012)."
+      "original_line": "[1c] However, previous work has not found a clear association between temperature conditions of hibernacula and the response of Indiana bat colonies (Langwig et al., 2012)."
     },
     {
       "sentence_num": 30,

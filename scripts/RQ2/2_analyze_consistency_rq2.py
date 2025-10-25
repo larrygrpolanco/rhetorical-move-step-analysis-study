@@ -38,7 +38,7 @@ except ImportError:
 # CONFIGURATION
 # ============================================================================
 
-CONDITION = "zero_shot"  # Options: zero_shot, fine_tuned
+CONDITION = "fine_tuned"  # Options: zero_shot, fine_tuned
 DATASET = "test"  # Always 'test' for RQ2
 
 # ============================================================================

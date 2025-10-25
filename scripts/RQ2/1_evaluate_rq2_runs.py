@@ -28,7 +28,7 @@ from sklearn.metrics import (
 # CONFIGURATION
 # ============================================================================
 
-CONDITION = "fine_tuned"  # Options: zero_shot, fine_tuned
+CONDITION = "zero_shot"  # Options: zero_shot, fine_tuned
 DATASET = "test"  # Always 'test' for RQ2
 
 # Article ranges

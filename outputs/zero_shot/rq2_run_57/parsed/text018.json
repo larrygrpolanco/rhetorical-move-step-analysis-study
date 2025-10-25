@@ -43,56 +43,56 @@
       "sentence_num": 4,
       "text": "The form and magnitude of these altered associations is often ambiguous or difficult to characterize and can create the potential for a mismatch between conservation interventions and intended outcomes, possibly with negative effects on the targeted population (Sutherland et al., 2004).",
       "tags": [
-        "2c"
+        "2b"
       ],
-      "primary_tag": "2c",
+      "primary_tag": "2b",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2c] The form and magnitude of these altered associations is often ambiguous or difficult to characterize and can create the potential for a mismatch between conservation interventions and intended outcomes, possibly with negative effects on the targeted population (Sutherland et al., 2004)."
+      "original_line": "[2b] The form and magnitude of these altered associations is often ambiguous or difficult to characterize and can create the potential for a mismatch between conservation interventions and intended outcomes, possibly with negative effects on the targeted population (Sutherland et al., 2004)."
     },
     {
       "sentence_num": 5,
       "text": "Therefore, understanding how novel stressors change the way wildlife populations respond to biotic and abiotic conditions will be essential to their successful conservation in a rapidly changing world.",
       "tags": [
-        "1a"
+        "3a"
       ],
-      "primary_tag": "1a",
-      "move": "1",
+      "primary_tag": "3a",
+      "move": "3",
       "parse_confidence": "high",
-      "original_line": "[1a] Therefore, understanding how novel stressors change the way wildlife populations respond to biotic and abiotic conditions will be essential to their successful conservation in a rapidly changing world."
+      "original_line": "[3a] Therefore, understanding how novel stressors change the way wildlife populations respond to biotic and abiotic conditions will be essential to their successful conservation in a rapidly changing world."
     },
     {
       "sentence_num": 6,
       "text": "Emerging infectious diseases are one of many stressors that threaten wildlife populations and can result in host species declines or population extirpations (Altizer et al., 2013; Anderson et al., 2004; Daszak et al., 2001, 2000; Fisher et al., 2012; Rogalski et al., 2017), as evidenced by West Nile Virus and avian malaria in birds (Kilpatrick, 2011; Van Riper III et al., 1986), chytridiomycosis in amphibians (Skerratt et al., 2007), snake fungal disease (Lorch et al., 2016), sarcoptic mange in wombats (Martin et al., 2018), facial tumor disease in Tasmanian devils (Mccallum, 2008), and white-nose syndrome in bats (Hoyt et al., 2021).",
-      "tags": [
-        "1a"
-      ],
-      "primary_tag": "1a",
-      "move": "1",
-      "parse_confidence": "high",
-      "original_line": "[1a] Emerging infectious diseases are one of many stressors that threaten wildlife populations and can result in host species declines or population extirpations (Altizer et al., 2013; Anderson et al., 2004; Daszak et al., 2001, 2000; Fisher et al., 2012; Rogalski et al., 2017), as evidenced by West Nile Virus and avian malaria in birds (Kilpatrick, 2011; Van Riper III et al., 1986), chytridiomycosis in amphibians (Skerratt et al., 2007), snake fungal disease (Lorch et al., 2016), sarcoptic mange in wombats (Martin et al., 2018), facial tumor disease in Tasmanian devils (Mccallum, 2008), and white-nose syndrome in bats (Hoyt et al., 2021)."
-    },
-    {
-      "sentence_num": 7,
-      "text": "Early conservation measures to bolster the demographic resilience and adaptability of host populations might dampen the impact of disease following its arrival (Grant et al., 2017; Hodgson et al., 2015).",
       "tags": [
         "1b"
       ],
       "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Early conservation measures to bolster the demographic resilience and adaptability of host populations might dampen the impact of disease following its arrival (Grant et al., 2017; Hodgson et al., 2015)."
+      "original_line": "[1b] Emerging infectious diseases are one of many stressors that threaten wildlife populations and can result in host species declines or population extirpations (Altizer et al., 2013; Anderson et al., 2004; Daszak et al., 2001, 2000; Fisher et al., 2012; Rogalski et al., 2017), as evidenced by West Nile Virus and avian malaria in birds (Kilpatrick, 2011; Van Riper III et al., 1986), chytridiomycosis in amphibians (Skerratt et al., 2007), snake fungal disease (Lorch et al., 2016), sarcoptic mange in wombats (Martin et al., 2018), facial tumor disease in Tasmanian devils (Mccallum, 2008), and white-nose syndrome in bats (Hoyt et al., 2021)."
+    },
+    {
+      "sentence_num": 7,
+      "text": "Early conservation measures to bolster the demographic resilience and adaptability of host populations might dampen the impact of disease following its arrival (Grant et al., 2017; Hodgson et al., 2015).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Early conservation measures to bolster the demographic resilience and adaptability of host populations might dampen the impact of disease following its arrival (Grant et al., 2017; Hodgson et al., 2015)."
     },
     {
       "sentence_num": 8,
       "text": "However, it is often unclear whether those same conservation measures will promote the persistence of the host population during pathogen invasion when pathogen transmission dynamics (Huang et al., 2021; Leach et al., 2016) or environmental dependence of disease (Langwig et al., 2012; McNew et al., 2019; Samuel et al., 2015) can significantly shift the fitness landscape of the host.",
       "tags": [
-        "2b"
+        "2c"
       ],
-      "primary_tag": "2b",
+      "primary_tag": "2c",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2b] However, it is often unclear whether those same conservation measures will promote the persistence of the host population during pathogen invasion when pathogen transmission dynamics (Huang et al., 2021; Leach et al., 2016) or environmental dependence of disease (Langwig et al., 2012; McNew et al., 2019; Samuel et al., 2015) can significantly shift the fitness landscape of the host."
+      "original_line": "[2c] However, it is often unclear whether those same conservation measures will promote the persistence of the host population during pathogen invasion when pathogen transmission dynamics (Huang et al., 2021; Leach et al., 2016) or environmental dependence of disease (Langwig et al., 2012; McNew et al., 2019; Samuel et al., 2015) can significantly shift the fitness landscape of the host."
     },
     {
       "sentence_num": 9,
@@ -142,12 +142,12 @@
       "sentence_num": 13,
       "text": "However, if large populations also have high host densities, pathogen transmission may be elevated, leading to more rapid declines and greater extinction risk (Brunner et al., 2017; Cross et al., 2010; Cunningham et al., 2021; Rachowicz and Briggs, 2007; Smith et al., 2009; Storm et al., 2013).",
       "tags": [
-        "2b"
+        "2c"
       ],
-      "primary_tag": "2b",
+      "primary_tag": "2c",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2b] However, if large populations also have high host densities, pathogen transmission may be elevated, leading to more rapid declines and greater extinction risk (Brunner et al., 2017; Cross et al., 2010; Cunningham et al., 2021; Rachowicz and Briggs, 2007; Smith et al., 2009; Storm et al., 2013)."
+      "original_line": "[2c] However, if large populations also have high host densities, pathogen transmission may be elevated, leading to more rapid declines and greater extinction risk (Brunner et al., 2017; Cross et al., 2010; Cunningham et al., 2021; Rachowicz and Briggs, 2007; Smith et al., 2009; Storm et al., 2013)."
     },
     {
       "sentence_num": 14,
@@ -164,12 +164,12 @@
       "sentence_num": 15,
       "text": "Environmental dependence of pathogen transmission or disease severity can create both hotspots (Lambin et al., 2010; Ostfeld et al., 2005; Paull et al., 2012) or refugia from (Heard et al., 2015; Mosher et al., 2018; Puschendorf et al., 2011; Scheele et al., 2017; Spitzen-Van Der Sluijs et al., 2017) infection and disease.",
       "tags": [
-        "1b"
+        "1c"
       ],
-      "primary_tag": "1b",
+      "primary_tag": "1c",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1b] Environmental dependence of pathogen transmission or disease severity can create both hotspots (Lambin et al., 2010; Ostfeld et al., 2005; Paull et al., 2012) or refugia from (Heard et al., 2015; Mosher et al., 2018; Puschendorf et al., 2011; Scheele et al., 2017; Spitzen-Van Der Sluijs et al., 2017) infection and disease."
+      "original_line": "[1c] Environmental dependence of pathogen transmission or disease severity can create both hotspots (Lambin et al., 2010; Ostfeld et al., 2005; Paull et al., 2012) or refugia from (Heard et al., 2015; Mosher et al., 2018; Puschendorf et al., 2011; Scheele et al., 2017; Spitzen-Van Der Sluijs et al., 2017) infection and disease."
     },
     {
       "sentence_num": 16,
@@ -186,23 +186,23 @@
       "sentence_num": 17,
       "text": "These environmental effects can further exacerbate impacts to host populations if high-quality habitat prior to pathogen invasion becomes population sinks or ecological traps of high pathogen transmission and disease severity following disease emergence (Hopkins et al., 2021; Leach et al., 2016).",
       "tags": [
-        "2a"
+        "2b"
       ],
-      "primary_tag": "2a",
+      "primary_tag": "2b",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2a] These environmental effects can further exacerbate impacts to host populations if high-quality habitat prior to pathogen invasion becomes population sinks or ecological traps of high pathogen transmission and disease severity following disease emergence (Hopkins et al., 2021; Leach et al., 2016)."
+      "original_line": "[2b] These environmental effects can further exacerbate impacts to host populations if high-quality habitat prior to pathogen invasion becomes population sinks or ecological traps of high pathogen transmission and disease severity following disease emergence (Hopkins et al., 2021; Leach et al., 2016)."
     },
     {
       "sentence_num": 18,
       "text": "Understanding environmental contributions to host population response offers a point of leverage for conservation efforts, as protection and enhancement of critical environmental conditions is fundamental to the conservation of threatened host species.",
       "tags": [
-        "1a"
+        "3a"
       ],
-      "primary_tag": "1a",
-      "move": "1",
+      "primary_tag": "3a",
+      "move": "3",
       "parse_confidence": "high",
-      "original_line": "[1a] Understanding environmental contributions to host population response offers a point of leverage for conservation efforts, as protection and enhancement of critical environmental conditions is fundamental to the conservation of threatened host species."
+      "original_line": "[3a] Understanding environmental contributions to host population response offers a point of leverage for conservation efforts, as protection and enhancement of critical environmental conditions is fundamental to the conservation of threatened host species."
     },
     {
       "sentence_num": 19,
@@ -263,12 +263,12 @@
       "sentence_num": 24,
       "text": "Infection severity increases over the winter hibernation period when body temperatures drop to approximately ambient conditions (Langwig et al., 2017, 2015), allowing the cold-adapted fungus to invade the epidermal tissue (Lorch et al., 2011; Warnecke et al., 2013).",
       "tags": [
-        "1c"
+        "1b"
       ],
-      "primary_tag": "1c",
+      "primary_tag": "1b",
       "move": "1",
       "parse_confidence": "high",
-      "original_line": "[1c] Infection severity increases over the winter hibernation period when body temperatures drop to approximately ambient conditions (Langwig et al., 2017, 2015), allowing the cold-adapted fungus to invade the epidermal tissue (Lorch et al., 2011; Warnecke et al., 2013)."
+      "original_line": "[1b] Infection severity increases over the winter hibernation period when body temperatures drop to approximately ambient conditions (Langwig et al., 2017, 2015), allowing the cold-adapted fungus to invade the epidermal tissue (Lorch et al., 2011; Warnecke et al., 2013)."
     },
     {
       "sentence_num": 25,
@@ -318,12 +318,12 @@
       "sentence_num": 29,
       "text": "However, previous work has not found a clear association between temperature conditions of hibernacula and the response of Indiana bat colonies (Langwig et al., 2012).",
       "tags": [
-        "2b"
+        "2c"
       ],
-      "primary_tag": "2b",
+      "primary_tag": "2c",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2b] However, previous work has not found a clear association between temperature conditions of hibernacula and the response of Indiana bat colonies (Langwig et al., 2012)."
+      "original_line": "[2c] However, previous work has not found a clear association between temperature conditions of hibernacula and the response of Indiana bat colonies (Langwig et al., 2012)."
     },
     {
       "sentence_num": 30,
@@ -340,39 +340,50 @@
       "sentence_num": 31,
       "text": "However, the particularly gregarious nature and large cluster sizes of Indiana bats (Clawson et al., 1980; Hardin and Hassell, 1970; Thomson, 1982) may result in constant density across colony sizes and time, keeping pathogen transmission and declines high regardless of colony size.",
       "tags": [
-        "2b"
+        "2c"
       ],
-      "primary_tag": "2b",
+      "primary_tag": "2c",
       "move": "2",
       "parse_confidence": "high",
-      "original_line": "[2b] However, the particularly gregarious nature and large cluster sizes of Indiana bats (Clawson et al., 1980; Hardin and Hassell, 1970; Thomson, 1982) may result in constant density across colony sizes and time, keeping pathogen transmission and declines high regardless of colony size."
+      "original_line": "[2c] However, the particularly gregarious nature and large cluster sizes of Indiana bats (Clawson et al., 1980; Hardin and Hassell, 1970; Thomson, 1982) may result in constant density across colony sizes and time, keeping pathogen transmission and declines high regardless of colony size."
     },
     {
       "sentence_num": 32,
-      "text": "In this study, we pair an extensive bat population dataset curated by the U.S. Fish and Wildlife Service with a hibernacula environmental dataset to identify potential contributions of host population size and environmental conditions to Indiana bat population trends prior, during, and after pathogen arrival.",
+      "text": "In this study, we pair an extensive bat population dataset curated by the U.S..",
       "tags": [
         "3b"
       ],
       "primary_tag": "3b",
       "move": "3",
       "parse_confidence": "high",
-      "original_line": "[3b] In this study, we pair an extensive bat population dataset curated by the U.S. Fish and Wildlife Service with a hibernacula environmental dataset to identify potential contributions of host population size and environmental conditions to Indiana bat population trends prior, during, and after pathogen arrival."
+      "original_line": "[3b] In this study, we pair an extensive bat population dataset curated by the U.S.."
     },
     {
       "sentence_num": 33,
-      "text": "Our data provide information on how population-level processes and variation in environmental conditions can generate heterogeneous host population responses to novel infectious diseases, lending insights into how to successfully manage their impacts.",
+      "text": "Fish and Wildlife Service with a hibernacula environmental dataset to identify potential contributions of host population size and environmental conditions to Indiana bat population trends prior, during, and after pathogen arrival.",
       "tags": [
-        "3a"
+        "3b"
       ],
-      "primary_tag": "3a",
+      "primary_tag": "3b",
       "move": "3",
       "parse_confidence": "high",
-      "original_line": "[3a] Our data provide information on how population-level processes and variation in environmental conditions can generate heterogeneous host population responses to novel infectious diseases, lending insights into how to successfully manage their impacts."
+      "original_line": "[3b] Fish and Wildlife Service with a hibernacula environmental dataset to identify potential contributions of host population size and environmental conditions to Indiana bat population trends prior, during, and after pathogen arrival."
+    },
+    {
+      "sentence_num": 34,
+      "text": "Our data provide information on how population-level processes and variation in environmental conditions can generate heterogeneous host population responses to novel infectious diseases, lending insights into how to successfully manage their impacts.",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] Our data provide information on how population-level processes and variation in environmental conditions can generate heterogeneous host population responses to novel infectious diseases, lending insights into how to successfully manage their impacts."
     }
   ],
   "parse_stats": {
-    "total_lines": 33,
-    "parsed_sentences": 33,
+    "total_lines": 34,
+    "parsed_sentences": 34,
     "skipped_lines": 0,
     "invalid_tags": 0,
     "multi_tag_sentences": 0,

@@ -29,11 +29,11 @@ from parse_llm_output import parse_llm_output
 # CONFIGURATION
 # ============================================================================
 
-CONDITION = "fine_tuned"  # Options: zero_shot, three_shot, eight_shot, fine_tuned
+CONDITION = "zero_shot"  # Options: zero_shot, three_shot, eight_shot, fine_tuned
 DATASET = "test"  # Options: validation, test
 RESEARCH_QUESTION = "rq2"  # Options: rq1 (single run), rq2 (consistency)
-ARTICLES = range(11, 21)  # Validation: range(1, 11), Test: range(11, 21)
-RUNS = range(1, 51)  # RQ1: range(1, 2), RQ2: range(1, 51) or subset
+ARTICLES = [18]  # Validation: range(1, 11), Test: range(11, 21)
+RUNS = [57,70,97]  # RQ1: range(1, 2), RQ2: range(1, 51) or subset
 
 # ============================================================================
 

@@ -25,7 +25,7 @@ DATASET = "test"
 # ============================================================================
 
 
-def load_all_sentence_data(condition, max_runs=50):
+def load_all_sentence_data(condition, max_runs=100):
     """
     Load sentence-level data across all runs for a condition.
 
