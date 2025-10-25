@@ -65,7 +65,7 @@ def load_run_metrics(condition, run_num):
         return json.load(f)
 
 
-def load_all_runs(condition, max_runs=50):
+def load_all_runs(condition, max_runs=100):
     """
     Load metrics for all available runs.
 

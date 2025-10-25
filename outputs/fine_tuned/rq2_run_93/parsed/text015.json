@@ -1,0 +1,337 @@
+{
+  "article_id": "text015",
+  "condition": "fine_tuned",
+  "dataset": "test",
+  "research_question": "rq2",
+  "run_number": 93,
+  "model": "placeholder",
+  "sentences": [
+    {
+      "sentence_num": 1,
+      "text": "How animals use space in their environment and interact with conspecifics is fundamental to understanding proximity- and contact-driven processes such as social interactions (Kusch and Lane, 2021) and pathogen transmission (Silk et al., 2018).",
+      "tags": [
+        "1a"
+      ],
+      "primary_tag": "1a",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1a] How animals use space in their environment and interact with conspecifics is fundamental to understanding proximity- and contact-driven processes such as social interactions (Kusch and Lane, 2021) and pathogen transmission (Silk et al., 2018)."
+    },
+    {
+      "sentence_num": 2,
+      "text": "Interactions with conspecifics are frequently heterogeneous, reflecting individual variation due to sex and reproductive status and associated social behavior or, alternatively, can be driven by environmental variability in habitat quality or population density (Craft, 2015; Tompkins et al., 2011).",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] Interactions with conspecifics are frequently heterogeneous, reflecting individual variation due to sex and reproductive status and associated social behavior or, alternatively, can be driven by environmental variability in habitat quality or population density (Craft, 2015; Tompkins et al., 2011)."
+    },
+    {
+      "sentence_num": 3,
+      "text": "Since animal space use and conspecific interactions are crucial determinants of pathogen exposure, identifying how these are shaped by individual-level variation and environmental variability has important implications for mitigating effects of novel and zoonotic pathogens on wildlife, domestic animals, and humans (Silk et al., 2017).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Since animal space use and conspecific interactions are crucial determinants of pathogen exposure, identifying how these are shaped by individual-level variation and environmental variability has important implications for mitigating effects of novel and zoonotic pathogens on wildlife, domestic animals, and humans (Silk et al., 2017)."
+    },
+    {
+      "sentence_num": 4,
+      "text": "However, studies that disentangle the relative contributions of environmental and individual variation to interactions between animals are rare.",
+      "tags": [
+        "2b"
+      ],
+      "primary_tag": "2b",
+      "move": "2",
+      "parse_confidence": "high",
+      "original_line": "[2b] However, studies that disentangle the relative contributions of environmental and individual variation to interactions between animals are rare."
+    },
+    {
+      "sentence_num": 5,
+      "text": "Food availability is a common source of environmental variability that can alter animal space use and spatial overlap and influence pathogen transmission (Becker et al., 2015).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Food availability is a common source of environmental variability that can alter animal space use and spatial overlap and influence pathogen transmission (Becker et al., 2015)."
+    },
+    {
+      "sentence_num": 6,
+      "text": "At local scales, low food availability may increase space use through increased foraging, while areas of high food availability may decrease space use through increased site fidelity; heterogeneity in food availability across the landscape may promote movement through increased attraction and dispersal between patches (Becker et al., 2018).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] At local scales, low food availability may increase space use through increased foraging, while areas of high food availability may decrease space use through increased site fidelity; heterogeneity in food availability across the landscape may promote movement through increased attraction and dispersal between patches (Becker et al., 2018)."
+    },
+    {
+      "sentence_num": 7,
+      "text": "Point food sources (e.g., bird feeders, landfills, crop fields) can increase spatial overlap of wildlife through aggregation and facilitate both direct interactions between infected and susceptible animals (Altizer et al., 2018; Forbes et al., 2015) and indirect interactions through environmentally transmitted pathogens accumulated in the environment (Cross et al., 2007).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Point food sources (e.g., bird feeders, landfills, crop fields) can increase spatial overlap of wildlife through aggregation and facilitate both direct interactions between infected and susceptible animals (Altizer et al., 2018; Forbes et al., 2015) and indirect interactions through environmentally transmitted pathogens accumulated in the environment (Cross et al., 2007)."
+    },
+    {
+      "sentence_num": 8,
+      "text": "Individual variation among animals can also affect space use and spatial overlap with potential consequences for pathogen transmission (VanderWaal and Ezenwa, 2016).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Individual variation among animals can also affect space use and spatial overlap with potential consequences for pathogen transmission (VanderWaal and Ezenwa, 2016)."
+    },
+    {
+      "sentence_num": 9,
+      "text": "For example, in rodents, testosterone-mediated behavior in mature males can increase their contacts with conspecifics and transmission potential (Grear et al., 2009) and is hypothesized to be a key driver of commonly observed male bias in infection prevalence (Krasnov et al., 2012).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] For example, in rodents, testosterone-mediated behavior in mature males can increase their contacts with conspecifics and transmission potential (Grear et al., 2009) and is hypothesized to be a key driver of commonly observed male bias in infection prevalence (Krasnov et al., 2012)."
+    },
+    {
+      "sentence_num": 10,
+      "text": "Individual variation may also arise through differing burdens of macroparasites such as helminths, with potentially opposing effects on space use and spatial overlap.",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Individual variation may also arise through differing burdens of macroparasites such as helminths, with potentially opposing effects on space use and spatial overlap."
+    },
+    {
+      "sentence_num": 11,
+      "text": "Helminth infection could increase feeding behavior, requiring infected hosts to expand their foraging area (Brown et al., 1994).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Helminth infection could increase feeding behavior, requiring infected hosts to expand their foraging area (Brown et al., 1994)."
+    },
+    {
+      "sentence_num": 12,
+      "text": "Conversely, helminths may cause sickness-induced lethargy in infected animals and decrease their activity, decreasing their space use and interactions with conspecifics (Ghai et al., 2015).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Conversely, helminths may cause sickness-induced lethargy in infected animals and decrease their activity, decreasing their space use and interactions with conspecifics (Ghai et al., 2015)."
+    },
+    {
+      "sentence_num": 13,
+      "text": "Further, since space use and spatial overlap can influence macroparasite exposure, positive feedbacks between macroparasite exposure and space use could exacerbate or regulate within-population variation in macroparasite burden and movement (Hawley et al., 2021).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Further, since space use and spatial overlap can influence macroparasite exposure, positive feedbacks between macroparasite exposure and space use could exacerbate or regulate within-population variation in macroparasite burden and movement (Hawley et al., 2021)."
+    },
+    {
+      "sentence_num": 14,
+      "text": "Much of our knowledge of how food availability and macroparasite infection impact transmission in wildlife comes from studies of laboratory animals under controlled conditions (Croft et al., 2011) or observational studies in wildlife (Jolles et al., 2008) and therefore often lack explicit investigation linking spatial behavior to transmission potential.",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Much of our knowledge of how food availability and macroparasite infection impact transmission in wildlife comes from studies of laboratory animals under controlled conditions (Croft et al., 2011) or observational studies in wildlife (Jolles et al., 2008) and therefore often lack explicit investigation linking spatial behavior to transmission potential."
+    },
+    {
+      "sentence_num": 15,
+      "text": "In natural settings, food availability and macroparasite infection frequently co-vary and could have balancing or synergistic effects on animal space use and spatial overlap.",
+      "tags": [
+        "2c"
+      ],
+      "primary_tag": "2c",
+      "move": "2",
+      "parse_confidence": "high",
+      "original_line": "[2c] In natural settings, food availability and macroparasite infection frequently co-vary and could have balancing or synergistic effects on animal space use and spatial overlap."
+    },
+    {
+      "sentence_num": 16,
+      "text": "For example, abundant food resources could alleviate increased foraging requirements caused by helminth infection, resulting in minimal effects of macroparasite burden on space use.",
+      "tags": [
+        "2c"
+      ],
+      "primary_tag": "2c",
+      "move": "2",
+      "parse_confidence": "high",
+      "original_line": "[2c] For example, abundant food resources could alleviate increased foraging requirements caused by helminth infection, resulting in minimal effects of macroparasite burden on space use."
+    },
+    {
+      "sentence_num": 17,
+      "text": "Ultimately, rigorous field experiments in wildlife are necessary to test the independent and synergistic effects of environmental and individual variation on animal spatial patterns and implications for pathogen transmission (e.g., Sweeny et al., 2021).",
+      "tags": [
+        "3a"
+      ],
+      "primary_tag": "3a",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3a] Ultimately, rigorous field experiments in wildlife are necessary to test the independent and synergistic effects of environmental and individual variation on animal spatial patterns and implications for pathogen transmission (e.g., Sweeny et al., 2021)."
+    },
+    {
+      "sentence_num": 18,
+      "text": "Such research is pertinent and timely because land-use change is altering patterns of food availability and macroparasite burdens that can exacerbate pathogen emergence and transmission at the human-wildlife interface (Plowright et al., 2021).",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] Such research is pertinent and timely because land-use change is altering patterns of food availability and macroparasite burdens that can exacerbate pathogen emergence and transmission at the human-wildlife interface (Plowright et al., 2021)."
+    },
+    {
+      "sentence_num": 19,
+      "text": "Our goal was to determine the effects of food supplementation and macroparasite removal on space use and spatial overlap in wildlife populations.",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] Our goal was to determine the effects of food supplementation and macroparasite removal on space use and spatial overlap in wildlife populations."
+    },
+    {
+      "sentence_num": 20,
+      "text": "We used bank voles (Clethrionomys glareolus, previously Myodes glareolus) as our study species as they are amenable to experimental manipulation, are a common host for macroparasite infection (e.g., helminths like Heligmosomoides glareoli can have a population-level prevalence of up to 80%; Haukisalmi and Henttonen, 2000), and have well-documented natural history, particularly with respect to spatial behavior (Tamarin et al., 1990).",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] We used bank voles (Clethrionomys glareolus, previously Myodes glareolus) as our study species as they are amenable to experimental manipulation, are a common host for macroparasite infection (e.g., helminths like Heligmosomoides glareoli can have a population-level prevalence of up to 80%; Haukisalmi and Henttonen, 2000), and have well-documented natural history, particularly with respect to spatial behavior (Tamarin et al., 1990)."
+    },
+    {
+      "sentence_num": 21,
+      "text": "Reproductive males hold territories that are approximately double those of females and that overlap with territories of males and females (reproductive males average: 1800 m2; females: 900 m2; Bujalska and Grüm, 1989).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Reproductive males hold territories that are approximately double those of females and that overlap with territories of males and females (reproductive males average: 1800 m2; females: 900 m2; Bujalska and Grüm, 1989)."
+    },
+    {
+      "sentence_num": 22,
+      "text": "Reproductive females are territorial toward other reproductive females but may overlap more in the non-breeding season (Bujalska, 1990).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Reproductive females are territorial toward other reproductive females but may overlap more in the non-breeding season (Bujalska, 1990)."
+    },
+    {
+      "sentence_num": 23,
+      "text": "In both sexes, space use of non-reproductive voles is less than that of reproductive voles (non-reproductive females, males average: 700 and 800 m2, respectively; Bujalska and Grüm, 1989).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] In both sexes, space use of non-reproductive voles is less than that of reproductive voles (non-reproductive females, males average: 700 and 800 m2, respectively; Bujalska and Grüm, 1989)."
+    },
+    {
+      "sentence_num": 24,
+      "text": "Both food availability and population density are thought to regulate vole territory size (Bondrup-Nielsen and Karlsson, 1985).",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] Both food availability and population density are thought to regulate vole territory size (Bondrup-Nielsen and Karlsson, 1985)."
+    },
+    {
+      "sentence_num": 25,
+      "text": "We experimentally manipulated wild bank vole populations via food supplementation and macroparasite (helminth) removal and monitored individual- and population-level responses.",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] We experimentally manipulated wild bank vole populations via food supplementation and macroparasite (helminth) removal and monitored individual- and population-level responses."
+    },
+    {
+      "sentence_num": 26,
+      "text": "Specifically, we 1) quantified space use by sex and reproductive status in the breeding and non-breeding seasons, and 2) quantified spatial overlap between voles each month.",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] Specifically, we 1) quantified space use by sex and reproductive status in the breeding and non-breeding seasons, and 2) quantified spatial overlap between voles each month."
+    },
+    {
+      "sentence_num": 27,
+      "text": "Space use and spatial overlap were compared between treatments to test the effects of food supplementation and helminth removal on vole spatial patterns.",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] Space use and spatial overlap were compared between treatments to test the effects of food supplementation and helminth removal on vole spatial patterns."
+    },
+    {
+      "sentence_num": 28,
+      "text": "As abundant food often increases small mammal population density through immigration (Prevedello et al., 2017), we hypothesized that food supplementation would decrease vole space use and increase spatial overlap.",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] As abundant food often increases small mammal population density through immigration (Prevedello et al., 2017), we hypothesized that food supplementation would decrease vole space use and increase spatial overlap."
+    },
+    {
+      "sentence_num": 29,
+      "text": "We hypothesized that helminth infection would increase host movement (due to increased feeding behavior), and thus helminth removal would decrease space use and spatial overlap.",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] We hypothesized that helminth infection would increase host movement (due to increased feeding behavior), and thus helminth removal would decrease space use and spatial overlap."
+    }
+  ],
+  "parse_stats": {
+    "total_lines": 29,
+    "parsed_sentences": 29,
+    "skipped_lines": 0,
+    "invalid_tags": 0,
+    "multi_tag_sentences": 0,
+    "warnings": []
+  }
+}

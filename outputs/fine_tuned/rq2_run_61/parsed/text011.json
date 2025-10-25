@@ -1,0 +1,194 @@
+{
+  "article_id": "text011",
+  "condition": "fine_tuned",
+  "dataset": "test",
+  "research_question": "rq2",
+  "run_number": 61,
+  "model": "placeholder",
+  "sentences": [
+    {
+      "sentence_num": 1,
+      "text": "Due to its importance in shaping ecological communities and the species, the chemical arms race between plants and their insect herbivores is a heavily investigated area of molecular ecology (Fraenkel, 1959; Gordon, 1961; Ehrlich and Raven, 1964; Feeny, 1977).",
+      "tags": [
+        "1a"
+      ],
+      "primary_tag": "1a",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1a] Due to its importance in shaping ecological communities and the species, the chemical arms race between plants and their insect herbivores is a heavily investigated area of molecular ecology (Fraenkel, 1959; Gordon, 1961; Ehrlich and Raven, 1964; Feeny, 1977)."
+    },
+    {
+      "sentence_num": 2,
+      "text": "Under this paradigm, plants that evolve the ability to produce toxic or deterrent metabolites protect themselves from herbivore feeding and enter a “new adaptive zone” in which they may rapidly diversify in the absence of natural enemies (Ehrlich and Raven, 1964).",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] Under this paradigm, plants that evolve the ability to produce toxic or deterrent metabolites protect themselves from herbivore feeding and enter a “new adaptive zone” in which they may rapidly diversify in the absence of natural enemies (Ehrlich and Raven, 1964)."
+    },
+    {
+      "sentence_num": 3,
+      "text": "However, as their enemies evolve the ability to tolerate or neutralize these metabolites, they may in turn enter this protected zone (Gordon, 1961), thereby re-applying ecological pressures that force plants to further adapt their defenses.",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] However, as their enemies evolve the ability to tolerate or neutralize these metabolites, they may in turn enter this protected zone (Gordon, 1961), thereby re-applying ecological pressures that force plants to further adapt their defenses."
+    },
+    {
+      "sentence_num": 4,
+      "text": "The Brassicaceae, a family of more than 4000 plant species, presents many instances of this chemical arms race between plants and specialized herbivores.",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] The Brassicaceae, a family of more than 4000 plant species, presents many instances of this chemical arms race between plants and specialized herbivores."
+    },
+    {
+      "sentence_num": 5,
+      "text": "Glucosinolates evolved as a defense in this lineage approximately 90 million years ago and facilitated multiple rounds of species radiations, resulting in the current high species diversity of the Brassicaceae (Edger et al., 2015).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Glucosinolates evolved as a defense in this lineage approximately 90 million years ago and facilitated multiple rounds of species radiations, resulting in the current high species diversity of the Brassicaceae (Edger et al., 2015)."
+    },
+    {
+      "sentence_num": 6,
+      "text": "Since the original gain of glucosinolate biosynthesis, many insect species have adapted by evolving the ability to tolerate, detoxify, or sequester these compounds (Feeny, 1977; Okamura et al., 2022).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Since the original gain of glucosinolate biosynthesis, many insect species have adapted by evolving the ability to tolerate, detoxify, or sequester these compounds (Feeny, 1977; Okamura et al., 2022)."
+    },
+    {
+      "sentence_num": 7,
+      "text": "Several lineages within the Brassicaceae have more recently evolved the production of additional toxic compounds as a second line of defense: globe candytuft (Iberis umbellata L.) makes cucurbitacins (Dong et al., 2021), garlic mustard (Alliaria petiolata Bieb.) makes hydroxynitrile glucosides (Frisch and Møller, 2012), scurvy-grass (Cochlearia spp. L.) makes tropane alkaloids (Brock et al., 2006), wintercress (Barbarea vulgaris W. T. Aiton) makes saponins (Shinoda et al., 2002), and wallflowers (Erysimum spp. L.) make cardiac glycosides (cardiac glycosides that inhibit Na+,K+ ATPases in animal cells) (Makarevich et al., 1994).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Several lineages within the Brassicaceae have more recently evolved the production of additional toxic compounds as a second line of defense: globe candytuft (Iberis umbellata L.) makes cucurbitacins (Dong et al., 2021), garlic mustard (Alliaria petiolata Bieb.) makes hydroxynitrile glucosides (Frisch and Møller, 2012), scurvy-grass (Cochlearia spp. L.) makes tropane alkaloids (Brock et al., 2006), wintercress (Barbarea vulgaris W. T. Aiton) makes saponins (Shinoda et al., 2002), and wallflowers (Erysimum spp. L.) make cardiac glycosides (cardiac glycosides that inhibit Na+,K+ ATPases in animal cells) (Makarevich et al., 1994)."
+    },
+    {
+      "sentence_num": 8,
+      "text": "It is hypothesized that these key evolutionary innovations allowed these lineages to escape their glucosinolate-tolerant specialized herbivores and again diversify (Thompson, 1989; Züst et al., 2020; Dong et al., 2021).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] It is hypothesized that these key evolutionary innovations allowed these lineages to escape their glucosinolate-tolerant specialized herbivores and again diversify (Thompson, 1989; Züst et al., 2020; Dong et al., 2021)."
+    },
+    {
+      "sentence_num": 9,
+      "text": "A meta-analysis of phytochemical coevolution theory found that specialist insect herbivores are more sensitive than generalists to compounds that are not found in their typical host plants (Cornell and Hawkins, 2003).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] A meta-analysis of phytochemical coevolution theory found that specialist insect herbivores are more sensitive than generalists to compounds that are not found in their typical host plants (Cornell and Hawkins, 2003)."
+    },
+    {
+      "sentence_num": 10,
+      "text": "Consistent with this theory, the glucosinolate-tolerant small and large white cabbage butterflies (Pieris rapae L. and Pieris brassicae L.) use a wide range of Brassicaceae as host plants but generally avoid Erysimum.",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Consistent with this theory, the glucosinolate-tolerant small and large white cabbage butterflies (Pieris rapae L. and Pieris brassicae L.) use a wide range of Brassicaceae as host plants but generally avoid Erysimum."
+    },
+    {
+      "sentence_num": 11,
+      "text": "Experiments involving bioactivity-guided fractionation identified cardiac glycosides as potential agents of this deterrence, and painting cardiac glycosides onto cabbage leaves further established a causal link between the isolated compounds and herbivore behavior (Rothschild et al., 1988; Renwick et al., 1989; Sachdev-Gupta et al., 1993).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Experiments involving bioactivity-guided fractionation identified cardiac glycosides as potential agents of this deterrence, and painting cardiac glycosides onto cabbage leaves further established a causal link between the isolated compounds and herbivore behavior (Rothschild et al., 1988; Renwick et al., 1989; Sachdev-Gupta et al., 1993)."
+    },
+    {
+      "sentence_num": 12,
+      "text": "Similarly, isolated cardiac glycosides were shown to be feeding deterrents for three crucifer-feeding specialist flea beetles (Nielsen, 1978a,b).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Similarly, isolated cardiac glycosides were shown to be feeding deterrents for three crucifer-feeding specialist flea beetles (Nielsen, 1978a,b)."
+    },
+    {
+      "sentence_num": 13,
+      "text": "However, in the absence of mutant lines that lack cardiac glycosides, it has not been possible to conduct in vivo tests of the role cardiac glycosides play in Erysimum’s escape from herbivory by glucosinolate-tolerant herbivores.",
+      "tags": [
+        "2b"
+      ],
+      "primary_tag": "2b",
+      "move": "2",
+      "parse_confidence": "high",
+      "original_line": "[2b] However, in the absence of mutant lines that lack cardiac glycosides, it has not been possible to conduct in vivo tests of the role cardiac glycosides play in Erysimum’s escape from herbivory by glucosinolate-tolerant herbivores."
+    },
+    {
+      "sentence_num": 14,
+      "text": "The aims of this study were two-fold: First, we sought to identify cardiac glycoside biosynthesis enzymes in wormseed wallflower (Erysimum cheiranthoides L.), in particular the enzyme responsible for catalyzing the first committed step at the branch point between sterol metabolism and cardiac glycoside metabolism, i.e., the cleavage of the sterol side chain to produce pregnenolone (2) (Fig. 1).",
+      "tags": [
+        "3a"
+      ],
+      "primary_tag": "3a",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3a] The aims of this study were two-fold: First, we sought to identify cardiac glycoside biosynthesis enzymes in wormseed wallflower (Erysimum cheiranthoides L.), in particular the enzyme responsible for catalyzing the first committed step at the branch point between sterol metabolism and cardiac glycoside metabolism, i.e., the cleavage of the sterol side chain to produce pregnenolone (2) (Fig. 1)."
+    },
+    {
+      "sentence_num": 15,
+      "text": "Second, we revisited classical ecological experiments with modern tools, developing a protocol for stable transformation of E. cheiranthoides and generating CRISPR/Cas9-mediated knockouts of cardiac glycoside biosynthetic genes.",
+      "tags": [
+        "3a"
+      ],
+      "primary_tag": "3a",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3a] Second, we revisited classical ecological experiments with modern tools, developing a protocol for stable transformation of E. cheiranthoides and generating CRISPR/Cas9-mediated knockouts of cardiac glycoside biosynthetic genes."
+    },
+    {
+      "sentence_num": 16,
+      "text": "This effectively reversed the “escape from herbivory” of E. cheiranthoides and allowed us to directly test the hypothesis that cardiac glycosides in Erysimum provide a targeted defense against crucifer-specialist herbivores, both in the laboratory and in the field.",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] This effectively reversed the “escape from herbivory” of E. cheiranthoides and allowed us to directly test the hypothesis that cardiac glycosides in Erysimum provide a targeted defense against crucifer-specialist herbivores, both in the laboratory and in the field."
+    }
+  ],
+  "parse_stats": {
+    "total_lines": 16,
+    "parsed_sentences": 16,
+    "skipped_lines": 0,
+    "invalid_tags": 0,
+    "multi_tag_sentences": 0,
+    "warnings": []
+  }
+}

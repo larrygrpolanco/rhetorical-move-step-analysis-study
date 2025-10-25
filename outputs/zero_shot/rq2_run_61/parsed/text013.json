@@ -1,0 +1,293 @@
+{
+  "article_id": "text013",
+  "condition": "zero_shot",
+  "dataset": "test",
+  "research_question": "rq2",
+  "run_number": 61,
+  "model": "gpt-4.1-2025-04-14",
+  "sentences": [
+    {
+      "sentence_num": 1,
+      "text": "In recent decades, the increased industrialization of agroecosystems has gathered significant attention due to its profound negative social and ecological consequences (Raven and Wagner, 2021).",
+      "tags": [
+        "1a"
+      ],
+      "primary_tag": "1a",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1a] In recent decades, the increased industrialization of agroecosystems has gathered significant attention due to its profound negative social and ecological consequences (Raven and Wagner, 2021)."
+    },
+    {
+      "sentence_num": 2,
+      "text": "This trend is characterized by prioritizing short-term gains in productivity through practices such as intensified use of synthetic fertilizers and pesticides, high-density monoculture planting, a reduced presence of native trees, and the precarity of human labor (Ong and Liao, 2020; Raven and Wagner, 2021).",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] This trend is characterized by prioritizing short-term gains in productivity through practices such as intensified use of synthetic fertilizers and pesticides, high-density monoculture planting, a reduced presence of native trees, and the precarity of human labor (Ong and Liao, 2020; Raven and Wagner, 2021)."
+    },
+    {
+      "sentence_num": 3,
+      "text": "Agricultural industrialization and environmental change have led to increases in pest populations (Andow, 1983), biodiversity decline (Raven and Wagner, 2021), and are also associated with a higher likelihood of zoonotic disease outbreaks (Jones et al., 2013; Perfecto et al., 2023).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Agricultural industrialization and environmental change have led to increases in pest populations (Andow, 1983), biodiversity decline (Raven and Wagner, 2021), and are also associated with a higher likelihood of zoonotic disease outbreaks (Jones et al., 2013; Perfecto et al., 2023)."
+    },
+    {
+      "sentence_num": 4,
+      "text": "Adding to these challenges are the heightened demands on human labor and precarious social conditions experienced in large-scale industrial agricultural systems (Mapes, 2010), a social phenomenon that imparts more complexity to agroecosystem management and processes.",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Adding to these challenges are the heightened demands on human labor and precarious social conditions experienced in large-scale industrial agricultural systems (Mapes, 2010), a social phenomenon that imparts more complexity to agroecosystem management and processes."
+    },
+    {
+      "sentence_num": 5,
+      "text": "Coffee agroecosystems exhibit a large variety of management practices that reinforce each other and that can be defined as “syndromes of production”, a conceptual framework useful to evaluate social and ecological dynamics across distinct agricultural paradigms (Andow and Hidaka, 1989; Moguel y Toledo, 1999; Ong and Liao, 2020; Vandermeer and Perfecto, 2012).",
+      "tags": [
+        "1a"
+      ],
+      "primary_tag": "1a",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1a] Coffee agroecosystems exhibit a large variety of management practices that reinforce each other and that can be defined as “syndromes of production”, a conceptual framework useful to evaluate social and ecological dynamics across distinct agricultural paradigms (Andow and Hidaka, 1989; Moguel y Toledo, 1999; Ong and Liao, 2020; Vandermeer and Perfecto, 2012)."
+    },
+    {
+      "sentence_num": 6,
+      "text": "Coffee production syndromes can be mainly distinguished by shade management (shade or sun coffee plantations; Vandermeer and Perfecto, 2012) or by the type of land tenure and scale of production (large-scale capitalist or small-scale peasant-owned coffee plantations; Ong and Liao, 2020).",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] Coffee production syndromes can be mainly distinguished by shade management (shade or sun coffee plantations; Vandermeer and Perfecto, 2012) or by the type of land tenure and scale of production (large-scale capitalist or small-scale peasant-owned coffee plantations; Ong and Liao, 2020)."
+    },
+    {
+      "sentence_num": 7,
+      "text": "In this sense, coffee agroecosystems are model systems to understand how different syndromes of production affect ecological processes such as the planned and associated biodiversities (Mas and Dietsch, 2004) but also social aspects like the worker’s conditions (Jiménez-Soto, 2021).",
+      "tags": [
+        "1a"
+      ],
+      "primary_tag": "1a",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1a] In this sense, coffee agroecosystems are model systems to understand how different syndromes of production affect ecological processes such as the planned and associated biodiversities (Mas and Dietsch, 2004) but also social aspects like the worker’s conditions (Jiménez-Soto, 2021)."
+    },
+    {
+      "sentence_num": 8,
+      "text": "In the large-scale capitalist syndrome, decisions and practices follow a maximization of profit rule (Ong and Liao, 2020); it is typically based upon large-scale and high-density planting farms with a high input of human labor and exploitation, although it may have specific ecological practices according to organic or conventional coffee markets (Perfecto et al., 2019).",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] In the large-scale capitalist syndrome, decisions and practices follow a maximization of profit rule (Ong and Liao, 2020); it is typically based upon large-scale and high-density planting farms with a high input of human labor and exploitation, although it may have specific ecological practices according to organic or conventional coffee markets (Perfecto et al., 2019)."
+    },
+    {
+      "sentence_num": 9,
+      "text": "This syndrome of coffee production results in practices that may promote the development and spread of important pests (Avelino et al., 2006; Hajian-Forooshani et al., 2016).",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] This syndrome of coffee production results in practices that may promote the development and spread of important pests (Avelino et al., 2006; Hajian-Forooshani et al., 2016)."
+    },
+    {
+      "sentence_num": 10,
+      "text": "For instance, the coffee leaf rust (CLR) can travel across the coffee plantations through direct leaf contact, water splash, or local turbulent wind conditions (Becker and Kranz, 1977; Vandermeer et al., 2018), but its effectiveness of dispersal and impact can be modulated by management practices like the planting density (Mora Van Cauwelaert et al., 2023), the presence of wind-barrier trees in the plantation (Gagliardi et al., 2020), or the biotic communities of natural enemies (Jackson et al., 2012), all determined to some degree by the syndrome of production (Vandermeer and Perfecto, 2012; McCook and Vandermeer).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] For instance, the coffee leaf rust (CLR) can travel across the coffee plantations through direct leaf contact, water splash, or local turbulent wind conditions (Becker and Kranz, 1977; Vandermeer et al., 2018), but its effectiveness of dispersal and impact can be modulated by management practices like the planting density (Mora Van Cauwelaert et al., 2023), the presence of wind-barrier trees in the plantation (Gagliardi et al., 2020), or the biotic communities of natural enemies (Jackson et al., 2012), all determined to some degree by the syndrome of production (Vandermeer and Perfecto, 2012; McCook and Vandermeer)."
+    },
+    {
+      "sentence_num": 11,
+      "text": "In this regard, increased agricultural simplification and industrialization of coffee agroecosystems have led to massive outbreaks of CLR around the globe (Avelino et al., 2015; McCook and Vandermeer, 2015).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] In this regard, increased agricultural simplification and industrialization of coffee agroecosystems have led to massive outbreaks of CLR around the globe (Avelino et al., 2015; McCook and Vandermeer, 2015)."
+    },
+    {
+      "sentence_num": 12,
+      "text": "Some studies have proposed that harvesters can also bear CLR spores during harvesting (Becker and Kranz, 1977; Waller, 1981).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] Some studies have proposed that harvesters can also bear CLR spores during harvesting (Becker and Kranz, 1977; Waller, 1981)."
+    },
+    {
+      "sentence_num": 13,
+      "text": "The range of movement and duration of the daily harvest are also determined by the type, ownership, size and by the agricultural characteristics of the coffee plantations.",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] The range of movement and duration of the daily harvest are also determined by the type, ownership, size and by the agricultural characteristics of the coffee plantations."
+    },
+    {
+      "sentence_num": 14,
+      "text": "This relates to the general framework of movement ecology where one can wonder why an individual moves, how and where, as well as the role of external factors (Nathan et al., 2008).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] This relates to the general framework of movement ecology where one can wonder why an individual moves, how and where, as well as the role of external factors (Nathan et al., 2008)."
+    },
+    {
+      "sentence_num": 15,
+      "text": "In most landlord-owned large-scale coffee plantations, harvesters are paid by piecework and work several hours to maximize the daily harvest (Jiménez-Soto, 2021; López Echeverría, 2006).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] In most landlord-owned large-scale coffee plantations, harvesters are paid by piecework and work several hours to maximize the daily harvest (Jiménez-Soto, 2021; López Echeverría, 2006)."
+    },
+    {
+      "sentence_num": 16,
+      "text": "These practices affect the social and health conditions of the workers, which are often precarious.",
+      "tags": [
+        "1b"
+      ],
+      "primary_tag": "1b",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1b] These practices affect the social and health conditions of the workers, which are often precarious."
+    },
+    {
+      "sentence_num": 17,
+      "text": "We argue that the movement of the harvesters under labor-intensive plantation conditions could also have an ecological impact, like modulating the human dispersal of some pathogens like coffee leaf rust (CLR).",
+      "tags": [
+        "2c"
+      ],
+      "primary_tag": "2c",
+      "move": "2",
+      "parse_confidence": "high",
+      "original_line": "[2c] We argue that the movement of the harvesters under labor-intensive plantation conditions could also have an ecological impact, like modulating the human dispersal of some pathogens like coffee leaf rust (CLR)."
+    },
+    {
+      "sentence_num": 18,
+      "text": "In fact, other studies have stressed the relation between the landscape structure, individual movement behavior, and pathogen transmission for predicting and understanding disease dynamics (Manlove et al., 2022; White et al., 2018).",
+      "tags": [
+        "1c"
+      ],
+      "primary_tag": "1c",
+      "move": "1",
+      "parse_confidence": "high",
+      "original_line": "[1c] In fact, other studies have stressed the relation between the landscape structure, individual movement behavior, and pathogen transmission for predicting and understanding disease dynamics (Manlove et al., 2022; White et al., 2018)."
+    },
+    {
+      "sentence_num": 19,
+      "text": "However, the spatial movement of the harvesters in plantations within this syndrome of production has not been described yet, nor its relationship with the scale, management, or ownership of the plantation, and even less its ecological implications for CLR or other potential pest dispersal.",
+      "tags": [
+        "2b"
+      ],
+      "primary_tag": "2b",
+      "move": "2",
+      "parse_confidence": "high",
+      "original_line": "[2b] However, the spatial movement of the harvesters in plantations within this syndrome of production has not been described yet, nor its relationship with the scale, management, or ownership of the plantation, and even less its ecological implications for CLR or other potential pest dispersal."
+    },
+    {
+      "sentence_num": 20,
+      "text": "Here we present a description and qualitative analysis of the spatial movement of farmworkers during harvesting in two large-scale landlord-owned plantations (∼300 ha) with two different types of management: an organic shaded production coffee plantation and a sun-grown production with few scattered trees.",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] Here we present a description and qualitative analysis of the spatial movement of farmworkers during harvesting in two large-scale landlord-owned plantations (∼300 ha) with two different types of management: an organic shaded production coffee plantation and a sun-grown production with few scattered trees."
+    },
+    {
+      "sentence_num": 21,
+      "text": "Specifically, we asked 1) how to statistically characterize the spatial trajectories of workers during harvesting, 2) how different features of the plantations, determined within a specific syndrome of production, affect these trajectories, and 3) what are the socio-ecological consequences of the harvesting movement in these large scale plantations.",
+      "tags": [
+        "3a"
+      ],
+      "primary_tag": "3a",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3a] Specifically, we asked 1) how to statistically characterize the spatial trajectories of workers during harvesting, 2) how different features of the plantations, determined within a specific syndrome of production, affect these trajectories, and 3) what are the socio-ecological consequences of the harvesting movement in these large scale plantations."
+    },
+    {
+      "sentence_num": 22,
+      "text": "We first recorded and analyzed with state-space models the spatial movements of the workers during harvesting, as well as their differences between both plantations.",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] We first recorded and analyzed with state-space models the spatial movements of the workers during harvesting, as well as their differences between both plantations."
+    },
+    {
+      "sentence_num": 23,
+      "text": "We then constructed a driver tree for harvest dynamics, which incorporated qualitative variables related to climate, as well as coffee biology and management aspects reported by the harvesters during interviews and noted through our own observations.",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] We then constructed a driver tree for harvest dynamics, which incorporated qualitative variables related to climate, as well as coffee biology and management aspects reported by the harvesters during interviews and noted through our own observations."
+    },
+    {
+      "sentence_num": 24,
+      "text": "We also highlighted the relationship between these variables and the syndrome of production.",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] We also highlighted the relationship between these variables and the syndrome of production."
+    },
+    {
+      "sentence_num": 25,
+      "text": "Finally, we put in conversation the patterns and dynamics of the spatial movement of harvesters with the social conditions associated with the large-scale capitalist syndrome and the possible implications in pathogen dynamics such as CLR spread.",
+      "tags": [
+        "3b"
+      ],
+      "primary_tag": "3b",
+      "move": "3",
+      "parse_confidence": "high",
+      "original_line": "[3b] Finally, we put in conversation the patterns and dynamics of the spatial movement of harvesters with the social conditions associated with the large-scale capitalist syndrome and the possible implications in pathogen dynamics such as CLR spread."
+    }
+  ],
+  "parse_stats": {
+    "total_lines": 25,
+    "parsed_sentences": 25,
+    "skipped_lines": 0,
+    "invalid_tags": 0,
+    "multi_tag_sentences": 0,
+    "warnings": []
+  }
+}
