@@ -1,0 +1,73 @@
+======================================================================
+SENTENCE-LEVEL CONSISTENCY ANALYSIS - RQ2
+======================================================================
+
+Dataset: test
+Total sentences: 34
+Runs per condition: 1000
+
+----------------------------------------------------------------------
+1. ZERO-SHOT CONSISTENCY
+----------------------------------------------------------------------
+
+Mean agreement rate: 0.839 (83.9%)
+SD: 0.137
+Range: [0.464, 1.000]
+Mean entropy: 0.970
+
+Sentence categories:
+  High consistency (>90%):     35.3%
+  Moderate consistency (70-90%): 52.9%
+  Uncertain (30-70%):          11.8%
+  Problematic (<30%):          0.0%
+
+----------------------------------------------------------------------
+2. FINE-TUNED CONSISTENCY
+----------------------------------------------------------------------
+
+Mean agreement rate: 0.845 (84.5%)
+SD: 0.112
+Range: [0.560, 1.000]
+Mean entropy: 0.931
+
+Sentence categories:
+  High consistency (>90%):     35.3%
+  Moderate consistency (70-90%): 58.8%
+  Uncertain (30-70%):          5.9%
+  Problematic (<30%):          0.0%
+
+----------------------------------------------------------------------
+3. CROSS-CONDITION COMPARISON
+----------------------------------------------------------------------
+
+Sentences where Zero-shot is more consistent: 15 (44.1%)
+Sentences where Fine-tuned is more consistent: 16 (47.1%)
+Sentences with equal consistency: 3 (8.8%)
+
+----------------------------------------------------------------------
+4. MOST INCONSISTENT SENTENCES (Top 10)
+----------------------------------------------------------------------
+
+Zero-shot:
+  Sentence 17: 46.44% agreement
+  Sentence 4: 57.00% agreement
+  Sentence 21: 62.62% agreement
+  Sentence 19: 69.12% agreement
+  Sentence 18: 72.11% agreement
+  Sentence 8: 72.50% agreement
+  Sentence 9: 73.00% agreement
+  Sentence 3: 74.10% agreement
+  Sentence 23: 75.00% agreement
+  Sentence 30: 75.25% agreement
+
+Fine-tuned:
+  Sentence 18: 56.00% agreement
+  Sentence 24: 65.57% agreement
+  Sentence 17: 70.22% agreement
+  Sentence 19: 72.62% agreement
+  Sentence 3: 72.90% agreement
+  Sentence 30: 73.25% agreement
+  Sentence 15: 75.10% agreement
+  Sentence 16: 75.10% agreement
+  Sentence 22: 75.75% agreement
+  Sentence 25: 77.00% agreement

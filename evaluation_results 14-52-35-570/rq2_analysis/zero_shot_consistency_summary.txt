@@ -1,0 +1,87 @@
+======================================================================
+CONSISTENCY ANALYSIS: ZERO_SHOT
+======================================================================
+
+Number of runs: 100
+Dataset: test
+Research Question: RQ2
+
+----------------------------------------------------------------------
+DESCRIPTIVE STATISTICS
+----------------------------------------------------------------------
+
+Move Accuracy:
+  Mean: 0.8176 (81.76%)
+  SD: 0.0126 (1.26%)
+  CV: 1.54%
+  95% CI: [0.8151, 0.8201]
+  Range: [0.7828, 0.8427] (span: 0.0599)
+  Median: 0.8165
+  IQR: 0.0187
+  Normality: Normal (Shapiro-Wilk p=0.1283)
+
+Step Accuracy:
+  Mean: 0.4804 (48.04%)
+  SD: 0.0190 (1.90%)
+  CV: 3.96%
+  95% CI: [0.4766, 0.4842]
+  Range: [0.4007, 0.5356] (span: 0.1348)
+  Median: 0.4813
+  IQR: 0.0187
+  Normality: Non-normal (Shapiro-Wilk p=0.0053)
+
+Move F1:
+  Mean: 0.8307 (83.07%)
+  SD: 0.0108 (1.08%)
+  CV: 1.29%
+  95% CI: [0.8285, 0.8328]
+  Range: [0.8010, 0.8516] (span: 0.0506)
+  Median: 0.8303
+  IQR: 0.0146
+  Normality: Normal (Shapiro-Wilk p=0.2899)
+
+Step F1:
+  Mean: 0.4922 (49.22%)
+  SD: 0.0188 (1.88%)
+  CV: 3.81%
+  95% CI: [0.4884, 0.4959]
+  Range: [0.4196, 0.5436] (span: 0.1240)
+  Median: 0.4922
+  IQR: 0.0218
+  Normality: Normal (Shapiro-Wilk p=0.0570)
+
+----------------------------------------------------------------------
+CONSISTENCY INTERPRETATION
+----------------------------------------------------------------------
+
+Coefficient of Variation (CV) Guidelines:
+  < 5%:   Excellent consistency
+  5-10%:  Good consistency
+  10-20%: Moderate consistency
+  > 20%:  Poor consistency
+
+Move Accuracy CV: 1.54% → EXCELLENT consistency
+
+----------------------------------------------------------------------
+RELIABILITY (ICC)
+----------------------------------------------------------------------
+
+Move-Level ICC:
+  Type: ICC(2,1)
+  Value: 0.827
+  95% CI: [0.800, 0.850]
+  Interpretation: Good reliability (suitable for research)
+  Based on: 267 sentences, 100 runs
+
+Step-Level ICC:
+  Type: ICC(2,1)
+  Value: 0.740
+  95% CI: [0.710, 0.770]
+  Interpretation: Moderate reliability (acceptable with caution)
+  Based on: 267 sentences, 100 runs
+
+ICC Interpretation Guidelines:
+  < 0.5:    Poor reliability (unsuitable for applied use)
+  0.5-0.75: Moderate reliability (acceptable with caution)
+  0.75-0.9: Good reliability (suitable for research)
+  > 0.9:    Excellent reliability (suitable for applied use)

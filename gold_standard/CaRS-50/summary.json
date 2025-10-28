@@ -125,181 +125,181 @@
       "article_id": "text021",
       "title": "Multiscale Bayesian Simulations Reveal Functional Chromatin Condensation of Gene Loci",
       "sentence_count": 31,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text022",
       "title": "The Structural Role of N170 in Substrate-assisted Deacylation in KPC-2 β-Lactamase",
       "sentence_count": 25,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text023",
       "title": "Insertases Scramble Lipids: Molecular Simulations of MTCH2",
       "sentence_count": 15,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text024",
       "title": "Cellular Lipids Regulate the Conformational Ensembles of the Disordered Intracellular Loop 3 in β2 Adrenergic Receptor",
       "sentence_count": 14,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text025",
       "title": "Preserving condensate structure and composition by lowering sequence complexity",
       "sentence_count": 28,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text026",
       "title": "CryoEM structures of the human CLC-2 voltage gated chloride channel reveal a ball and chain gating mechanism",
       "sentence_count": 30,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text027",
       "title": "Mapping Structural Drivers of Insulin Analogs Using Molecular Dynamics and Free Energy Calculations at Insulin Receptor",
       "sentence_count": 38,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text028",
       "title": "Reliable protein-protein docking with AlphaFold, Rosetta, and replica-exchange",
       "sentence_count": 36,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text029",
       "title": "Assembly reactions of SARS-CoV-2 nucleocapsid protein with nucleic acid",
       "sentence_count": 20,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text030",
       "title": "Mechanical characterization of regenerating Hydra tissue spheres Mechanics of regenerating Hydra",
       "sentence_count": 47,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text031",
       "title": "The roles of DDR2 and substrate stiffness on cancer cell transcriptome and proliferation",
       "sentence_count": 26,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text032",
       "title": "Identification of Small Molecule Ligand Binding Sites On and In the ARNT PAS-B Domain",
       "sentence_count": 39,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text033",
       "title": "Structure and dynamics of the RF-amide QRFP receptor GPR103",
       "sentence_count": 23,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text034",
       "title": "Structural basis of anticancer drug recognition and amino acid transport by LAT1",
       "sentence_count": 16,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text035",
       "title": "The mRNACalc web server accounts for the hypochromicity of modified nucleosides and enables the accurate quantification of nucleoside-modified mRNA",
       "sentence_count": 29,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text036",
       "title": "Systems levels analysis of lipid metabolism in oxygen-induced retinopathy",
       "sentence_count": 39,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text037",
       "title": "ESAT-6 undergoes self-association at phagosomal pH and an ESAT-6 specific nanobody restricts M. tuberculosis growth in macrophages",
       "sentence_count": 21,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text038",
       "title": "PrimPol variant V102A with altered primase and polymerase activities",
       "sentence_count": 26,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text039",
       "title": "Kinetic and structural characterization of human NUDIX hydrolases NUDT15 and NUDT18 as catalysts of isoprene pyrophosphate hydrolysis",
       "sentence_count": 26,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text040",
       "title": "Dissecting Key Multivalent Processes in Glycosidase Inhibition: Insights from Thermodynamic Modelling and Atomistic Simulations",
       "sentence_count": 33,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text041",
       "title": "A Mouse Model of the Protease Activated Receptor 4 (PAR4) Pro310Leu Variant has Reduced Platelet Reactivity",
       "sentence_count": 32,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text042",
       "title": "Adaptive remodeling of rat adrenomedullary stimulus-secretion coupling in response to a chronic hypertensive environment",
       "sentence_count": 18,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text043",
       "title": "Eccentric exercise ≠ eccentric contraction",
       "sentence_count": 32,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text044",
       "title": "Chronic nicotine exposure is associated with electrophysiological and sympathetic remodeling in the intact rabbit heart",
       "sentence_count": 18,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text045",
       "title": "Adherent reformed islets: a long-term primary cell-based platform for exploring mouse and human islet biology",
       "sentence_count": 30,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text046",
       "title": "On-farm hatching and contact with adult hen post hatch induce sex-dependent effects on performance, health and robustness in broiler chickens",
       "sentence_count": 29,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text047",
       "title": "Insulin at the Intersection of Thermoregulation and Glucose Homeostasis",
       "sentence_count": 30,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text048",
       "title": "Time-restricted feeding ameliorates MCDD-induced steatohepatitis in mice",
       "sentence_count": 19,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text049",
       "title": "Remodelling of skeletal muscle myosin metabolic states in hibernating mammals",
       "sentence_count": 32,
-      "split": "train"
+      "split": "test"
     },
     {
       "article_id": "text050",
       "title": "High-fat diets promote peritoneal inflammation and augment endometriosis-associated abdominal hyperalgesia",
       "sentence_count": 24,
-      "split": "train"
+      "split": "test"
     }
   ]
 }

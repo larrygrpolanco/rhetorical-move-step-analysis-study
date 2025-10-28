@@ -11,7 +11,11 @@
 **Model:** GPT-4 (gpt-4.1-2025-04-14)  
 **Domain:** AI Genre Analysis on annotated Biology article introductions Dataset
 **Dataset:** CaRS-50 (50 annotated articles)  
-**Total Runs:** 104 on test set (10 articles, ~267 sentences)(4 conditions × 1 initial + 2 conditions × 50 consistency)
+**Total Runs:** 104 on test set (10 articles, ~267 sentences)(4 conditions × 1 initial + 2 conditions × 100 consistency)
+
+**Core narrative:** Fine-tuning trades consistency for modest accuracy gains. When training data is limited and consistency matters, zero-shot may be the better choice.
+
+**Key challenge:** Frame unexpected results (few-shot underperformance, fine-tuned inconsistency) as informative findings rather than methodological failures.
 
 ---
 
@@ -19,7 +23,12 @@
 
 **RQ1 (Performance):** How do zero-shot, few-shot (3-shot and 8-shot), and fine-tuned approaches perform on CaRS-50 Biology research article move-step annotation?
 
-**RQ2 (Consistency - PRIMARY):** How consistent is annotation across repeated runs for zero-shot and fine-tuned approaches, and how do they compare?
+**RQ2 (Consistency - PRIMARY):** How consistent is annotation across 100 repeated runs for zero-shot and fine-tuned approaches, and how do they compare?
+
+- Lead with consistency as the primary contribution
+- Position this as extending Kim & Lu (2024): "While Kim & Lu tested 3 runs, we systematically evaluate consistency with 100 runs"
+- Frame finding: "Zero-shot achieves comparable move accuracy (81.76% vs 83.37%) with superior consistency (CV=1.54% vs 2.59%, p=0.0055)"
+  **Where:** Abstract, Introduction, Discussion
 
 ---
 
@@ -31,7 +40,7 @@ This study is inspired by the methodological framework established by Kim & Lu (
 2. Few-shot learning provides moderate improvements over zero-shot
 3. Prompt specificity matters for accuracy
 
-**Extension:** While Kim & Lu focused on single-run accuracy, I systematically evaluate **annotation consistency** - a critical but unexplored dimension for practical deployment of LLM as annotation tools in genre analysis.
+**Extension:** While Kim & Lu focused on single-run accuracy, I systematically evaluate **annotation consistency** - a critical but yet to be explored dimension for practical deployment of LLM as annotation tools in genre analysis.
 
 ---
 
@@ -68,7 +77,23 @@ Test Set:       10 articles (20%) - For final evaluation (HELD OUT)
    - Sufficient for robust evaluation (Kim & Lu used 10)
    - Enables 50 repeated evaluations with adequate sample size
 
-**Statistical Power:** With 10 test articles × 50 runs = 500 observations per condition
+**Statistical Power:** With 10 test articles × 100 runs = 1000 observations per condition
+
+**Issue:** step-level results are severely compromised by class imbalance, this needs to be highlighted.
+
+**Current state:**
+
+- Step 1c: 47.2% of training data
+- Steps 2a, 2c, 2d, 3d: <1% each
+- Step-level accuracy: 45-58%
+
+**Action:**
+
+- Add limitation statement in Methods: "Due to severe class imbalance in CaRS-50 (e.g., step 1c=47.2%, steps 2a/2c/2d <1%), our evaluation focuses primarily on move-level classification. Step-level results are exploratory."
+- Repeat in Results section header: "Given class imbalance, we focus interpretation on move-level performance"
+- In Discussion: "Step-level annotation remains challenging across all approaches (45-58% accuracy), likely reflecting genuine task difficulty, severe class imbalance, and limited training data"
+
+**Where:** Methods (dataset description), Results (section header), Discussion (limitations)
 
 ---
 
@@ -117,9 +142,9 @@ CRITICAL: You must annotate ALL sentences in the input text, in order, without s
 
 ### Justification:
 
-1. **Scientific**: Kim & Lu likely parsed outputs manually or semi-manually. For reproducible automation, explicit format specification is necessary.
+1. **Scientific**: For large volume reproducible automation, explicit format specification is necessary.
 2. **Conservative**: We added constraints on OUTPUT FORMAT, not on annotation decisions. The semantic instructions remain identical.
-3. **Transparent**: We document this change clearly in methods section.
+3. **Transparent**: We will document this change clearly in methods section.
 
 **Development Process:**
 
@@ -176,19 +201,17 @@ Selection process:
 
 1. Set random seed to 42
 2. Randomly sample 3 articles from training set → 3-shot examples
-3. Reset random seed to 42
+3. Set random seed to 43
 4. Randomly sample 8 articles from training set → 8-shot examples
 
 The same example sets were used for all 30 repeated runs within each
-condition to isolate model stochasticity from example-selection variance
-(following Kim & Lu, 2024). All selected article IDs and the random seed
+condition to isolate model stochasticity from example-selection variance. All selected article IDs and the random seed
 are documented in few_shot_examples.json for full transparency and
 reproducibility.
 
 This design choice reflects our research focus: measuring inherent LLM
 consistency rather than example-set effects. By fixing examples across
-runs, we ensure that any observed variance reflects model behavior rather
-than input variation.
+runs, we ensure that any observed variance reflects model behavior rather than input variation.
 
 ### Fine-Tuning Technical Details
 
@@ -212,7 +235,7 @@ than input variation.
 - Batch size: 1
 - Learning rate multiplier: 2
 
-**Strategy:** Fine-tune once, evaluate 50 times (tests inference consistency, not training consistency)
+**Strategy:** Fine-tune once, evaluate 100 times (tests inference consistency, not training consistency)
 
 ### Model Parameters (Fixed Across All Conditions)
 
@@ -230,12 +253,12 @@ max_tokens: 4096
 ## Executive Summary
 
 **Purpose:** Systematic evaluation of annotation consistency for the two prompting approaches  
-**Design:** 50 repeated runs per condition on held-out test set  
+**Design:** 100 repeated runs per condition test set  
 **Conditions:** Zero-shot vs Fine-tuned  
 **Dataset:** Test set only (10 articles, ~267 sentences)  
-**Total Runs:** 100 (50 zero-shot + 50 fine-tuned)  
+**Total Runs:** 200 (100 zero-shot + 100 fine-tuned)  
 **Model:** GPT-4 (gpt-4.1-2025-04-14)  
-**Key Extension:** Kim & Lu (2024) tested 3 runs; we test 50 for robust characterization
+**Key Extension:** Kim & Lu (2024) tested 3 runs; we test 100 for better characterization
 
 ---
 
@@ -283,9 +306,7 @@ max_tokens: 4096
 
 ### Sample Size Justification
 
-**Why 50 Runs?**
-
-Kim & Lu (2024) tested consistency with 3 repeated runs. We extend this to 50 runs for several reasons:
+**Why 100 Runs?**
 
 1. **Statistical Power:**
 
@@ -299,11 +320,6 @@ Kim & Lu (2024) tested consistency with 3 repeated runs. We extend this to 50 ru
    - Example: True SD = 3% → CI = [2.4%, 3.6%]
    - Adequate precision for meaningful conclusions
 
-3. **Practical Feasibility:**
-   - Balances rigor with computational cost (~50 hours total)
-   - Represents 16× more runs than prior work
-   - Provides diminishing returns beyond 50
-
 **Why 10 Articles?**
 
 Limited by CaRS-50 dataset availability (constrained to 50 total articles, with 30 reserved for training and 10 for validation). This 10-article test set:
@@ -311,7 +327,7 @@ Limited by CaRS-50 dataset availability (constrained to 50 total articles, with 
 - Matches Kim & Lu's (2024) test set size
 - Represents standard practice for methodologically similar studies
 - Provides 267 sentences (~27 per article) for sentence-level analysis
-- With 50 runs, yields 500 article-level and 13,350 sentence-level observations per condition
+- With 100 runs, yields 1000 article-level and 26,800 sentence-level observations per condition
 
 ---
 
@@ -319,9 +335,9 @@ Limited by CaRS-50 dataset availability (constrained to 50 total articles, with 
 
 ### Phase 2 Workflow
 
-**Condition A1 (Zero-Shot) - 50 Runs:**
+**Condition A1 (Zero-Shot) - 100 Runs:**
 
-**Condition A4 (Fine-Tuned) - 50 Runs:**
+**Condition A4 (Fine-Tuned) - 100 Runs:**
 
 **Fixed Elements Across All Runs:**
 
@@ -397,7 +413,7 @@ While lower temperatures might reduce variance, our goal is to understand the mo
 
 ### 3. Sentence-Level Analysis
 
-**For each sentence across 50 runs:**
+**For each sentence across 100 runs:**
 
 **Metrics:**
 
@@ -419,6 +435,32 @@ While lower temperatures might reduce variance, our goal is to understand the mo
 - Which sentences show condition-specific variability?
 - Identify systematic error patterns
 
+### 10. Tighten Statistical Reporting
+
+**Issue:** Too many redundant metrics reported.
+
+**Action:**
+**For RQ1 (accuracy comparison):**
+
+- Report: Accuracy, F1, Support
+- Drop: Individual precision/recall unless discussing specific class
+
+**For RQ2 (consistency):**
+
+- Report: CV (primary), ICC (reliability), Variance ratio (effect size)
+- Drop: Mean comparisons (less relevant), detailed IQR/median
+
+**Example simplified table:**
+
+```markdown
+| Condition  | Move Acc | Move F1 | Step Acc | Step F1 | CV    |
+| ---------- | -------- | ------- | -------- | ------- | ----- |
+| Zero-shot  | 82.77%   | 83.85%  | 49.81%   | 51.02%  | 1.45% |
+| Fine-tuned | 81.65%   | 81.09%  | 55.06%   | 52.20%  | 2.65% |
+```
+
+**Where:** Results tables
+
 ### 4. Stratified Analysis
 
 **By Move Type (M1, M2, M3):**
@@ -439,6 +481,34 @@ While lower temperatures might reduce variance, our goal is to understand the mo
 - Sentence length (short vs long)
 - Exploratory correlations with consistency
 
+### 9. Sentence-Level Qualitative Analysis (Brief)
+
+**What to do:**
+
+- Pull the top 5 most inconsistent sentences for each condition
+- Look at them qualitatively
+- Add 1-2 example sentences to Discussion
+
+**Example text:**
+
+```markdown
+Sentence-level analysis revealed specific sources of inconsistency. For example,
+Sentence 17 showed low agreement in both conditions (zero-shot: 46.89%,
+fine-tuned: 69.56%):
+
+> "Recent studies have investigated the role of X in Y processes."
+
+This sentence is genuinely ambiguous - it could be M1_S3 (reviewing previous
+research) or M1_S2 (making generalizations), depending on whether "recent
+studies" refers to a specific body of work or general trends. Such ambiguity
+accounts for [X]% of low-agreement sentences, suggesting inherent annotation
+difficulty rather than solely model limitation.
+```
+
+**Where:** Discussion (add one paragraph, ~150 words)
+
+**Time investment:** 1-2 hours
+
 ---
 
 ## Reporting and Visualization
@@ -449,14 +519,18 @@ A lot of data here so, decide later what is most helpful and informative for the
 Not all of these statistics tell something important.
 Collecting a lot of data and stats alone does not make for good research, making them clear and focused does.
 
-### Possible Visualization Directions
+**What to create:**
 
-**Figure 1:** Pipeline architecture  
-**Figure 2:** Single-run results (Phase 2) - bar charts with error bars  
-**Figure 3:** Distribution of accuracies across 30 runs - violin plots or boxplots  
-**Figure 4:** Consistency comparison - CV comparison across conditions  
-**Figure 5:** Bland-Altman plots for run-to-run agreement  
-**Figure 6:** Accuracy vs. Consistency trade-off scatter plot
+1. **Distribution comparison plot** (most important)
+   - Side-by-side box plots or violin plots
+   - Zero-shot vs Fine-tuned move accuracy distributions
+   - Visually shows tighter spread for zero-shot
+2. **Bar chart for RQ1**
+   - 4 conditions (zero-shot, 3-shot, 8-shot, fine-tuned)
+   - Move accuracy + error bars (±1 SD)
+   - Shows few-shot dip and consistency differences
+
+**Where:** Results section, 2 figures total
 
 ---
 
@@ -496,6 +570,18 @@ Think more about this
 > "Third, validation of output consistency is strongly recommended to confirm model reliability."
 
 **Our Study:** Provides the systematic consistency validation they recommended.
+
+**Contextualize Kim & Lu Comparison Appropriately**
+
+**Issue:** You compare accuracies to Kim & Lu but conditions are too different.
+
+**Action:**
+
+- **Remove** statements like "Our accuracy was lower than Kim & Lu's 92.3%"
+- **Replace** with: "Direct accuracy comparison to Kim & Lu (2024) is limited by differences in domain (Biology vs Applied Linguistics), framework granularity (11 vs 23 steps), and training size (30 vs 80 articles). Our move-level accuracies (81-83%) demonstrate feasibility of LLM annotation in Biology with limited training data."
+- **Emphasize** what you add: "While Kim & Lu evaluated consistency with 3 runs, we provide the first systematic consistency analysis with 50 runs, revealing that..."
+
+**Where:** Throughout Discussion, especially when comparing to prior work
 
 ---
 
@@ -575,8 +661,6 @@ Think more about this
 1. Cross-domain validation (Biology)
 2. Few-shot comparison (3 vs. 8)
 3. Fully reproducible methodology
-
-**Even if accuracy is lower than Kim & Lu:** The consistency analysis is novel and valuable regardless of absolute performance levels.
 
 ---
 
@@ -705,12 +789,7 @@ annotated Biology corpus."
 
 3. **Comparison to Kim & Lu**:
 
-"Direct numerical comparison to Kim & Lu (2024) is limited by: (1) domain
-differences (Biology vs. Applied Linguistics), (2) framework granularity
-(11 vs. 23 categories), (3) dataset size (50 vs. 100 articles), and (4)
-annotation reliability differences. Our contribution lies in demonstrating
-methodological transferability and systematic consistency analysis rather
-than achieving superior accuracy."
+"Direct numerical comparison to Kim & Lu (2024) is limited by: (1) domain differences (Biology vs. Applied Linguistics), (2) framework granularity (11 vs. 23 categories), (3) dataset size (50 vs. 100 articles), and (4) annotation reliability differences. Our contribution lies in demonstrating methodological transferability and systematic consistency analysis rather than achieving superior accuracy."
 
 **Handling Class Imbalance in Reporting:**
 
@@ -736,6 +815,41 @@ than achieving superior accuracy."
 1. ❌ Individual accuracy for rare steps (2a, 2c, 2d, 3d)
 2. ❌ Claims about step-level consistency (too underpowered)
 3. ❌ Step-level comparison to Kim & Lu (different frameworks anyway)
+
+## 📝 Writing Priorities
+
+### Must Write:
+
+1. **Abstract** - Lead with consistency finding, 200-250 words
+2. **Introduction** - Position as extending Kim & Lu on consistency dimension
+3. **Results RQ2** - Emphasize zero-shot consistency advantage
+4. **Discussion** - Reframe findings around consistency-accuracy tradeoff
+5. **Limitations** - Class imbalance, small training set, few-shot sampling
+
+### Should Write:
+
+6. **Results RQ1** - Explain few-shot underperformance (see #3)
+7. **Discussion** - Move 2 difficulty analysis (see #7)
+8. **Methods** - Add class imbalance caveat (see #2)
+
+### Can Abbreviate:
+
+9. Step-level results (exploratory, limited by class imbalance)
+10. Article-level breakdowns (move to supplementary)
+
+---
+
+## 🎯 Your Core Argument
+
+**Frame it like this:**
+
+> "We provide the first systematic evaluation of LLM annotation consistency in genre analysis. Across 50 repeated runs, zero-shot GPT-4 demonstrated excellent consistency (CV=1.45%, ICC=0.835) while maintaining comparable move-level accuracy to fine-tuned models (82.77% vs 81.65%, p=0.74). Fine-tuning improved step-level accuracy but significantly increased variance (CV=2.65%, p=0.0055) and reduced reliability (ICC=0.565).
+>
+> These findings suggest that for genre analysis researchers working with limited training data (<50 articles) and severe class imbalance, zero-shot approaches may offer a better consistency-accuracy tradeoff than fine-tuning. However, both approaches struggled with underrepresented categories, indicating that improving automated genre analysis requires either larger, more balanced training sets or advances in handling imbalanced classification.
+>
+> Our results also demonstrate that few-shot learning requires careful example selection: randomly sampled examples that underrepresent rare categories can harm rather than help performance."
+
+---
 
 **Read this paper!:**
 The Impact of Example Selection in Few-Shot Prompting on Automated Essay Scoring Using GPT Models

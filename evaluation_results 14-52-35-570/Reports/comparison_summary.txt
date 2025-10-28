@@ -17,7 +17,7 @@ MOVE_ACCURACY:
   Fine-tuned variance: 0.000467
   Variance ratio (ZS/FT): 0.339
   Levene's statistic: 22.9072
-  p-value: 0.0000
+  p-value: < 0.0001
   ✓ SIGNIFICANT difference in variance (p < 0.05)
 
 STEP_ACCURACY:
@@ -33,7 +33,7 @@ MOVE_F1:
   Fine-tuned variance: 0.000430
   Variance ratio (ZS/FT): 0.269
   Levene's statistic: 37.1828
-  p-value: 0.0000
+  p-value: < 0.0001
   ✓ SIGNIFICANT difference in variance (p < 0.05)
 
 STEP_F1:
@@ -57,7 +57,7 @@ MOVE_ACCURACY:
   Difference: -0.0160
   95% CI: [-0.0210, -0.0111]
   t-statistic: -6.4087
-  p-value: 0.0000
+  p-value: < 0.0001
   Cohen's d: -0.906 (Large)
   ✓ SIGNIFICANT difference in mean (p < 0.05)
 
@@ -67,7 +67,7 @@ STEP_ACCURACY:
   Difference: -0.0993
   95% CI: [-0.1056, -0.0931]
   t-statistic: -31.3770
-  p-value: 0.0000
+  p-value: < 0.0001
   Cohen's d: -4.437 (Large)
   ✓ SIGNIFICANT difference in mean (p < 0.05)
 
@@ -87,7 +87,7 @@ STEP_F1:
   Difference: -0.0689
   95% CI: [-0.0749, -0.0628]
   t-statistic: -22.4835
-  p-value: 0.0000
+  p-value: < 0.0001
   Cohen's d: -3.180 (Large)
   ✓ SIGNIFICANT difference in mean (p < 0.05)
 
